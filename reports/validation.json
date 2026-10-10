@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "date": "2026-10-10T23:11:09.051510+00:00",
+  "counts": {
+    "subjects": 17,
+    "mathematicalObjects": 968,
+    "mathematicalConnections": 1190,
+    "bookEntries": 1594
+  },
+  "internalLinksAndAssetsChecked": 227,
+  "sourceFidelityChecked": true,
+  "checks": [
+    "All 17 independent subject packages present",
+    "All internal HTML links and assets stay inside META-GRAPH",
+    "All graph endpoints belong to the local subject",
+    "No book/global dependency mixing",
+    "Graph JSON and offline bootstraps agree",
+    "Subject identities and website draft keys are independent",
+    "All dashboard counts match graph data",
+    "No local faculty nodes",
+    "Relative dashboard return links and GitHub Pages marker present"
+  ]
+}

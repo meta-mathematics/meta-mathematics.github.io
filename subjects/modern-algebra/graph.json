@@ -1,0 +1,3762 @@
+{
+  "schemaVersion": 1,
+  "edition": "subject-atlas-1",
+  "subject": {
+    "id": "3-algebra-modern-algebra",
+    "title": "Modern Algebra",
+    "category": "Algebra",
+    "prefix": "alg"
+  },
+  "libraryUrl": "../../index.html",
+  "groups": [
+    {
+      "id": "alg:region-1",
+      "title": "Groups and symmetry",
+      "color": "#4d8873",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "alg:region-2",
+      "title": "Finite group structure",
+      "color": "#438995",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "alg:region-3",
+      "title": "Rings and commutative structure",
+      "color": "#688b54",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "alg:region-4",
+      "title": "Modules and homological language",
+      "color": "#9e8550",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "alg:region-5",
+      "title": "Field extensions and Galois theory",
+      "color": "#a07952",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "alg:region-6",
+      "title": "Finite fields and structural synthesis",
+      "color": "#598aad",
+      "column": 2,
+      "row": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "J. S. Milne, Group Theory",
+      "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+    },
+    {
+      "title": "J. S. Milne, Fields and Galois Theory",
+      "url": "https://jmilne.org/math/CourseNotes/ft.html"
+    },
+    {
+      "title": "J. S. Milne, A Primer of Commutative Algebra",
+      "url": "https://www.jmilne.org/math/xnotes/ca.html"
+    }
+  ],
+  "provenance": {
+    "sourceSubject": "3-Algebra/Modern-Algebra",
+    "sourceGraphSha256": "58c6091f33b5f82714b61a3b5279bd06024f0ea9992c3caff516838f29f7e5c9",
+    "graph": "graph.json",
+    "book": "resources/book-outline.md",
+    "map": "resources/meta-graph.md",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "originalProvenance": {
+      "catalog": "data/catalog.json",
+      "catalogSha256": "f8959dd2a9bacbfc408e988cb0a6f0725b50e9d4aa8af23a4278ee4e77f1f6f0",
+      "book": "../book/latex/structure.json",
+      "bookSha256": "934a5c39b8db682e014ae096d9098dafc65c42de3ac22fce8b0af2e20afebeba",
+      "map": "meta-graph.md",
+      "mapSha256": "6fa048df3bc89a2a8989df54193abd2cbfdf016fe979fbb00a2f3659e94d7baf",
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+    }
+  },
+  "nodes": [
+    {
+      "id": "alg:group",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Groups and homomorphisms",
+      "statement": "A group has associative multiplication, identity and inverses; homomorphisms preserve multiplication.",
+      "description": "A group has associative multiplication, identity and inverses; homomorphisms preserve multiplication.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:quotient",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Normal subgroups and quotients",
+      "statement": "Cosets form a quotient group precisely when the subgroup is normal.",
+      "description": "Cosets form a quotient group precisely when the subgroup is normal.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:iso",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "First group isomorphism theorem",
+      "statement": "A homomorphism induces an isomorphism from its domain modulo its kernel onto its image.",
+      "description": "A homomorphism induces an isomorphism from its domain modulo its kernel onto its image.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:action",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Group actions",
+      "statement": "A group action assigns compatible bijections of a set to the group elements.",
+      "description": "A group action assigns compatible bijections of a set to the group elements.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:orbit",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Orbit–stabilizer theorem",
+      "statement": "An orbit is in bijection with cosets of a point stabilizer; for finite groups its size is the subgroup index.",
+      "description": "An orbit is in bijection with cosets of a point stabilizer; for finite groups its size is the subgroup index.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:lagrange",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Lagrange’s theorem",
+      "statement": "The order of a subgroup of a finite group divides the group order.",
+      "description": "The order of a subgroup of a finite group divides the group order.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:class",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Class equation",
+      "statement": "A finite group order equals its center order plus the sizes of its noncentral conjugacy classes.",
+      "description": "A finite group order equals its center order plus the sizes of its noncentral conjugacy classes.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:cauchy",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Cauchy’s theorem",
+      "statement": "If a prime divides a finite group order, the group contains an element of that prime order.",
+      "description": "If a prime divides a finite group order, the group contains an element of that prime order.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-1",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:sylow",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Sylow theorems",
+      "statement": "Maximal p-subgroups have the full p-part order, are conjugate, and their number divides the prime-to-p part and is 1 modulo p.",
+      "description": "Maximal p-subgroups have the full p-part order, are conjugate, and their number divides the prime-to-p part and is 1 modulo p.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:p-center",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "corollary",
+      "title": "Center of a finite p-group",
+      "statement": "A nontrivial finite p-group has nontrivial center.",
+      "description": "A nontrivial finite p-group has nontrivial center.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:solvable",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Solvable groups",
+      "statement": "A group is solvable if its derived series reaches the identity.",
+      "description": "A group is solvable if its derived series reaches the identity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:nilpotent",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Nilpotent groups",
+      "statement": "A group is nilpotent if its lower central series reaches the identity.",
+      "description": "A group is nilpotent if its lower central series reaches the identity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:p-nilpotent",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Finite p-groups are nilpotent",
+      "statement": "Every finite p-group has a terminating central series.",
+      "description": "Every finite p-group has a terminating central series.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:composition",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Composition series",
+      "statement": "A finite chain of normal inclusions with simple factors is a composition series.",
+      "description": "A finite chain of normal inclusions with simple factors is a composition series.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:jordan-holder",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Jordan–Hölder theorem",
+      "statement": "Any two composition series of a group have the same simple factors up to permutation and isomorphism.",
+      "description": "Any two composition series of a group have the same simple factors up to permutation and isomorphism.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:semidirect",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Semidirect products",
+      "statement": "An action by automorphisms defines a group structure on the product of a normal factor and an acting factor.",
+      "description": "An action by automorphisms defines a group structure on the product of a normal factor and an acting factor.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-2",
+      "source": "J. S. Milne, Group Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Group Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/gt.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:ring",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Rings and ideals",
+      "statement": "A commutative ring with identity has compatible addition and multiplication; ideals absorb multiplication by ring elements.",
+      "description": "A commutative ring with identity has compatible addition and multiplication; ideals absorb multiplication by ring elements.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:prime",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Prime and maximal ideals",
+      "statement": "A prime ideal has integral-domain quotient; a maximal ideal has field quotient.",
+      "description": "A prime ideal has integral-domain quotient; a maximal ideal has field quotient.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:localization",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Localization",
+      "statement": "For a multiplicative set S not containing zero, S⁻¹R universally makes elements of S invertible.",
+      "description": "For a multiplicative set S not containing zero, S⁻¹R universally makes elements of S invertible.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:ufd",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Unique factorization domains",
+      "statement": "A UFD is a domain whose nonzero nonunits factor uniquely into irreducibles up to order and units.",
+      "description": "A UFD is a domain whose nonzero nonunits factor uniquely into irreducibles up to order and units.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:gauss",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "lemma",
+      "title": "Gauss’s lemma",
+      "statement": "Primitive polynomials over a UFD have primitive product; factorization passes between the domain and its fraction field.",
+      "description": "Primitive polynomials over a UFD have primitive product; factorization passes between the domain and its fraction field.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:polynomial-ufd",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Polynomial UFD theorem",
+      "statement": "If R is a UFD, then R[x] is a UFD.",
+      "description": "If R is a UFD, then R[x] is a UFD.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:noetherian",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Noetherian rings",
+      "statement": "A ring is Noetherian when every ideal is finitely generated, equivalently when ascending ideal chains stabilize.",
+      "description": "A ring is Noetherian when every ideal is finitely generated, equivalently when ascending ideal chains stabilize.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:hilbert-basis",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Hilbert basis theorem",
+      "statement": "If R is Noetherian then R[x] is Noetherian.",
+      "description": "If R is Noetherian then R[x] is Noetherian.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-3",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:module",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Modules",
+      "statement": "A module replaces field scalars in a vector space by scalars from a ring.",
+      "description": "A module replaces field scalars in a vector space by scalars from a ring.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:exact",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Exact sequences",
+      "statement": "A sequence of module maps is exact when each incoming image equals the next kernel.",
+      "description": "A sequence of module maps is exact when each incoming image equals the next kernel.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:pid",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Structure theorem for finitely generated PID modules",
+      "statement": "Such a module is a direct sum of a finite-rank free module and cyclic prime-power torsion modules.",
+      "description": "Such a module is a direct sum of a finite-rank free module and cyclic prime-power torsion modules.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:tensor",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Tensor products of modules",
+      "statement": "Tensor products represent balanced bilinear maps and carry a universal property.",
+      "description": "Tensor products represent balanced bilinear maps and carry a universal property.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:flat",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Flat modules",
+      "statement": "A module is flat when tensoring with it preserves short exact sequences.",
+      "description": "A module is flat when tensoring with it preserves short exact sequences.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:projective",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Projective modules",
+      "statement": "A projective module lifts maps across surjections, equivalently is a direct summand of a free module.",
+      "description": "A projective module lifts maps across surjections, equivalently is a direct summand of a free module.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:resolution",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Projective resolutions",
+      "statement": "A projective resolution is an exact complex of projective modules augmenting to a chosen module.",
+      "description": "A projective resolution is an exact complex of projective modules augmenting to a chosen module.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:ext-tor",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Ext and Tor",
+      "statement": "Applying Hom or tensor to a suitable projective resolution and taking (co)homology defines Ext or Tor.",
+      "description": "Applying Hom or tensor to a suitable projective resolution and taking (co)homology defines Ext or Tor.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-4",
+      "source": "J. S. Milne, A Primer of Commutative Algebra",
+      "references": [
+        {
+          "title": "J. S. Milne, A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/ca.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:extension",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Field extensions",
+      "statement": "An extension E/F regards E as a vector space over its subfield F.",
+      "description": "An extension E/F regards E as a vector space over its subfield F.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:tower",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Tower law",
+      "statement": "For finite extensions E/K/F, [E:F]=[E:K][K:F].",
+      "description": "For finite extensions E/K/F, [E:F]=[E:K][K:F].",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:splitting",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Splitting fields",
+      "statement": "A splitting field is generated by all roots of a polynomial over the base field.",
+      "description": "A splitting field is generated by all roots of a polynomial over the base field.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:separable",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Separable and normal extensions",
+      "statement": "Separability excludes repeated minimal-polynomial roots; normality requires every irreducible polynomial with a root to split.",
+      "description": "Separability excludes repeated minimal-polynomial roots; normality requires every irreducible polynomial with a root to split.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:primitive",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Primitive element theorem",
+      "statement": "Every finite separable field extension is generated by a single element.",
+      "description": "Every finite separable field extension is generated by a single element.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:galois",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Finite Galois extensions",
+      "statement": "A finite extension is Galois when it is separable and normal.",
+      "description": "A finite extension is Galois when it is separable and normal.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:correspondence",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Fundamental theorem of Galois theory",
+      "statement": "For finite Galois E/F, intermediate fields correspond inclusion-reversingly to subgroups of Gal(E/F), with normal subgroups matching Galois subextensions.",
+      "description": "For finite Galois E/F, intermediate fields correspond inclusion-reversingly to subgroups of Gal(E/F), with normal subgroups matching Galois subextensions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:radicals",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Solvability by radicals",
+      "statement": "In characteristic zero, a polynomial is solvable by radicals exactly when its splitting-field Galois group is solvable.",
+      "description": "In characteristic zero, a polynomial is solvable by radicals exactly when its splitting-field Galois group is solvable.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-5",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:finite-field",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Finite field classification",
+      "statement": "For each prime power q there is a field of q elements unique up to isomorphism; no other finite cardinality occurs.",
+      "description": "For each prime power q there is a field of q elements unique up to isomorphism; no other finite cardinality occurs.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:frobenius",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "proposition",
+      "title": "Frobenius automorphism",
+      "statement": "In characteristic p, x↦xᵖ is a field homomorphism and is an automorphism of every finite field.",
+      "description": "In characteristic p, x↦xᵖ is a field homomorphism and is an automorphism of every finite field.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:finite-galois",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Galois groups of finite fields",
+      "statement": "The extension F_(qⁿ)/F_q is cyclic Galois of degree n, generated by x↦x^q.",
+      "description": "The extension F_(qⁿ)/F_q is cyclic Galois of degree n, generated by x↦x^q.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:cyclic-units",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "theorem",
+      "title": "Finite multiplicative subgroups are cyclic",
+      "statement": "Every finite subgroup of the multiplicative group of a field is cyclic.",
+      "description": "Every finite subgroup of the multiplicative group of a field is cyclic.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:valuation",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Discrete valuations",
+      "statement": "A discrete valuation maps nonzero field elements onto Z, adds on products, and bounds sums below by the smaller value.",
+      "description": "A discrete valuation maps nonzero field elements onto Z, adds on products, and bounds sums below by the smaller value.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:dvr",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Discrete valuation rings",
+      "statement": "The elements of nonnegative valuation, together with zero, form a local principal ideal domain.",
+      "description": "The elements of nonnegative valuation, together with zero, form a local principal ideal domain.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:local-global",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "method",
+      "title": "Localization of module questions",
+      "statement": "Many properties of finitely generated modules over a commutative ring can be checked after localization at every prime.",
+      "description": "Many properties of finitely generated modules over a commutative ring can be checked after localization at every prime.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:functor",
+      "subjectId": "3-algebra-modern-algebra",
+      "kind": "definition",
+      "title": "Functors and natural transformations",
+      "statement": "A functor preserves identities and composition; natural transformations compare functors compatibly with every morphism.",
+      "description": "A functor preserves identities and composition; natural transformations compare functors compatibly with every morphism.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "alg:region-6",
+      "source": "J. S. Milne, Fields and Galois Theory",
+      "references": [
+        {
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "url": "https://jmilne.org/math/CourseNotes/ft.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "alg:book:part-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Foundations and Core Language",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part I",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Groups and group actions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Group structure separates internal subgroups from quotient information. Group actions represent abstract elements as transformations of a set.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex",
+      "number": "1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Group structure",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Group structure separates internal subgroups from quotient information. Homomorphisms reveal which features survive a structure-preserving map.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Section 1.1",
+      "number": "1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Subgroups and quotients",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Subgroups inherit the group operation, while quotients identify elements modulo a normal subgroup. These constructions describe internal structure and controlled identifications.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.1.1",
+      "number": "1.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Normality",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A subgroup is normal when it is preserved by conjugation. Normality is exactly the condition needed for the usual quotient group operation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.1.2",
+      "number": "1.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Homomorphism theorems",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The isomorphism theorems relate kernels, images, and quotients. They convert a homomorphism into a precise structural description.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.1.3",
+      "number": "1.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Actions",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Group actions represent abstract elements as transformations of a set. Orbit counting turns these actions into information about the group.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Section 1.2",
+      "number": "1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Orbits and stabilizers",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Orbits collect points reachable by an action, and stabilizers fix a chosen point. The orbit-stabilizer formula relates their sizes in finite cases.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.2.1",
+      "number": "1.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Class equation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The class equation decomposes a finite group into conjugacy classes. It relates the center to centralizers and supports structural arguments.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.2.2",
+      "number": "1.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-1-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Permutation representations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A permutation representation sends group elements to permutations of a set. Faithful actions embed the group into a symmetric group.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-groups-and-group-actions.tex · Subsection 1.2.3",
+      "number": "1.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Finite group theory",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Sylow theory locates the largest prime-power subgroups of a finite group. Structural classes organize groups by successive commutators and normal subgroups.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex",
+      "number": "2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Sylow theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Sylow theory locates the largest prime-power subgroups of a finite group. Counting and conjugacy restrictions then constrain possible group structures.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Section 2.1",
+      "number": "2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Sylow theorems",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Sylow theorems establish existence, conjugacy, and number restrictions for Sylow subgroups. They turn prime factorization of the group order into group-theoretic constraints.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.1.1",
+      "number": "2.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Conjugacy",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Conjugate subgroups differ by an internal change of coordinates in the group. Sylow conjugacy explains why maximal prime-power subgroups share a structural role.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.1.2",
+      "number": "2.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Sylow counts can force normal subgroups and rule out simple groups of certain orders. Each argument uses both divisibility and congruence restrictions on the count.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.1.3",
+      "number": "2.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Structural classes",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Structural classes organize groups by successive commutators and normal subgroups. Composition series isolate the simple factors beneath that organization.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Section 2.2",
+      "number": "2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "P-groups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A finite p-group has order a power of one prime. Its nontrivial center is a fundamental consequence of the class equation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.2.1",
+      "number": "2.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Solvable and nilpotent groups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Solvable groups have terminating derived series, while nilpotent groups admit a stronger central-series condition. Comparing them clarifies different levels of noncommutativity.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.2.2",
+      "number": "2.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-2-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Composition series",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A composition series has simple successive quotients. The Jordan–Hölder theorem makes its factors invariant up to order and isomorphism.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-finite-group-theory.tex · Subsection 2.2.3",
+      "number": "2.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Rings and ideals",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Ring homomorphisms preserve addition, multiplication, and the chosen unit convention. Special integral domains support increasingly strong division and factorization principles.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex",
+      "number": "3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Ring homomorphisms",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Ring homomorphisms preserve addition, multiplication, and the chosen unit convention. Ideals encode their kernels and quotient constructions.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Section 3.1",
+      "number": "3.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Ideals",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Ideals are additive subgroups stable under multiplication by ring elements in the appropriate sided sense. They are the subsets used to form ring quotients.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.1.1",
+      "number": "3.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Quotient rings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A quotient ring identifies elements differing by an ideal. It encodes relations while preserving ring operations.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.1.2",
+      "number": "3.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Universal properties",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Universal properties characterize maps into or out of a construction. They explain quotient rings independently of elementwise formulas.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.1.3",
+      "number": "3.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Special domains",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Special integral domains support increasingly strong division and factorization principles. Examples distinguish implications from equivalences.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Section 3.2",
+      "number": "3.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Euclidean domains",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Euclidean domain has a size function supporting division with smaller remainder. The Euclidean algorithm then constructs greatest common divisors.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.2.1",
+      "number": "3.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "PIDs",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A principal ideal domain has every ideal generated by one element. This condition yields strong module and factorization theorems.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.2.2",
+      "number": "3.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-3-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "UFDs and examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A unique factorization domain has unique factorization into irreducibles up to units and order. It need not admit Euclidean division or have every ideal principal.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-rings-and-ideals.tex · Subsection 3.2.3",
+      "number": "3.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:part-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Central Theory and Techniques",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part II",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Modules and exact sequences",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Modules generalize vector spaces by replacing the scalar field with a ring. Exact sequences express how maps fit together through kernels and images.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex",
+      "number": "4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Module basics",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Modules generalize vector spaces by replacing the scalar field with a ring. Familiar linear constructions persist, but bases and division behave differently.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Section 4.1",
+      "number": "4.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Submodules and quotients",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Submodules are subsets stable under the module operations. Quotient modules impose additive and scalar-compatible identifications.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.1.1",
+      "number": "4.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Cyclic modules",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A cyclic module is generated by a single element. Its annihilator often presents it as a quotient of the ring.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.1.2",
+      "number": "4.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Free modules",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A free module has a basis with unique finite linear expansions. General modules may fail to be free even when finitely generated.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.1.3",
+      "number": "4.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Exactness",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Exact sequences express how maps fit together through kernels and images. Splitting and classification show when a module can be reconstructed from simpler pieces.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Section 4.2",
+      "number": "4.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Kernels and cokernels",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A kernel records elements mapped to zero, while a cokernel quotients the target by the image. Together they measure injectivity and surjectivity failures.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.2.1",
+      "number": "4.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Splitting",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A split short exact sequence identifies the middle module with a direct sum. The existence of a section or retraction certifies splitting.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.2.2",
+      "number": "4.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-4-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Structure over a PID",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Finitely generated modules over a PID decompose into free and cyclic torsion parts. This unifies abelian-group classification and operator canonical forms.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-modules-and-exact-sequences.tex · Subsection 4.2.3",
+      "number": "4.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Polynomial and commutative algebra",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Polynomial rings connect abstract ring theory to equations and extensions. Noetherian methods replace potentially infinite relations by finite generators.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex",
+      "number": "5",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Polynomial rings",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Polynomial rings connect abstract ring theory to equations and extensions. Content and primitivity control the relation between coefficient-ring and fraction-field factorization.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Section 5.1",
+      "number": "5.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Gauss lemma",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Gauss's lemma makes products of primitive polynomials primitive over a UFD. It links irreducibility over the domain to irreducibility over its fraction field.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.1.1",
+      "number": "5.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Factorization",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Polynomial factorization depends on the coefficient ring or field. Tracking that ambient structure prevents incorrect irreducibility claims.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.1.2",
+      "number": "5.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Content and primitive polynomials",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Content is the common factor of coefficients up to units, and a primitive polynomial has unit content. Separating content isolates the genuinely polynomial part of factorization.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.1.3",
+      "number": "5.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Noetherian methods",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Noetherian methods replace potentially infinite relations by finite generators. Localization then concentrates those relations near selected primes.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Section 5.2",
+      "number": "5.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Noetherian rings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Noetherian ring satisfies the ascending-chain condition on ideals. Equivalently, every ideal is finitely generated.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.2.1",
+      "number": "5.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Hilbert basis theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Hilbert's basis theorem preserves Noetherianity when adjoining finitely many polynomial variables. It supplies a key finiteness property of algebraic geometry.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.2.2",
+      "number": "5.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-5-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Localization",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Localization inverts a chosen multiplicative set. It separates local behavior from global ring structure.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-polynomial-and-commutative-algebra.tex · Subsection 5.2.3",
+      "number": "5.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Field theory",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Algebraic field extensions adjoin elements satisfying polynomial equations. Splitting fields provide domains containing all roots of chosen polynomials.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex",
+      "number": "6",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Algebraic extensions",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Algebraic field extensions adjoin elements satisfying polynomial equations. Degree and separability control the resulting linear and root structure.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Section 6.1",
+      "number": "6.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Minimal polynomials",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The minimal polynomial is the monic irreducible polynomial of an algebraic element over the base field. It records all polynomial relations of that element.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.1.1",
+      "number": "6.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Degree",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Extension degree is dimension as a vector space over the base field. It bounds and counts algebraic complexity in finite extensions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.1.2",
+      "number": "6.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Towers and separability",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Degrees multiply along finite towers, while separability concerns distinct roots of minimal polynomials. These properties govern how embeddings extend.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.1.3",
+      "number": "6.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Splitting fields",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Splitting fields provide domains containing all roots of chosen polynomials. Normality and separability lead to the Galois setting.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Section 6.2",
+      "number": "6.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Normality",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An algebraic extension is normal when irreducible base polynomials with one root in the extension split there. Splitting fields are the basic examples.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.2.1",
+      "number": "6.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Algebraic closure",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An algebraic closure is an algebraically closed algebraic extension. It supplies a common ambient field for comparing finite extensions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.2.2",
+      "number": "6.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-6-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Primitive element theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The primitive element theorem makes finite separable extensions simple. It allows several generators to be replaced by one under its hypotheses.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-field-theory.tex · Subsection 6.2.3",
+      "number": "6.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Galois theory",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Galois theory studies field extensions through their automorphism groups. Solvability by radicals turns root expressions into a group-theoretic question.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex",
+      "number": "7",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Galois groups",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Galois theory studies field extensions through their automorphism groups. Fixed fields translate subgroup structure back into intermediate fields.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Section 7.1",
+      "number": "7.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Automorphisms",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A base-field automorphism preserves field operations while fixing the base. Such maps permute algebraic roots compatibly.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.1.1",
+      "number": "7.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Fixed fields",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The fixed field of a subgroup consists of elements unchanged by every group element. It is the field-side counterpart of a symmetry constraint.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.1.2",
+      "number": "7.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Fundamental theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "For finite Galois extensions, the fundamental theorem gives an inclusion-reversing correspondence between subgroups and intermediate fields. Normal subgroups identify intermediate Galois extensions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.1.3",
+      "number": "7.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Solvability by radicals",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Solvability by radicals turns root expressions into a group-theoretic question. Cyclotomic extensions provide important explicit examples.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Section 7.2",
+      "number": "7.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Solvable groups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A solvable group has a derived series ending at the identity. In characteristic zero, this property characterizes solvability by radicals for the relevant Galois group.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.2.1",
+      "number": "7.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Cyclotomic fields",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Cyclotomic fields adjoin roots of unity. Their explicit Galois groups connect field theory to congruence arithmetic.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.2.2",
+      "number": "7.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-7-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Abel–Ruffini framework",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Abel–Ruffini rules out a general radical formula for polynomial equations of degree at least five. The obstruction is the nonsolvability of appropriate Galois groups, not the impossibility of solving every individual equation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-galois-theory.tex · Subsection 7.2.3",
+      "number": "7.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Tensor, categories, and constructions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Tensor products linearize balanced bilinear constructions over rings. Categorical language describes algebraic constructions through mapping behavior.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex",
+      "number": "8",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Tensor products",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Tensor products linearize balanced bilinear constructions over rings. They organize scalar changes and interactions between modules.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Section 8.1",
+      "number": "8.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Bilinear maps",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A balanced bilinear map respects the module scalar actions as well as additivity. It factors through the corresponding tensor product.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.1.1",
+      "number": "8.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Extension of scalars",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Extension of scalars tensors a module with a larger coefficient ring. It transports algebraic objects while retaining the specified base relation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.1.2",
+      "number": "8.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Tensoring cyclic modules provides explicit calculations with generators and relations. These examples also show that tensoring need not preserve injective maps.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.1.3",
+      "number": "8.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Categorical language",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Categorical language describes algebraic constructions through mapping behavior. It reveals common patterns behind superficially different objects.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Section 8.2",
+      "number": "8.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Products and coproducts",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Products collect compatible projections, while coproducts collect compatible inclusions. Their forms depend on the algebraic category under consideration.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.2.1",
+      "number": "8.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Universal properties",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A universal property specifies a unique factorization for every appropriate map. This determines a construction up to unique isomorphism.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.2.2",
+      "number": "8.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-8-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Adjunction examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Tensor-Hom and extension-restriction adjunctions relate maps in different settings. They explain why common algebraic constructions come in pairs.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-tensor-categories-and-constructions.tex · Subsection 8.2.3",
+      "number": "8.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:part-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Further Theory and Applications",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part III",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Homological algebra introduction",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Chain complexes encode sequences of maps with consecutive composite zero. Derived functors measure what ordinary functors fail to preserve in exact sequences.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex",
+      "number": "9",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Chain complexes",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Chain complexes encode sequences of maps with consecutive composite zero. Their homology measures failures of exactness.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Section 9.1",
+      "number": "9.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Cycles, boundaries, and homology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Cycles are killed by the next differential, while boundaries come from the previous one. Homology is their quotient and measures the surviving classes.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.1.1",
+      "number": "9.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Exact sequences",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Exactness means that every cycle is a boundary at the relevant position. Exact sequences organize relations between algebraic objects.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.1.2",
+      "number": "9.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Resolutions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A resolution replaces a module by an exact complex of better-behaved modules. Projective or injective resolutions support derived constructions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.1.3",
+      "number": "9.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Derived functors",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Derived functors measure what ordinary functors fail to preserve in exact sequences. Ext and Tor are the principal examples introduced here.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Section 9.2",
+      "number": "9.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Ext and Tor motivation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Ext measures failures of Hom exactness, while Tor measures failures of tensor exactness. Their low-degree groups detect extension and torsion phenomena.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.2.1",
+      "number": "9.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Computation over familiar rings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Resolutions over integers and polynomial rings allow explicit derived-functor calculations. These examples connect abstract definitions to familiar modules.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.2.2",
+      "number": "9.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-9-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Derived functors detect splitting obstructions and influence base-change behavior. Their long exact sequences make related computations communicate.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-homological-algebra-introduction.tex · Subsection 9.2.3",
+      "number": "9.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Selected advanced algebra",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Finite fields and discrete valuations provide two important arithmetic settings for algebra. Synthesis compares the proof patterns behind major classification results.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex",
+      "number": "10",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Finite fields and valuations",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Finite fields and discrete valuations provide two important arithmetic settings for algebra. Both connect structural theory with explicit examples.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Section 10.1",
+      "number": "10.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-1-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Finite-field structure",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Finite fields have prime-power order and cyclic multiplicative groups. Their subfields and automorphisms are controlled by the Frobenius map.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.1.1",
+      "number": "10.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-1-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Discrete valuations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A discrete valuation assigns integer orders to nonzero field elements with multiplicative additivity. Its valuation ring has a distinguished maximal ideal and local divisibility structure.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.1.2",
+      "number": "10.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-1-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Finite extensions of finite fields and valuations on rational-function fields make the definitions concrete. The examples highlight different ways algebra records arithmetic.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.1.3",
+      "number": "10.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Synthesis and further study",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Synthesis compares the proof patterns behind major classification results. It also practices finding and repairing invalid uses of structural theorems.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Section 10.2",
+      "number": "10.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-2-sub-1",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Structure theorems",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Structure theorems decompose objects under specific hypotheses such as finite generation or principality. Their usefulness depends on checking those hypotheses before applying the classification.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.2.1",
+      "number": "10.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-2-sub-2",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Proof repair",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Proof repair identifies the first unsupported inference and the missing condition behind it. Counterexamples help distinguish a repairable statement from a false conclusion.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.2.2",
+      "number": "10.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "alg:book:ch-10-sec-2-sub-3",
+      "subjectId": "3-algebra-modern-algebra",
+      "title": "Algebraic geometry and representation links",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Algebraic geometry uses rings and modules as local coordinates, while representation theory uses modules to encode symmetry. Both reuse the structural and homological methods developed here.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-selected-advanced-algebra.tex · Subsection 10.2.3",
+      "number": "10.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    }
+  ],
+  "edges": [
+    {
+      "id": "alg:edge-001",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:group",
+      "target": "alg:quotient",
+      "type": "definition",
+      "reason": "Normality makes multiplication of cosets well-defined.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-002",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:quotient",
+      "target": "alg:iso",
+      "type": "ingredient",
+      "reason": "The kernel is normal and the induced map is bijective.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-003",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:group",
+      "target": "alg:action",
+      "type": "definition",
+      "reason": "The compatibility is a homomorphism into a permutation group.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-004",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:action",
+      "target": "alg:orbit",
+      "type": "ingredient",
+      "reason": "Map a coset to the corresponding image of the point.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-005",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:quotient",
+      "target": "alg:lagrange",
+      "type": "bridge",
+      "reason": "Cosets partition the group even when they do not form a quotient group.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-006",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:orbit",
+      "target": "alg:class",
+      "type": "ingredient",
+      "reason": "Apply orbit–stabilizer to conjugation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-007",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:action",
+      "target": "alg:cauchy",
+      "type": "ingredient",
+      "reason": "A cyclic action on product-one tuples gives a counting proof.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-008",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:orbit",
+      "target": "alg:sylow",
+      "type": "ingredient",
+      "reason": "Orbit counting controls subgroup actions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-009",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:cauchy",
+      "target": "alg:sylow",
+      "type": "ingredient",
+      "reason": "Prime-order elements enter existence arguments.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-010",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:class",
+      "target": "alg:p-center",
+      "type": "ingredient",
+      "reason": "Noncentral class sizes are divisible by p.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-011",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:group",
+      "target": "alg:solvable",
+      "type": "definition",
+      "reason": "The derived subgroup is generated by commutators.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-012",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:group",
+      "target": "alg:nilpotent",
+      "type": "definition",
+      "reason": "Iterated commutators define the central series.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-013",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:p-center",
+      "target": "alg:p-nilpotent",
+      "type": "ingredient",
+      "reason": "Induct on the quotient by the center.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-014",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:nilpotent",
+      "target": "alg:p-nilpotent",
+      "type": "definition",
+      "reason": "A central series characterizes nilpotence.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-015",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:composition",
+      "target": "alg:jordan-holder",
+      "type": "definition",
+      "reason": "The factors are successive quotients.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-016",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:iso",
+      "target": "alg:jordan-holder",
+      "type": "ingredient",
+      "reason": "Isomorphism theorems support refinement comparisons.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-017",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:action",
+      "target": "alg:semidirect",
+      "type": "definition",
+      "reason": "The action twists multiplication.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-018",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:ring",
+      "target": "alg:prime",
+      "type": "definition",
+      "reason": "Ideals define quotient rings.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-019",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:ring",
+      "target": "alg:localization",
+      "type": "definition",
+      "reason": "Fractions are identified by the localization relation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-020",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:ufd",
+      "target": "alg:gauss",
+      "type": "ingredient",
+      "reason": "Prime divisibility controls polynomial contents.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-021",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:gauss",
+      "target": "alg:polynomial-ufd",
+      "type": "ingredient",
+      "reason": "Separate polynomial content from primitive factorization.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-022",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:ring",
+      "target": "alg:noetherian",
+      "type": "definition",
+      "reason": "The condition concerns the ideal lattice.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-023",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:noetherian",
+      "target": "alg:hilbert-basis",
+      "type": "ingredient",
+      "reason": "Leading-coefficient ideals provide finite polynomial generators.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-024",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:ring",
+      "target": "alg:module",
+      "type": "definition",
+      "reason": "The scalar action obeys ring distributivity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-025",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:module",
+      "target": "alg:exact",
+      "type": "definition",
+      "reason": "Module homomorphisms have kernels and images.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-026",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:module",
+      "target": "alg:pid",
+      "type": "definition",
+      "reason": "Scalar divisibility controls cyclic summands.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-027",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:module",
+      "target": "alg:tensor",
+      "type": "definition",
+      "reason": "Balancing identifies scalar actions across the two factors.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-028",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:tensor",
+      "target": "alg:flat",
+      "type": "definition",
+      "reason": "Tensoring is the functor being tested.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-029",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:exact",
+      "target": "alg:flat",
+      "type": "definition",
+      "reason": "Exactness is the preservation condition.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-030",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:module",
+      "target": "alg:projective",
+      "type": "definition",
+      "reason": "The lifting property concerns module homomorphisms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-031",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:projective",
+      "target": "alg:resolution",
+      "type": "definition",
+      "reason": "The terms have the lifting property.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-032",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:exact",
+      "target": "alg:resolution",
+      "type": "definition",
+      "reason": "Exactness connects the complex to the module.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-033",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:resolution",
+      "target": "alg:ext-tor",
+      "type": "ingredient",
+      "reason": "Resolutions supply the complexes.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-034",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:tensor",
+      "target": "alg:ext-tor",
+      "type": "definition",
+      "reason": "Tor uses the tensor functor.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-035",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:extension",
+      "target": "alg:tower",
+      "type": "ingredient",
+      "reason": "Products of bases give an F-basis of E.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-036",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:extension",
+      "target": "alg:splitting",
+      "type": "definition",
+      "reason": "The roots generate a field extension.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-037",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:separable",
+      "target": "alg:primitive",
+      "type": "ingredient",
+      "reason": "Separability allows a generator separating the embeddings.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-038",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:separable",
+      "target": "alg:galois",
+      "type": "definition",
+      "reason": "These two conditions define the class.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-039",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:galois",
+      "target": "alg:correspondence",
+      "type": "ingredient",
+      "reason": "Enough automorphisms identify fixed fields.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-040",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:tower",
+      "target": "alg:correspondence",
+      "type": "ingredient",
+      "reason": "Degrees match subgroup indices.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-041",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:correspondence",
+      "target": "alg:radicals",
+      "type": "ingredient",
+      "reason": "Field towers correspond to group structure.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-042",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:solvable",
+      "target": "alg:radicals",
+      "type": "definition",
+      "reason": "Derived-series solvability is the group criterion.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-043",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:splitting",
+      "target": "alg:finite-field",
+      "type": "ingredient",
+      "reason": "The roots of X^q−X construct the field.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-044",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:finite-field",
+      "target": "alg:frobenius",
+      "type": "ingredient",
+      "reason": "Injectivity plus finiteness gives surjectivity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-045",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:frobenius",
+      "target": "alg:finite-galois",
+      "type": "ingredient",
+      "reason": "The Frobenius powers give all automorphisms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-046",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:correspondence",
+      "target": "alg:finite-galois",
+      "type": "ingredient",
+      "reason": "Fixed fields determine subextensions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-047",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:extension",
+      "target": "alg:cyclic-units",
+      "type": "bridge",
+      "reason": "Polynomial root bounds exploit the field structure.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-048",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:valuation",
+      "target": "alg:dvr",
+      "type": "definition",
+      "reason": "The valuation determines units and powers of a uniformizer.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-049",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:localization",
+      "target": "alg:local-global",
+      "type": "definition",
+      "reason": "Prime-local modules isolate local behavior.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-050",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:module",
+      "target": "alg:local-global",
+      "type": "definition",
+      "reason": "The objects being tested are modules.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:edge-051",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:tensor",
+      "target": "alg:functor",
+      "type": "bridge",
+      "reason": "Tensor and Hom are central algebraic examples.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "alg:contains-51",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-1",
+      "target": "alg:book:ch-1",
+      "type": "contains",
+      "reason": "Contains “Groups and group actions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-52",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1",
+      "target": "alg:book:ch-1-sec-1",
+      "type": "contains",
+      "reason": "Contains “Group structure” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-53",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-1",
+      "target": "alg:book:ch-1-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Subgroups and quotients” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-54",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-1",
+      "target": "alg:book:ch-1-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Normality” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-55",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-1",
+      "target": "alg:book:ch-1-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Homomorphism theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-56",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1",
+      "target": "alg:book:ch-1-sec-2",
+      "type": "contains",
+      "reason": "Contains “Actions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-57",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-2",
+      "target": "alg:book:ch-1-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Orbits and stabilizers” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-58",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-2",
+      "target": "alg:book:ch-1-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Class equation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-59",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-1-sec-2",
+      "target": "alg:book:ch-1-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Permutation representations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-60",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-1",
+      "target": "alg:book:ch-2",
+      "type": "contains",
+      "reason": "Contains “Finite group theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-61",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2",
+      "target": "alg:book:ch-2-sec-1",
+      "type": "contains",
+      "reason": "Contains “Sylow theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-62",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-1",
+      "target": "alg:book:ch-2-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Sylow theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-63",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-1",
+      "target": "alg:book:ch-2-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Conjugacy” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-64",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-1",
+      "target": "alg:book:ch-2-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-65",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2",
+      "target": "alg:book:ch-2-sec-2",
+      "type": "contains",
+      "reason": "Contains “Structural classes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-66",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-2",
+      "target": "alg:book:ch-2-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “P-groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-67",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-2",
+      "target": "alg:book:ch-2-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Solvable and nilpotent groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-68",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-2-sec-2",
+      "target": "alg:book:ch-2-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Composition series” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-69",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-1",
+      "target": "alg:book:ch-3",
+      "type": "contains",
+      "reason": "Contains “Rings and ideals” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-70",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3",
+      "target": "alg:book:ch-3-sec-1",
+      "type": "contains",
+      "reason": "Contains “Ring homomorphisms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-71",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-1",
+      "target": "alg:book:ch-3-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Ideals” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-72",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-1",
+      "target": "alg:book:ch-3-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Quotient rings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-73",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-1",
+      "target": "alg:book:ch-3-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Universal properties” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-74",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3",
+      "target": "alg:book:ch-3-sec-2",
+      "type": "contains",
+      "reason": "Contains “Special domains” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-75",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-2",
+      "target": "alg:book:ch-3-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Euclidean domains” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-76",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-2",
+      "target": "alg:book:ch-3-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “PIDs” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-77",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-3-sec-2",
+      "target": "alg:book:ch-3-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “UFDs and examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-78",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-2",
+      "target": "alg:book:ch-4",
+      "type": "contains",
+      "reason": "Contains “Modules and exact sequences” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-79",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4",
+      "target": "alg:book:ch-4-sec-1",
+      "type": "contains",
+      "reason": "Contains “Module basics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-80",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-1",
+      "target": "alg:book:ch-4-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Submodules and quotients” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-81",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-1",
+      "target": "alg:book:ch-4-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Cyclic modules” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-82",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-1",
+      "target": "alg:book:ch-4-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Free modules” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-83",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4",
+      "target": "alg:book:ch-4-sec-2",
+      "type": "contains",
+      "reason": "Contains “Exactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-84",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-2",
+      "target": "alg:book:ch-4-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Kernels and cokernels” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-85",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-2",
+      "target": "alg:book:ch-4-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Splitting” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-86",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-4-sec-2",
+      "target": "alg:book:ch-4-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Structure over a PID” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-87",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-2",
+      "target": "alg:book:ch-5",
+      "type": "contains",
+      "reason": "Contains “Polynomial and commutative algebra” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-88",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5",
+      "target": "alg:book:ch-5-sec-1",
+      "type": "contains",
+      "reason": "Contains “Polynomial rings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-89",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-1",
+      "target": "alg:book:ch-5-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Gauss lemma” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-90",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-1",
+      "target": "alg:book:ch-5-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Factorization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-91",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-1",
+      "target": "alg:book:ch-5-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Content and primitive polynomials” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-92",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5",
+      "target": "alg:book:ch-5-sec-2",
+      "type": "contains",
+      "reason": "Contains “Noetherian methods” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-93",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-2",
+      "target": "alg:book:ch-5-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Noetherian rings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-94",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-2",
+      "target": "alg:book:ch-5-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Hilbert basis theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-95",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-5-sec-2",
+      "target": "alg:book:ch-5-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Localization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-96",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-2",
+      "target": "alg:book:ch-6",
+      "type": "contains",
+      "reason": "Contains “Field theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-97",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6",
+      "target": "alg:book:ch-6-sec-1",
+      "type": "contains",
+      "reason": "Contains “Algebraic extensions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-98",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-1",
+      "target": "alg:book:ch-6-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Minimal polynomials” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-99",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-1",
+      "target": "alg:book:ch-6-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Degree” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-100",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-1",
+      "target": "alg:book:ch-6-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Towers and separability” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-101",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6",
+      "target": "alg:book:ch-6-sec-2",
+      "type": "contains",
+      "reason": "Contains “Splitting fields” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-102",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-2",
+      "target": "alg:book:ch-6-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Normality” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-103",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-2",
+      "target": "alg:book:ch-6-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Algebraic closure” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-104",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-6-sec-2",
+      "target": "alg:book:ch-6-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Primitive element theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-105",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-2",
+      "target": "alg:book:ch-7",
+      "type": "contains",
+      "reason": "Contains “Galois theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-106",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7",
+      "target": "alg:book:ch-7-sec-1",
+      "type": "contains",
+      "reason": "Contains “Galois groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-107",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-1",
+      "target": "alg:book:ch-7-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Automorphisms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-108",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-1",
+      "target": "alg:book:ch-7-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Fixed fields” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-109",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-1",
+      "target": "alg:book:ch-7-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Fundamental theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-110",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7",
+      "target": "alg:book:ch-7-sec-2",
+      "type": "contains",
+      "reason": "Contains “Solvability by radicals” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-111",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-2",
+      "target": "alg:book:ch-7-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Solvable groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-112",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-2",
+      "target": "alg:book:ch-7-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Cyclotomic fields” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-113",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-7-sec-2",
+      "target": "alg:book:ch-7-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Abel–Ruffini framework” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-114",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-2",
+      "target": "alg:book:ch-8",
+      "type": "contains",
+      "reason": "Contains “Tensor, categories, and constructions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-115",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8",
+      "target": "alg:book:ch-8-sec-1",
+      "type": "contains",
+      "reason": "Contains “Tensor products” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-116",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-1",
+      "target": "alg:book:ch-8-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Bilinear maps” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-117",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-1",
+      "target": "alg:book:ch-8-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Extension of scalars” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-118",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-1",
+      "target": "alg:book:ch-8-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-119",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8",
+      "target": "alg:book:ch-8-sec-2",
+      "type": "contains",
+      "reason": "Contains “Categorical language” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-120",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-2",
+      "target": "alg:book:ch-8-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Products and coproducts” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-121",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-2",
+      "target": "alg:book:ch-8-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Universal properties” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-122",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-8-sec-2",
+      "target": "alg:book:ch-8-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Adjunction examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-123",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-3",
+      "target": "alg:book:ch-9",
+      "type": "contains",
+      "reason": "Contains “Homological algebra introduction” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-124",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9",
+      "target": "alg:book:ch-9-sec-1",
+      "type": "contains",
+      "reason": "Contains “Chain complexes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-125",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-1",
+      "target": "alg:book:ch-9-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Cycles, boundaries, and homology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-126",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-1",
+      "target": "alg:book:ch-9-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Exact sequences” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-127",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-1",
+      "target": "alg:book:ch-9-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Resolutions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-128",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9",
+      "target": "alg:book:ch-9-sec-2",
+      "type": "contains",
+      "reason": "Contains “Derived functors” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-129",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-2",
+      "target": "alg:book:ch-9-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Ext and Tor motivation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-130",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-2",
+      "target": "alg:book:ch-9-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Computation over familiar rings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-131",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-9-sec-2",
+      "target": "alg:book:ch-9-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-132",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:part-3",
+      "target": "alg:book:ch-10",
+      "type": "contains",
+      "reason": "Contains “Selected advanced algebra” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-133",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10",
+      "target": "alg:book:ch-10-sec-1",
+      "type": "contains",
+      "reason": "Contains “Finite fields and valuations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-134",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-1",
+      "target": "alg:book:ch-10-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Finite-field structure” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-135",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-1",
+      "target": "alg:book:ch-10-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Discrete valuations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-136",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-1",
+      "target": "alg:book:ch-10-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-137",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10",
+      "target": "alg:book:ch-10-sec-2",
+      "type": "contains",
+      "reason": "Contains “Synthesis and further study” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-138",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-2",
+      "target": "alg:book:ch-10-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Structure theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-139",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-2",
+      "target": "alg:book:ch-10-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Proof repair” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "alg:contains-140",
+      "subjectId": "3-algebra-modern-algebra",
+      "source": "alg:book:ch-10-sec-2",
+      "target": "alg:book:ch-10-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Algebraic geometry and representation links” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    }
+  ]
+}

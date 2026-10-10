@@ -1,0 +1,3994 @@
+{
+  "schemaVersion": 1,
+  "edition": "subject-atlas-1",
+  "subject": {
+    "id": "5-applied-mathematics-partial-differential-equations",
+    "title": "Partial Differential Equations",
+    "category": "Applied Mathematics",
+    "prefix": "pde"
+  },
+  "libraryUrl": "../../index.html",
+  "groups": [
+    {
+      "id": "pde:region-1",
+      "title": "Models and first-order equations",
+      "color": "#4d8873",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "pde:region-2",
+      "title": "Distributions and Sobolev spaces",
+      "color": "#438995",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "pde:region-3",
+      "title": "Weak elliptic problems",
+      "color": "#688b54",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "pde:region-4",
+      "title": "Regularity and maximum principles",
+      "color": "#9e8550",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "pde:region-5",
+      "title": "Parabolic and hyperbolic evolution",
+      "color": "#a07952",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "pde:region-6",
+      "title": "Nonlinear equations and weak-solution selection",
+      "color": "#598aad",
+      "column": 2,
+      "row": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "John K. Hunter, Notes on Partial Differential Equations",
+      "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+    }
+  ],
+  "provenance": {
+    "sourceSubject": "5-Applied-Mathematics/Partial-Differential-Equations",
+    "sourceGraphSha256": "821757ef45e4fb414d42f9f2150c16001fa04c4c3ab72ce3bd862164696d7dca",
+    "graph": "graph.json",
+    "book": "resources/book-outline.md",
+    "map": "resources/meta-graph.md",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "originalProvenance": {
+      "catalog": "data/catalog.json",
+      "catalogSha256": "0bbf5c8ce9151dd580eb32158cd1ff42aa8fdb4a7d5378c1597afd1082eb44aa",
+      "book": "../book/latex/structure.json",
+      "bookSha256": "d867d9b839d1944ada0f9e030d64bb1104eabf2ce721664e664cb381d0bd38ee",
+      "map": "meta-graph.md",
+      "mapSha256": "54c73489439f63ecf5eda2fafe0d6ded2d8bba2f06a82e5e285306af1cdbb169",
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+    }
+  },
+  "nodes": [
+    {
+      "id": "pde:classification",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Elliptic, parabolic and hyperbolic equations",
+      "statement": "Principal symbols distinguish standard equation types; type determines the appropriate boundary or initial data.",
+      "description": "Principal symbols distinguish standard equation types; type determines the appropriate boundary or initial data.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:transport",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Transport equations",
+      "statement": "The equation u_t+b·∇u=f carries values along trajectories of a velocity field.",
+      "description": "The equation u_t+b·∇u=f carries values along trajectories of a velocity field.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:characteristics",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Method of characteristics",
+      "statement": "For a sufficiently smooth first-order equation, solve characteristic ODEs and reconstruct a solution while the characteristic map remains invertible.",
+      "description": "For a sufficiently smooth first-order equation, solve characteristic ODEs and reconstruct a solution while the characteristic map remains invertible.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:local-transport",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Classical transport solution",
+      "statement": "A smooth Lipschitz velocity field with smooth initial data gives a unique classical transport solution on the interval where its flow is defined.",
+      "description": "A smooth Lipschitz velocity field with smooth initial data gives a unique classical transport solution on the interval where its flow is defined.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:laplace",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Laplace and Poisson equations",
+      "statement": "The equations Δu=0 and −Δu=f are basic elliptic equations.",
+      "description": "The equations Δu=0 and −Δu=f are basic elliptic equations.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:heat",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Heat equation",
+      "statement": "The equation u_t−κΔu=0, κ>0, models diffusion.",
+      "description": "The equation u_t−κΔu=0, κ>0, models diffusion.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:wave",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Wave equation",
+      "statement": "The equation u_tt−c²Δu=0 is the basic second-order hyperbolic evolution equation.",
+      "description": "The equation u_tt−c²Δu=0 is the basic second-order hyperbolic evolution equation.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:conservation",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Scalar conservation laws",
+      "statement": "An equation u_t+div F(u)=0 expresses local conservation of a scalar quantity.",
+      "description": "An equation u_t+div F(u)=0 expresses local conservation of a scalar quantity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-1",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:test",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Test functions and distributions",
+      "statement": "A distribution is a continuous linear functional on compactly supported smooth test functions.",
+      "description": "A distribution is a continuous linear functional on compactly supported smooth test functions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:weak-derivative",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Weak derivatives",
+      "statement": "A weak derivative is defined by moving differentiation onto test functions with the integration-by-parts sign.",
+      "description": "A weak derivative is defined by moving differentiation onto test functions with the integration-by-parts sign.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:sobolev",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Sobolev spaces",
+      "statement": "W^(k,p) consists of functions whose weak derivatives through order k lie in Lᵖ.",
+      "description": "W^(k,p) consists of functions whose weak derivatives through order k lie in Lᵖ.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:mollifier",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Mollification",
+      "statement": "Convolution with rescaled smooth compactly supported unit-mass kernels regularizes functions and distributions.",
+      "description": "Convolution with rescaled smooth compactly supported unit-mass kernels regularizes functions and distributions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:density",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Smooth density in Sobolev spaces",
+      "statement": "Smooth functions on an open set are dense in W^(k,p) for finite p; compactly supported smooth functions define the closure W₀^(k,p).",
+      "description": "Smooth functions on an open set are dense in W^(k,p) for finite p; compactly supported smooth functions define the closure W₀^(k,p).",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:poincare",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Poincaré inequality",
+      "statement": "On a bounded Lipschitz domain, ‖u‖p≤C‖∇u‖p for u∈W₀^(1,p), 1≤p<∞.",
+      "description": "On a bounded Lipschitz domain, ‖u‖p≤C‖∇u‖p for u∈W₀^(1,p), 1≤p<∞.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:embedding",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Sobolev embedding inequality",
+      "statement": "For 1≤p<n, the W₀^(1,p) norm controls the L^(np/(n−p)) norm on Euclidean domains via zero extension.",
+      "description": "For 1≤p<n, the W₀^(1,p) norm controls the L^(np/(n−p)) norm on Euclidean domains via zero extension.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:rellich",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Rellich–Kondrachov compactness",
+      "statement": "On a bounded Lipschitz domain, W^(1,p) embeds compactly into Lᑫ for q<p* when p<n, and every finite q when p≥n, with 1≤p<∞.",
+      "description": "On a bounded Lipschitz domain, W^(1,p) embeds compactly into Lᑫ for q<p* when p<n, and every finite q when p≥n, with 1≤p<∞.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-2",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:trace",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Sobolev trace theorem",
+      "statement": "On a bounded Lipschitz domain, H¹ functions have a continuous trace in H^(1/2) of the boundary, with kernel H₀¹.",
+      "description": "On a bounded Lipschitz domain, H¹ functions have a continuous trace in H^(1/2) of the boundary, with kernel H₀¹.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:weak-form",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Weak Dirichlet formulation",
+      "statement": "Seek u in a specified Sobolev space such that a(u,v)=ℓ(v) for every test function v, incorporating the boundary conditions.",
+      "description": "Seek u in a specified Sobolev space such that a(u,v)=ℓ(v) for every test function v, incorporating the boundary conditions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:lax-milgram",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Lax–Milgram theorem",
+      "statement": "A bounded coercive bilinear form on a real Hilbert space represents every bounded linear functional by a unique solution.",
+      "description": "A bounded coercive bilinear form on a real Hilbert space represents every bounded linear functional by a unique solution.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:poisson-existence",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Weak Poisson solvability",
+      "statement": "For f∈H⁻¹ on a bounded Lipschitz domain, there is a unique u∈H₀¹ satisfying ∫∇u·∇v=⟨f,v⟩.",
+      "description": "For f∈H⁻¹ on a bounded Lipschitz domain, there is a unique u∈H₀¹ satisfying ∫∇u·∇v=⟨f,v⟩.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:energy",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "proposition",
+      "title": "Elliptic energy estimate",
+      "statement": "For a bounded coercive form, the solution norm is at most the dual norm of the forcing divided by the coercivity constant.",
+      "description": "For a bounded coercive form, the solution norm is at most the dual norm of the forcing divided by the coercivity constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:fredholm",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Fredholm alternative for compact perturbations",
+      "statement": "For an operator I−K with compact K on a Hilbert space, solvability is characterized by orthogonality to the adjoint kernel, and kernel and cokernel are finite dimensional.",
+      "description": "For an operator I−K with compact K on a Hilbert space, solvability is characterized by orthogonality to the adjoint kernel, and kernel and cokernel are finite dimensional.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:eigenvalues",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Dirichlet Laplacian eigenbasis",
+      "statement": "On a bounded Lipschitz domain, the Dirichlet Laplacian has positive discrete eigenvalues tending to infinity and an orthonormal L² eigenbasis.",
+      "description": "On a bounded Lipschitz domain, the Dirichlet Laplacian has positive discrete eigenvalues tending to infinity and an orthonormal L² eigenbasis.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:galerkin",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Galerkin method",
+      "statement": "Project the weak problem onto finite-dimensional spaces and obtain a solution by uniform estimates and passage to the limit.",
+      "description": "Project the weak problem onto finite-dimensional spaces and obtain a solution by uniform estimates and passage to the limit.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-3",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:harmonic",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Mean-value property",
+      "statement": "A C² harmonic function equals its spherical and ball averages whenever the corresponding closed ball lies in its domain.",
+      "description": "A C² harmonic function equals its spherical and ball averages whenever the corresponding closed ball lies in its domain.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:maximum",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Strong maximum principle for harmonic functions",
+      "statement": "A harmonic function attaining an interior maximum on a connected domain is constant.",
+      "description": "A harmonic function attaining an interior maximum on a connected domain is constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:uniqueness",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "corollary",
+      "title": "Classical Dirichlet uniqueness",
+      "statement": "A continuous function on the closure of a bounded domain, harmonic inside and with prescribed boundary values, is uniquely determined.",
+      "description": "A continuous function on the closure of a bounded domain, harmonic inside and with prescribed boundary values, is uniquely determined.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:weyl",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "lemma",
+      "title": "Weyl’s lemma",
+      "statement": "A distributional solution of Δu=0 on an open set is represented by a smooth harmonic function.",
+      "description": "A distributional solution of Δu=0 on an open set is represented by a smooth harmonic function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:interior-h2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Interior H² regularity",
+      "statement": "For −Δu=f with weak u∈H¹ locally and f∈L² locally, u∈H² locally.",
+      "description": "For −Δu=f with weak u∈H¹ locally and f∈L² locally, u∈H² locally.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:schauder",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Interior Schauder estimates",
+      "statement": "Uniformly elliptic second-order equations with Hölder coefficients and Hölder forcing have interior C^(2,α) estimates for classical solutions, under the standard coefficient regularity assumptions.",
+      "description": "Uniformly elliptic second-order equations with Hölder coefficients and Hölder forcing have interior C^(2,α) estimates for classical solutions, under the standard coefficient regularity assumptions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:harnack",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Harnack inequality for harmonic functions",
+      "statement": "A nonnegative harmonic function on a connected domain has comparable supremum and infimum on each compactly contained ball, with a geometric constant.",
+      "description": "A nonnegative harmonic function on a connected domain has comparable supremum and infimum on each compactly contained ball, with a geometric constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:smooth-bootstrap",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "corollary",
+      "title": "Smoothness for smooth Poisson data",
+      "statement": "If Δu=f distributionally with smooth f, then u is smooth in the interior.",
+      "description": "If Δu=f distributionally with smooth f, then u is smooth in the interior.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-4",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:heat-kernel",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Heat kernel representation",
+      "statement": "For suitable initial data on Rⁿ, convolution with the Gaussian kernel gives the heat solution for t>0.",
+      "description": "For suitable initial data on Rⁿ, convolution with the Gaussian kernel gives the heat solution for t>0.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:heat-smoothing",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "proposition",
+      "title": "Instantaneous heat smoothing",
+      "statement": "Heat convolution of L² initial data is smooth for positive time and tends to the initial data in L² as t decreases to zero.",
+      "description": "Heat convolution of L² initial data is smooth for positive time and tends to the initial data in L² as t decreases to zero.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:heat-energy",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Heat energy identity",
+      "statement": "For sufficiently regular zero-Dirichlet solutions, d‖u‖₂²/dt=−2κ‖∇u‖₂².",
+      "description": "For sufficiently regular zero-Dirichlet solutions, d‖u‖₂²/dt=−2κ‖∇u‖₂².",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:heat-unique",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "corollary",
+      "title": "Energy uniqueness for the heat equation",
+      "statement": "Two energy-class zero-Dirichlet heat solutions with the same initial data coincide.",
+      "description": "Two energy-class zero-Dirichlet heat solutions with the same initial data coincide.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:wave-energy",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Wave energy conservation",
+      "statement": "For sufficiently regular homogeneous wave solutions with suitable vanishing boundary flux, ∫(|u_t|²+c²|∇u|²) is conserved.",
+      "description": "For sufficiently regular homogeneous wave solutions with suitable vanishing boundary flux, ∫(|u_t|²+c²|∇u|²) is conserved.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:finite-speed",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Finite propagation speed",
+      "statement": "For the constant-speed wave equation, data outside a point’s backward light cone do not affect the solution at that point.",
+      "description": "For the constant-speed wave equation, data outside a point’s backward light cone do not affect the solution at that point.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:duhamel",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Duhamel principle",
+      "statement": "A linear inhomogeneous evolution is obtained by integrating propagated forcing against the homogeneous solution operator.",
+      "description": "A linear inhomogeneous evolution is obtained by integrating propagated forcing against the homogeneous solution operator.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:semigroup",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Evolution semigroups",
+      "statement": "A strongly continuous semigroup encodes compatible linear time evolution and has an infinitesimal generator.",
+      "description": "A strongly continuous semigroup encodes compatible linear time evolution and has an infinitesimal generator.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-5",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:direct",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Direct method in the calculus of variations",
+      "statement": "Combine coercive bounds, weak compactness and lower semicontinuity to minimize an energy on a weakly closed admissible class.",
+      "description": "Combine coercive bounds, weak compactness and lower semicontinuity to minimize an energy on a weakly closed admissible class.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:euler-lagrange",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Euler–Lagrange necessary condition",
+      "statement": "A sufficiently regular unconstrained local minimizer has zero first variation against every compactly supported admissible perturbation.",
+      "description": "A sufficiently regular unconstrained local minimizer has zero first variation against every compactly supported admissible perturbation.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:burgers",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "example",
+      "title": "Shock formation in inviscid Burgers equation",
+      "statement": "For smooth one-dimensional data with a negative slope, characteristics of u_t+uu_x=0 intersect in finite time, ending the classical solution.",
+      "description": "For smooth one-dimensional data with a negative slope, characteristics of u_t+uu_x=0 intersect in finite time, ending the classical solution.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:rankine",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Rankine–Hugoniot jump condition",
+      "statement": "A piecewise smooth weak solution with jump speed s obeys s[u]=[F(u)] across the jump.",
+      "description": "A piecewise smooth weak solution with jump speed s obeys s[u]=[F(u)] across the jump.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:entropy",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "definition",
+      "title": "Entropy solutions",
+      "statement": "A weak scalar conservation-law solution satisfies entropy inequalities for every convex entropy–entropy-flux pair.",
+      "description": "A weak scalar conservation-law solution satisfies entropy inequalities for every convex entropy–entropy-flux pair.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:l1-contraction",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Kružkov contraction theorem",
+      "statement": "For scalar conservation laws on Rⁿ with C¹ flux, bounded entropy solutions have L¹ contraction when their initial difference is integrable.",
+      "description": "For scalar conservation laws on Rⁿ with C¹ flux, bounded entropy solutions have L¹ contraction when their initial difference is integrable.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:monotone",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "theorem",
+      "title": "Browder–Minty existence theorem",
+      "statement": "A coercive bounded-on-bounded-sets hemicontinuous monotone operator from a real reflexive Banach space to its dual is surjective.",
+      "description": "A coercive bounded-on-bounded-sets hemicontinuous monotone operator from a real reflexive Banach space to its dual is surjective.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:weak-limits",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "kind": "method",
+      "title": "Passing nonlinear terms to the limit",
+      "statement": "Weak convergence alone generally does not commute with nonlinearities; compactness, monotonicity or compensated structure must justify the limit.",
+      "description": "Weak convergence alone generally does not commute with nonlinearities; compactness, monotonicity or compensated structure must justify the limit.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "pde:region-6",
+      "source": "John K. Hunter, Notes on Partial Differential Equations",
+      "references": [
+        {
+          "title": "John K. Hunter, Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pdes.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "pde:book:part-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Foundations and Core Language",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part I",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "First-order equations and classical solutions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Equation classification begins with order, linearity, and the role of principal derivatives. Transport and conservation equations describe motion and balance.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex",
+      "number": "1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Equation types",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Equation classification begins with order, linearity, and the role of principal derivatives. These distinctions determine which local solution methods are plausible.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Section 1.1",
+      "number": "1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Order and linearity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The order is the highest derivative order, while linearity describes how the unknown and its derivatives enter. These properties guide the first division of PDE methods.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.1.1",
+      "number": "1.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Characteristic curves",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Characteristic curves turn suitable first-order PDEs into ordinary differential equations along paths. They reveal how data propagate and where smooth solutions can break down.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.1.2",
+      "number": "1.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Canonical forms",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Canonical forms simplify an equation through adapted coordinates or transformations. Their availability depends on the equation's coefficients and local type.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.1.3",
+      "number": "1.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Transport and conservation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Transport and conservation equations describe motion and balance. They motivate both smooth evolution and weak solutions after singularities form.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Section 1.2",
+      "number": "1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Cauchy problems",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Cauchy problem prescribes initial data on an appropriate hypersurface. Noncharacteristic and regularity assumptions determine local solvability.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.2.1",
+      "number": "1.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Shocks",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Shocks are discontinuities that can form even from smooth data in nonlinear conservation laws. They force a transition from classical to weak solution concepts.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.2.2",
+      "number": "1.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-1-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Entropy conditions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Entropy conditions select physically and mathematically admissible weak solutions in relevant conservation-law settings. They rule out some solutions that satisfy the weak equation alone.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-first-order-equations-and-classical-solutions.tex · Subsection 1.2.3",
+      "number": "1.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Second-order linear equations",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Second-order classification uses the principal part rather than lower-order terms. Canonical equations provide benchmark models for the main PDE types.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex",
+      "number": "2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Classification",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Second-order classification uses the principal part rather than lower-order terms. Elliptic, parabolic, and hyperbolic behavior lead to different data requirements.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Section 2.1",
+      "number": "2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Elliptic, parabolic, and hyperbolic forms",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Elliptic, parabolic, and hyperbolic types describe different signatures or structures of principal derivatives. The familiar scalar classification must be adapted carefully for systems.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Subsection 2.1.1",
+      "number": "2.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Coordinate changes",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Coordinate changes can simplify the principal part locally. They also transform coefficients and data, which must be tracked in the new formulation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Subsection 2.1.2",
+      "number": "2.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Canonical examples",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Canonical equations provide benchmark models for the main PDE types. Their explicit solutions motivate broader theories.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Section 2.2",
+      "number": "2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Laplace, heat, and wave equations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Laplace, heat, and wave equations model equilibrium, diffusion, and propagation respectively. Comparing them reveals why one universal solution method is insufficient.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Subsection 2.2.1",
+      "number": "2.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-2-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Initial and boundary data",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Initial and boundary data specify how a PDE is posed on its domain. Their compatibility and type influence existence, uniqueness, and regularity.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-second-order-linear-equations.tex · Subsection 2.2.2",
+      "number": "2.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Distributions and weak derivatives",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Distribution theory interprets differentiation through action on smooth test functions. Weak formulations shift derivatives away from the unknown by testing and integration.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex",
+      "number": "3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Test functions",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Distribution theory interprets differentiation through action on smooth test functions. This makes equations meaningful for nonsmooth objects.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Section 3.1",
+      "number": "3.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Support and topology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Test functions have compact support and a topology controlling derivatives on fixed compact sets. These conditions support integration by parts without boundary terms.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.1.1",
+      "number": "3.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Distributions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A distribution is a continuous linear functional on test functions. Locally integrable functions and point masses are standard examples.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.1.2",
+      "number": "3.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Derivative operations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Distributional differentiation moves derivatives onto the test function with the appropriate sign. The operation is defined even when pointwise derivatives do not exist.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.1.3",
+      "number": "3.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak formulations",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Weak formulations shift derivatives away from the unknown by testing and integration. They specify exactly what it means to satisfy an equation with limited regularity.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Section 3.2",
+      "number": "3.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Integration by parts",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Integration by parts transfers derivatives and exposes boundary terms. It determines the spaces and data entering a weak formulation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.2.1",
+      "number": "3.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak solutions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A weak solution satisfies the tested equation in the specified function space. The term is incomplete without its test class and boundary interpretation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.2.2",
+      "number": "3.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-3-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Uniqueness frameworks",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Uniqueness may follow from energy, comparison, contraction, or monotonicity arguments. The solution class is part of every uniqueness statement.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-distributions-and-weak-derivatives.tex · Subsection 3.2.3",
+      "number": "3.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:part-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Central Theory and Techniques",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part II",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Sobolev spaces",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Sobolev spaces measure integrability of functions together with weak derivatives. Embedding and trace theorems turn weak derivative control into other regularity information.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex",
+      "number": "4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Definitions and norms",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Sobolev spaces measure integrability of functions together with weak derivatives. Their norms make weak PDE analysis quantitative.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Section 4.1",
+      "number": "4.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak derivatives",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A weak derivative is an integrable function representing the corresponding distributional derivative. It extends differentiation while retaining function-space estimates.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.1.1",
+      "number": "4.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Density",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Density theorems approximate Sobolev functions by smoother ones under suitable domain conditions. They allow identities proved for smooth functions to extend by limits.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.1.2",
+      "number": "4.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Extension operators",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An extension operator continues functions beyond a domain while controlling a Sobolev norm. Its existence depends on domain regularity and the chosen space.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.1.3",
+      "number": "4.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Embedding and trace theorems",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Embedding and trace theorems turn weak derivative control into other regularity information. Compact versions provide convergent subsequences for existence arguments.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Section 4.2",
+      "number": "4.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Sobolev inequalities",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Sobolev inequalities bound a function in one norm by derivatives in another. The dimension and exponents determine the admissible estimate.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.2.1",
+      "number": "4.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Compact embeddings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Compact embeddings improve boundedness into precompactness under suitable domain and exponent conditions. They are central to passing through nonlinear terms in limits.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.2.2",
+      "number": "4.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-4-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Boundary values",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Trace operators define boundary values for Sobolev functions when pointwise restriction is unavailable. The resulting boundary space depends on the interior regularity.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-sobolev-spaces.tex · Subsection 4.2.3",
+      "number": "4.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Elliptic equations: existence",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Variational formulations seek solutions through bilinear forms on energy spaces. A priori estimates bound solutions using only the given data and coefficients.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex",
+      "number": "5",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Variational formulation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Variational formulations seek solutions through bilinear forms on energy spaces. Coercivity provides the estimate that supports existence and uniqueness.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Section 5.1",
+      "number": "5.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Energy spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An energy space is chosen so the weak equation and its natural estimates are well defined. Boundary conditions may be encoded by a closed subspace.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.1.1",
+      "number": "5.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Coercivity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Coercivity bounds a bilinear form below by a positive multiple of the squared norm in the standard Hilbert setting. It prevents uncontrolled directions in the variational problem.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.1.2",
+      "number": "5.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Lax–Milgram theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Lax–Milgram solves a bounded coercive bilinear-form equation against a continuous linear functional. It is a basic existence theorem for weak elliptic boundary problems.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.1.3",
+      "number": "5.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "A priori estimates",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "A priori estimates bound solutions using only the given data and coefficients. They support uniqueness, stability, and approximation limits.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Section 5.2",
+      "number": "5.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Energy estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Energy estimates test an equation with a suitable function related to its solution. The resulting inequality controls natural solution norms.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.2.1",
+      "number": "5.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Uniqueness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Uniqueness follows when the difference of two solutions has zero norm under an appropriate estimate. The same boundary and solution-space assumptions must apply to both.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.2.2",
+      "number": "5.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-5-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Dependence on data",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Continuous dependence bounds changes in the solution by changes in data. Together with existence and uniqueness, it contributes to well-posedness.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-elliptic-equations-existence.tex · Subsection 5.2.3",
+      "number": "5.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Elliptic equations: regularity",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Elliptic regularity asks when weak solutions have additional derivatives or continuity. Boundary regularity depends on the equation, boundary conditions, and geometry of the domain.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex",
+      "number": "6",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Interior regularity",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Elliptic regularity asks when weak solutions have additional derivatives or continuity. Interior results separate coefficient effects from boundary geometry.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Section 6.1",
+      "number": "6.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Difference quotients",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Difference quotients approximate derivatives while remaining legitimate weak test constructions. Uniform estimates then establish additional Sobolev regularity.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.1.1",
+      "number": "6.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Elliptic estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Elliptic estimates bound higher regularity by the equation's forcing and lower solution norms. Their local and global versions have different hypotheses.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.1.2",
+      "number": "6.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Smooth coefficients",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Smooth coefficients permit repeated regularity arguments when the forcing is sufficiently smooth. Bootstrapping explains why many weak elliptic solutions become classical in the interior.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.1.3",
+      "number": "6.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Boundary regularity",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Boundary regularity depends on the equation, boundary conditions, and geometry of the domain. Interior smoothness alone does not guarantee smoothness up to the boundary.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Section 6.2",
+      "number": "6.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Boundary conditions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Dirichlet, Neumann, and related conditions constrain different boundary quantities. Their compatibility and regularity affect the available solution estimates.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.2.1",
+      "number": "6.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Trace spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Trace spaces describe admissible boundary data for Sobolev solutions. Matching the correct trace space prevents ill-defined boundary prescriptions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.2.2",
+      "number": "6.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-6-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Regularity limitations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Corners, rough coefficients, or irregular data can block higher regularity. Explicit limitations clarify why regularity conclusions need detailed assumptions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-elliptic-equations-regularity.tex · Subsection 6.2.3",
+      "number": "6.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Maximum principles and eigenvalues",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Maximum principles compare solutions through sign and extremum information. Elliptic eigenvalue problems combine PDE estimates with spectral theory.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex",
+      "number": "7",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak and strong principles",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Maximum principles compare solutions through sign and extremum information. Their precise form depends on coefficients, boundary conditions, and the solution class.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Section 7.1",
+      "number": "7.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Comparison",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Comparison orders a subsolution and supersolution using their boundary data. It often gives uniqueness without constructing an explicit solution.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.1.1",
+      "number": "7.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Hopf lemma",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Hopf's boundary lemma gives a strict boundary derivative conclusion at an appropriate extremum. Domain geometry and nondegeneracy assumptions are essential.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.1.2",
+      "number": "7.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Positivity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Positivity arguments show when nonnegative data yield positive interior solutions. Strong maximum principles rule out nontrivial interior zero minima in appropriate settings.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.1.3",
+      "number": "7.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Spectral consequences",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Elliptic eigenvalue problems combine PDE estimates with spectral theory. Positivity and variational methods reveal special features of the lowest eigenvalues.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Section 7.2",
+      "number": "7.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Eigenvalue problems",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An eigenvalue problem seeks nonzero solutions whose operator image is a scalar multiple of themselves. Boundary conditions and function spaces determine the spectrum.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.2.1",
+      "number": "7.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Rayleigh quotient",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Rayleigh quotient compares an energy with a squared norm. Minimization often characterizes the first eigenvalue for self-adjoint elliptic problems.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.2.2",
+      "number": "7.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-7-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Maximum principle applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Maximum principles constrain signs of eigenfunctions and can identify principal eigenvalues. Applications must match the operator and boundary hypotheses of the chosen principle.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-maximum-principles-and-eigenvalues.tex · Subsection 7.2.3",
+      "number": "7.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Parabolic equations",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The heat equation models diffusion and introduces smoothing in time. Abstract evolution frameworks treat time-dependent PDEs as operator equations.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex",
+      "number": "8",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Heat equation methods",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The heat equation models diffusion and introduces smoothing in time. Explicit kernels and energy estimates provide complementary methods.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Section 8.1",
+      "number": "8.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Fundamental solution",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The heat fundamental solution represents evolution of concentrated initial data. Convolution constructs solutions on Euclidean space under appropriate assumptions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.1.1",
+      "number": "8.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Energy estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Parabolic energy estimates balance norm decay against spatial dissipation. They control solutions over time using initial and forcing data.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.1.2",
+      "number": "8.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Smoothing",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Heat evolution gains spatial regularity for positive times in standard settings. Estimates quantify how this regularity depends on elapsed time.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.1.3",
+      "number": "8.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Evolution frameworks",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Abstract evolution frameworks treat time-dependent PDEs as operator equations. They organize existence and qualitative estimates beyond explicit kernels.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Section 8.2",
+      "number": "8.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Semigroups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A semigroup represents consistent evolution over successive time intervals. Its generator encodes the differential operator and its domain.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.2.1",
+      "number": "8.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Maximum principle",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Parabolic maximum principles bound later values by initial and boundary information under suitable conditions. They provide comparison and uniqueness tools.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.2.2",
+      "number": "8.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-8-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak existence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Weak existence can be obtained through approximation, uniform estimates, and compactness. The final limit must satisfy the equation, initial condition, and boundary conditions in specified senses.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-parabolic-equations.tex · Subsection 8.2.3",
+      "number": "8.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:part-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Further Theory and Applications",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part III",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Hyperbolic equations",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The wave equation describes finite-speed propagation and conservative behavior. Hyperbolic systems generalize scalar wave propagation with multiple characteristic modes.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex",
+      "number": "9",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Wave equation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The wave equation describes finite-speed propagation and conservative behavior. Energy estimates provide the central mechanism for well-posedness.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Section 9.1",
+      "number": "9.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Energy conservation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "For an unforced wave equation with appropriate boundary conditions, total kinetic-plus-potential energy is conserved. This controls the evolution in an energy space.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.1.1",
+      "number": "9.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Finite speed",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Finite propagation speed confines influence to characteristic cones. It distinguishes wave behavior from the instantaneous spreading of the heat equation.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.1.2",
+      "number": "9.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Well-posedness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Well-posedness requires existence, uniqueness, and continuous dependence in a specified class. Energy methods establish these properties in standard linear wave settings.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.1.3",
+      "number": "9.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Systems and propagation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Hyperbolic systems generalize scalar wave propagation with multiple characteristic modes. Boundaries and dispersion introduce additional analytic issues.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Section 9.2",
+      "number": "9.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Characteristics",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Characteristics determine propagation directions from the principal symbol. Their structure can vary across systems and coefficient regimes.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.2.1",
+      "number": "9.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Boundary conditions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Hyperbolic boundary data must match incoming characteristic information. Incorrectly prescribing all components can overdetermine a problem.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.2.2",
+      "number": "9.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-9-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Dispersive previews",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Dispersive estimates measure spreading through oscillatory cancellation rather than diffusion. They prepare the study of nonlinear wave and related equations.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-hyperbolic-equations.tex · Subsection 9.2.3",
+      "number": "9.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Variational and nonlinear PDE",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Variational methods obtain PDEs from extrema of functionals. Nonlinear existence arguments use fixed points, monotonicity, or variational structure.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex",
+      "number": "10",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Calculus of variations",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Variational methods obtain PDEs from extrema of functionals. Existence depends on compactness and lower semicontinuity rather than a formal derivative alone.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Section 10.1",
+      "number": "10.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Direct method",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The direct method extracts a limit from a minimizing sequence using coercivity and compactness. Lower semicontinuity then identifies that limit as a minimizer.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.1.1",
+      "number": "10.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Euler–Lagrange equations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Euler–Lagrange equations express vanishing of the first variation. Their derivation requires admissible variations and appropriate differentiability.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.1.2",
+      "number": "10.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Constraints",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Constraints restrict allowable variations or introduce multipliers. They change both the existence problem and the resulting stationarity equations.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.1.3",
+      "number": "10.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Nonlinear methods",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Nonlinear existence arguments use fixed points, monotonicity, or variational structure. Each method requires estimates tailored to the equation.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Section 10.2",
+      "number": "10.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Fixed points",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Fixed-point theorems turn a nonlinear equation into a self-map problem. Contraction, continuity, and compactness assumptions distinguish different theorems.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.2.1",
+      "number": "10.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Monotonicity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Monotone operators compare differences of outputs with differences of inputs through a dual pairing. Coercivity and continuity variants lead to nonlinear existence results.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.2.2",
+      "number": "10.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-10-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Nonlinear elliptic examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Semilinear and quasilinear elliptic equations illustrate different nonlinear mechanisms. Selected examples should expose both the existence argument and any separate uniqueness conditions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-variational-and-nonlinear-pde.tex · Subsection 10.2.3",
+      "number": "10.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Advanced topics and synthesis",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Conservation laws and fluid equations combine nonlinear transport with weak solution issues. Geometric and dispersive PDE connect analytic estimates with evolving geometry or oscillatory propagation.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex",
+      "number": "11",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Conservation laws and fluids",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Conservation laws and fluid equations combine nonlinear transport with weak solution issues. Their study demands careful distinctions between existence, uniqueness, and regularity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Section 11.1",
+      "number": "11.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Weak entropy solutions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Weak entropy solutions satisfy both a distributional conservation law and admissibility inequalities. These extra conditions help select meaningful evolutions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.1.1",
+      "number": "11.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Shocks",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Shock waves satisfy jump relations derived from conservation. Their formation and interaction illustrate the limits of classical solutions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.1.2",
+      "number": "11.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Navier–Stokes overview",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Navier–Stokes equations combine momentum balance, viscosity, and incompressibility. Standard existence results and unresolved regularity questions must be distinguished by dimension and solution class.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.1.3",
+      "number": "11.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Geometric and dispersive PDE",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Geometric and dispersive PDE connect analytic estimates with evolving geometry or oscillatory propagation. The final section organizes a selected route through its proof dependencies.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Section 11.2",
+      "number": "11.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Selected research frontiers",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A chosen advanced topic should begin with a precise equation and a dated statement of the target result. Its open and established components must be kept explicit.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.2.1",
+      "number": "11.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Imported estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Imported estimates must state their domains, regularity, constants, and applicable solution classes. Recording these details prevents unjustified transfer between equations.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.2.2",
+      "number": "11.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "pde:book:ch-11-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "title": "Proof-gate analysis",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A proof gate is a stated obligation that must be met before a later inference is accepted. Mapping these gates exposes missing hypotheses and unresolved steps.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch11-advanced-topics-and-synthesis.tex · Subsection 11.2.3",
+      "number": "11.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    }
+  ],
+  "edges": [
+    {
+      "id": "pde:edge-001",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:transport",
+      "target": "pde:characteristics",
+      "type": "bridge",
+      "reason": "Linear transport is the basic example.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-002",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:characteristics",
+      "target": "pde:local-transport",
+      "type": "ingredient",
+      "reason": "Integrate the forcing along the flow.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-003",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:classification",
+      "target": "pde:laplace",
+      "type": "definition",
+      "reason": "The Laplacian has positive-definite principal symbol up to sign.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-004",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:classification",
+      "target": "pde:heat",
+      "type": "definition",
+      "reason": "Its forward-time problem is parabolic.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-005",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:classification",
+      "target": "pde:wave",
+      "type": "definition",
+      "reason": "Its initial data include displacement and velocity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-006",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:transport",
+      "target": "pde:conservation",
+      "type": "bridge",
+      "reason": "Before singularities, characteristic speeds are determined by F′.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-007",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:test",
+      "target": "pde:weak-derivative",
+      "type": "definition",
+      "reason": "Test functions remove boundary terms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-008",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-derivative",
+      "target": "pde:sobolev",
+      "type": "definition",
+      "reason": "Weak derivatives define the required regularity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-009",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:test",
+      "target": "pde:mollifier",
+      "type": "definition",
+      "reason": "Smooth kernels probe and average distributions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-010",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:mollifier",
+      "target": "pde:density",
+      "type": "ingredient",
+      "reason": "Local smoothing and partitions of unity construct approximants.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-011",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:sobolev",
+      "target": "pde:density",
+      "type": "definition",
+      "reason": "Convergence includes the weak derivatives.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-012",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:sobolev",
+      "target": "pde:poincare",
+      "type": "definition",
+      "reason": "The zero-boundary Sobolev space fixes constants.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-013",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:sobolev",
+      "target": "pde:embedding",
+      "type": "definition",
+      "reason": "The weak gradient controls increased integrability.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-014",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:embedding",
+      "target": "pde:rellich",
+      "type": "bridge",
+      "reason": "The continuous embeddings identify the natural exponent scale.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-015",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:mollifier",
+      "target": "pde:rellich",
+      "type": "ingredient",
+      "reason": "Smoothing plus translation control gives compact approximation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-016",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:sobolev",
+      "target": "pde:trace",
+      "type": "definition",
+      "reason": "The trace extends boundary values from smooth functions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-017",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-derivative",
+      "target": "pde:weak-form",
+      "type": "ingredient",
+      "reason": "Integration by parts moves second derivatives.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-018",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:trace",
+      "target": "pde:weak-form",
+      "type": "definition",
+      "reason": "Traces encode boundary values.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-019",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:lax-milgram",
+      "type": "definition",
+      "reason": "The variational equation is the target form.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-020",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:poincare",
+      "target": "pde:poisson-existence",
+      "type": "ingredient",
+      "reason": "The gradient form is coercive.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-021",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:lax-milgram",
+      "target": "pde:poisson-existence",
+      "type": "ingredient",
+      "reason": "Coercivity and boundedness give existence and uniqueness.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-022",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:lax-milgram",
+      "target": "pde:energy",
+      "type": "ingredient",
+      "reason": "Test the equation against the solution.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-023",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:rellich",
+      "target": "pde:fredholm",
+      "type": "bridge",
+      "reason": "Compact Sobolev embeddings often produce the compact perturbation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-024",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:poisson-existence",
+      "target": "pde:eigenvalues",
+      "type": "ingredient",
+      "reason": "The inverse is defined variationally.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-025",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:rellich",
+      "target": "pde:eigenvalues",
+      "type": "ingredient",
+      "reason": "The inverse is compact in L².",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-026",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:galerkin",
+      "type": "definition",
+      "reason": "The finite-dimensional equations are restrictions of the weak form.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-027",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:energy",
+      "target": "pde:galerkin",
+      "type": "ingredient",
+      "reason": "Uniform bounds permit a limiting construction.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-028",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:laplace",
+      "target": "pde:harmonic",
+      "type": "ingredient",
+      "reason": "Divergence identities show the averages are constant in radius.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-029",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:harmonic",
+      "target": "pde:maximum",
+      "type": "ingredient",
+      "reason": "A maximum equal to its average forces local constancy.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-030",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:maximum",
+      "target": "pde:uniqueness",
+      "type": "ingredient",
+      "reason": "Apply the maximum principle to differences and their negatives.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-031",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:mollifier",
+      "target": "pde:weyl",
+      "type": "ingredient",
+      "reason": "Regularized solutions satisfy the harmonic identities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-032",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:harmonic",
+      "target": "pde:weyl",
+      "type": "ingredient",
+      "reason": "Mean-value estimates control the smooth limit.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-033",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:interior-h2",
+      "type": "definition",
+      "reason": "The equation can be tested by difference quotients.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-034",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:sobolev",
+      "target": "pde:interior-h2",
+      "type": "definition",
+      "reason": "The conclusion controls second weak derivatives.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-035",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:classification",
+      "target": "pde:schauder",
+      "type": "definition",
+      "reason": "Uniform ellipticity controls the leading part.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-036",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:harmonic",
+      "target": "pde:harnack",
+      "type": "ingredient",
+      "reason": "Poisson and mean-value bounds compare positive values.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-037",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:interior-h2",
+      "target": "pde:smooth-bootstrap",
+      "type": "ingredient",
+      "reason": "Iterated local regularity raises derivative order.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-038",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:embedding",
+      "target": "pde:smooth-bootstrap",
+      "type": "ingredient",
+      "reason": "High Sobolev regularity yields classical smoothness.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-039",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat",
+      "target": "pde:heat-kernel",
+      "type": "definition",
+      "reason": "The Gaussian solves the heat equation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-040",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat-kernel",
+      "target": "pde:heat-smoothing",
+      "type": "ingredient",
+      "reason": "Differentiate the Gaussian and use approximate-identity convergence.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-041",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat",
+      "target": "pde:heat-energy",
+      "type": "ingredient",
+      "reason": "Multiply the equation by u and integrate by parts.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-042",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:heat-energy",
+      "type": "bridge",
+      "reason": "The same identity extends through weak formulations.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-043",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat-energy",
+      "target": "pde:heat-unique",
+      "type": "ingredient",
+      "reason": "Apply dissipation to their difference.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-044",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:wave",
+      "target": "pde:wave-energy",
+      "type": "ingredient",
+      "reason": "Multiply by u_t and integrate by parts.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-045",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:wave-energy",
+      "target": "pde:finite-speed",
+      "type": "ingredient",
+      "reason": "Localized energy estimates on cones establish domain of dependence.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-046",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat-kernel",
+      "target": "pde:duhamel",
+      "type": "bridge",
+      "reason": "The heat propagator is one example.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-047",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:wave",
+      "target": "pde:duhamel",
+      "type": "bridge",
+      "reason": "Wave propagators provide another example.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-048",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:heat-kernel",
+      "target": "pde:semigroup",
+      "type": "bridge",
+      "reason": "Heat convolution gives a canonical semigroup.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-049",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:rellich",
+      "target": "pde:direct",
+      "type": "bridge",
+      "reason": "Compact embeddings often supply convergence for nonlinear terms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-050",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:direct",
+      "target": "pde:euler-lagrange",
+      "type": "bridge",
+      "reason": "The direct method first supplies a minimizer.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-051",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:euler-lagrange",
+      "type": "bridge",
+      "reason": "The first variation often becomes a weak PDE.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-052",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:characteristics",
+      "target": "pde:burgers",
+      "type": "ingredient",
+      "reason": "The characteristic map has derivative 1+t u₀′.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-053",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:conservation",
+      "target": "pde:burgers",
+      "type": "definition",
+      "reason": "Burgers equation has flux u²/2.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-054",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:conservation",
+      "target": "pde:rankine",
+      "type": "ingredient",
+      "reason": "Integrate conservation across a moving discontinuity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-055",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:conservation",
+      "target": "pde:entropy",
+      "type": "definition",
+      "reason": "Entropy inequalities supplement the distributional equation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-056",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:entropy",
+      "target": "pde:l1-contraction",
+      "type": "ingredient",
+      "reason": "Doubling variables compares two entropy inequalities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-057",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:weak-form",
+      "target": "pde:monotone",
+      "type": "bridge",
+      "reason": "Nonlinear variational equations become operator equations.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-058",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:rellich",
+      "target": "pde:weak-limits",
+      "type": "ingredient",
+      "reason": "Strong subsequences can supply nonlinear convergence.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:edge-059",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:monotone",
+      "target": "pde:weak-limits",
+      "type": "bridge",
+      "reason": "Monotonicity gives an alternative identification mechanism.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "pde:contains-59",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-1",
+      "target": "pde:book:ch-1",
+      "type": "contains",
+      "reason": "Contains “First-order equations and classical solutions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-60",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1",
+      "target": "pde:book:ch-1-sec-1",
+      "type": "contains",
+      "reason": "Contains “Equation types” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-61",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-1",
+      "target": "pde:book:ch-1-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Order and linearity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-62",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-1",
+      "target": "pde:book:ch-1-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Characteristic curves” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-63",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-1",
+      "target": "pde:book:ch-1-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Canonical forms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-64",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1",
+      "target": "pde:book:ch-1-sec-2",
+      "type": "contains",
+      "reason": "Contains “Transport and conservation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-65",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-2",
+      "target": "pde:book:ch-1-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Cauchy problems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-66",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-2",
+      "target": "pde:book:ch-1-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Shocks” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-67",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-1-sec-2",
+      "target": "pde:book:ch-1-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Entropy conditions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-68",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-1",
+      "target": "pde:book:ch-2",
+      "type": "contains",
+      "reason": "Contains “Second-order linear equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-69",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2",
+      "target": "pde:book:ch-2-sec-1",
+      "type": "contains",
+      "reason": "Contains “Classification” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-70",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2-sec-1",
+      "target": "pde:book:ch-2-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Elliptic, parabolic, and hyperbolic forms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-71",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2-sec-1",
+      "target": "pde:book:ch-2-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Coordinate changes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-72",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2",
+      "target": "pde:book:ch-2-sec-2",
+      "type": "contains",
+      "reason": "Contains “Canonical examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-73",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2-sec-2",
+      "target": "pde:book:ch-2-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Laplace, heat, and wave equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-74",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-2-sec-2",
+      "target": "pde:book:ch-2-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Initial and boundary data” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-75",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-1",
+      "target": "pde:book:ch-3",
+      "type": "contains",
+      "reason": "Contains “Distributions and weak derivatives” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-76",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3",
+      "target": "pde:book:ch-3-sec-1",
+      "type": "contains",
+      "reason": "Contains “Test functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-77",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-1",
+      "target": "pde:book:ch-3-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Support and topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-78",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-1",
+      "target": "pde:book:ch-3-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Distributions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-79",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-1",
+      "target": "pde:book:ch-3-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Derivative operations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-80",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3",
+      "target": "pde:book:ch-3-sec-2",
+      "type": "contains",
+      "reason": "Contains “Weak formulations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-81",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-2",
+      "target": "pde:book:ch-3-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Integration by parts” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-82",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-2",
+      "target": "pde:book:ch-3-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Weak solutions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-83",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-3-sec-2",
+      "target": "pde:book:ch-3-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Uniqueness frameworks” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-84",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-2",
+      "target": "pde:book:ch-4",
+      "type": "contains",
+      "reason": "Contains “Sobolev spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-85",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4",
+      "target": "pde:book:ch-4-sec-1",
+      "type": "contains",
+      "reason": "Contains “Definitions and norms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-86",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-1",
+      "target": "pde:book:ch-4-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Weak derivatives” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-87",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-1",
+      "target": "pde:book:ch-4-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Density” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-88",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-1",
+      "target": "pde:book:ch-4-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Extension operators” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-89",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4",
+      "target": "pde:book:ch-4-sec-2",
+      "type": "contains",
+      "reason": "Contains “Embedding and trace theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-90",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-2",
+      "target": "pde:book:ch-4-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Sobolev inequalities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-91",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-2",
+      "target": "pde:book:ch-4-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Compact embeddings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-92",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-4-sec-2",
+      "target": "pde:book:ch-4-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Boundary values” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-93",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-2",
+      "target": "pde:book:ch-5",
+      "type": "contains",
+      "reason": "Contains “Elliptic equations: existence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-94",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5",
+      "target": "pde:book:ch-5-sec-1",
+      "type": "contains",
+      "reason": "Contains “Variational formulation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-95",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-1",
+      "target": "pde:book:ch-5-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Energy spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-96",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-1",
+      "target": "pde:book:ch-5-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Coercivity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-97",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-1",
+      "target": "pde:book:ch-5-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Lax–Milgram theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-98",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5",
+      "target": "pde:book:ch-5-sec-2",
+      "type": "contains",
+      "reason": "Contains “A priori estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-99",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-2",
+      "target": "pde:book:ch-5-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Energy estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-100",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-2",
+      "target": "pde:book:ch-5-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Uniqueness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-101",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-5-sec-2",
+      "target": "pde:book:ch-5-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Dependence on data” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-102",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-2",
+      "target": "pde:book:ch-6",
+      "type": "contains",
+      "reason": "Contains “Elliptic equations: regularity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-103",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6",
+      "target": "pde:book:ch-6-sec-1",
+      "type": "contains",
+      "reason": "Contains “Interior regularity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-104",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-1",
+      "target": "pde:book:ch-6-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Difference quotients” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-105",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-1",
+      "target": "pde:book:ch-6-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Elliptic estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-106",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-1",
+      "target": "pde:book:ch-6-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Smooth coefficients” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-107",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6",
+      "target": "pde:book:ch-6-sec-2",
+      "type": "contains",
+      "reason": "Contains “Boundary regularity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-108",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-2",
+      "target": "pde:book:ch-6-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Boundary conditions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-109",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-2",
+      "target": "pde:book:ch-6-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Trace spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-110",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-6-sec-2",
+      "target": "pde:book:ch-6-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Regularity limitations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-111",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-2",
+      "target": "pde:book:ch-7",
+      "type": "contains",
+      "reason": "Contains “Maximum principles and eigenvalues” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-112",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7",
+      "target": "pde:book:ch-7-sec-1",
+      "type": "contains",
+      "reason": "Contains “Weak and strong principles” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-113",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-1",
+      "target": "pde:book:ch-7-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Comparison” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-114",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-1",
+      "target": "pde:book:ch-7-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Hopf lemma” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-115",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-1",
+      "target": "pde:book:ch-7-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Positivity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-116",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7",
+      "target": "pde:book:ch-7-sec-2",
+      "type": "contains",
+      "reason": "Contains “Spectral consequences” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-117",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-2",
+      "target": "pde:book:ch-7-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Eigenvalue problems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-118",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-2",
+      "target": "pde:book:ch-7-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Rayleigh quotient” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-119",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-7-sec-2",
+      "target": "pde:book:ch-7-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Maximum principle applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-120",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-2",
+      "target": "pde:book:ch-8",
+      "type": "contains",
+      "reason": "Contains “Parabolic equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-121",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8",
+      "target": "pde:book:ch-8-sec-1",
+      "type": "contains",
+      "reason": "Contains “Heat equation methods” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-122",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-1",
+      "target": "pde:book:ch-8-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Fundamental solution” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-123",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-1",
+      "target": "pde:book:ch-8-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Energy estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-124",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-1",
+      "target": "pde:book:ch-8-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Smoothing” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-125",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8",
+      "target": "pde:book:ch-8-sec-2",
+      "type": "contains",
+      "reason": "Contains “Evolution frameworks” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-126",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-2",
+      "target": "pde:book:ch-8-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Semigroups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-127",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-2",
+      "target": "pde:book:ch-8-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Maximum principle” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-128",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-8-sec-2",
+      "target": "pde:book:ch-8-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Weak existence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-129",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-3",
+      "target": "pde:book:ch-9",
+      "type": "contains",
+      "reason": "Contains “Hyperbolic equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-130",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9",
+      "target": "pde:book:ch-9-sec-1",
+      "type": "contains",
+      "reason": "Contains “Wave equation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-131",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-1",
+      "target": "pde:book:ch-9-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Energy conservation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-132",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-1",
+      "target": "pde:book:ch-9-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Finite speed” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-133",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-1",
+      "target": "pde:book:ch-9-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Well-posedness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-134",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9",
+      "target": "pde:book:ch-9-sec-2",
+      "type": "contains",
+      "reason": "Contains “Systems and propagation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-135",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-2",
+      "target": "pde:book:ch-9-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Characteristics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-136",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-2",
+      "target": "pde:book:ch-9-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Boundary conditions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-137",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-9-sec-2",
+      "target": "pde:book:ch-9-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Dispersive previews” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-138",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-3",
+      "target": "pde:book:ch-10",
+      "type": "contains",
+      "reason": "Contains “Variational and nonlinear PDE” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-139",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10",
+      "target": "pde:book:ch-10-sec-1",
+      "type": "contains",
+      "reason": "Contains “Calculus of variations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-140",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-1",
+      "target": "pde:book:ch-10-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Direct method” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-141",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-1",
+      "target": "pde:book:ch-10-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Euler–Lagrange equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-142",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-1",
+      "target": "pde:book:ch-10-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Constraints” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-143",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10",
+      "target": "pde:book:ch-10-sec-2",
+      "type": "contains",
+      "reason": "Contains “Nonlinear methods” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-144",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-2",
+      "target": "pde:book:ch-10-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Fixed points” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-145",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-2",
+      "target": "pde:book:ch-10-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Monotonicity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-146",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-10-sec-2",
+      "target": "pde:book:ch-10-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Nonlinear elliptic examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-147",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:part-3",
+      "target": "pde:book:ch-11",
+      "type": "contains",
+      "reason": "Contains “Advanced topics and synthesis” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-148",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11",
+      "target": "pde:book:ch-11-sec-1",
+      "type": "contains",
+      "reason": "Contains “Conservation laws and fluids” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-149",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-1",
+      "target": "pde:book:ch-11-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Weak entropy solutions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-150",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-1",
+      "target": "pde:book:ch-11-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Shocks” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-151",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-1",
+      "target": "pde:book:ch-11-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Navier–Stokes overview” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-152",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11",
+      "target": "pde:book:ch-11-sec-2",
+      "type": "contains",
+      "reason": "Contains “Geometric and dispersive PDE” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-153",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-2",
+      "target": "pde:book:ch-11-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Selected research frontiers” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-154",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-2",
+      "target": "pde:book:ch-11-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Imported estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "pde:contains-155",
+      "subjectId": "5-applied-mathematics-partial-differential-equations",
+      "source": "pde:book:ch-11-sec-2",
+      "target": "pde:book:ch-11-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Proof-gate analysis” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    }
+  ]
+}

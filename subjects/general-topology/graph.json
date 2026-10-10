@@ -1,0 +1,3797 @@
+{
+  "schemaVersion": 1,
+  "edition": "subject-atlas-1",
+  "subject": {
+    "id": "4-geometry-and-topology-general-topology",
+    "title": "General Topology",
+    "category": "Geometry and Topology",
+    "prefix": "top"
+  },
+  "libraryUrl": "../../index.html",
+  "groups": [
+    {
+      "id": "top:region-1",
+      "title": "Spaces and continuity",
+      "color": "#4d8873",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "top:region-2",
+      "title": "Products and quotients",
+      "color": "#438995",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "top:region-3",
+      "title": "Connectedness and compactness",
+      "color": "#688b54",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "top:region-4",
+      "title": "Countability and metrization",
+      "color": "#9e8550",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "top:region-5",
+      "title": "Products, compactification and local structure",
+      "color": "#a07952",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "top:region-6",
+      "title": "Convergence, function spaces and extensions",
+      "color": "#598aad",
+      "column": 2,
+      "row": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Sidney A. Morris, Topology Without Tears",
+      "url": "https://www.topologywithouttears.net/"
+    },
+    {
+      "title": "Allen Hatcher, Notes on Introductory Point-Set Topology",
+      "url": "https://pi.math.cornell.edu/~hatcher/Top/TopNotes.pdf"
+    }
+  ],
+  "provenance": {
+    "sourceSubject": "4-Geometry-and-Topology/General-Topology",
+    "sourceGraphSha256": "bd1072705870293225c55384c38ad11bd22056bb235165fb3feba28a10ee4d1e",
+    "graph": "graph.json",
+    "book": "resources/book-outline.md",
+    "map": "resources/meta-graph.md",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "originalProvenance": {
+      "catalog": "data/catalog.json",
+      "catalogSha256": "754ed139518ca2e4d630a9a3ec321f0d86cf3fbcd9f872b1eb018ab2075bae38",
+      "book": "../book/latex/structure.json",
+      "bookSha256": "900d7e9b54e163dd72f2db032cc4100788ba4996e7849daecb7888299d932cfd",
+      "map": "meta-graph.md",
+      "mapSha256": "87b7f461c61e5ae2efaae2d178c89ad3a81b83334006f28ae8459b7a10e8aaed",
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+    }
+  },
+  "nodes": [
+    {
+      "id": "top:topology",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Topological spaces",
+      "statement": "A topology contains the empty set and the whole space and is closed under arbitrary unions and finite intersections.",
+      "description": "A topology contains the empty set and the whole space and is closed under arbitrary unions and finite intersections.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:basis",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Bases and subbases",
+      "statement": "A basis generates opens by unions; a subbasis first generates finite intersections.",
+      "description": "A basis generates opens by unions; a subbasis first generates finite intersections.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:closed",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Closure, interior and boundary",
+      "statement": "Closure is the smallest closed superset; interior is the largest open subset; boundary is closure minus interior.",
+      "description": "Closure is the smallest closed superset; interior is the largest open subset; boundary is closure minus interior.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:continuous",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Continuous maps",
+      "statement": "A map is continuous when inverse images of open sets are open.",
+      "description": "A map is continuous when inverse images of open sets are open.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:homeomorphism",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Homeomorphisms",
+      "statement": "A homeomorphism is a continuous bijection with continuous inverse.",
+      "description": "A homeomorphism is a continuous bijection with continuous inverse.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:subspace",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Subspace topology",
+      "statement": "Open subsets of a subspace are intersections with ambient open sets.",
+      "description": "Open subsets of a subspace are intersections with ambient open sets.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:closed-test",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "proposition",
+      "title": "Closed-set continuity criterion",
+      "statement": "A map is continuous exactly when inverse images of closed sets are closed.",
+      "description": "A map is continuous exactly when inverse images of closed sets are closed.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:pasting",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "lemma",
+      "title": "Finite closed pasting lemma",
+      "statement": "Continuous maps agreeing on overlaps of a finite closed cover glue to a continuous map.",
+      "description": "Continuous maps agreeing on overlaps of a finite closed cover glue to a continuous map.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-1",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:product",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Product topology",
+      "statement": "The product topology is the coarsest topology making every coordinate projection continuous.",
+      "description": "The product topology is the coarsest topology making every coordinate projection continuous.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:product-universal",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Universal property of products",
+      "statement": "A map into a product is continuous exactly when all its coordinate maps are continuous.",
+      "description": "A map into a product is continuous exactly when all its coordinate maps are continuous.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:coproduct",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Topological sums",
+      "statement": "A subset of a disjoint union is open exactly when its intersection with each component is open.",
+      "description": "A subset of a disjoint union is open exactly when its intersection with each component is open.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:quotient",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Quotient topology",
+      "statement": "For a surjection q:X→Y, a set in Y is open exactly when its inverse image under q is open.",
+      "description": "For a surjection q:X→Y, a set in Y is open exactly when its inverse image under q is open.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:quotient-universal",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Universal property of quotients",
+      "statement": "A map f from a quotient space is continuous exactly when f∘q is continuous.",
+      "description": "A map f from a quotient space is continuous exactly when f∘q is continuous.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:saturated",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Saturated subsets",
+      "statement": "A subset of X is saturated for q if it is a union of entire fibers.",
+      "description": "A subset of X is saturated for q if it is a union of entire fibers.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:identification",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "proposition",
+      "title": "Compact-to-Hausdorff quotient criterion",
+      "statement": "A continuous surjection from a compact space to a Hausdorff space is a closed quotient map.",
+      "description": "A continuous surjection from a compact space to a Hausdorff space is a closed quotient map.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:wedge",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "example",
+      "title": "Wedge sums",
+      "statement": "The wedge of pointed spaces is the quotient of their disjoint union identifying their chosen points.",
+      "description": "The wedge of pointed spaces is the quotient of their disjoint union identifying their chosen points.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-2",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:connected",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Connected spaces",
+      "statement": "A connected space has no separation into two disjoint nonempty open sets.",
+      "description": "A connected space has no separation into two disjoint nonempty open sets.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:connected-image",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Continuous images preserve connectedness",
+      "statement": "A continuous image of a connected space is connected.",
+      "description": "A continuous image of a connected space is connected.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:path",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Path connectedness",
+      "statement": "A space is path connected when any two points are joined by a continuous map from the unit interval.",
+      "description": "A space is path connected when any two points are joined by a continuous map from the unit interval.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:path-connected",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "proposition",
+      "title": "Path connected implies connected",
+      "statement": "Every path-connected space is connected.",
+      "description": "Every path-connected space is connected.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:compact",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Compactness",
+      "statement": "A space is compact when every open cover has a finite subcover.",
+      "description": "A space is compact when every open cover has a finite subcover.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:compact-image",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Continuous images preserve compactness",
+      "statement": "The continuous image of a compact space is compact.",
+      "description": "The continuous image of a compact space is compact.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:hausdorff",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Hausdorff spaces",
+      "statement": "Any two distinct points have disjoint neighborhoods.",
+      "description": "Any two distinct points have disjoint neighborhoods.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:compact-closed",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Compact subsets of Hausdorff spaces are closed",
+      "statement": "A point outside a compact subset can be separated from it by an open neighborhood.",
+      "description": "A point outside a compact subset can be separated from it by an open neighborhood.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-3",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:first-countable",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "First and second countability",
+      "statement": "First countability gives a countable neighborhood basis at each point; second countability gives a countable basis for the entire topology.",
+      "description": "First countability gives a countable neighborhood basis at each point; second countability gives a countable basis for the entire topology.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:metric",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Metric topologies",
+      "statement": "A metric induces the topology generated by its open balls.",
+      "description": "A metric induces the topology generated by its open balls.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:metric-compact",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Compactness in metric spaces",
+      "statement": "For metric spaces, compactness, sequential compactness, and completeness plus total boundedness are equivalent.",
+      "description": "For metric spaces, compactness, sequential compactness, and completeness plus total boundedness are equivalent.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:regular",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Regular and normal spaces",
+      "statement": "Regularity separates a point from a closed set; normality separates disjoint closed sets. T₁ is imposed separately here.",
+      "description": "Regularity separates a point from a closed set; normality separates disjoint closed sets. T₁ is imposed separately here.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:urysohn",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "lemma",
+      "title": "Urysohn lemma",
+      "statement": "In a normal space, disjoint closed sets can be separated by a continuous function into [0,1].",
+      "description": "In a normal space, disjoint closed sets can be separated by a continuous function into [0,1].",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:tietze",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Tietze extension theorem",
+      "statement": "A continuous real-valued function on a closed subset of a normal space extends continuously to the whole space.",
+      "description": "A continuous real-valued function on a closed subset of a normal space extends continuously to the whole space.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:metrization",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Urysohn metrization theorem",
+      "statement": "Every regular T₁ second-countable space is metrizable.",
+      "description": "Every regular T₁ second-countable space is metrizable.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:lindelof",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "proposition",
+      "title": "Second countability implies Lindelöf",
+      "statement": "Every open cover of a second-countable space has a countable subcover.",
+      "description": "Every open cover of a second-countable space has a countable subcover.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-4",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:alexander",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Alexander subbase theorem",
+      "statement": "A space is compact if every cover by members of a given subbase has a finite subcover.",
+      "description": "A space is compact if every cover by members of a given subbase has a finite subcover.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:tychonoff",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Tychonoff theorem",
+      "statement": "In ZFC, an arbitrary product of compact spaces is compact.",
+      "description": "In ZFC, an arbitrary product of compact spaces is compact.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:locally-compact",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Local compactness",
+      "statement": "In the Hausdorff setting, every point has a neighborhood with compact closure.",
+      "description": "In the Hausdorff setting, every point has a neighborhood with compact closure.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:one-point",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "One-point compactification",
+      "statement": "Every noncompact locally compact Hausdorff space has a compact Hausdorff one-point compactification.",
+      "description": "Every noncompact locally compact Hausdorff space has a compact Hausdorff one-point compactification.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:completely-regular",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Tychonoff spaces",
+      "statement": "A Tychonoff space is T₁ and separates points from closed sets by continuous [0,1]-valued functions.",
+      "description": "A Tychonoff space is T₁ and separates points from closed sets by continuous [0,1]-valued functions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:evaluation",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Evaluation embedding",
+      "statement": "A Tychonoff space embeds in the cube indexed by its continuous [0,1]-valued functions.",
+      "description": "A Tychonoff space embeds in the cube indexed by its continuous [0,1]-valued functions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:stone-cech",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Stone–Čech compactification",
+      "statement": "A Tychonoff space has a compact Hausdorff compactification through which every continuous map to a compact Hausdorff space extends uniquely.",
+      "description": "A Tychonoff space has a compact Hausdorff compactification through which every continuous map to a compact Hausdorff space extends uniquely.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:compact-homeo",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "corollary",
+      "title": "Compact–Hausdorff bijection theorem",
+      "statement": "A continuous bijection from a compact space to a Hausdorff space is a homeomorphism.",
+      "description": "A continuous bijection from a compact space to a Hausdorff space is a homeomorphism.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-5",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:net",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Nets and directed sets",
+      "statement": "A net is a function from a directed set into a space; convergence means eventual membership in every neighborhood.",
+      "description": "A net is a function from a directed set into a space; convergence means eventual membership in every neighborhood.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:net-continuity",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Continuity by nets",
+      "statement": "A function is continuous exactly when it preserves convergence of all nets.",
+      "description": "A function is continuous exactly when it preserves convergence of all nets.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:net-compact",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Compactness by nets",
+      "statement": "A space is compact exactly when every net has a convergent subnet.",
+      "description": "A space is compact exactly when every net has a convergent subnet.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:baire",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Baire category theorem",
+      "statement": "Every completely metrizable space and every locally compact Hausdorff space is a Baire space.",
+      "description": "Every completely metrizable space and every locally compact Hausdorff space is a Baire space.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:compact-open",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Compact-open topology",
+      "statement": "On continuous maps X→Y, subbasic opens constrain the image of a compact subset of X to lie in a chosen open subset of Y.",
+      "description": "On continuous maps X→Y, subbasic opens constrain the image of a compact subset of X to lie in a chosen open subset of Y.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:evaluation-map",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "theorem",
+      "title": "Continuity of evaluation",
+      "statement": "If X is locally compact Hausdorff, evaluation C(X,Y)×X→Y is continuous for the compact-open topology.",
+      "description": "If X is locally compact Hausdorff, evaluation C(X,Y)×X→Y is continuous for the compact-open topology.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:uniformity",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Uniform spaces",
+      "statement": "A uniformity specifies entourages of the diagonal that support a common notion of closeness, completeness and uniform continuity.",
+      "description": "A uniformity specifies entourages of the diagonal that support a common notion of closeness, completeness and uniform continuity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:cover-dimension",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "kind": "definition",
+      "title": "Covering dimension",
+      "statement": "For normal spaces, covering dimension is controlled by the multiplicity of refinements of finite open covers.",
+      "description": "For normal spaces, covering dimension is controlled by the multiplicity of refinements of finite open covers.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "top:region-6",
+      "source": "Sidney A. Morris, Topology Without Tears",
+      "references": [
+        {
+          "title": "Sidney A. Morris, Topology Without Tears",
+          "url": "https://www.topologywithouttears.net/"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "top:book:part-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Foundations and Core Language",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part I",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Topological spaces and continuous maps",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "A topology specifies open sets without requiring a distance function. Continuity is expressed by inverse images of open sets.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex",
+      "number": "1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Topology axioms",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "A topology specifies open sets without requiring a distance function. Its axioms retain the set operations needed to discuss continuity and convergence.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Section 1.1",
+      "number": "1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Open and closed sets",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Open sets belong to the topology, and closed sets are their complements. These classes support neighborhood, closure, and boundary definitions.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.1.1",
+      "number": "1.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Bases and subbases",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A basis generates open sets by unions, while a subbasis first allows finite intersections. Both give economical descriptions of a topology.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.1.2",
+      "number": "1.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Generated topologies",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A generated topology is the smallest topology containing specified initial sets. This minimality supplies useful comparison and continuity properties.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.1.3",
+      "number": "1.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Continuity",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Continuity is expressed by inverse images of open sets. Homeomorphisms identify spaces with exactly the same topological structure.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Section 1.2",
+      "number": "1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Preimages",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A map is continuous when inverse images of open target sets are open. This definition avoids any reliance on coordinates or metrics.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.2.1",
+      "number": "1.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Homeomorphisms",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A homeomorphism is a continuous bijection with continuous inverse. A continuous bijection alone need not be a homeomorphism.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.2.2",
+      "number": "1.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-1-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Comparison with metric continuity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "For metric spaces, the open-set definition agrees with the usual epsilon-delta condition. This verifies that topology extends familiar analysis.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-topological-spaces-and-continuous-maps.tex · Subsection 1.2.3",
+      "number": "1.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Subspaces and universal constructions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The subspace topology gives a subset the open sets inherited from its ambient space. Products and disjoint unions assemble spaces with prescribed mapping properties.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex",
+      "number": "2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Subspaces",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The subspace topology gives a subset the open sets inherited from its ambient space. Relative closure and interior must be interpreted in that setting.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Section 2.1",
+      "number": "2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Induced topology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The induced topology consists of intersections of ambient open sets with the subset. It makes the inclusion map continuous in a universal way.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.1.1",
+      "number": "2.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Closure and interior",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Closure collects points inseparable from a set by neighborhoods, while interior collects contained open neighborhoods. Their values can change when the ambient space changes.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.1.2",
+      "number": "2.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Subspace examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Intervals and dense subsets illustrate the difference between relative and ambient openness. Such examples prevent incorrect transfer of topological properties.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.1.3",
+      "number": "2.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Products and coproducts",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Products and disjoint unions assemble spaces with prescribed mapping properties. The box topology shows that seemingly natural alternatives can behave differently.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Section 2.2",
+      "number": "2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Product topology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The product topology is generated by conditions on finitely many coordinates. It is the weakest topology making every projection continuous.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.2.1",
+      "number": "2.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Box topology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The box topology permits independent open restrictions on all coordinates at once. For infinite products it can be strictly finer than the product topology.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.2.2",
+      "number": "2.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-2-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Disjoint unions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The disjoint-union topology makes a set open exactly when its intersection with each component is open. It is the categorical coproduct of spaces.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-subspaces-and-universal-constructions.tex · Subsection 2.2.3",
+      "number": "2.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Quotients and identifications",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Quotient topology turns identifications into a topological space. Identification spaces create familiar geometric objects and unfamiliar pathologies.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex",
+      "number": "3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Quotient topology",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Quotient topology turns identifications into a topological space. Its defining property controls maps defined on equivalence classes.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Section 3.1",
+      "number": "3.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Saturated sets",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A saturated subset is a union of complete equivalence classes. Such sets are useful for understanding preimages under the quotient map.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.1.1",
+      "number": "3.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Quotient maps",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A quotient map is a surjection whose target openness is exactly detected by inverse images. This is stronger than being a continuous surjection.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.1.2",
+      "number": "3.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Universal property",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A map out of a quotient is continuous when its composite with the quotient map is continuous. This universal property is the main construction tool.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.1.3",
+      "number": "3.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Applications",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Identification spaces create familiar geometric objects and unfamiliar pathologies. The examples expose which separation properties survive the construction.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Section 3.2",
+      "number": "3.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Identifying boundaries",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Gluing boundary points or faces constructs circles, tori, and other spaces. The quotient topology determines how neighborhoods fit across the identifications.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.2.1",
+      "number": "3.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Orbit spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An orbit space identifies points related by a group action. Its topology records the geometry remaining after symmetry is removed.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.2.2",
+      "number": "3.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-3-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Examples of non-Hausdorff quotients",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Quotients can fail to be Hausdorff even when the original space is well behaved. Explicit examples show why closed-orbit or stronger hypotheses may be needed.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-quotients-and-identifications.tex · Subsection 3.2.3",
+      "number": "3.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:part-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Central Theory and Techniques",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part II",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Connectedness and compactness",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Connectedness excludes decompositions into separated nonempty open pieces. Compactness abstracts the ability to extract finite information from arbitrary open covers.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex",
+      "number": "4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Connectedness",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Connectedness excludes decompositions into separated nonempty open pieces. Local and path versions refine this global property.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Section 4.1",
+      "number": "4.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Components",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Connected components are maximal connected subsets. They partition a space but need not be open.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.1.1",
+      "number": "4.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Local connectedness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Local connectedness means that points have bases of connected neighborhoods. It improves the relation between components and open sets.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.1.2",
+      "number": "4.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Path connectedness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Path connectedness joins each pair of points by a continuous interval map. It implies connectedness, but the converse fails in general.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.1.3",
+      "number": "4.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compactness",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Compactness abstracts the ability to extract finite information from arbitrary open covers. In metric spaces it also has useful sequential characterizations.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Section 4.2",
+      "number": "4.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Open-cover definition",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A compact space has a finite subcover for every open cover. This formulation applies even when sequences do not detect the topology.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.2.1",
+      "number": "4.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Sequential compactness in metric spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "In metric spaces, compactness is equivalent to every sequence having a convergent subsequence. The equivalence should not be transferred to all topological spaces.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.2.2",
+      "number": "4.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-4-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Local compactness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Local compactness gives points compact neighborhoods under the adopted convention. It is important in compactification and function-space theory.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-connectedness-and-compactness.tex · Subsection 4.2.3",
+      "number": "4.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Countability and separation",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Countability axioms limit the size of neighborhood and cover data. Separation axioms specify how points and closed sets can be distinguished by neighborhoods.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex",
+      "number": "5",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Countability axioms",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Countability axioms limit the size of neighborhood and cover data. They determine when sequences or countable constructions suffice.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Section 5.1",
+      "number": "5.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "First and second countability",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "First countability gives countable neighborhood bases at points, while second countability gives one countable basis for the whole space. The latter is stronger.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.1.1",
+      "number": "5.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Separability",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Separability means that a countable subset is dense. Its relation to basis countability depends on the category of spaces.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.1.2",
+      "number": "5.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Lindelöf property",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Lindelöf space has a countable subcover for every open cover. This property weakens compactness while retaining useful covering control.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.1.3",
+      "number": "5.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Separation axioms",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Separation axioms specify how points and closed sets can be distinguished by neighborhoods. Different theorems require different levels of separation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Section 5.2",
+      "number": "5.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "T1 and Hausdorff",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "T1 means singletons are closed, while Hausdorff means distinct points have disjoint neighborhoods. Hausdorff spaces have unique limits when limits are defined by nets.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.2.1",
+      "number": "5.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Regularity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Regularity separates a point from a disjoint closed set by neighborhoods. The convention concerning an additional T1 requirement should be fixed.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.2.2",
+      "number": "5.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-5-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Normality",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Normality separates disjoint closed sets by disjoint neighborhoods. It supports continuous separation and extension theorems.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-countability-and-separation.tex · Subsection 5.2.3",
+      "number": "5.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Metrization and completeness",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Metrization asks whether a topology arises from some metric. Completeness concerns the existence of limits of Cauchy sequences in a chosen metric.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex",
+      "number": "6",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Metrizable spaces",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Metrization asks whether a topology arises from some metric. Countability and separation conditions supply useful sufficient criteria.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Section 6.1",
+      "number": "6.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compatible metrics",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A compatible metric induces exactly the given topology. Several distinct metrics may be compatible without having the same completeness properties.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.1.1",
+      "number": "6.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Urysohn metrization theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Urysohn's metrization theorem gives metrizability for regular second-countable T1 spaces. It converts topological hypotheses into a distance representation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.1.2",
+      "number": "6.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Standard manifolds provide metrizable examples under their usual countability assumptions. Nonmetrizable examples show which hypotheses cannot simply be dropped.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.1.3",
+      "number": "6.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Complete metric spaces",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Completeness concerns the existence of limits of Cauchy sequences in a chosen metric. Baire category derives strong consequences from this condition.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Section 6.2",
+      "number": "6.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Completion",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Completion embeds a metric space densely into a complete one. It is unique up to the isometry fixing the original space.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.2.1",
+      "number": "6.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Baire category theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Baire category theorem prevents a nonempty complete metric space from being a countable union of nowhere-dense closed sets. Equivalent formulations concern intersections of dense open sets.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.2.2",
+      "number": "6.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-6-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Category arguments prove existence of typical objects and support functional-analysis theorems. Each application must identify a Baire space and the relevant open dense sets.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-metrization-and-completeness.tex · Subsection 6.2.3",
+      "number": "6.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compactification and product theorems",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Compactification places a space densely inside a compact space. Product compactness is a major theorem whose proof uses covering or convergence methods.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex",
+      "number": "7",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compactifications",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Compactification places a space densely inside a compact space. Different constructions preserve different classes of continuous maps.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Section 7.1",
+      "number": "7.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "One-point compactification",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The one-point compactification adds a point at infinity to a suitable locally compact Hausdorff noncompact space. Its neighborhoods encode complements of compact sets.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.1.1",
+      "number": "7.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Stone–Čech idea",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Stone–Čech compactification of a completely regular Hausdorff space has a universal extension property for maps into compact Hausdorff spaces. It generally adds much more than one point.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.1.2",
+      "number": "7.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The real line and discrete spaces illustrate different compactification behaviors. Comparing them clarifies how neighborhoods at added points are determined.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.1.3",
+      "number": "7.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Product compactness",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Product compactness is a major theorem whose proof uses covering or convergence methods. Its relation to choice reveals a foundational dimension of topology.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Section 7.2",
+      "number": "7.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Tychonoff theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Tychonoff's theorem states that arbitrary products of compact spaces are compact in the product topology. Finite-coordinate neighborhoods are essential to that topology.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.2.1",
+      "number": "7.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Alexander subbase theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Alexander's subbase theorem reduces compactness checks to covers from a subbasis under the usual choice setting. It is an efficient route to product compactness.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.2.2",
+      "number": "7.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-7-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Choice principles",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Some general compactness principles depend on choice principles. Their exact logical strength depends on the class of spaces and the formulation used.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-compactification-and-product-theorems.tex · Subsection 7.2.3",
+      "number": "7.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Separation and extension theorems",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Urysohn's lemma replaces neighborhood separation with a continuous scalar function. Tietze extends real-valued continuous functions from closed subsets of normal spaces.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex",
+      "number": "8",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Urysohn lemma",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Urysohn's lemma replaces neighborhood separation with a continuous scalar function. It is a key consequence of normality.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Section 8.1",
+      "number": "8.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Normal spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Normal spaces separate disjoint closed sets by disjoint open neighborhoods. This is the hypothesis behind the standard continuous-separation construction.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Subsection 8.1.1",
+      "number": "8.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Construction",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The construction nests open neighborhoods indexed by dyadic rationals. Taking an infimum produces a continuous function with prescribed endpoint values.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Subsection 8.1.2",
+      "number": "8.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Consequences",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Continuous separation supports embeddings, extension theorems, and metrization. It turns qualitative topology into numerical measurements.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Subsection 8.1.3",
+      "number": "8.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Tietze extension",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Tietze extends real-valued continuous functions from closed subsets of normal spaces. It strengthens separation into a general extension procedure.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Section 8.2",
+      "number": "8.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Extension of real-valued functions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Under the standard normal-space hypotheses, a continuous real-valued function on a closed subset extends continuously to the space. Bounded versions preserve a chosen interval range.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Subsection 8.2.1",
+      "number": "8.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-8-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Partitions of unity preview",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Partitions of unity assemble local data using continuous weights that sum to one. Their existence in useful forms requires additional covering hypotheses such as paracompactness.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-separation-and-extension-theorems.tex · Subsection 8.2.2",
+      "number": "8.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:part-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Further Theory and Applications",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part III",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Function spaces and topological groups",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Topologies on function spaces determine what convergence of maps means. A topological group combines algebraic operations with continuity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex",
+      "number": "9",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Function-space topologies",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Topologies on function spaces determine what convergence of maps means. Compact-open and uniform topologies serve different purposes.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Section 9.1",
+      "number": "9.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compact-open topology",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The compact-open topology controls images of compact subsets inside target open sets. It is a natural topology for continuous mapping spaces.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.1.1",
+      "number": "9.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Uniform convergence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Uniform convergence bounds the pointwise discrepancy over the entire domain using a suitable target structure. It is stronger than convergence on each compact subset in general.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.1.2",
+      "number": "9.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Evaluation maps",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Evaluation sends a function and a point to the function value. Its continuity depends on the function-space topology and domain hypotheses.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.1.3",
+      "number": "9.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Topological groups",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "A topological group combines algebraic operations with continuity. Translation symmetry makes its local and global topology closely related.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Section 9.2",
+      "number": "9.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Continuity of operations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Multiplication and inversion must be continuous in a topological group. Translations are then homeomorphisms and transport neighborhoods of the identity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.2.1",
+      "number": "9.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Quotient groups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Quotient groups by normal subgroups inherit a quotient topology. Closedness of the subgroup is important for Hausdorff quotient behavior.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.2.2",
+      "number": "9.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-9-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Compact groups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Compact groups combine compact topology with continuous algebraic symmetry. They provide a bridge to Haar measure and representation theory.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-function-spaces-and-topological-groups.tex · Subsection 9.2.3",
+      "number": "9.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Dimension, uniformity, and further topics",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Dimension theory measures topological complexity without assuming coordinates. Uniform structures retain a notion of uniformly close pairs without specifying a metric.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex",
+      "number": "10",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Dimension theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Dimension theory measures topological complexity without assuming coordinates. Its definitions must be distinguished from algebraic or metric notions of dimension.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Section 10.1",
+      "number": "10.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-1-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Covering dimension",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Covering dimension bounds the overlap multiplicity needed in refinements of open covers. It is a topological invariant under the appropriate definition.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.1.1",
+      "number": "10.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-1-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Euclidean spaces and totally disconnected compact examples calibrate covering dimension. Carefully chosen examples distinguish it from other dimension notions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.1.2",
+      "number": "10.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-1-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Invariance questions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Dimension invariance asks what constructions or equivalences preserve dimension. Such questions prevent coordinates from being mistaken for intrinsic structure.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.1.3",
+      "number": "10.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Uniform structures",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Uniform structures retain a notion of uniformly close pairs without specifying a metric. They extend uniform continuity and completeness beyond metric spaces.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Section 10.2",
+      "number": "10.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-2-sub-1",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Uniform spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A uniform space is described by entourages of the diagonal satisfying compatibility axioms. These encode a uniform notion of closeness.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.2.1",
+      "number": "10.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-2-sub-2",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Completion",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Uniform completion adds limits of appropriate Cauchy filters or nets under separation assumptions. It extends metric completion to the uniform setting.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.2.2",
+      "number": "10.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "top:book:ch-10-sec-2-sub-3",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "title": "Advanced routes and applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Uniform spaces connect function spaces, topological groups, and compactification. Further study should specify which additional structures each application uses.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-dimension-uniformity-and-further-topics.tex · Subsection 10.2.3",
+      "number": "10.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    }
+  ],
+  "edges": [
+    {
+      "id": "top:edge-001",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:topology",
+      "target": "top:basis",
+      "type": "definition",
+      "reason": "These families specify the topology.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-002",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:topology",
+      "target": "top:closed",
+      "type": "definition",
+      "reason": "Open sets determine all three constructions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-003",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:topology",
+      "target": "top:continuous",
+      "type": "definition",
+      "reason": "Continuity compares the domain and codomain topologies.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-004",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:homeomorphism",
+      "type": "definition",
+      "reason": "Both directions must preserve topological structure.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-005",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:topology",
+      "target": "top:subspace",
+      "type": "definition",
+      "reason": "The ambient topology restricts to the subset.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-006",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:closed-test",
+      "type": "ingredient",
+      "reason": "Take complements of inverse images.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-007",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:closed-test",
+      "target": "top:pasting",
+      "type": "ingredient",
+      "reason": "Preimages are finite unions of closed subsets.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-008",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:subspace",
+      "target": "top:pasting",
+      "type": "definition",
+      "reason": "Continuity is initially tested on each piece.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-009",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:product",
+      "type": "definition",
+      "reason": "Projections define the initial topology.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-010",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:product",
+      "target": "top:product-universal",
+      "type": "ingredient",
+      "reason": "Basic opens restrict finitely many coordinates.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-011",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:topology",
+      "target": "top:coproduct",
+      "type": "definition",
+      "reason": "Openness is specified component by component.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-012",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:quotient",
+      "target": "top:quotient-universal",
+      "type": "ingredient",
+      "reason": "The quotient definition tests inverse images.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-013",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:quotient",
+      "target": "top:saturated",
+      "type": "definition",
+      "reason": "Fibers are the equivalence classes being collapsed.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-014",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact-closed",
+      "target": "top:identification",
+      "type": "ingredient",
+      "reason": "Images of closed subsets are compact and hence closed.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-015",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:quotient",
+      "target": "top:identification",
+      "type": "definition",
+      "reason": "A closed surjection induces the quotient topology.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-016",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:coproduct",
+      "target": "top:wedge",
+      "type": "ingredient",
+      "reason": "Start with the disjoint union.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-017",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:quotient",
+      "target": "top:wedge",
+      "type": "ingredient",
+      "reason": "Collapse the distinguished points.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-018",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:connected",
+      "target": "top:connected-image",
+      "type": "ingredient",
+      "reason": "A separation would pull back to a separation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-019",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:connected-image",
+      "type": "definition",
+      "reason": "Inverse images preserve openness.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-020",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:path",
+      "type": "definition",
+      "reason": "A path is a continuous interval map.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-021",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:connected-image",
+      "target": "top:path-connected",
+      "type": "ingredient",
+      "reason": "A path crossing a separation contradicts connectedness of the interval.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-022",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:path",
+      "target": "top:path-connected",
+      "type": "definition",
+      "reason": "Paths join arbitrary pairs of points.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-023",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:compact-image",
+      "type": "ingredient",
+      "reason": "Pull back the cover and choose finitely many members.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-024",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:compact-image",
+      "type": "definition",
+      "reason": "Inverse images form an open cover.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-025",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:compact-closed",
+      "type": "ingredient",
+      "reason": "Finitely many separating neighborhoods suffice.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-026",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:hausdorff",
+      "target": "top:compact-closed",
+      "type": "ingredient",
+      "reason": "Separate the outside point from each point of the compact subset.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-027",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:basis",
+      "target": "top:metric",
+      "type": "definition",
+      "reason": "Metric balls form a basis.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-028",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:metric",
+      "target": "top:metric-compact",
+      "type": "definition",
+      "reason": "The metric supplies Cauchy sequences and finite nets.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-029",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:metric-compact",
+      "type": "definition",
+      "reason": "The cover formulation is one equivalent condition.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-030",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:regular",
+      "target": "top:urysohn",
+      "type": "ingredient",
+      "reason": "Repeatedly insert nested open neighborhoods.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-031",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:urysohn",
+      "target": "top:tietze",
+      "type": "ingredient",
+      "reason": "Iteratively approximate and correct the residual function.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-032",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:urysohn",
+      "target": "top:metrization",
+      "type": "ingredient",
+      "reason": "A countable family of separating functions embeds the space in a countable cube.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-033",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:first-countable",
+      "target": "top:metrization",
+      "type": "ingredient",
+      "reason": "Second countability yields countably many function coordinates.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-034",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:first-countable",
+      "target": "top:lindelof",
+      "type": "ingredient",
+      "reason": "Select one covering set for each usable basis element.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-035",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:basis",
+      "target": "top:alexander",
+      "type": "definition",
+      "reason": "The subbase generates all opens.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-036",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:alexander",
+      "type": "definition",
+      "reason": "The conclusion is full open-cover compactness.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-037",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:alexander",
+      "target": "top:tychonoff",
+      "type": "ingredient",
+      "reason": "Subbasic cylinder covers reduce the product argument.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-038",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:product",
+      "target": "top:tychonoff",
+      "type": "definition",
+      "reason": "The product topology restricts only finitely many coordinates.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-039",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:locally-compact",
+      "type": "definition",
+      "reason": "Compact neighborhoods control local behavior.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-040",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:locally-compact",
+      "target": "top:one-point",
+      "type": "ingredient",
+      "reason": "Compact complements define neighborhoods of the added point.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-041",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:completely-regular",
+      "type": "definition",
+      "reason": "Real functions encode the separation property.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-042",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:completely-regular",
+      "target": "top:evaluation",
+      "type": "ingredient",
+      "reason": "Separating functions give an injective topological embedding.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-043",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:product-universal",
+      "target": "top:evaluation",
+      "type": "ingredient",
+      "reason": "Coordinatewise continuity gives continuity into the cube.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-044",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:evaluation",
+      "target": "top:stone-cech",
+      "type": "ingredient",
+      "reason": "Take closure in an evaluation cube.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-045",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:tychonoff",
+      "target": "top:stone-cech",
+      "type": "ingredient",
+      "reason": "The ambient cube is compact.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-046",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact-closed",
+      "target": "top:compact-homeo",
+      "type": "ingredient",
+      "reason": "Compact images make the map closed.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-047",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:homeomorphism",
+      "target": "top:compact-homeo",
+      "type": "definition",
+      "reason": "Closed bijectivity yields inverse continuity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-048",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:net",
+      "target": "top:net-continuity",
+      "type": "ingredient",
+      "reason": "A directed neighborhood system detects failures of continuity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-049",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:continuous",
+      "target": "top:net-continuity",
+      "type": "definition",
+      "reason": "This characterizes open-preimage continuity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-050",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:net",
+      "target": "top:net-compact",
+      "type": "definition",
+      "reason": "Subnets generalize subsequences.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-051",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact",
+      "target": "top:net-compact",
+      "type": "ingredient",
+      "reason": "Closed-set finite-intersection arguments produce cluster points.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-052",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:metric",
+      "target": "top:baire",
+      "type": "bridge",
+      "reason": "Complete metrics support nested-ball proofs.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-053",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:locally-compact",
+      "target": "top:baire",
+      "type": "bridge",
+      "reason": "Compact neighborhoods support an analogous nested-set proof.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-054",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:basis",
+      "target": "top:compact-open",
+      "type": "definition",
+      "reason": "These sets are a subbasis.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-055",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:compact-open",
+      "target": "top:evaluation-map",
+      "type": "definition",
+      "reason": "The function-space topology controls images of compact sets.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-056",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:locally-compact",
+      "target": "top:evaluation-map",
+      "type": "ingredient",
+      "reason": "Compact neighborhoods give suitable product neighborhoods.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-057",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:metric",
+      "target": "top:uniformity",
+      "type": "bridge",
+      "reason": "Distance thresholds give a fundamental example.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:edge-058",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:regular",
+      "target": "top:cover-dimension",
+      "type": "definition",
+      "reason": "Normality supports the classical covering-dimension theory.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "top:contains-58",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-1",
+      "target": "top:book:ch-1",
+      "type": "contains",
+      "reason": "Contains “Topological spaces and continuous maps” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-59",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1",
+      "target": "top:book:ch-1-sec-1",
+      "type": "contains",
+      "reason": "Contains “Topology axioms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-60",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-1",
+      "target": "top:book:ch-1-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Open and closed sets” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-61",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-1",
+      "target": "top:book:ch-1-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Bases and subbases” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-62",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-1",
+      "target": "top:book:ch-1-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Generated topologies” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-63",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1",
+      "target": "top:book:ch-1-sec-2",
+      "type": "contains",
+      "reason": "Contains “Continuity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-64",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-2",
+      "target": "top:book:ch-1-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Preimages” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-65",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-2",
+      "target": "top:book:ch-1-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Homeomorphisms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-66",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-1-sec-2",
+      "target": "top:book:ch-1-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Comparison with metric continuity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-67",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-1",
+      "target": "top:book:ch-2",
+      "type": "contains",
+      "reason": "Contains “Subspaces and universal constructions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-68",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2",
+      "target": "top:book:ch-2-sec-1",
+      "type": "contains",
+      "reason": "Contains “Subspaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-69",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-1",
+      "target": "top:book:ch-2-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Induced topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-70",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-1",
+      "target": "top:book:ch-2-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Closure and interior” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-71",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-1",
+      "target": "top:book:ch-2-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Subspace examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-72",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2",
+      "target": "top:book:ch-2-sec-2",
+      "type": "contains",
+      "reason": "Contains “Products and coproducts” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-73",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-2",
+      "target": "top:book:ch-2-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Product topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-74",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-2",
+      "target": "top:book:ch-2-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Box topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-75",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-2-sec-2",
+      "target": "top:book:ch-2-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Disjoint unions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-76",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-1",
+      "target": "top:book:ch-3",
+      "type": "contains",
+      "reason": "Contains “Quotients and identifications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-77",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3",
+      "target": "top:book:ch-3-sec-1",
+      "type": "contains",
+      "reason": "Contains “Quotient topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-78",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-1",
+      "target": "top:book:ch-3-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Saturated sets” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-79",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-1",
+      "target": "top:book:ch-3-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Quotient maps” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-80",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-1",
+      "target": "top:book:ch-3-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Universal property” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-81",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3",
+      "target": "top:book:ch-3-sec-2",
+      "type": "contains",
+      "reason": "Contains “Applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-82",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-2",
+      "target": "top:book:ch-3-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Identifying boundaries” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-83",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-2",
+      "target": "top:book:ch-3-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Orbit spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-84",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-3-sec-2",
+      "target": "top:book:ch-3-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples of non-Hausdorff quotients” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-85",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-2",
+      "target": "top:book:ch-4",
+      "type": "contains",
+      "reason": "Contains “Connectedness and compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-86",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4",
+      "target": "top:book:ch-4-sec-1",
+      "type": "contains",
+      "reason": "Contains “Connectedness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-87",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-1",
+      "target": "top:book:ch-4-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Components” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-88",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-1",
+      "target": "top:book:ch-4-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Local connectedness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-89",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-1",
+      "target": "top:book:ch-4-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Path connectedness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-90",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4",
+      "target": "top:book:ch-4-sec-2",
+      "type": "contains",
+      "reason": "Contains “Compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-91",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-2",
+      "target": "top:book:ch-4-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Open-cover definition” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-92",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-2",
+      "target": "top:book:ch-4-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Sequential compactness in metric spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-93",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-4-sec-2",
+      "target": "top:book:ch-4-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Local compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-94",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-2",
+      "target": "top:book:ch-5",
+      "type": "contains",
+      "reason": "Contains “Countability and separation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-95",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5",
+      "target": "top:book:ch-5-sec-1",
+      "type": "contains",
+      "reason": "Contains “Countability axioms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-96",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-1",
+      "target": "top:book:ch-5-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “First and second countability” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-97",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-1",
+      "target": "top:book:ch-5-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Separability” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-98",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-1",
+      "target": "top:book:ch-5-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Lindelöf property” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-99",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5",
+      "target": "top:book:ch-5-sec-2",
+      "type": "contains",
+      "reason": "Contains “Separation axioms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-100",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-2",
+      "target": "top:book:ch-5-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “T1 and Hausdorff” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-101",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-2",
+      "target": "top:book:ch-5-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Regularity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-102",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-5-sec-2",
+      "target": "top:book:ch-5-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Normality” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-103",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-2",
+      "target": "top:book:ch-6",
+      "type": "contains",
+      "reason": "Contains “Metrization and completeness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-104",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6",
+      "target": "top:book:ch-6-sec-1",
+      "type": "contains",
+      "reason": "Contains “Metrizable spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-105",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-1",
+      "target": "top:book:ch-6-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Compatible metrics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-106",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-1",
+      "target": "top:book:ch-6-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Urysohn metrization theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-107",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-1",
+      "target": "top:book:ch-6-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-108",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6",
+      "target": "top:book:ch-6-sec-2",
+      "type": "contains",
+      "reason": "Contains “Complete metric spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-109",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-2",
+      "target": "top:book:ch-6-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Completion” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-110",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-2",
+      "target": "top:book:ch-6-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Baire category theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-111",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-6-sec-2",
+      "target": "top:book:ch-6-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-112",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-2",
+      "target": "top:book:ch-7",
+      "type": "contains",
+      "reason": "Contains “Compactification and product theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-113",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7",
+      "target": "top:book:ch-7-sec-1",
+      "type": "contains",
+      "reason": "Contains “Compactifications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-114",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-1",
+      "target": "top:book:ch-7-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “One-point compactification” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-115",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-1",
+      "target": "top:book:ch-7-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Stone–Čech idea” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-116",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-1",
+      "target": "top:book:ch-7-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-117",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7",
+      "target": "top:book:ch-7-sec-2",
+      "type": "contains",
+      "reason": "Contains “Product compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-118",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-2",
+      "target": "top:book:ch-7-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Tychonoff theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-119",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-2",
+      "target": "top:book:ch-7-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Alexander subbase theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-120",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-7-sec-2",
+      "target": "top:book:ch-7-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Choice principles” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-121",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-2",
+      "target": "top:book:ch-8",
+      "type": "contains",
+      "reason": "Contains “Separation and extension theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-122",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8",
+      "target": "top:book:ch-8-sec-1",
+      "type": "contains",
+      "reason": "Contains “Urysohn lemma” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-123",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8-sec-1",
+      "target": "top:book:ch-8-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Normal spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-124",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8-sec-1",
+      "target": "top:book:ch-8-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Construction” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-125",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8-sec-1",
+      "target": "top:book:ch-8-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Consequences” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-126",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8",
+      "target": "top:book:ch-8-sec-2",
+      "type": "contains",
+      "reason": "Contains “Tietze extension” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-127",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8-sec-2",
+      "target": "top:book:ch-8-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Extension of real-valued functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-128",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-8-sec-2",
+      "target": "top:book:ch-8-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Partitions of unity preview” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-129",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-3",
+      "target": "top:book:ch-9",
+      "type": "contains",
+      "reason": "Contains “Function spaces and topological groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-130",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9",
+      "target": "top:book:ch-9-sec-1",
+      "type": "contains",
+      "reason": "Contains “Function-space topologies” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-131",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-1",
+      "target": "top:book:ch-9-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Compact-open topology” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-132",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-1",
+      "target": "top:book:ch-9-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Uniform convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-133",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-1",
+      "target": "top:book:ch-9-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Evaluation maps” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-134",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9",
+      "target": "top:book:ch-9-sec-2",
+      "type": "contains",
+      "reason": "Contains “Topological groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-135",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-2",
+      "target": "top:book:ch-9-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Continuity of operations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-136",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-2",
+      "target": "top:book:ch-9-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Quotient groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-137",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-9-sec-2",
+      "target": "top:book:ch-9-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Compact groups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-138",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:part-3",
+      "target": "top:book:ch-10",
+      "type": "contains",
+      "reason": "Contains “Dimension, uniformity, and further topics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-139",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10",
+      "target": "top:book:ch-10-sec-1",
+      "type": "contains",
+      "reason": "Contains “Dimension theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-140",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-1",
+      "target": "top:book:ch-10-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Covering dimension” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-141",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-1",
+      "target": "top:book:ch-10-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-142",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-1",
+      "target": "top:book:ch-10-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Invariance questions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-143",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10",
+      "target": "top:book:ch-10-sec-2",
+      "type": "contains",
+      "reason": "Contains “Uniform structures” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-144",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-2",
+      "target": "top:book:ch-10-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Uniform spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-145",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-2",
+      "target": "top:book:ch-10-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Completion” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "top:contains-146",
+      "subjectId": "4-geometry-and-topology-general-topology",
+      "source": "top:book:ch-10-sec-2",
+      "target": "top:book:ch-10-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Advanced routes and applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    }
+  ]
+}

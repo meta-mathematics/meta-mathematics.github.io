@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "localHttpStatus": 200,
+  "desktop": [
+    1600,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "checks": [
+    "Final dashboard styles render without browser errors",
+    "No mobile horizontal overflow"
+  ],
+  "date": "2026-10-10T23:11:41.839Z"
+}

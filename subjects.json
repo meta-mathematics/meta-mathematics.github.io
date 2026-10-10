@@ -1,0 +1,355 @@
+[
+  {
+    "slug": "number-theory",
+    "title": "Number Theory",
+    "subjectId": "1-number-theory",
+    "category": "number-theory",
+    "categoryTitle": "Number Theory",
+    "path": "subjects/number-theory/index.html",
+    "preview": "subjects/number-theory/preview.svg",
+    "nodes": 144,
+    "edges": 225,
+    "regions": [
+      "Arithmetic foundations",
+      "Congruences & finite groups",
+      "Arithmetic functions",
+      "Quadratic reciprocity",
+      "Diophantine equations",
+      "Number fields & integers",
+      "Ideals & factorization",
+      "Geometry of numbers & units",
+      "Primes in extensions",
+      "Local & p-adic methods",
+      "Zeta functions & prime distribution",
+      "Selected modern directions"
+    ],
+    "bookNodes": 102
+  },
+  {
+    "slug": "advanced-calculus",
+    "title": "Advanced Calculus",
+    "subjectId": "2-analysis-advanced-calculus",
+    "category": "analysis",
+    "categoryTitle": "Analysis",
+    "path": "subjects/advanced-calculus/index.html",
+    "preview": "subjects/advanced-calculus/preview.svg",
+    "nodes": 64,
+    "edges": 83,
+    "regions": [
+      "Euclidean foundations",
+      "Differential calculus",
+      "Local structure",
+      "Higher order and extrema",
+      "Multivariable integration",
+      "Vector calculus",
+      "Forms and manifolds",
+      "Consequences and synthesis"
+    ],
+    "bookNodes": 84
+  },
+  {
+    "slug": "complex-analysis",
+    "title": "Complex Analysis",
+    "subjectId": "2-analysis-complex-analysis",
+    "category": "analysis",
+    "categoryTitle": "Analysis",
+    "path": "subjects/complex-analysis/index.html",
+    "preview": "subjects/complex-analysis/preview.svg",
+    "nodes": 64,
+    "edges": 77,
+    "regions": [
+      "Holomorphic foundations",
+      "Contour integration",
+      "Analyticity and uniqueness",
+      "Singularities and residues",
+      "Conformal geometry",
+      "Harmonic functions",
+      "Normal families and mapping",
+      "Global analytic structure"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "functional-analysis-and-measure-theory",
+    "title": "Functional Analysis and Measure Theory",
+    "subjectId": "2-analysis-functional-analysis-and-measure-theory",
+    "category": "analysis",
+    "categoryTitle": "Analysis",
+    "path": "subjects/functional-analysis-and-measure-theory/index.html",
+    "preview": "subjects/functional-analysis-and-measure-theory/preview.svg",
+    "nodes": 64,
+    "edges": 70,
+    "regions": [
+      "Measure and integration",
+      "Measure representation",
+      "Lp and Banach spaces",
+      "Hilbert geometry",
+      "Core functional-analytic principles",
+      "Weak topology and compactness",
+      "Operators and spectra",
+      "Distributions and applications"
+    ],
+    "bookNodes": 92
+  },
+  {
+    "slug": "harmonic-analysis",
+    "title": "Harmonic Analysis",
+    "subjectId": "2-analysis-harmonic-analysis",
+    "category": "analysis",
+    "categoryTitle": "Analysis",
+    "path": "subjects/harmonic-analysis/index.html",
+    "preview": "subjects/harmonic-analysis/preview.svg",
+    "nodes": 48,
+    "edges": 53,
+    "regions": [
+      "Fourier series",
+      "Euclidean Fourier analysis",
+      "Norm estimates and summability",
+      "Maximal operators and differentiation",
+      "Singular integrals",
+      "Frequency geometry and further directions"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "real-analysis",
+    "title": "Real Analysis",
+    "subjectId": "2-analysis-real-analysis",
+    "category": "analysis",
+    "categoryTitle": "Analysis",
+    "path": "subjects/real-analysis/index.html",
+    "preview": "subjects/real-analysis/preview.svg",
+    "nodes": 56,
+    "edges": 56,
+    "regions": [
+      "Metric and uniform structure",
+      "Measure construction",
+      "Integration",
+      "Convergence and approximation",
+      "Lp geometry",
+      "Products and signed measures",
+      "Differentiation and variation"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "algebraic-geometry",
+    "title": "Algebraic Geometry",
+    "subjectId": "3-algebra-algebraic-geometry",
+    "category": "algebra",
+    "categoryTitle": "Algebra",
+    "path": "subjects/algebraic-geometry/index.html",
+    "preview": "subjects/algebraic-geometry/preview.svg",
+    "nodes": 48,
+    "edges": 58,
+    "regions": [
+      "Affine algebraic geometry",
+      "Dimension and local algebra",
+      "Morphisms and projective geometry",
+      "Schemes and sheaves",
+      "Curves, divisors and Riemann–Roch",
+      "Smoothness, intersection and moduli"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "linear-algebra",
+    "title": "Linear Algebra",
+    "subjectId": "3-algebra-linear-algebra",
+    "category": "algebra",
+    "categoryTitle": "Algebra",
+    "path": "subjects/linear-algebra/index.html",
+    "preview": "subjects/linear-algebra/preview.svg",
+    "nodes": 48,
+    "edges": 55,
+    "regions": [
+      "Spaces, quotients and duality",
+      "Polynomials and invariant spaces",
+      "Canonical forms and module structure",
+      "Inner products and spectral theory",
+      "Forms and multilinear constructions",
+      "Singular values and computation"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "modern-algebra",
+    "title": "Modern Algebra",
+    "subjectId": "3-algebra-modern-algebra",
+    "category": "algebra",
+    "categoryTitle": "Algebra",
+    "path": "subjects/modern-algebra/index.html",
+    "preview": "subjects/modern-algebra/preview.svg",
+    "nodes": 48,
+    "edges": 51,
+    "regions": [
+      "Groups and symmetry",
+      "Finite group structure",
+      "Rings and commutative structure",
+      "Modules and homological language",
+      "Field extensions and Galois theory",
+      "Finite fields and structural synthesis"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "representation-theory-and-lie-theory",
+    "title": "Representation Theory and Lie Theory",
+    "subjectId": "3-algebra-representation-theory-and-lie-theory",
+    "category": "algebra",
+    "categoryTitle": "Algebra",
+    "path": "subjects/representation-theory-and-lie-theory/index.html",
+    "preview": "subjects/representation-theory-and-lie-theory/preview.svg",
+    "nodes": 48,
+    "edges": 57,
+    "regions": [
+      "Representations and complete reducibility",
+      "Characters and induction",
+      "Compact groups and Lie groups",
+      "Structure of Lie algebras",
+      "Roots and highest weights",
+      "Characters, integration and extensions"
+    ],
+    "bookNodes": 100
+  },
+  {
+    "slug": "algebraic-topology",
+    "title": "Algebraic Topology",
+    "subjectId": "4-geometry-and-topology-algebraic-topology",
+    "category": "geometry-topology",
+    "categoryTitle": "Geometry & Topology",
+    "path": "subjects/algebraic-topology/index.html",
+    "preview": "subjects/algebraic-topology/preview.svg",
+    "nodes": 48,
+    "edges": 60,
+    "regions": [
+      "Homotopy and fundamental groups",
+      "Coverings and higher homotopy",
+      "Singular homology",
+      "CW complexes and calculations",
+      "Cohomology and duality",
+      "Bundles, spectral sequences and generalized theories"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "differential-geometry",
+    "title": "Differential Geometry",
+    "subjectId": "4-geometry-and-topology-differential-geometry",
+    "category": "geometry-topology",
+    "categoryTitle": "Geometry & Topology",
+    "path": "subjects/differential-geometry/index.html",
+    "preview": "subjects/differential-geometry/preview.svg",
+    "nodes": 48,
+    "edges": 67,
+    "regions": [
+      "Smooth manifolds and local models",
+      "Bundles, tensors and differential forms",
+      "Integration, flows and distributions",
+      "Metrics and geodesics",
+      "Curvature and comparison",
+      "Submanifolds and global geometry"
+    ],
+    "bookNodes": 93
+  },
+  {
+    "slug": "general-topology",
+    "title": "General Topology",
+    "subjectId": "4-geometry-and-topology-general-topology",
+    "category": "geometry-topology",
+    "categoryTitle": "Geometry & Topology",
+    "path": "subjects/general-topology/index.html",
+    "preview": "subjects/general-topology/preview.svg",
+    "nodes": 48,
+    "edges": 58,
+    "regions": [
+      "Spaces and continuity",
+      "Products and quotients",
+      "Connectedness and compactness",
+      "Countability and metrization",
+      "Products, compactification and local structure",
+      "Convergence, function spaces and extensions"
+    ],
+    "bookNodes": 92
+  },
+  {
+    "slug": "optimization-and-numerical-analysis",
+    "title": "Optimization and Numerical Analysis",
+    "subjectId": "5-applied-mathematics-optimization-and-numerical-analysis",
+    "category": "applied-mathematics",
+    "categoryTitle": "Applied Mathematics",
+    "path": "subjects/optimization-and-numerical-analysis/index.html",
+    "preview": "subjects/optimization-and-numerical-analysis/preview.svg",
+    "nodes": 48,
+    "edges": 46,
+    "regions": [
+      "Optimization models and convexity",
+      "Duality and optimality",
+      "First-order and second-order algorithms",
+      "Numerical error and linear systems",
+      "Interpolation, approximation and quadrature",
+      "Differential-equation discretization"
+    ],
+    "bookNodes": 94
+  },
+  {
+    "slug": "partial-differential-equations",
+    "title": "Partial Differential Equations",
+    "subjectId": "5-applied-mathematics-partial-differential-equations",
+    "category": "applied-mathematics",
+    "categoryTitle": "Applied Mathematics",
+    "path": "subjects/partial-differential-equations/index.html",
+    "preview": "subjects/partial-differential-equations/preview.svg",
+    "nodes": 48,
+    "edges": 59,
+    "regions": [
+      "Models and first-order equations",
+      "Distributions and Sobolev spaces",
+      "Weak elliptic problems",
+      "Regularity and maximum principles",
+      "Parabolic and hyperbolic evolution",
+      "Nonlinear equations and weak-solution selection"
+    ],
+    "bookNodes": 100
+  },
+  {
+    "slug": "probability-and-stochastic-processes",
+    "title": "Probability and Stochastic Processes",
+    "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+    "category": "applied-mathematics",
+    "categoryTitle": "Applied Mathematics",
+    "path": "subjects/probability-and-stochastic-processes/index.html",
+    "preview": "subjects/probability-and-stochastic-processes/preview.svg",
+    "nodes": 48,
+    "edges": 58,
+    "regions": [
+      "Probability spaces and integration",
+      "Convergence and limit laws",
+      "Conditional expectation and martingales",
+      "Markov chains and counting processes",
+      "Brownian motion and weak limits",
+      "Stochastic calculus and diffusion"
+    ],
+    "bookNodes": 94
+  },
+  {
+    "slug": "mathematical-logic-and-set-theory",
+    "title": "Mathematical Logic and Set Theory",
+    "subjectId": "6-logic-and-foundations-mathematical-logic-and-set-theory",
+    "category": "logic-foundations",
+    "categoryTitle": "Logic & Foundations",
+    "path": "subjects/mathematical-logic-and-set-theory/index.html",
+    "preview": "subjects/mathematical-logic-and-set-theory/preview.svg",
+    "nodes": 48,
+    "edges": 57,
+    "regions": [
+      "Syntax and semantics",
+      "Model theory",
+      "Computability and incompleteness",
+      "Proof theory and axiomatic sets",
+      "Cardinals and constructibility",
+      "Forcing and independence"
+    ],
+    "bookNodes": 92
+  }
+]

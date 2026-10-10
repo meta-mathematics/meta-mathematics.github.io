@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Rebuild succeeds in an isolated copy without the original workspace",
+    "Ungrouped browser draft is retained and represented in the generated preview",
+    "Navigation counts reflect the edited graph",
+    "Standalone validation passes after rebuilding"
+  ]
+}

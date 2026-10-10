@@ -1,0 +1,4338 @@
+{
+  "schemaVersion": 1,
+  "edition": "subject-atlas-1",
+  "subject": {
+    "id": "2-analysis-complex-analysis",
+    "title": "Complex Analysis",
+    "category": "Analysis",
+    "prefix": "cx"
+  },
+  "libraryUrl": "../../index.html",
+  "groups": [
+    {
+      "id": "cx:region-1",
+      "title": "Holomorphic foundations",
+      "color": "#4d8873",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "cx:region-2",
+      "title": "Contour integration",
+      "color": "#438995",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "cx:region-3",
+      "title": "Analyticity and uniqueness",
+      "color": "#688b54",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "cx:region-4",
+      "title": "Singularities and residues",
+      "color": "#9e8550",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "cx:region-5",
+      "title": "Conformal geometry",
+      "color": "#a07952",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "cx:region-6",
+      "title": "Harmonic functions",
+      "color": "#598aad",
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "cx:region-7",
+      "title": "Normal families and mapping",
+      "color": "#7083b3",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "id": "cx:region-8",
+      "title": "Global analytic structure",
+      "color": "#8a77a6",
+      "column": 1,
+      "row": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "url": "https://www.jirka.org/ca/ca.pdf"
+    }
+  ],
+  "provenance": {
+    "sourceSubject": "2-Analysis/Complex-Analysis",
+    "sourceGraphSha256": "1bf72bd3d3ecbf111fa78d21088e8cf408b634f01c4f94d7976f1defe0a1cbf6",
+    "graph": "graph.json",
+    "book": "resources/book-outline.md",
+    "map": "resources/meta-graph.md",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "originalProvenance": {
+      "catalog": "data/catalog.json",
+      "catalogSha256": "3a4634d7febdaff4c64d1687d07efc1aeda5d65a86c02659e2303668af127ef4",
+      "book": "../book/latex/structure.json",
+      "bookSha256": "b6353b1c31ba5b01e495ed0adfca9534debb5235c440429f6311b18cf6d78053",
+      "map": "meta-graph.md",
+      "mapSha256": "dc5bdb8e595c76785108085984555d8d9f899e0235aa0d33b2f263733c2cc005",
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+    }
+  },
+  "nodes": [
+    {
+      "id": "cx:complex",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Complex differentiability",
+      "statement": "A complex derivative is a limit of difference quotients independent of the direction of approach.",
+      "description": "A complex derivative is a limit of difference quotients independent of the direction of approach.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:cr",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "proposition",
+      "title": "Cauchy–Riemann equations",
+      "statement": "A complex-differentiable function has real partial derivatives satisfying u_x=v_y and u_y=−v_x.",
+      "description": "A complex-differentiable function has real partial derivatives satisfying u_x=v_y and u_y=−v_x.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:cr-converse",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "C¹ Cauchy–Riemann criterion",
+      "statement": "A C¹ function of two real variables satisfying the Cauchy–Riemann equations on an open set is holomorphic there.",
+      "description": "A C¹ function of two real variables satisfying the Cauchy–Riemann equations on an open set is holomorphic there.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:holomorphic",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Holomorphic functions",
+      "statement": "A function is holomorphic on an open set when it is complex differentiable at every point.",
+      "description": "A function is holomorphic on an open set when it is complex differentiable at every point.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:series",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Power series and radius of convergence",
+      "statement": "A complex power series converges absolutely inside its radius of convergence and diverges outside it.",
+      "description": "A complex power series converges absolutely inside its radius of convergence and diverges outside it.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:termwise",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Termwise differentiation of power series",
+      "statement": "Inside its convergence disk, a power series may be differentiated term by term and the derivative has the same radius.",
+      "description": "Inside its convergence disk, a power series may be differentiated term by term and the derivative has the same radius.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:entire",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Entire functions",
+      "statement": "An entire function is holomorphic on all of C.",
+      "description": "An entire function is holomorphic on all of C.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:exp",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "example",
+      "title": "Exponential and trigonometric functions",
+      "statement": "Their globally convergent power series define entire functions satisfying the usual differential and addition identities.",
+      "description": "Their globally convergent power series define entire functions satisfying the usual differential and addition identities.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-1",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:contour",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Complex contour integrals",
+      "statement": "A continuous function can be integrated against dz along a piecewise C¹ oriented curve.",
+      "description": "A continuous function can be integrated against dz along a piecewise C¹ oriented curve.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:primitive",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Holomorphic primitives",
+      "statement": "A primitive of f is a holomorphic F with F′=f.",
+      "description": "A primitive of f is a holomorphic F with F′=f.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:fundamental",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Contour fundamental theorem",
+      "statement": "If f has a primitive F, its contour integral is the endpoint difference F(b)−F(a).",
+      "description": "If f has a primitive F, its contour integral is the endpoint difference F(b)−F(a).",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:goursat",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Cauchy–Goursat triangle theorem",
+      "statement": "The integral of a holomorphic function around a triangle whose filled interior lies in its domain is zero.",
+      "description": "The integral of a holomorphic function around a triangle whose filled interior lies in its domain is zero.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:cauchy",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Cauchy integral theorem",
+      "statement": "A holomorphic function on a simply connected domain has zero integral around every closed piecewise C¹ curve.",
+      "description": "A holomorphic function on a simply connected domain has zero integral around every closed piecewise C¹ curve.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:primitive-existence",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Primitives on simply connected domains",
+      "statement": "Every holomorphic function on a simply connected domain admits a holomorphic primitive.",
+      "description": "Every holomorphic function on a simply connected domain admits a holomorphic primitive.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:integral-formula",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Cauchy integral formula",
+      "statement": "If f is holomorphic near a closed disk, then f(z)=(2πi)⁻¹∮f(ζ)/(ζ−z)dζ for z inside its positively oriented boundary.",
+      "description": "If f is holomorphic near a closed disk, then f(z)=(2πi)⁻¹∮f(ζ)/(ζ−z)dζ for z inside its positively oriented boundary.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:morera",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Morera’s theorem",
+      "statement": "A continuous function on a domain is holomorphic if its integrals around all contained triangles vanish.",
+      "description": "A continuous function on a domain is holomorphic if its integrals around all contained triangles vanish.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-2",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:analyticity",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Holomorphic functions are analytic",
+      "statement": "Every holomorphic function equals its Taylor series in a sufficiently small disk around each point.",
+      "description": "Every holomorphic function equals its Taylor series in a sufficiently small disk around each point.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:cauchy-estimates",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Cauchy derivative estimates",
+      "statement": "If f is holomorphic near the closed disk of radius R about a and |f|≤M on its boundary, then |f⁽ⁿ⁾(a)|≤n!M/Rⁿ.",
+      "description": "If f is holomorphic near the closed disk of radius R about a and |f|≤M on its boundary, then |f⁽ⁿ⁾(a)|≤n!M/Rⁿ.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:identity",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Identity theorem",
+      "statement": "Two holomorphic functions on a connected domain agreeing on a set with an interior accumulation point agree everywhere.",
+      "description": "Two holomorphic functions on a connected domain agreeing on a set with an interior accumulation point agree everywhere.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:zeros",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "proposition",
+      "title": "Isolated zeros and multiplicity",
+      "statement": "A nonzero holomorphic function on a domain has isolated zeros, each with a finite positive order.",
+      "description": "A nonzero holomorphic function on a domain has isolated zeros, each with a finite positive order.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:maximum",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Maximum modulus principle",
+      "statement": "A nonconstant holomorphic function on a connected domain cannot attain a local maximum of its modulus in the interior.",
+      "description": "A nonconstant holomorphic function on a connected domain cannot attain a local maximum of its modulus in the interior.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:liouville",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Liouville’s theorem",
+      "statement": "Every bounded entire function is constant.",
+      "description": "Every bounded entire function is constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:algebra",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Fundamental theorem of algebra",
+      "statement": "Every nonconstant complex polynomial has a complex root.",
+      "description": "Every nonconstant complex polynomial has a complex root.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:open",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Open mapping theorem",
+      "statement": "A nonconstant holomorphic function maps open sets to open sets.",
+      "description": "A nonconstant holomorphic function maps open sets to open sets.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-3",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:laurent",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Laurent expansion",
+      "statement": "A holomorphic function on an annulus has a unique Laurent series converging uniformly on compact subannuli.",
+      "description": "A holomorphic function on an annulus has a unique Laurent series converging uniformly on compact subannuli.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:isolated",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Classification of isolated singularities",
+      "statement": "An isolated singularity is removable, a pole, or essential according to the principal part of its Laurent series.",
+      "description": "An isolated singularity is removable, a pole, or essential according to the principal part of its Laurent series.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:removable",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Removable singularity theorem",
+      "statement": "A holomorphic function bounded near an isolated missing point extends holomorphically across that point.",
+      "description": "A holomorphic function bounded near an isolated missing point extends holomorphically across that point.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:casorati",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Casorati–Weierstrass theorem",
+      "statement": "Near an isolated essential singularity, the image of every punctured neighborhood is dense in C.",
+      "description": "Near an isolated essential singularity, the image of every punctured neighborhood is dense in C.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:residue",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Residue",
+      "statement": "The residue at an isolated singularity is the coefficient of (z−a)⁻¹ in its Laurent expansion.",
+      "description": "The residue at an isolated singularity is the coefficient of (z−a)⁻¹ in its Laurent expansion.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:residue-theorem",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Residue theorem",
+      "statement": "For a meromorphic function near a region bounded by a positive simple contour with finitely many interior poles, the contour integral equals 2πi times their residue sum.",
+      "description": "For a meromorphic function near a region bounded by a positive simple contour with finitely many interior poles, the contour integral equals 2πi times their residue sum.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:argument",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Argument principle",
+      "statement": "For meromorphic f with no zeros or poles on a positive simple boundary, (2πi)⁻¹∮f′/f counts interior zeros minus poles with multiplicity.",
+      "description": "For meromorphic f with no zeros or poles on a positive simple boundary, (2πi)⁻¹∮f′/f counts interior zeros minus poles with multiplicity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:rouche",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Rouché’s theorem",
+      "statement": "If f,g are holomorphic near a closed Jordan region and |g|<|f| on the boundary, f and f+g have equally many interior zeros counted with multiplicity.",
+      "description": "If f,g are holomorphic near a closed Jordan region and |g|<|f| on the boundary, f and f+g have equally many interior zeros counted with multiplicity.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-4",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:conformal",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Conformal local maps",
+      "statement": "A holomorphic map with nonzero derivative is locally angle-preserving and locally invertible.",
+      "description": "A holomorphic map with nonzero derivative is locally angle-preserving and locally invertible.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:mobius",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Möbius transformations",
+      "statement": "Maps z↦(az+b)/(cz+d) with ad−bc≠0 are biholomorphic automorphisms of the Riemann sphere.",
+      "description": "Maps z↦(az+b)/(cz+d) with ad−bc≠0 are biholomorphic automorphisms of the Riemann sphere.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:sphere",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Riemann sphere",
+      "statement": "The Riemann sphere C∪{∞} is a compact complex one-dimensional manifold, with z and 1/z as its standard coordinates.",
+      "description": "The Riemann sphere C∪{∞} is a compact complex one-dimensional manifold, with z and 1/z as its standard coordinates.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:schwarz",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Schwarz lemma",
+      "statement": "If f maps the unit disk holomorphically into itself and f(0)=0, then |f(z)|≤|z| and |f′(0)|≤1, with rigidity in the equality case.",
+      "description": "If f maps the unit disk holomorphically into itself and f(0)=0, then |f(z)|≤|z| and |f′(0)|≤1, with rigidity in the equality case.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:schwarz-pick",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Schwarz–Pick theorem",
+      "statement": "A holomorphic disk self-map contracts the Poincaré metric; equality at a nontrivial point or derivative forces a disk automorphism.",
+      "description": "A holomorphic disk self-map contracts the Poincaré metric; equality at a nontrivial point or derivative forces a disk automorphism.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:disk-auto",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Disk automorphisms",
+      "statement": "Every holomorphic automorphism of the disk is e^{iθ}(z−a)/(1−conj(a)z) for |a|<1.",
+      "description": "Every holomorphic automorphism of the disk is e^{iθ}(z−a)/(1−conj(a)z) for |a|<1.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:logarithm",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Holomorphic logarithm criterion",
+      "statement": "A nowhere-zero holomorphic function on a simply connected domain admits a holomorphic logarithm.",
+      "description": "A nowhere-zero holomorphic function on a simply connected domain admits a holomorphic logarithm.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:root",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Holomorphic roots",
+      "statement": "A nowhere-zero holomorphic function on a simply connected domain has a holomorphic nth root for every positive integer n.",
+      "description": "A nowhere-zero holomorphic function on a simply connected domain has a holomorphic nth root for every positive integer n.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-5",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:harmonic",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Harmonic functions",
+      "statement": "A C² real-valued function on a planar domain is harmonic when its Laplacian vanishes.",
+      "description": "A C² real-valued function on a planar domain is harmonic when its Laplacian vanishes.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:realpart",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "proposition",
+      "title": "Real parts of holomorphic functions",
+      "statement": "The real and imaginary parts of a holomorphic function are harmonic.",
+      "description": "The real and imaginary parts of a holomorphic function are harmonic.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:conjugate",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Harmonic conjugates",
+      "statement": "On a simply connected planar domain, every real harmonic function is the real part of a holomorphic function.",
+      "description": "On a simply connected planar domain, every real harmonic function is the real part of a holomorphic function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:mean-value",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Harmonic mean-value property",
+      "statement": "A harmonic function equals its circular average over every closed disk contained in its domain.",
+      "description": "A harmonic function equals its circular average over every closed disk contained in its domain.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:poisson",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Poisson formula on the disk",
+      "statement": "Continuous boundary data on the circle have a harmonic extension to the disk given by the Poisson integral and continuous up to the boundary.",
+      "description": "Continuous boundary data on the circle have a harmonic extension to the disk given by the Poisson integral and continuous up to the boundary.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:harmonic-maximum",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Harmonic maximum principle",
+      "statement": "A nonconstant harmonic function on a connected domain cannot attain an interior maximum or minimum.",
+      "description": "A nonconstant harmonic function on a connected domain cannot attain an interior maximum or minimum.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:dirichlet-unique",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Uniqueness for the disk Dirichlet problem",
+      "statement": "Two harmonic functions continuous on the closed disk with equal boundary values coincide.",
+      "description": "Two harmonic functions continuous on the closed disk with equal boundary values coincide.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:harnack",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Harnack inequality",
+      "statement": "On a compact subset of a connected planar domain, positive harmonic functions have values uniformly comparable relative to a fixed interior point.",
+      "description": "On a compact subset of a connected planar domain, positive harmonic functions have values uniformly comparable relative to a fixed interior point.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-6",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:compact-convergence",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Compact convergence",
+      "statement": "A sequence converges compactly on a domain if it converges uniformly on every compact subset.",
+      "description": "A sequence converges compactly on a domain if it converges uniformly on every compact subset.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:weierstrass-limit",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Compact limits are holomorphic",
+      "statement": "A locally uniform limit of holomorphic functions is holomorphic and derivatives converge locally uniformly.",
+      "description": "A locally uniform limit of holomorphic functions is holomorphic and derivatives converge locally uniformly.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:montel",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Montel’s theorem",
+      "statement": "A locally bounded family of holomorphic functions on a domain is relatively compact for locally uniform convergence.",
+      "description": "A locally bounded family of holomorphic functions on a domain is relatively compact for locally uniform convergence.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:hurwitz",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Hurwitz zero theorem",
+      "statement": "A locally uniform limit of nowhere-zero holomorphic functions on a connected domain is either nowhere zero or identically zero.",
+      "description": "A locally uniform limit of nowhere-zero holomorphic functions on a connected domain is either nowhere zero or identically zero.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:univalent-limit",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Limits of injective holomorphic maps",
+      "statement": "A locally uniform limit of injective holomorphic maps on a domain is either injective or constant.",
+      "description": "A locally uniform limit of injective holomorphic maps on a domain is either injective or constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:riemann-map",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Riemann mapping theorem",
+      "statement": "Every nonempty simply connected proper domain in C is biholomorphic to the unit disk.",
+      "description": "Every nonempty simply connected proper domain in C is biholomorphic to the unit disk.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:normalized-unique",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Uniqueness of a normalized Riemann map",
+      "statement": "Fixing the image of a point and requiring a positive real derivative uniquely specifies a disk uniformization.",
+      "description": "Fixing the image of a point and requiring a positive real derivative uniquely specifies a disk uniformization.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:non-normal",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "example",
+      "title": "A family that is not normal",
+      "statement": "The family f_n(z)=nz on C has no subsequence converging locally uniformly to a finite holomorphic function.",
+      "description": "The family f_n(z)=nz on C has no subsequence converging locally uniformly to a finite holomorphic function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-7",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:continuation",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Analytic continuation",
+      "statement": "Holomorphic germs can be extended through overlapping neighborhoods when their representatives agree on overlaps.",
+      "description": "Holomorphic germs can be extended through overlapping neighborhoods when their representatives agree on overlaps.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:monodromy",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Monodromy theorem",
+      "statement": "A germ admitting continuation along every path in a simply connected domain determines one single-valued holomorphic function there.",
+      "description": "A germ admitting continuation along every path in a simply connected domain determines one single-valued holomorphic function there.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:meromorphic",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Meromorphic functions",
+      "statement": "A meromorphic function is holomorphic except at isolated poles.",
+      "description": "A meromorphic function is holomorphic except at isolated poles.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:mittag",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Mittag–Leffler theorem",
+      "statement": "On a plane domain, assigned principal parts at a discrete set are realized by a meromorphic function.",
+      "description": "On a plane domain, assigned principal parts at a discrete set are realized by a meromorphic function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:product",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Weierstrass product theorem",
+      "statement": "Every discrete zero set in C with positive finite multiplicities is the zero divisor of an entire function.",
+      "description": "Every discrete zero set in C with positive finite multiplicities is the zero divisor of an entire function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:jensen",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "theorem",
+      "title": "Jensen’s formula",
+      "statement": "For a holomorphic function near a closed disk with nonzero center value and no boundary zeros, the circle average of log|f| equals the center logarithm plus weighted interior zero terms.",
+      "description": "For a holomorphic function near a closed disk with nonzero center value and no boundary zeros, the circle average of log|f| equals the center logarithm plus weighted interior zero terms.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:riemann-surface",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "definition",
+      "title": "Riemann surfaces",
+      "statement": "A Riemann surface is a connected one-dimensional complex manifold with holomorphic coordinate transitions.",
+      "description": "A Riemann surface is a connected one-dimensional complex manifold with holomorphic coordinate transitions.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:compact-constant",
+      "subjectId": "2-analysis-complex-analysis",
+      "kind": "corollary",
+      "title": "Holomorphic functions on compact surfaces",
+      "statement": "Every holomorphic complex-valued function on a compact connected Riemann surface is constant.",
+      "description": "Every holomorphic complex-valued function on a compact connected Riemann surface is constant.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "cx:region-8",
+      "source": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+      "references": [
+        {
+          "title": "Jiří Lebl, Guide to Cultivating Complex Analysis",
+          "url": "https://www.jirka.org/ca/ca.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "cx:book:part-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Foundations and Core Language",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part I",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Holomorphic functions and power series",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Complex differentiability imposes strong compatibility between two real variables. Power series give local representations with controlled convergence.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex",
+      "number": "1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Complex differentiability",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Complex differentiability imposes strong compatibility between two real variables. This rigidity distinguishes holomorphic functions from general smooth planar maps.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Section 1.1",
+      "number": "1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Cauchy–Riemann equations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Cauchy–Riemann equations relate partial derivatives of real and imaginary parts. With suitable differentiability assumptions, they characterize holomorphicity.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.1.1",
+      "number": "1.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Analytic functions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Analytic functions are locally represented by convergent power series. Cauchy theory will show that holomorphic functions have this property.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.1.2",
+      "number": "1.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Elementary examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Polynomials, exponentials, and local logarithms provide basic holomorphic examples. Their domains illustrate why singularities and branch choices matter.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.1.3",
+      "number": "1.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Power series",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Power series give local representations with controlled convergence. They connect algebraic coefficients to analytic properties of functions.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Section 1.2",
+      "number": "1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Radius of convergence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The radius of convergence separates absolute convergence inside a disk from divergence outside it. Boundary behavior requires a separate argument.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.2.1",
+      "number": "1.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Termwise operations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Power series can be differentiated and integrated term by term inside their convergence disks. Locally uniform convergence supplies the needed justification.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.2.2",
+      "number": "1.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-1-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Zeros and identity theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The first nonzero coefficient determines the order of a zero. Consequently, zeros accumulating inside a connected domain force the function to vanish identically.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-holomorphic-functions-and-power-series.tex · Subsection 1.2.3",
+      "number": "1.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Cauchy theory",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Contour integration integrates complex functions along oriented paths. Cauchy's theorems connect holomorphicity to contour integrals.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex",
+      "number": "2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Contour integration",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Contour integration integrates complex functions along oriented paths. It links local differentiation to global properties of a domain.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Section 2.1",
+      "number": "2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Paths and orientation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An oriented path supplies a parametrization and traversal direction for an integral. Reversing orientation changes the integral's sign.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.1.1",
+      "number": "2.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Primitives",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A primitive is a holomorphic antiderivative on the chosen domain. Its existence makes integrals depend only on endpoints.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.1.2",
+      "number": "2.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Homotopy invariance",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Integrals of a holomorphic function are unchanged under suitable endpoint-preserving homotopies. This makes domain topology relevant to integration.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.1.3",
+      "number": "2.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Cauchy theorems",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Cauchy's theorems connect holomorphicity to contour integrals. Their consequences include analytic expansions and strong derivative bounds.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Section 2.2",
+      "number": "2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Integral theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The integral theorem makes integrals vanish around appropriate closed contours in a holomorphic domain. The domain and contour hypotheses prevent hidden singularities.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.2.1",
+      "number": "2.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Integral formula",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The integral formula recovers interior values from boundary integrals. Differentiating it gives formulas for every derivative.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.2.2",
+      "number": "2.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-2-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Derivative estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Cauchy estimates bound derivatives by boundary size and distance. They turn integral representation into compactness and rigidity results.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-cauchy-theory.tex · Subsection 2.2.3",
+      "number": "2.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Zeros and singularities",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Holomorphic zeros have a discrete local structure unless the function vanishes identically. Laurent expansions describe holomorphic functions on annuli.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex",
+      "number": "3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Zero structure",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Holomorphic zeros have a discrete local structure unless the function vanishes identically. Multiplicity makes this structure quantitative.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Section 3.1",
+      "number": "3.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Isolated zeros",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A nontrivial holomorphic function has isolated zeros in a connected domain. Local power-series factorization explains this isolation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.1.1",
+      "number": "3.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Multiplicity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Multiplicity is the order of the first nonzero term at a zero. It determines how zeros contribute to contour counts.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.1.2",
+      "number": "3.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Identity principle",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The identity principle extends equality from an accumulating set to a connected domain. It supports uniqueness and analytic continuation.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.1.3",
+      "number": "3.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Laurent theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Laurent expansions describe holomorphic functions on annuli. Negative powers distinguish different kinds of isolated singularities.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Section 3.2",
+      "number": "3.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Classification of isolated singularities",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An isolated singularity is removable, a pole, or essential according to its Laurent principal part. The classification determines possible extensions and growth.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.2.1",
+      "number": "3.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Residues",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The residue is the coefficient of the reciprocal first power in a Laurent expansion. It is exactly the local contribution to a contour integral.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.2.2",
+      "number": "3.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-3-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Essential singularities",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An essential singularity has infinitely many negative Laurent coefficients. Nearby value behavior is much less restricted than at poles.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-zeros-and-singularities.tex · Subsection 3.2.3",
+      "number": "3.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:part-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Central Theory and Techniques",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part II",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Residues and argument principles",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The residue theorem expresses a contour integral through enclosed singularities. Logarithmic derivatives translate zeros and poles into integer contour counts.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex",
+      "number": "4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Residue theorem",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The residue theorem expresses a contour integral through enclosed singularities. It is a local-to-global tool for explicit integration.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Section 4.1",
+      "number": "4.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Computing residues",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Residues can be read from expansions or calculated with formulas for poles. Choosing an efficient method simplifies contour computations.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.1.1",
+      "number": "4.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Contour deformation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Contours may be deformed while preserving their relation to singularities. The residue theorem tracks changes when poles are crossed.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.1.2",
+      "number": "4.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Poles at infinity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The substitution by reciprocal coordinates studies a meromorphic function near infinity. It places poles and residues on the Riemann sphere.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.1.3",
+      "number": "4.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Zero and pole counting",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Logarithmic derivatives translate zeros and poles into integer contour counts. This creates practical tests that avoid solving equations explicitly.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Section 4.2",
+      "number": "4.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Argument principle",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The argument principle counts zeros minus poles using a logarithmic derivative integral. It requires a contour free of zeros and poles.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.2.1",
+      "number": "4.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Rouché theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Rouché's theorem preserves a zero count under a strict boundary comparison. It is useful when a complicated function is close to a simpler one.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.2.2",
+      "number": "4.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-4-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Applications to polynomial roots",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Contours can isolate regions containing prescribed numbers of polynomial roots. Such counts complement explicit algebraic formulas and numerical guesses.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-residues-and-argument-principles.tex · Subsection 4.2.3",
+      "number": "4.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Conformal mapping",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Möbius maps are fractional linear transformations of the Riemann sphere. Schwarz-type arguments bound holomorphic maps by their domain geometry.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex",
+      "number": "5",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Möbius transformations",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Möbius maps are fractional linear transformations of the Riemann sphere. They organize conformal geometry through circles and normalization.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Section 5.1",
+      "number": "5.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Cross-ratios",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The cross-ratio is an invariant of four points under Möbius transformations. It helps determine the unique map carrying three chosen points to another triple.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.1.1",
+      "number": "5.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Mapping disks and half-planes",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Explicit fractional linear maps carry disks to half-planes. These models transfer analytic problems between standard domains.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.1.2",
+      "number": "5.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Normalization",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Fixing images of selected points removes the freedom in a family of transformations. Normalization is essential in uniqueness statements.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.1.3",
+      "number": "5.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Schwarz lemmas",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Schwarz-type arguments bound holomorphic maps by their domain geometry. Reflection and boundary considerations extend their practical reach.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Section 5.2",
+      "number": "5.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Schwarz lemma",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Schwarz's lemma bounds a disk self-map fixing the origin and its derivative. Equality forces a rigid rotation under the standard hypotheses.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.2.1",
+      "number": "5.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Reflection",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Schwarz reflection principle extends functions across suitable real-analytic boundaries. Its hypotheses encode compatibility of boundary values.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.2.2",
+      "number": "5.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-5-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Boundary behavior",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Boundary limits need not follow from interior holomorphicity alone. This subsection identifies additional domain and function assumptions that make them meaningful.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-conformal-mapping.tex · Subsection 5.2.3",
+      "number": "5.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Harmonic functions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Harmonic functions solve the planar Laplace equation and arise as parts of holomorphic functions. Poisson representation constructs harmonic functions from boundary data.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex",
+      "number": "6",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Harmonicity and conjugates",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Harmonic functions solve the planar Laplace equation and arise as parts of holomorphic functions. Their local properties connect complex analysis to potential theory.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Section 6.1",
+      "number": "6.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Laplace equation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Laplace equation says that the sum of second coordinate derivatives vanishes. It models equilibrium potentials and constrains local behavior.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.1.1",
+      "number": "6.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Mean-value property",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A harmonic function equals its average on sufficiently small circles or disks. This yields maximum principles and uniqueness tools.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.1.2",
+      "number": "6.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Harmonic conjugates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A harmonic conjugate pairs with a harmonic function to form a holomorphic function. Global existence can fail when the domain has nontrivial topology.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.1.3",
+      "number": "6.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Poisson representation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Poisson representation constructs harmonic functions from boundary data. The disk provides an explicit setting for solving a boundary-value problem.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Section 6.2",
+      "number": "6.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Poisson kernel",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Poisson kernel weights boundary data according to an interior point. Its positivity and normalization explain harmonic averaging.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.2.1",
+      "number": "6.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Dirichlet problem on disks",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "For continuous boundary data on a disk, the Poisson integral gives the harmonic extension. The maximum principle establishes uniqueness.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.2.2",
+      "number": "6.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-6-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Boundary limits",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Boundary-limit theorems recover prescribed data in appropriate senses. The precise conclusion depends on the regularity of that data.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-harmonic-functions.tex · Subsection 6.2.3",
+      "number": "6.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Normal families",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Locally uniform convergence preserves key holomorphic structure. Normal families have locally uniformly convergent subsequences in the appropriate function class.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex",
+      "number": "7",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Compact convergence",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Locally uniform convergence preserves key holomorphic structure. It is the natural convergence mode for analytic compactness arguments.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Section 7.1",
+      "number": "7.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Locally uniform convergence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Locally uniform convergence is uniform convergence on every compact subset. It controls functions without requiring one global bound on an open domain.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.1.1",
+      "number": "7.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Weierstrass theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Weierstrass' convergence theorem preserves holomorphicity under locally uniform limits. Derivatives also converge locally uniformly in this setting.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.1.2",
+      "number": "7.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Hurwitz theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Hurwitz's theorem constrains zeros of limits of holomorphic functions. It helps show that injectivity or nonvanishing survives suitable limiting arguments.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.1.3",
+      "number": "7.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Montel theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Normal families have locally uniformly convergent subsequences in the appropriate function class. Montel's theorem supplies a central compactness criterion.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Section 7.2",
+      "number": "7.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Equicontinuity and compactness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Equicontinuity and local bounds enable compactness on compact subsets. A diagonal selection then handles an exhaustion of the domain.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.2.1",
+      "number": "7.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Normality criterion",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A locally bounded family of holomorphic functions is normal. Cauchy estimates connect the boundedness assumption to equicontinuity.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.2.2",
+      "number": "7.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-7-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Applications",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Normal-family arguments construct extremal maps and prove convergence of analytic approximations. Each application must identify the limit class and normalization.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-normal-families.tex · Subsection 7.2.3",
+      "number": "7.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Riemann mapping theorem",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "An extremal proof of Riemann mapping optimizes a normalized conformal candidate. The final proof step shows that the extremal map covers the disk.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex",
+      "number": "8",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Extremal construction",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "An extremal proof of Riemann mapping optimizes a normalized conformal candidate. Compactness produces an optimizer on a simply connected proper plane domain.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Section 8.1",
+      "number": "8.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Normalized family",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The candidate family consists of injective holomorphic maps with fixed basepoint normalization. These conditions remove irrelevant automorphism freedom.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.1.1",
+      "number": "8.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Compactness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Normality supplies a convergent subsequence of candidate maps. Additional arguments ensure that its limit remains nonconstant and injective.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.1.2",
+      "number": "8.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Derivative maximization",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Maximizing the derivative at the basepoint selects an extremal map. The extremal property later rules out omitted points of the disk.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.1.3",
+      "number": "8.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Completion and uniqueness",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The final proof step shows that the extremal map covers the disk. Disk automorphisms then yield uniqueness under the chosen normalization.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Section 8.2",
+      "number": "8.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Surjectivity argument",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A map omitting an interior disk point can be modified to improve the extremal derivative. The resulting contradiction proves surjectivity.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.2.1",
+      "number": "8.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Omitted-value method",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The omitted-value construction uses automorphisms and a holomorphic root on a simply connected domain. This is where simple connectivity enters decisively.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.2.2",
+      "number": "8.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-8-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Normalization uniqueness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Two normalized conformal maps differ by a normalized disk automorphism. Schwarz's lemma forces that automorphism to be the identity.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-riemann-mapping-theorem.tex · Subsection 8.2.3",
+      "number": "8.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:part-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Further Theory and Applications",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part III",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Entire and meromorphic functions",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Growth restrictions strongly limit entire functions. Infinite products and meromorphic maps extend polynomial factorization ideas.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex",
+      "number": "9",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Growth and factorization",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Growth restrictions strongly limit entire functions. Integral identities connect the size of a function to its zeros.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Section 9.1",
+      "number": "9.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Liouville theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Liouville's theorem states that a bounded entire function is constant. Cauchy derivative estimates give a short proof.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.1.1",
+      "number": "9.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Maximum modulus",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The maximum-modulus principle excludes a strict interior maximum for a nonconstant holomorphic function. It controls extremal behavior on bounded domains.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.1.2",
+      "number": "9.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Jensen formula",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Jensen's formula relates average logarithmic boundary size to interior zeros. It introduces a quantitative connection between growth and zero distribution.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.1.3",
+      "number": "9.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Products and value distribution",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Infinite products and meromorphic maps extend polynomial factorization ideas. Selected value-distribution results illustrate the reach of complex rigidity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Section 9.2",
+      "number": "9.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Weierstrass products",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Weierstrass products construct entire functions with prescribed discrete zeros and multiplicities. Convergence factors compensate for zeros escaping to infinity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.2.1",
+      "number": "9.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Meromorphic maps",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Meromorphic functions are holomorphic maps to the Riemann sphere. This viewpoint treats poles as ordinary preimages of infinity.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.2.2",
+      "number": "9.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-9-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Selected Picard themes",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Picard's theorems place strong restrictions on omitted values of entire functions and essential singularities. Their precise statements distinguish local singular behavior from global entire behavior.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-entire-and-meromorphic-functions.tex · Subsection 9.2.3",
+      "number": "9.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Riemann surfaces and advanced topics",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Analytic continuation extends local analytic data along paths. The final section introduces several directions beyond one-variable core theory.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex",
+      "number": "10",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Analytic continuation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Analytic continuation extends local analytic data along paths. Riemann surfaces record the geometry created when continuation becomes multivalued.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Section 10.1",
+      "number": "10.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-1-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Monodromy",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Monodromy studies how continuation changes around loops. A simply connected domain removes this ambiguity under the monodromy theorem's hypotheses.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.1.1",
+      "number": "10.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-1-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Branched coverings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Branched coverings model functions with locally multiple sheets. Branch points explain failures of ordinary covering behavior.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.1.2",
+      "number": "10.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-1-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Local coordinates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Holomorphic coordinate charts define a Riemann surface. Compatible charts allow analytic concepts to be transported across the surface.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.1.3",
+      "number": "10.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Further directions",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The final section introduces several directions beyond one-variable core theory. Each route requires additional analytic or geometric tools.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Section 10.2",
+      "number": "10.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-2-sub-1",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Elliptic functions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Elliptic functions are doubly periodic meromorphic functions on the plane. They connect complex tori to algebraic curves.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.2.1",
+      "number": "10.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-2-sub-2",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Hardy spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Hardy spaces control holomorphic functions through boundary-integrability norms. They provide a setting for harmonic and operator-theoretic applications.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.2.2",
+      "number": "10.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "cx:book:ch-10-sec-2-sub-3",
+      "subjectId": "2-analysis-complex-analysis",
+      "title": "Several complex variables or potential theory",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Several complex variables and potential theory extend the one-variable toolkit in different directions. Their new phenomena show which planar arguments do not generalize directly.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-riemann-surfaces-and-advanced-topics.tex · Subsection 10.2.3",
+      "number": "10.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    }
+  ],
+  "edges": [
+    {
+      "id": "cx:edge-001",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:complex",
+      "target": "cx:cr",
+      "type": "ingredient",
+      "reason": "Compare difference quotients along the real and imaginary axes.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-002",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cr",
+      "target": "cx:cr-converse",
+      "type": "definition",
+      "reason": "The equations impose complex linearity on the real derivative.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-003",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:complex",
+      "target": "cx:holomorphic",
+      "type": "definition",
+      "reason": "Pointwise complex differentiability defines the class.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-004",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:series",
+      "target": "cx:termwise",
+      "type": "ingredient",
+      "reason": "Uniform convergence on smaller closed disks controls differentiated sums.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-005",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:holomorphic",
+      "target": "cx:entire",
+      "type": "definition",
+      "reason": "The domain is the full complex plane.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-006",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:termwise",
+      "target": "cx:exp",
+      "type": "ingredient",
+      "reason": "Differentiate the series and compare their coefficients.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-007",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:holomorphic",
+      "target": "cx:primitive",
+      "type": "definition",
+      "reason": "The derivative is taken in the complex sense.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-008",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:primitive",
+      "target": "cx:fundamental",
+      "type": "ingredient",
+      "reason": "Apply the chain rule along each smooth segment.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-009",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:contour",
+      "target": "cx:fundamental",
+      "type": "definition",
+      "reason": "The result evaluates the contour integral.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-010",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:holomorphic",
+      "target": "cx:goursat",
+      "type": "definition",
+      "reason": "Complex differentiability is the hypothesis.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-011",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:contour",
+      "target": "cx:goursat",
+      "type": "definition",
+      "reason": "The boundary is a closed piecewise linear contour.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-012",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:goursat",
+      "target": "cx:cauchy",
+      "type": "ingredient",
+      "reason": "Subdivision and homotopy extend the triangular identity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-013",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy",
+      "target": "cx:primitive-existence",
+      "type": "ingredient",
+      "reason": "Vanishing of closed integrals makes the path-integral definition independent of path.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-014",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy",
+      "target": "cx:integral-formula",
+      "type": "ingredient",
+      "reason": "Excise a small circle around z and compare boundary integrals.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-015",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:primitive-existence",
+      "target": "cx:morera",
+      "type": "bridge",
+      "reason": "The local primitive construction gives holomorphicity from the integral condition.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-016",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:integral-formula",
+      "target": "cx:analyticity",
+      "type": "ingredient",
+      "reason": "Expand the Cauchy kernel geometrically on a smaller disk.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-017",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:series",
+      "target": "cx:analyticity",
+      "type": "definition",
+      "reason": "The expansion is a convergent power series.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-018",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:integral-formula",
+      "target": "cx:cauchy-estimates",
+      "type": "ingredient",
+      "reason": "Differentiate the formula and bound the contour integral.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-019",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:analyticity",
+      "target": "cx:identity",
+      "type": "ingredient",
+      "reason": "The first nonzero Taylor coefficient would make zeros locally isolated.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-020",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:analyticity",
+      "target": "cx:zeros",
+      "type": "ingredient",
+      "reason": "Factor out the first nonzero power in its Taylor series.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-021",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:integral-formula",
+      "target": "cx:maximum",
+      "type": "ingredient",
+      "reason": "The mean-value identity forces constancy if the modulus is maximal.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-022",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy-estimates",
+      "target": "cx:liouville",
+      "type": "ingredient",
+      "reason": "Let the radius tend to infinity to force the first derivative to vanish.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-023",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:liouville",
+      "target": "cx:algebra",
+      "type": "ingredient",
+      "reason": "A root-free polynomial would have a bounded entire reciprocal.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-024",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:zeros",
+      "target": "cx:open",
+      "type": "ingredient",
+      "reason": "The local zero order gives local surjectivity onto a neighborhood, using an argument-principle or minimum-modulus proof.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-025",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:integral-formula",
+      "target": "cx:laurent",
+      "type": "ingredient",
+      "reason": "Integrate over the two boundary circles and expand the two kernels.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-026",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:laurent",
+      "target": "cx:isolated",
+      "type": "definition",
+      "reason": "The negative-power coefficients determine the type.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-027",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy-estimates",
+      "target": "cx:removable",
+      "type": "ingredient",
+      "reason": "Bounds eliminate the negative Laurent coefficients.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-028",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:isolated",
+      "target": "cx:removable",
+      "type": "definition",
+      "reason": "The theorem characterizes removable singularities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-029",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:removable",
+      "target": "cx:casorati",
+      "type": "ingredient",
+      "reason": "A missing disk in the image would make a reciprocal bounded and force a nonessential singularity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-030",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:laurent",
+      "target": "cx:residue",
+      "type": "definition",
+      "reason": "The coefficient is defined by the local expansion.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-031",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy",
+      "target": "cx:residue-theorem",
+      "type": "ingredient",
+      "reason": "Remove small disks around the poles.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-032",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:residue",
+      "target": "cx:residue-theorem",
+      "type": "ingredient",
+      "reason": "Only the coefficient of degree −1 contributes on each small circle.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-033",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:residue-theorem",
+      "target": "cx:argument",
+      "type": "ingredient",
+      "reason": "The residues of f′/f are signed orders.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-034",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:zeros",
+      "target": "cx:argument",
+      "type": "definition",
+      "reason": "Zero multiplicities determine the positive contributions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-035",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:argument",
+      "target": "cx:rouche",
+      "type": "ingredient",
+      "reason": "The homotopy f+tg avoids zero on the boundary, preserving the winding count.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-036",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:complex",
+      "target": "cx:conformal",
+      "type": "definition",
+      "reason": "The derivative acts by a nonzero complex multiplication.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-037",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:maximum",
+      "target": "cx:schwarz",
+      "type": "ingredient",
+      "reason": "Apply the maximum principle to f(z)/z after removing the singularity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-038",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:removable",
+      "target": "cx:schwarz",
+      "type": "ingredient",
+      "reason": "The quotient extends at zero.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-039",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:schwarz",
+      "target": "cx:schwarz-pick",
+      "type": "ingredient",
+      "reason": "Normalize source and target by disk automorphisms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-040",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:mobius",
+      "target": "cx:schwarz-pick",
+      "type": "ingredient",
+      "reason": "Möbius disk maps provide the normalization.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-041",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:schwarz",
+      "target": "cx:disk-auto",
+      "type": "ingredient",
+      "reason": "Normalize an automorphism and its inverse to force a rotation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-042",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:mobius",
+      "target": "cx:disk-auto",
+      "type": "definition",
+      "reason": "The formulas are Möbius maps.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-043",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:primitive-existence",
+      "target": "cx:logarithm",
+      "type": "ingredient",
+      "reason": "Integrate f′/f and normalize the exponential.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-044",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:logarithm",
+      "target": "cx:root",
+      "type": "consequence",
+      "reason": "Exponentiate one nth of a holomorphic logarithm.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-045",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:analyticity",
+      "target": "cx:realpart",
+      "type": "ingredient",
+      "reason": "Holomorphic functions are smooth.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-046",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cr",
+      "target": "cx:realpart",
+      "type": "ingredient",
+      "reason": "The Cauchy–Riemann equations imply a zero Laplacian.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-047",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:harmonic",
+      "target": "cx:conjugate",
+      "type": "definition",
+      "reason": "The Laplace equation gives the integrability condition for the conjugate.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-048",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:primitive-existence",
+      "target": "cx:conjugate",
+      "type": "bridge",
+      "reason": "A closed differential admits a primitive on the simply connected domain.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-049",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:realpart",
+      "target": "cx:mean-value",
+      "type": "ingredient",
+      "reason": "Locally take a holomorphic companion and use the complex mean-value formula.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-050",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:mean-value",
+      "target": "cx:poisson",
+      "type": "bridge",
+      "reason": "The Poisson kernel refines the harmonic averaging identity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-051",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:mean-value",
+      "target": "cx:harmonic-maximum",
+      "type": "ingredient",
+      "reason": "An extremal value forces equality throughout every small averaging circle.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-052",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:harmonic-maximum",
+      "target": "cx:dirichlet-unique",
+      "type": "consequence",
+      "reason": "Apply the maximum principle to their difference.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-053",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:poisson",
+      "target": "cx:harnack",
+      "type": "ingredient",
+      "reason": "Upper and lower bounds on the positive Poisson kernel control local ratios.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-054",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:integral-formula",
+      "target": "cx:weierstrass-limit",
+      "type": "ingredient",
+      "reason": "Pass to the limit in the Cauchy formula on a surrounding circle.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-055",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:cauchy-estimates",
+      "target": "cx:montel",
+      "type": "ingredient",
+      "reason": "Derivative bounds give equicontinuity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-056",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:weierstrass-limit",
+      "target": "cx:montel",
+      "type": "ingredient",
+      "reason": "Subsequential limits remain holomorphic.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-057",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:rouche",
+      "target": "cx:hurwitz",
+      "type": "ingredient",
+      "reason": "A small circle around a hypothetical zero transfers zero counts to the approximating functions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-058",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:hurwitz",
+      "target": "cx:univalent-limit",
+      "type": "ingredient",
+      "reason": "Apply the zero-free limit principle to differences from a fixed value.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-059",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:montel",
+      "target": "cx:riemann-map",
+      "type": "ingredient",
+      "reason": "A normalized extremal family has a convergent maximizing subsequence.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-060",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:univalent-limit",
+      "target": "cx:riemann-map",
+      "type": "ingredient",
+      "reason": "The nonconstant limit stays injective.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-061",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:root",
+      "target": "cx:riemann-map",
+      "type": "ingredient",
+      "reason": "A square-root improvement rules out omission of an interior disk value.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-062",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:riemann-map",
+      "target": "cx:normalized-unique",
+      "type": "definition",
+      "reason": "The normalized map exists.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-063",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:schwarz",
+      "target": "cx:normalized-unique",
+      "type": "ingredient",
+      "reason": "The transition disk automorphism must be the identity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-064",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:compact-convergence",
+      "target": "cx:non-normal",
+      "type": "definition",
+      "reason": "Uniform convergence on a compact neighborhood would bound its values.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-065",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:identity",
+      "target": "cx:continuation",
+      "type": "ingredient",
+      "reason": "Agreement on an overlap makes continuation unique along a fixed chain.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-066",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:continuation",
+      "target": "cx:monodromy",
+      "type": "definition",
+      "reason": "The hypothesis concerns pathwise continuation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-067",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:identity",
+      "target": "cx:monodromy",
+      "type": "ingredient",
+      "reason": "Uniqueness allows homotopic continuation chains to agree.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-068",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:isolated",
+      "target": "cx:meromorphic",
+      "type": "definition",
+      "reason": "Only poles are allowed as its finite singularities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-069",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:meromorphic",
+      "target": "cx:mittag",
+      "type": "definition",
+      "reason": "The constructed object has the prescribed poles.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-070",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:laurent",
+      "target": "cx:mittag",
+      "type": "definition",
+      "reason": "Principal parts specify the negative Laurent terms.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-071",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:entire",
+      "target": "cx:product",
+      "type": "definition",
+      "reason": "The realization is required to be entire.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-072",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:zeros",
+      "target": "cx:product",
+      "type": "definition",
+      "reason": "The prescribed data consist of zero locations and multiplicities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-073",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:zeros",
+      "target": "cx:jensen",
+      "type": "ingredient",
+      "reason": "Factor out the finitely many interior zeros.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-074",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:mean-value",
+      "target": "cx:jensen",
+      "type": "ingredient",
+      "reason": "The remaining zero-free logarithm has harmonic real part.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-075",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:conformal",
+      "target": "cx:riemann-surface",
+      "type": "definition",
+      "reason": "Holomorphic coordinate changes govern the local geometry.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-076",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:maximum",
+      "target": "cx:compact-constant",
+      "type": "ingredient",
+      "reason": "A global modulus maximum exists and forces local, hence global, constancy.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:edge-077",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:riemann-surface",
+      "target": "cx:compact-constant",
+      "type": "definition",
+      "reason": "The argument is applied in surface charts.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "cx:contains-77",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-1",
+      "target": "cx:book:ch-1",
+      "type": "contains",
+      "reason": "Contains “Holomorphic functions and power series” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-78",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1",
+      "target": "cx:book:ch-1-sec-1",
+      "type": "contains",
+      "reason": "Contains “Complex differentiability” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-79",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-1",
+      "target": "cx:book:ch-1-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Cauchy–Riemann equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-80",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-1",
+      "target": "cx:book:ch-1-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Analytic functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-81",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-1",
+      "target": "cx:book:ch-1-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Elementary examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-82",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1",
+      "target": "cx:book:ch-1-sec-2",
+      "type": "contains",
+      "reason": "Contains “Power series” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-83",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-2",
+      "target": "cx:book:ch-1-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Radius of convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-84",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-2",
+      "target": "cx:book:ch-1-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Termwise operations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-85",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-1-sec-2",
+      "target": "cx:book:ch-1-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Zeros and identity theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-86",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-1",
+      "target": "cx:book:ch-2",
+      "type": "contains",
+      "reason": "Contains “Cauchy theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-87",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2",
+      "target": "cx:book:ch-2-sec-1",
+      "type": "contains",
+      "reason": "Contains “Contour integration” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-88",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-1",
+      "target": "cx:book:ch-2-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Paths and orientation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-89",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-1",
+      "target": "cx:book:ch-2-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Primitives” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-90",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-1",
+      "target": "cx:book:ch-2-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Homotopy invariance” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-91",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2",
+      "target": "cx:book:ch-2-sec-2",
+      "type": "contains",
+      "reason": "Contains “Cauchy theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-92",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-2",
+      "target": "cx:book:ch-2-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Integral theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-93",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-2",
+      "target": "cx:book:ch-2-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Integral formula” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-94",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-2-sec-2",
+      "target": "cx:book:ch-2-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Derivative estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-95",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-1",
+      "target": "cx:book:ch-3",
+      "type": "contains",
+      "reason": "Contains “Zeros and singularities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-96",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3",
+      "target": "cx:book:ch-3-sec-1",
+      "type": "contains",
+      "reason": "Contains “Zero structure” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-97",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-1",
+      "target": "cx:book:ch-3-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Isolated zeros” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-98",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-1",
+      "target": "cx:book:ch-3-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Multiplicity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-99",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-1",
+      "target": "cx:book:ch-3-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Identity principle” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-100",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3",
+      "target": "cx:book:ch-3-sec-2",
+      "type": "contains",
+      "reason": "Contains “Laurent theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-101",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-2",
+      "target": "cx:book:ch-3-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Classification of isolated singularities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-102",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-2",
+      "target": "cx:book:ch-3-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Residues” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-103",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-3-sec-2",
+      "target": "cx:book:ch-3-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Essential singularities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-104",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-2",
+      "target": "cx:book:ch-4",
+      "type": "contains",
+      "reason": "Contains “Residues and argument principles” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-105",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4",
+      "target": "cx:book:ch-4-sec-1",
+      "type": "contains",
+      "reason": "Contains “Residue theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-106",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-1",
+      "target": "cx:book:ch-4-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Computing residues” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-107",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-1",
+      "target": "cx:book:ch-4-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Contour deformation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-108",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-1",
+      "target": "cx:book:ch-4-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Poles at infinity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-109",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4",
+      "target": "cx:book:ch-4-sec-2",
+      "type": "contains",
+      "reason": "Contains “Zero and pole counting” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-110",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-2",
+      "target": "cx:book:ch-4-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Argument principle” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-111",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-2",
+      "target": "cx:book:ch-4-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Rouché theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-112",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-4-sec-2",
+      "target": "cx:book:ch-4-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Applications to polynomial roots” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-113",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-2",
+      "target": "cx:book:ch-5",
+      "type": "contains",
+      "reason": "Contains “Conformal mapping” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-114",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5",
+      "target": "cx:book:ch-5-sec-1",
+      "type": "contains",
+      "reason": "Contains “Möbius transformations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-115",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-1",
+      "target": "cx:book:ch-5-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Cross-ratios” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-116",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-1",
+      "target": "cx:book:ch-5-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Mapping disks and half-planes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-117",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-1",
+      "target": "cx:book:ch-5-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Normalization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-118",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5",
+      "target": "cx:book:ch-5-sec-2",
+      "type": "contains",
+      "reason": "Contains “Schwarz lemmas” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-119",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-2",
+      "target": "cx:book:ch-5-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Schwarz lemma” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-120",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-2",
+      "target": "cx:book:ch-5-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Reflection” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-121",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-5-sec-2",
+      "target": "cx:book:ch-5-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Boundary behavior” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-122",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-2",
+      "target": "cx:book:ch-6",
+      "type": "contains",
+      "reason": "Contains “Harmonic functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-123",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6",
+      "target": "cx:book:ch-6-sec-1",
+      "type": "contains",
+      "reason": "Contains “Harmonicity and conjugates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-124",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-1",
+      "target": "cx:book:ch-6-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Laplace equation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-125",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-1",
+      "target": "cx:book:ch-6-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Mean-value property” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-126",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-1",
+      "target": "cx:book:ch-6-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Harmonic conjugates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-127",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6",
+      "target": "cx:book:ch-6-sec-2",
+      "type": "contains",
+      "reason": "Contains “Poisson representation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-128",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-2",
+      "target": "cx:book:ch-6-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Poisson kernel” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-129",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-2",
+      "target": "cx:book:ch-6-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Dirichlet problem on disks” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-130",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-6-sec-2",
+      "target": "cx:book:ch-6-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Boundary limits” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-131",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-2",
+      "target": "cx:book:ch-7",
+      "type": "contains",
+      "reason": "Contains “Normal families” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-132",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7",
+      "target": "cx:book:ch-7-sec-1",
+      "type": "contains",
+      "reason": "Contains “Compact convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-133",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-1",
+      "target": "cx:book:ch-7-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Locally uniform convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-134",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-1",
+      "target": "cx:book:ch-7-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Weierstrass theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-135",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-1",
+      "target": "cx:book:ch-7-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Hurwitz theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-136",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7",
+      "target": "cx:book:ch-7-sec-2",
+      "type": "contains",
+      "reason": "Contains “Montel theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-137",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-2",
+      "target": "cx:book:ch-7-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Equicontinuity and compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-138",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-2",
+      "target": "cx:book:ch-7-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Normality criterion” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-139",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-7-sec-2",
+      "target": "cx:book:ch-7-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Applications” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-140",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-2",
+      "target": "cx:book:ch-8",
+      "type": "contains",
+      "reason": "Contains “Riemann mapping theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-141",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8",
+      "target": "cx:book:ch-8-sec-1",
+      "type": "contains",
+      "reason": "Contains “Extremal construction” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-142",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-1",
+      "target": "cx:book:ch-8-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Normalized family” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-143",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-1",
+      "target": "cx:book:ch-8-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Compactness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-144",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-1",
+      "target": "cx:book:ch-8-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Derivative maximization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-145",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8",
+      "target": "cx:book:ch-8-sec-2",
+      "type": "contains",
+      "reason": "Contains “Completion and uniqueness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-146",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-2",
+      "target": "cx:book:ch-8-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Surjectivity argument” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-147",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-2",
+      "target": "cx:book:ch-8-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Omitted-value method” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-148",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-8-sec-2",
+      "target": "cx:book:ch-8-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Normalization uniqueness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-149",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-3",
+      "target": "cx:book:ch-9",
+      "type": "contains",
+      "reason": "Contains “Entire and meromorphic functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-150",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9",
+      "target": "cx:book:ch-9-sec-1",
+      "type": "contains",
+      "reason": "Contains “Growth and factorization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-151",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-1",
+      "target": "cx:book:ch-9-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Liouville theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-152",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-1",
+      "target": "cx:book:ch-9-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Maximum modulus” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-153",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-1",
+      "target": "cx:book:ch-9-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Jensen formula” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-154",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9",
+      "target": "cx:book:ch-9-sec-2",
+      "type": "contains",
+      "reason": "Contains “Products and value distribution” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-155",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-2",
+      "target": "cx:book:ch-9-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Weierstrass products” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-156",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-2",
+      "target": "cx:book:ch-9-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Meromorphic maps” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-157",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-9-sec-2",
+      "target": "cx:book:ch-9-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Selected Picard themes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-158",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:part-3",
+      "target": "cx:book:ch-10",
+      "type": "contains",
+      "reason": "Contains “Riemann surfaces and advanced topics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-159",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10",
+      "target": "cx:book:ch-10-sec-1",
+      "type": "contains",
+      "reason": "Contains “Analytic continuation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-160",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-1",
+      "target": "cx:book:ch-10-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Monodromy” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-161",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-1",
+      "target": "cx:book:ch-10-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Branched coverings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-162",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-1",
+      "target": "cx:book:ch-10-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Local coordinates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-163",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10",
+      "target": "cx:book:ch-10-sec-2",
+      "type": "contains",
+      "reason": "Contains “Further directions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-164",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-2",
+      "target": "cx:book:ch-10-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Elliptic functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-165",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-2",
+      "target": "cx:book:ch-10-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Hardy spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "cx:contains-166",
+      "subjectId": "2-analysis-complex-analysis",
+      "source": "cx:book:ch-10-sec-2",
+      "target": "cx:book:ch-10-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Several complex variables or potential theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    }
+  ]
+}

@@ -1,0 +1,3845 @@
+{
+  "schemaVersion": 1,
+  "edition": "subject-atlas-1",
+  "subject": {
+    "id": "5-applied-mathematics-probability-and-stochastic-processes",
+    "title": "Probability and Stochastic Processes",
+    "category": "Applied Mathematics",
+    "prefix": "prob"
+  },
+  "libraryUrl": "../../index.html",
+  "groups": [
+    {
+      "id": "prob:region-1",
+      "title": "Probability spaces and integration",
+      "color": "#4d8873",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "prob:region-2",
+      "title": "Convergence and limit laws",
+      "color": "#438995",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "prob:region-3",
+      "title": "Conditional expectation and martingales",
+      "color": "#688b54",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "prob:region-4",
+      "title": "Markov chains and counting processes",
+      "color": "#9e8550",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "prob:region-5",
+      "title": "Brownian motion and weak limits",
+      "color": "#a07952",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "prob:region-6",
+      "title": "Stochastic calculus and diffusion",
+      "color": "#598aad",
+      "column": 2,
+      "row": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Rick Durrett, Probability: Theory and Examples",
+      "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+    },
+    {
+      "title": "Rick Durrett, Essentials of Stochastic Processes",
+      "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+    }
+  ],
+  "provenance": {
+    "sourceSubject": "5-Applied-Mathematics/Probability-and-Stochastic-Processes",
+    "sourceGraphSha256": "8c74459c8adeb69e5e9e8e9d15247c5d43e4c46ae6ece08bfc7339b0b9409c99",
+    "graph": "graph.json",
+    "book": "resources/book-outline.md",
+    "map": "resources/meta-graph.md",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "originalProvenance": {
+      "catalog": "data/catalog.json",
+      "catalogSha256": "34fc31467ad12823dd79e69c00ed9cb3a6f2b81771f7c4cf454e9f46099c8f5b",
+      "book": "../book/latex/structure.json",
+      "bookSha256": "e8c41d5837bf7f5f0608e2d4ed5402051fa58c3b1d1d19d0386107c94726a369",
+      "map": "meta-graph.md",
+      "mapSha256": "8929636868cc8fcee13de0d29b4801b41cd045801fbaaa5d35c1a1f2a73e3614",
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+    }
+  },
+  "nodes": [
+    {
+      "id": "prob:space",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Probability spaces",
+      "statement": "A probability space is a measure space with total measure one.",
+      "description": "A probability space is a measure space with total measure one.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:random",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Random variables and laws",
+      "statement": "A random variable is a measurable map; its law is the pushforward probability measure.",
+      "description": "A random variable is a measurable map; its law is the pushforward probability measure.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:expectation",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Expectation",
+      "statement": "Expectation is the Lebesgue integral of a random variable, when defined.",
+      "description": "Expectation is the Lebesgue integral of a random variable, when defined.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:independence",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Independence",
+      "statement": "A family of events or random variables is independent when every finite joint probability factors appropriately.",
+      "description": "A family of events or random variables is independent when every finite joint probability factors appropriately.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:markov",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Markov inequality",
+      "statement": "For a nonnegative random variable X and a>0, P(X≥a)≤E[X]/a.",
+      "description": "For a nonnegative random variable X and a>0, P(X≥a)≤E[X]/a.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:chebyshev",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "corollary",
+      "title": "Chebyshev inequality",
+      "statement": "If X has finite variance, P(|X−E[X]|≥a)≤Var(X)/a².",
+      "description": "If X has finite variance, P(|X−E[X]|≥a)≤Var(X)/a².",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:borel-cantelli",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Borel–Cantelli lemmas",
+      "statement": "Summable event probabilities imply only finitely many occurrences almost surely; for independent events, divergent probability sum implies infinitely many occurrences almost surely.",
+      "description": "Summable event probabilities imply only finitely many occurrences almost surely; for independent events, divergent probability sum implies infinitely many occurrences almost surely.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:fubini",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Tonelli–Fubini for expectations",
+      "statement": "For a jointly measurable nonnegative integrand on a sigma-finite product measure space, integration can be performed in either order; for signed integrands, absolute integrability ensures the same conclusion.",
+      "description": "For a jointly measurable nonnegative integrand on a sigma-finite product measure space, integration can be performed in either order; for signed integrands, absolute integrability ensures the same conclusion.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-1",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:modes",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Modes of stochastic convergence",
+      "statement": "Almost-sure, probability, Lᵖ and distributional convergence describe distinct ways for random variables to approach a limit.",
+      "description": "Almost-sure, probability, Lᵖ and distributional convergence describe distinct ways for random variables to approach a limit.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:implications",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Convergence implications",
+      "statement": "Lᵖ convergence for p>0 implies convergence in probability, which implies convergence in distribution; almost-sure convergence implies convergence in probability.",
+      "description": "Lᵖ convergence for p>0 implies convergence in probability, which implies convergence in distribution; almost-sure convergence implies convergence in probability.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:weak-law",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Weak law with finite variance",
+      "statement": "Averages of independent identically distributed variables with finite variance converge in probability to their common mean.",
+      "description": "Averages of independent identically distributed variables with finite variance converge in probability to their common mean.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:strong-law",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Strong law of large numbers",
+      "statement": "Averages of independent identically distributed integrable real variables converge almost surely to their expectation.",
+      "description": "Averages of independent identically distributed integrable real variables converge almost surely to their expectation.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:characteristic",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Characteristic functions",
+      "statement": "The characteristic function of X is φ_X(t)=E[e^(itX)].",
+      "description": "The characteristic function of X is φ_X(t)=E[e^(itX)].",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:levy",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Lévy continuity theorem",
+      "statement": "Pointwise convergence of characteristic functions to a function continuous at zero is equivalent to weak convergence to the probability law with that characteristic function.",
+      "description": "Pointwise convergence of characteristic functions to a function continuous at zero is equivalent to weak convergence to the probability law with that characteristic function.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:clt",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Classical central limit theorem",
+      "statement": "For independent identically distributed variables with finite positive variance, centered normalized sums converge in distribution to a standard Gaussian.",
+      "description": "For independent identically distributed variables with finite positive variance, centered normalized sums converge in distribution to a standard Gaussian.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:slutsky",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Slutsky’s theorem",
+      "statement": "If X_n converges in distribution to X and Y_n converges in probability to a constant c, sums and products converge to X+c and cX; ratios also converge when c≠0.",
+      "description": "If X_n converges in distribution to X and Y_n converges in probability to a constant c, sums and products converge to X+c and cX; ratios also converge when c≠0.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-2",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:conditional",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Existence of conditional expectation",
+      "statement": "For integrable X and a sub-sigma-algebra G, there is a G-measurable integrable E[X|G], unique almost surely, with matching integrals on all G-events.",
+      "description": "For integrable X and a sub-sigma-algebra G, there is a G-measurable integrable E[X|G], unique almost surely, with matching integrals on all G-events.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:tower",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Tower property",
+      "statement": "If H⊂G, then E[E[X|G]|H]=E[X|H] almost surely for integrable X.",
+      "description": "If H⊂G, then E[E[X|G]|H]=E[X|H] almost surely for integrable X.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:filtration",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Filtrations and adapted processes",
+      "statement": "A filtration is an increasing family of sigma-algebras; an adapted process is measurable using the information available at each time.",
+      "description": "A filtration is an increasing family of sigma-algebras; an adapted process is measurable using the information available at each time.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:martingale",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Martingales",
+      "statement": "An adapted integrable process M satisfies E[M_t|F_s]=M_s for s≤t.",
+      "description": "An adapted integrable process M satisfies E[M_t|F_s]=M_s for s≤t.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:stopping",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Stopping times",
+      "statement": "A stopping time τ has {τ≤t} measurable with respect to information available at time t.",
+      "description": "A stopping time τ has {τ≤t} measurable with respect to information available at time t.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:optional",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Bounded optional stopping",
+      "statement": "For a discrete-time martingale and bounded stopping time τ, E[M_τ]=E[M₀].",
+      "description": "For a discrete-time martingale and bounded stopping time τ, E[M_τ]=E[M₀].",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:doob",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Doob Lᵖ maximal inequality",
+      "statement": "For a discrete-time martingale and p>1, the Lᵖ norm of its maximum absolute value up to n is at most p/(p−1) times ‖M_n‖p.",
+      "description": "For a discrete-time martingale and p>1, the Lᵖ norm of its maximum absolute value up to n is at most p/(p−1) times ‖M_n‖p.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:martingale-convergence",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Martingale convergence theorem",
+      "statement": "A discrete-time submartingale with uniformly bounded E|M_n| converges almost surely to a finite integrable limit; uniform integrability additionally gives convergence in L¹.",
+      "description": "A discrete-time submartingale with uniformly bounded E|M_n| converges almost surely to a finite integrable limit; uniform integrability additionally gives convergence in L¹.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-3",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:markov-chain",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Markov chains",
+      "statement": "Conditional on the present state, the next-state law is independent of the past.",
+      "description": "Conditional on the present state, the next-state law is independent of the past.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:chapman",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Chapman–Kolmogorov equations",
+      "statement": "Transition kernels compose over successive time intervals; a time-homogeneous discrete chain has n-step matrix Pⁿ.",
+      "description": "Transition kernels compose over successive time intervals; a time-homogeneous discrete chain has n-step matrix Pⁿ.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:stationary",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Stationary distributions",
+      "statement": "A probability row vector π is stationary when πP=π.",
+      "description": "A probability row vector π is stationary when πP=π.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:finite-ergodic",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Finite-state ergodic theorem",
+      "statement": "A finite irreducible aperiodic Markov chain has a unique stationary law and its transition probabilities converge to that law.",
+      "description": "A finite irreducible aperiodic Markov chain has a unique stationary law and its transition probabilities converge to that law.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:recurrence",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Recurrence and transience",
+      "statement": "A state is recurrent if its return probability is one, and transient otherwise.",
+      "description": "A state is recurrent if its return probability is one, and transient otherwise.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:poisson",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Poisson processes",
+      "statement": "A rate-λ Poisson process starts at zero and has independent stationary increments with count over length t distributed as Poisson(λt).",
+      "description": "A rate-λ Poisson process starts at zero and has independent stationary increments with count over length t distributed as Poisson(λt).",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:exponential",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Poisson waiting times",
+      "statement": "Successive waiting times in a rate-λ Poisson process are independent exponential variables of mean 1/λ.",
+      "description": "Successive waiting times in a rate-λ Poisson process are independent exponential variables of mean 1/λ.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:renewal",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Elementary renewal theorem",
+      "statement": "For positive independent identically distributed interarrival times with finite mean μ, the expected renewal count satisfies E[N(t)]/t→1/μ.",
+      "description": "For positive independent identically distributed interarrival times with finite mean μ, the expected renewal count satisfies E[N(t)]/t→1/μ.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-4",
+      "source": "Rick Durrett, Essentials of Stochastic Processes",
+      "references": [
+        {
+          "title": "Rick Durrett, Essentials of Stochastic Processes",
+          "url": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:brownian",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Brownian motion",
+      "statement": "Standard Brownian motion has continuous paths, starts at zero, and has independent Gaussian increments of variance equal to elapsed time.",
+      "description": "Standard Brownian motion has continuous paths, starts at zero, and has independent Gaussian increments of variance equal to elapsed time.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:kolmogorov-extension",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Kolmogorov extension theorem",
+      "statement": "Consistent finite-dimensional distributions on a standard Borel state space determine a measure on the product sigma-algebra.",
+      "description": "Consistent finite-dimensional distributions on a standard Borel state space determine a measure on the product sigma-algebra.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:continuity",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Kolmogorov continuity criterion",
+      "statement": "A moment bound E|X_t−X_s|^α≤C|t−s|^(1+β), with α,β>0, gives a continuous modification on a compact time interval, with Hölder exponents below β/α.",
+      "description": "A moment bound E|X_t−X_s|^α≤C|t−s|^(1+β), with α,β>0, gives a continuous modification on a compact time interval, with Hölder exponents below β/α.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:brownian-existence",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Existence of Brownian motion",
+      "statement": "Consistent centered Gaussian laws with covariance min(s,t) admit a continuous process realization.",
+      "description": "Consistent centered Gaussian laws with covariance min(s,t) admit a continuous process realization.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:reflection",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Brownian reflection principle",
+      "statement": "For a>0, P(sup_(s≤t)B_s≥a)=2P(B_t≥a).",
+      "description": "For a>0, P(sup_(s≤t)B_s≥a)=2P(B_t≥a).",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:strong-markov",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Strong Markov property of Brownian motion",
+      "statement": "After an almost surely finite stopping time, Brownian increments form an independent Brownian motion relative to the usual augmented filtration.",
+      "description": "After an almost surely finite stopping time, Brownian increments form an independent Brownian motion relative to the usual augmented filtration.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:quadratic",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Brownian quadratic variation",
+      "statement": "Along deterministic partitions of [0,t] with mesh tending to zero, the sum of squared Brownian increments converges to t in L².",
+      "description": "Along deterministic partitions of [0,t] with mesh tending to zero, the sum of squared Brownian increments converges to t in L².",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:donsker",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Donsker invariance principle",
+      "statement": "For centered independent identically distributed increments with unit finite variance, linearly interpolated rescaled random walks converge weakly in C[0,1] to Brownian motion.",
+      "description": "For centered independent identically distributed increments with unit finite variance, linearly interpolated rescaled random walks converge weakly in C[0,1] to Brownian motion.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-5",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:ito-integral",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Itô integrals",
+      "statement": "The Brownian integral extends adapted step-process sums to progressively measurable integrands with finite expected time-integral of their square.",
+      "description": "The Brownian integral extends adapted step-process sums to progressively measurable integrands with finite expected time-integral of their square.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:isometry",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Itô isometry",
+      "statement": "For square-integrable admissible H, E|∫H dB|²=E∫|H|²dt.",
+      "description": "For square-integrable admissible H, E|∫H dB|²=E∫|H|²dt.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:ito",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Itô formula",
+      "statement": "For a C^(1,2) function of time and an Itô process, the differential contains the first-order drift and noise terms plus one-half the diffusion covariance contracted with the spatial Hessian.",
+      "description": "For a C^(1,2) function of time and an Itô process, the differential contains the first-order drift and noise terms plus one-half the diffusion covariance contracted with the spatial Hessian.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:sde",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Stochastic differential equations",
+      "statement": "An Itô SDE specifies drift and diffusion through an integral equation driven by Brownian motion.",
+      "description": "An Itô SDE specifies drift and diffusion through an integral equation driven by Brownian motion.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:sde-existence",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Strong SDE existence and uniqueness",
+      "statement": "Globally Lipschitz drift and diffusion with linear growth give a unique global strong solution for a square-integrable initial state independent of future Brownian increments.",
+      "description": "Globally Lipschitz drift and diffusion with linear growth give a unique global strong solution for a square-integrable initial state independent of future Brownian increments.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:generator",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "definition",
+      "title": "Diffusion generators",
+      "statement": "For drift b and diffusion matrix σ, the generator acts as Lf=b·∇f+(1/2)tr(σσᵀD²f).",
+      "description": "For drift b and diffusion matrix σ, the generator acts as Lf=b·∇f+(1/2)tr(σσᵀD²f).",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:dynkin",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Dynkin’s formula",
+      "statement": "For an appropriate C² test function and integrable stopped diffusion, E[f(X_τ)]−E[f(X₀)]=E∫₀^τ Lf(X_s)ds, under conditions making the stopped stochastic integral mean zero.",
+      "description": "For an appropriate C² test function and integrable stopped diffusion, E[f(X_τ)]−E[f(X₀)]=E∫₀^τ Lf(X_s)ds, under conditions making the stopped stochastic integral mean zero.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:feynman-kac",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "kind": "theorem",
+      "title": "Feynman–Kac representation",
+      "statement": "Under boundedness and regularity ensuring a classical backward parabolic solution and valid expectations, a diffusion expectation with exponential killing represents that solution.",
+      "description": "Under boundedness and regularity ensuring a classical backward parabolic solution and valid expectations, a diffusion expectation with exponential killing represents that solution.",
+      "hypotheses": "Scope is included in this concise statement. See the reading reference for the full formulation and alternative proof routes.",
+      "layer": "global",
+      "depth": 0,
+      "status": "draft",
+      "group": "prob:region-6",
+      "source": "Rick Durrett, Probability: Theory and Examples",
+      "references": [
+        {
+          "title": "Rick Durrett, Probability: Theory and Examples",
+          "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf"
+        }
+      ],
+      "evidence": "Editorially curated mathematical relationship; not a complete or formally verified proof certificate."
+    },
+    {
+      "id": "prob:book:part-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Foundations and Core Language",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part I",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Probability spaces and random variables",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Probability uses measure theory to assign consistent weights to events. Expectation integrates random quantities, while independence controls how joint events factor.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex",
+      "number": "1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Measure-theoretic foundations",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Probability uses measure theory to assign consistent weights to events. Random variables transport that structure into observable quantities.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Section 1.1",
+      "number": "1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Probability spaces",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A probability space has a sigma-algebra of events and a measure of total mass one. It is the base setting for all probabilistic statements.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.1.1",
+      "number": "1.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Measurable random variables",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A random variable is a measurable map into a specified state space. Measurability makes questions about its values into measurable events.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.1.2",
+      "number": "1.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Distributions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The distribution is the pushforward probability measure of a random variable. It records probabilities of observable values independently of the original sample space.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.1.3",
+      "number": "1.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Expectation and independence",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Expectation integrates random quantities, while independence controls how joint events factor. Product spaces make this interaction concrete.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Section 1.2",
+      "number": "1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Integration",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Expectation is the integral of a random variable when defined. Integrability conditions determine which algebraic manipulations are justified.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.2.1",
+      "number": "1.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Product measures",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Product measures construct joint laws with independent coordinates. They support the canonical models for repeated independent experiments.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.2.2",
+      "number": "1.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-1-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Independence and conditioning basics",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Independence factors joint probabilities, while conditioning updates information relative to an event or sigma-algebra. The two notions interact but should not be conflated.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch01-probability-spaces-and-random-variables.tex · Subsection 1.2.3",
+      "number": "1.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Convergence and limit laws",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Different probabilistic convergence modes retain different information about random variables. Laws of large numbers explain why empirical averages stabilize.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex",
+      "number": "2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Modes of convergence",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Different probabilistic convergence modes retain different information about random variables. Tracking their implications is essential in limit theorems.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Section 2.1",
+      "number": "2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Almost sure",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Almost-sure convergence means pointwise convergence on an event of probability one. It describes the limiting behavior of almost every sample path.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.1.1",
+      "number": "2.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "In probability",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Convergence in probability makes the chance of a fixed-size error tend to zero. It is weaker than almost-sure convergence in general.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.1.2",
+      "number": "2.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "In Lp",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Lp convergence makes the expected pth power of the error tend to zero for finite p. It controls moments more strongly than convergence in probability.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.1.3",
+      "number": "2.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-1-sub-4",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "In distribution",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Convergence in distribution means weak convergence of the probability laws. It can hold even when variables are defined on different sample spaces.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.1.4",
+      "number": "2.1.4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Laws of large numbers",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Laws of large numbers explain why empirical averages stabilize. Their mode of convergence and moment assumptions determine the exact conclusion.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Section 2.2",
+      "number": "2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Borel–Cantelli",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Borel–Cantelli relates summability of event probabilities to repeated occurrence. Its converse form needs additional assumptions such as independence.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.2.1",
+      "number": "2.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Weak law",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A weak law gives convergence of averages in probability under specified conditions. It justifies large-sample concentration around a mean.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.2.2",
+      "number": "2.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-2-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Strong law",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A strong law gives almost-sure convergence of averages under suitable hypotheses. It makes a stronger sample-path statement than a weak law.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch02-convergence-and-limit-laws.tex · Subsection 2.2.3",
+      "number": "2.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Characteristic functions and central limits",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Characteristic functions encode probability distributions by complex exponentials. Central limit theorems describe normalized fluctuations around average behavior.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex",
+      "number": "3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Characteristic functions",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Characteristic functions encode probability distributions by complex exponentials. Fourier-analytic properties make them effective tools for weak convergence.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Section 3.1",
+      "number": "3.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Fourier transforms",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The characteristic function is the Fourier transform of a probability measure with a fixed sign convention. Independence turns sums into products of transforms.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.1.1",
+      "number": "3.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Uniqueness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A probability law is uniquely determined by its characteristic function. This allows distributional identities to be proved in transform space.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.1.2",
+      "number": "3.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Continuity theorem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Lévy's continuity theorem connects weak convergence with characteristic-function convergence under the continuity-at-zero condition. It is a main bridge from analytic limits to probability limits.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.1.3",
+      "number": "3.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Central limit theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Central limit theorems describe normalized fluctuations around average behavior. Their generalizations clarify which dependence and tail conditions are admissible.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Section 3.2",
+      "number": "3.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Classical CLT",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The classical independent identically distributed CLT assumes a finite nonzero variance. Centered normalized sums then converge in distribution to a Gaussian law.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.2.1",
+      "number": "3.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Triangular arrays",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Triangular arrays allow the summands to change with the sample size. Lindeberg- or Lyapunov-type conditions control the resulting fluctuation limit.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.2.2",
+      "number": "3.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-3-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Selected refinements",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Refinements can quantify convergence rates or weaken standard assumptions. Each refinement must state which moments, independence, or dependence conditions it requires.",
+      "source": "book/latex/part01-foundations-and-core-language/chapters/ch03-characteristic-functions-and-central-limits.tex · Subsection 3.2.3",
+      "number": "3.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:part-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Central Theory and Techniques",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part II",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Conditional expectation and martingales",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Conditional expectation is an integrable quantity adapted to a chosen information sigma-algebra. Martingales formalize processes whose conditional future mean equals their present value.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex",
+      "number": "4",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Conditional expectation",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Conditional expectation is an integrable quantity adapted to a chosen information sigma-algebra. It preserves averages over all events in that information set.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Section 4.1",
+      "number": "4.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Radon–Nikodym definition",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Radon–Nikodym theorem constructs conditional expectation through its defining integral identities. The result is unique up to almost-sure equality.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.1.1",
+      "number": "4.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Tower property",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The tower property expresses consistency when conditioning through nested sigma-algebras. It is a basic tool in iterative information arguments.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.1.2",
+      "number": "4.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Conditional distributions",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Conditional distributions describe laws given observed information when appropriate regular versions exist. Their existence is not automatic on arbitrary measurable spaces.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.1.3",
+      "number": "4.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Martingale basics",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Martingales formalize processes whose conditional future mean equals their present value. Filtrations and stopping times make the information structure explicit.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Section 4.2",
+      "number": "4.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Filtrations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A filtration is an increasing family of sigma-algebras. It records information available as time passes.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.2.1",
+      "number": "4.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Adaptedness",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A process is adapted when its value at each time is measurable using current information. Adaptedness prevents dependence on future observations.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.2.2",
+      "number": "4.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-4-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Examples and stopping times",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Random walks and conditional-expectation processes give standard martingales. Stopping times model decisions determined by the information available when stopping occurs.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch04-conditional-expectation-and-martingales.tex · Subsection 4.2.3",
+      "number": "4.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Martingale theorems",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Martingale inequalities control maxima and oscillations without independence of every increment. Convergence and stopping theorems require careful integrability or boundedness conditions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex",
+      "number": "5",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Inequalities",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Martingale inequalities control maxima and oscillations without independence of every increment. These bounds are the main input for convergence results.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Section 5.1",
+      "number": "5.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Doob inequalities",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Doob inequalities bound martingale or submartingale maxima using terminal values under suitable integrability assumptions. They convert endpoint control into pathwise-probability control.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.1.1",
+      "number": "5.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Maximal estimates",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Maximal estimates bound the chance or moment of large process excursions. They help establish uniform control over time.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.1.2",
+      "number": "5.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Upcrossings",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Upcrossing inequalities bound how often a submartingale oscillates across a fixed interval. Finite upcrossings support almost-sure convergence arguments.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.1.3",
+      "number": "5.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Convergence and stopping",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Convergence and stopping theorems require careful integrability or boundedness conditions. Without them, intuitively fair-process arguments can fail.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Section 5.2",
+      "number": "5.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Martingale convergence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Martingale convergence theorems give almost-sure or norm limits under different hypotheses. Uniform integrability is central when preserving expectations in a limit.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.2.1",
+      "number": "5.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Optional stopping hypotheses",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Optional stopping requires conditions on the process and stopping time, such as suitable boundedness or integrability. An arbitrary stopping time does not preserve expectation automatically.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.2.2",
+      "number": "5.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-5-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Counterexamples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Gambling and random-walk stopping examples expose failures when hypotheses are omitted. Each counterexample identifies the step where an unjustified limit enters.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch05-martingale-theorems.tex · Subsection 5.2.3",
+      "number": "5.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Markov chains and processes",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "A discrete-time Markov chain evolves through transition probabilities depending only on the current state. Continuous-time Markov models describe evolution without a fixed time step.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex",
+      "number": "6",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Discrete-time chains",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "A discrete-time Markov chain evolves through transition probabilities depending only on the current state. Long-run behavior is organized by communication and recurrence.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Section 6.1",
+      "number": "6.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Transition matrices",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A transition matrix records one-step probabilities between countable states. Matrix powers describe multiple steps.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.1.1",
+      "number": "6.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Recurrence",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Recurrence means return to a state occurs with probability one from that state. Positive recurrence additionally controls the expected return time.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.1.2",
+      "number": "6.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Invariant measures",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "An invariant measure is unchanged by the transition operator. When normalizable to a probability, it is a stationary distribution.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.1.3",
+      "number": "6.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Continuous-time processes",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Continuous-time Markov models describe evolution without a fixed time step. Generators and semigroups relate infinitesimal rates to finite-time transition laws.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Section 6.2",
+      "number": "6.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Generators",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A generator describes the initial rate of change of the evolution operator. Its domain is an essential part of the definition.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.2.1",
+      "number": "6.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Jump chains",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A jump chain records successive states visited by a jump process. Holding times supply the additional timing information.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.2.2",
+      "number": "6.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-6-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Semigroups",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Markov semigroup composes transition operators according to elapsed time. It encodes the same evolution at every time scale.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch06-markov-chains-and-processes.tex · Subsection 6.2.3",
+      "number": "6.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Poisson and renewal processes",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The Poisson process models event arrivals at a constant rate. Renewal theory generalizes Poisson arrivals by allowing nonexponential waiting times.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex",
+      "number": "7",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Poisson process",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The Poisson process models event arrivals at a constant rate. Its independent stationary increments make it a fundamental continuous-time example.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Section 7.1",
+      "number": "7.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Construction",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A Poisson process can be constructed from independent exponential waiting times. This connects counting probabilities to interarrival-time distributions.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.1.1",
+      "number": "7.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Independent increments",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Counts on disjoint time intervals are independent in a Poisson process. Their means depend only on interval lengths and the rate.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.1.2",
+      "number": "7.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Thinning and superposition",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Independent thinning preserves the Poisson form, and independent superposition adds rates. These operations support decomposition and construction of arrival models.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.1.3",
+      "number": "7.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Renewal theory",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Renewal theory generalizes Poisson arrivals by allowing nonexponential waiting times. It studies the accumulation and long-run frequency of renewal events.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Section 7.2",
+      "number": "7.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Renewal equation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The renewal equation relates a renewal quantity to the waiting-time distribution through convolution. It organizes repeated-event calculations recursively.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.2.1",
+      "number": "7.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Reward processes",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A renewal reward process accumulates a reward in each cycle. Under suitable integrability, its long-run rate is expected reward divided by expected cycle length.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.2.2",
+      "number": "7.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-7-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Limit behavior",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Renewal limit theorems describe asymptotic counts and residual waiting behavior. Arithmetic versus nonarithmetic waiting-time laws can change the formulation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch07-poisson-and-renewal-processes.tex · Subsection 7.2.3",
+      "number": "7.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Brownian motion",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Brownian motion combines Gaussian increments with continuous sample paths. Brownian martingale tools connect path properties with stopping and variation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex",
+      "number": "8",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Construction and path properties",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Brownian motion combines Gaussian increments with continuous sample paths. These properties create a canonical model of continuous random fluctuation.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Section 8.1",
+      "number": "8.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Gaussian increments",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Brownian increments over disjoint intervals are independent and Gaussian with variance proportional to elapsed time. This determines the finite-dimensional laws.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.1.1",
+      "number": "8.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Continuity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Brownian motion has continuous versions despite its highly irregular paths. Continuity does not imply ordinary differentiability.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.1.2",
+      "number": "8.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Scaling",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Brownian scaling rescales time quadratically relative to space. It explains the diffusion scale of the process.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.1.3",
+      "number": "8.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Martingale characterization",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Brownian martingale tools connect path properties with stopping and variation. They prepare the construction of stochastic integration.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Section 8.2",
+      "number": "8.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Quadratic variation",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Quadratic variation sums squared increments and converges to elapsed time for Brownian motion in the standard sense. It replaces the vanishing quadratic variation of smooth paths.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.2.1",
+      "number": "8.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Reflection principle",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The reflection principle relates a Brownian running maximum to terminal Gaussian probabilities. It uses path symmetry after a suitable hitting time.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.2.2",
+      "number": "8.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-8-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Stopping arguments",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Stopping arguments analyze paths at random information-compatible times. Optional stopping and strong Markov hypotheses must be checked in each use.",
+      "source": "book/latex/part02-central-theory-and-techniques/chapters/ch08-brownian-motion.tex · Subsection 8.2.3",
+      "number": "8.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:part-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Further Theory and Applications",
+      "kind": "part",
+      "layer": "book",
+      "depth": 1,
+      "description": "This part groups chapters in this subject’s graduate book.",
+      "source": "book/latex/structure.json",
+      "number": "Part III",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Stochastic integration and SDEs",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "The Itô integral integrates adapted stochastic processes against Brownian motion. Itô calculus accounts for the nonzero quadratic variation of stochastic paths.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex",
+      "number": "9",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Itô integral",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "The Itô integral integrates adapted stochastic processes against Brownian motion. It is constructed by an isometry rather than ordinary pathwise variation.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Section 9.1",
+      "number": "9.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Simple adapted processes",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Simple adapted integrands are piecewise constant with values determined at the left endpoints. Their stochastic integrals are finite sums of Brownian increments.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.1.1",
+      "number": "9.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Isometry",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "The Itô isometry equates the integral's second moment with the expected time integral of the squared integrand. It gives the norm control needed for extension.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.1.2",
+      "number": "9.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Extension",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Completion extends the integral from simple processes to an appropriate predictable square-integrable class. This preserves the isometry and martingale properties.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.1.3",
+      "number": "9.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Itô calculus",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Itô calculus accounts for the nonzero quadratic variation of stochastic paths. It provides both transformation formulas and solution methods for SDEs.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Section 9.2",
+      "number": "9.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Itô formula",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Itô's formula adds a second-derivative correction to the ordinary chain rule. The correction comes from quadratic variation.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.2.1",
+      "number": "9.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Existence and uniqueness for SDEs",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Standard SDE existence and uniqueness theorems use coefficient conditions such as Lipschitz continuity and controlled growth. Different weak and strong notions of solution require separate statements.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.2.2",
+      "number": "9.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-9-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Examples",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Geometric Brownian motion and Ornstein–Uhlenbeck processes give explicit SDE solutions. They illustrate how drift and diffusion affect path and distribution behavior.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch09-stochastic-integration-and-sdes.tex · Subsection 9.2.3",
+      "number": "9.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Diffusions and advanced processes",
+      "kind": "chapter",
+      "layer": "book",
+      "depth": 2,
+      "description": "Diffusion generators connect stochastic evolution with deterministic PDEs. Advanced process theory studies long-run averages, rare events, and interacting randomness.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex",
+      "number": "10",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Generators and PDE",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Diffusion generators connect stochastic evolution with deterministic PDEs. Martingale and boundary formulations provide complementary descriptions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Section 10.1",
+      "number": "10.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-1-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Kolmogorov equations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Backward and forward Kolmogorov equations describe evolution of expectations and probability laws respectively. Deriving them requires matching generator and regularity assumptions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.1.1",
+      "number": "10.1.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-1-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Martingale problem",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "A martingale problem characterizes a process through test functions and a proposed generator. Well-posedness can provide existence and uniqueness in law.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.1.2",
+      "number": "10.1.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-1-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Boundary behavior",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Boundary behavior determines whether paths are killed, reflected, absorbed, or otherwise constrained. This affects both the stochastic model and its PDE boundary conditions.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.1.3",
+      "number": "10.1.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Further topics",
+      "kind": "section",
+      "layer": "book",
+      "depth": 3,
+      "description": "Advanced process theory studies long-run averages, rare events, and interacting randomness. These routes require assumptions beyond those of elementary limit laws.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Section 10.2",
+      "number": "10.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-2-sub-1",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Stationarity and ergodicity",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Stationarity preserves the law under time shifts, while ergodicity rules out nontrivial invariant events. Together they support identification of long-time and ensemble averages in suitable theorems.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.2.1",
+      "number": "10.2.1",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-2-sub-2",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Large deviations",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Large deviations quantify exponentially small probabilities of atypical behavior. Rate functions replace variance as the main descriptor on that scale.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.2.2",
+      "number": "10.2.2",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    },
+    {
+      "id": "prob:book:ch-10-sec-2-sub-3",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "title": "Interacting systems or random graphs",
+      "kind": "subsection",
+      "layer": "book",
+      "depth": 4,
+      "description": "Interacting particle systems and random graphs model collective random structure. Their limiting behavior introduces dependence and geometry beyond independent samples.",
+      "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-diffusions-and-advanced-processes.tex · Subsection 10.2.3",
+      "number": "10.2.3",
+      "status": "planning",
+      "statement": "",
+      "hypotheses": "",
+      "evidence": "Book organization only; this arrow layer makes no proof-dependency claim."
+    }
+  ],
+  "edges": [
+    {
+      "id": "prob:edge-001",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:space",
+      "target": "prob:random",
+      "type": "definition",
+      "reason": "The domain carries the probability measure.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-002",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:random",
+      "target": "prob:expectation",
+      "type": "definition",
+      "reason": "Measurability permits integration.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-003",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:space",
+      "target": "prob:independence",
+      "type": "definition",
+      "reason": "Factorization is a statement about probabilities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-004",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:expectation",
+      "target": "prob:markov",
+      "type": "ingredient",
+      "reason": "Integrate the pointwise bound a·1_(X≥a)≤X.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-005",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:markov",
+      "target": "prob:chebyshev",
+      "type": "ingredient",
+      "reason": "Apply Markov to the squared centered variable.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-006",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:borel-cantelli",
+      "type": "ingredient",
+      "reason": "Independence is needed for the converse statement.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-007",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:expectation",
+      "target": "prob:fubini",
+      "type": "definition",
+      "reason": "The iterated integrals are expectations.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-008",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:markov",
+      "target": "prob:implications",
+      "type": "ingredient",
+      "reason": "Power errors control exceptional-event probabilities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-009",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:modes",
+      "target": "prob:implications",
+      "type": "definition",
+      "reason": "The conclusions use the stated modes.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-010",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:chebyshev",
+      "target": "prob:weak-law",
+      "type": "ingredient",
+      "reason": "The variance of the average is σ²/n.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-011",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:weak-law",
+      "type": "ingredient",
+      "reason": "Independent centered covariances vanish.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-012",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:borel-cantelli",
+      "target": "prob:strong-law",
+      "type": "ingredient",
+      "reason": "Truncation and summable exceptional bounds support a proof.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-013",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:strong-law",
+      "type": "definition",
+      "reason": "The samples have a common law and are independent.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-014",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:expectation",
+      "target": "prob:characteristic",
+      "type": "definition",
+      "reason": "The bounded complex integrand is always integrable.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-015",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:characteristic",
+      "target": "prob:levy",
+      "type": "definition",
+      "reason": "The transforms determine probability laws.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-016",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:levy",
+      "target": "prob:clt",
+      "type": "ingredient",
+      "reason": "Convergence of characteristic functions identifies the limit.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-017",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:clt",
+      "type": "ingredient",
+      "reason": "The characteristic function of a sum factors.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-018",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:modes",
+      "target": "prob:slutsky",
+      "type": "definition",
+      "reason": "Distributional and probability convergence play different roles.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-019",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:expectation",
+      "target": "prob:conditional",
+      "type": "definition",
+      "reason": "The defining identity is an integral identity.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-020",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:conditional",
+      "target": "prob:tower",
+      "type": "ingredient",
+      "reason": "Both sides satisfy the same defining integral identities.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-021",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:conditional",
+      "target": "prob:martingale",
+      "type": "definition",
+      "reason": "Conditional expectations express fair evolution.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-022",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:filtration",
+      "target": "prob:martingale",
+      "type": "definition",
+      "reason": "The filtration specifies available information.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-023",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:filtration",
+      "target": "prob:stopping",
+      "type": "definition",
+      "reason": "Whether stopping has occurred is observable at that time.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-024",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:martingale",
+      "target": "prob:optional",
+      "type": "ingredient",
+      "reason": "Sum stopped martingale differences.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-025",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:stopping",
+      "target": "prob:optional",
+      "type": "ingredient",
+      "reason": "The decision to include each increment is measurable beforehand.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-026",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:martingale",
+      "target": "prob:doob",
+      "type": "ingredient",
+      "reason": "Conditional submartingale estimates control crossing events.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-027",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:martingale",
+      "target": "prob:martingale-convergence",
+      "type": "bridge",
+      "reason": "Martingales are a special case of submartingales.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-028",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:markov-chain",
+      "target": "prob:chapman",
+      "type": "ingredient",
+      "reason": "Condition on the intermediate state.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-029",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:markov-chain",
+      "target": "prob:stationary",
+      "type": "definition",
+      "reason": "P is the transition matrix.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-030",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:chapman",
+      "target": "prob:finite-ergodic",
+      "type": "definition",
+      "reason": "Long-time transitions are powers of P.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-031",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:stationary",
+      "target": "prob:finite-ergodic",
+      "type": "definition",
+      "reason": "The limiting law solves the invariance equation.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-032",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:markov-chain",
+      "target": "prob:recurrence",
+      "type": "definition",
+      "reason": "Return events concern successive chain states.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-033",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:poisson",
+      "type": "definition",
+      "reason": "Independent increments are part of the definition.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-034",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:poisson",
+      "target": "prob:exponential",
+      "type": "ingredient",
+      "reason": "No-arrival probabilities are e^(−λt).",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-035",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:strong-law",
+      "target": "prob:renewal",
+      "type": "bridge",
+      "reason": "The sample renewal rate follows from the strong law; expectation convergence needs additional renewal bounds.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-036",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:independence",
+      "target": "prob:brownian",
+      "type": "definition",
+      "reason": "The increments over disjoint intervals are independent.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-037",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:kolmogorov-extension",
+      "target": "prob:brownian-existence",
+      "type": "ingredient",
+      "reason": "Construct the coordinate process from consistent laws.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-038",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:continuity",
+      "target": "prob:brownian-existence",
+      "type": "ingredient",
+      "reason": "Gaussian moment estimates produce continuous paths.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-039",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:brownian",
+      "target": "prob:reflection",
+      "type": "definition",
+      "reason": "Symmetric continuous Gaussian paths are the input.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-040",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:strong-markov",
+      "target": "prob:reflection",
+      "type": "ingredient",
+      "reason": "Reflect the path after its first hit of a.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-041",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:brownian",
+      "target": "prob:strong-markov",
+      "type": "ingredient",
+      "reason": "Approximate the stopping time by discrete times.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-042",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:stopping",
+      "target": "prob:strong-markov",
+      "type": "definition",
+      "reason": "The random time must be a stopping time.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-043",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:brownian",
+      "target": "prob:quadratic",
+      "type": "ingredient",
+      "reason": "Gaussian second and fourth moments control mean and variance.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-044",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:clt",
+      "target": "prob:donsker",
+      "type": "ingredient",
+      "reason": "Finite-dimensional distributions have Gaussian limits.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-045",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:brownian",
+      "target": "prob:donsker",
+      "type": "definition",
+      "reason": "The limiting law is Brownian path measure.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-046",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:brownian",
+      "target": "prob:ito-integral",
+      "type": "definition",
+      "reason": "Brownian increments drive the integral.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-047",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:filtration",
+      "target": "prob:ito-integral",
+      "type": "definition",
+      "reason": "The integrand must not anticipate future increments.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-048",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito-integral",
+      "target": "prob:isometry",
+      "type": "ingredient",
+      "reason": "Orthogonal martingale increments give the step-process identity and extension.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-049",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:quadratic",
+      "target": "prob:ito",
+      "type": "ingredient",
+      "reason": "Quadratic variation supplies the second-order correction.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-050",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito-integral",
+      "target": "prob:ito",
+      "type": "definition",
+      "reason": "The stochastic term is an Itô integral.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-051",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito-integral",
+      "target": "prob:sde",
+      "type": "definition",
+      "reason": "The diffusion term is a stochastic integral.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-052",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:isometry",
+      "target": "prob:sde-existence",
+      "type": "ingredient",
+      "reason": "Picard estimates control stochastic differences.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-053",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:sde",
+      "target": "prob:sde-existence",
+      "type": "definition",
+      "reason": "The coefficients meet the stated assumptions.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-054",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito",
+      "target": "prob:generator",
+      "type": "ingredient",
+      "reason": "The generator is the conditional drift of f(X_t).",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-055",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:generator",
+      "target": "prob:dynkin",
+      "type": "definition",
+      "reason": "The drift is Lf.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-056",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito",
+      "target": "prob:dynkin",
+      "type": "ingredient",
+      "reason": "Integrate Itô’s formula and take expectations.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-057",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:ito",
+      "target": "prob:feynman-kac",
+      "type": "ingredient",
+      "reason": "Apply Itô to the discounted solution along the diffusion.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:edge-058",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:generator",
+      "target": "prob:feynman-kac",
+      "type": "definition",
+      "reason": "The PDE uses the diffusion generator.",
+      "evidence": "Selected relationship in this subject; other proof prerequisites may be omitted."
+    },
+    {
+      "id": "prob:contains-58",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-1",
+      "target": "prob:book:ch-1",
+      "type": "contains",
+      "reason": "Contains “Probability spaces and random variables” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-59",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1",
+      "target": "prob:book:ch-1-sec-1",
+      "type": "contains",
+      "reason": "Contains “Measure-theoretic foundations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-60",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-1",
+      "target": "prob:book:ch-1-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Probability spaces” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-61",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-1",
+      "target": "prob:book:ch-1-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Measurable random variables” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-62",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-1",
+      "target": "prob:book:ch-1-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Distributions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-63",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1",
+      "target": "prob:book:ch-1-sec-2",
+      "type": "contains",
+      "reason": "Contains “Expectation and independence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-64",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-2",
+      "target": "prob:book:ch-1-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Integration” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-65",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-2",
+      "target": "prob:book:ch-1-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Product measures” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-66",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-1-sec-2",
+      "target": "prob:book:ch-1-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Independence and conditioning basics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-67",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-1",
+      "target": "prob:book:ch-2",
+      "type": "contains",
+      "reason": "Contains “Convergence and limit laws” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-68",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2",
+      "target": "prob:book:ch-2-sec-1",
+      "type": "contains",
+      "reason": "Contains “Modes of convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-69",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-1",
+      "target": "prob:book:ch-2-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Almost sure” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-70",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-1",
+      "target": "prob:book:ch-2-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “In probability” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-71",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-1",
+      "target": "prob:book:ch-2-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “In Lp” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-72",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-1",
+      "target": "prob:book:ch-2-sec-1-sub-4",
+      "type": "contains",
+      "reason": "Contains “In distribution” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-73",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2",
+      "target": "prob:book:ch-2-sec-2",
+      "type": "contains",
+      "reason": "Contains “Laws of large numbers” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-74",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-2",
+      "target": "prob:book:ch-2-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Borel–Cantelli” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-75",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-2",
+      "target": "prob:book:ch-2-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Weak law” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-76",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-2-sec-2",
+      "target": "prob:book:ch-2-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Strong law” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-77",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-1",
+      "target": "prob:book:ch-3",
+      "type": "contains",
+      "reason": "Contains “Characteristic functions and central limits” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-78",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3",
+      "target": "prob:book:ch-3-sec-1",
+      "type": "contains",
+      "reason": "Contains “Characteristic functions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-79",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-1",
+      "target": "prob:book:ch-3-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Fourier transforms” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-80",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-1",
+      "target": "prob:book:ch-3-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Uniqueness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-81",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-1",
+      "target": "prob:book:ch-3-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Continuity theorem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-82",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3",
+      "target": "prob:book:ch-3-sec-2",
+      "type": "contains",
+      "reason": "Contains “Central limit theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-83",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-2",
+      "target": "prob:book:ch-3-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Classical CLT” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-84",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-2",
+      "target": "prob:book:ch-3-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Triangular arrays” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-85",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-3-sec-2",
+      "target": "prob:book:ch-3-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Selected refinements” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-86",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-2",
+      "target": "prob:book:ch-4",
+      "type": "contains",
+      "reason": "Contains “Conditional expectation and martingales” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-87",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4",
+      "target": "prob:book:ch-4-sec-1",
+      "type": "contains",
+      "reason": "Contains “Conditional expectation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-88",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-1",
+      "target": "prob:book:ch-4-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Radon–Nikodym definition” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-89",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-1",
+      "target": "prob:book:ch-4-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Tower property” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-90",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-1",
+      "target": "prob:book:ch-4-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Conditional distributions” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-91",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4",
+      "target": "prob:book:ch-4-sec-2",
+      "type": "contains",
+      "reason": "Contains “Martingale basics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-92",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-2",
+      "target": "prob:book:ch-4-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Filtrations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-93",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-2",
+      "target": "prob:book:ch-4-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Adaptedness” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-94",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-4-sec-2",
+      "target": "prob:book:ch-4-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples and stopping times” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-95",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-2",
+      "target": "prob:book:ch-5",
+      "type": "contains",
+      "reason": "Contains “Martingale theorems” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-96",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5",
+      "target": "prob:book:ch-5-sec-1",
+      "type": "contains",
+      "reason": "Contains “Inequalities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-97",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-1",
+      "target": "prob:book:ch-5-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Doob inequalities” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-98",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-1",
+      "target": "prob:book:ch-5-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Maximal estimates” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-99",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-1",
+      "target": "prob:book:ch-5-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Upcrossings” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-100",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5",
+      "target": "prob:book:ch-5-sec-2",
+      "type": "contains",
+      "reason": "Contains “Convergence and stopping” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-101",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-2",
+      "target": "prob:book:ch-5-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Martingale convergence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-102",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-2",
+      "target": "prob:book:ch-5-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Optional stopping hypotheses” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-103",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-5-sec-2",
+      "target": "prob:book:ch-5-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Counterexamples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-104",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-2",
+      "target": "prob:book:ch-6",
+      "type": "contains",
+      "reason": "Contains “Markov chains and processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-105",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6",
+      "target": "prob:book:ch-6-sec-1",
+      "type": "contains",
+      "reason": "Contains “Discrete-time chains” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-106",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-1",
+      "target": "prob:book:ch-6-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Transition matrices” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-107",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-1",
+      "target": "prob:book:ch-6-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Recurrence” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-108",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-1",
+      "target": "prob:book:ch-6-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Invariant measures” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-109",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6",
+      "target": "prob:book:ch-6-sec-2",
+      "type": "contains",
+      "reason": "Contains “Continuous-time processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-110",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-2",
+      "target": "prob:book:ch-6-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Generators” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-111",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-2",
+      "target": "prob:book:ch-6-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Jump chains” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-112",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-6-sec-2",
+      "target": "prob:book:ch-6-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Semigroups” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-113",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-2",
+      "target": "prob:book:ch-7",
+      "type": "contains",
+      "reason": "Contains “Poisson and renewal processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-114",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7",
+      "target": "prob:book:ch-7-sec-1",
+      "type": "contains",
+      "reason": "Contains “Poisson process” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-115",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-1",
+      "target": "prob:book:ch-7-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Construction” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-116",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-1",
+      "target": "prob:book:ch-7-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Independent increments” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-117",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-1",
+      "target": "prob:book:ch-7-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Thinning and superposition” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-118",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7",
+      "target": "prob:book:ch-7-sec-2",
+      "type": "contains",
+      "reason": "Contains “Renewal theory” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-119",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-2",
+      "target": "prob:book:ch-7-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Renewal equation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-120",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-2",
+      "target": "prob:book:ch-7-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Reward processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-121",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-7-sec-2",
+      "target": "prob:book:ch-7-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Limit behavior” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-122",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-2",
+      "target": "prob:book:ch-8",
+      "type": "contains",
+      "reason": "Contains “Brownian motion” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-123",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8",
+      "target": "prob:book:ch-8-sec-1",
+      "type": "contains",
+      "reason": "Contains “Construction and path properties” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-124",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-1",
+      "target": "prob:book:ch-8-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Gaussian increments” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-125",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-1",
+      "target": "prob:book:ch-8-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Continuity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-126",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-1",
+      "target": "prob:book:ch-8-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Scaling” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-127",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8",
+      "target": "prob:book:ch-8-sec-2",
+      "type": "contains",
+      "reason": "Contains “Martingale characterization” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-128",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-2",
+      "target": "prob:book:ch-8-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Quadratic variation” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-129",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-2",
+      "target": "prob:book:ch-8-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Reflection principle” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-130",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-8-sec-2",
+      "target": "prob:book:ch-8-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Stopping arguments” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-131",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-3",
+      "target": "prob:book:ch-9",
+      "type": "contains",
+      "reason": "Contains “Stochastic integration and SDEs” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-132",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9",
+      "target": "prob:book:ch-9-sec-1",
+      "type": "contains",
+      "reason": "Contains “Itô integral” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-133",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-1",
+      "target": "prob:book:ch-9-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Simple adapted processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-134",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-1",
+      "target": "prob:book:ch-9-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Isometry” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-135",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-1",
+      "target": "prob:book:ch-9-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Extension” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-136",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9",
+      "target": "prob:book:ch-9-sec-2",
+      "type": "contains",
+      "reason": "Contains “Itô calculus” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-137",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-2",
+      "target": "prob:book:ch-9-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Itô formula” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-138",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-2",
+      "target": "prob:book:ch-9-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Existence and uniqueness for SDEs” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-139",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-9-sec-2",
+      "target": "prob:book:ch-9-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Examples” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-140",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:part-3",
+      "target": "prob:book:ch-10",
+      "type": "contains",
+      "reason": "Contains “Diffusions and advanced processes” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-141",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10",
+      "target": "prob:book:ch-10-sec-1",
+      "type": "contains",
+      "reason": "Contains “Generators and PDE” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-142",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-1",
+      "target": "prob:book:ch-10-sec-1-sub-1",
+      "type": "contains",
+      "reason": "Contains “Kolmogorov equations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-143",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-1",
+      "target": "prob:book:ch-10-sec-1-sub-2",
+      "type": "contains",
+      "reason": "Contains “Martingale problem” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-144",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-1",
+      "target": "prob:book:ch-10-sec-1-sub-3",
+      "type": "contains",
+      "reason": "Contains “Boundary behavior” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-145",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10",
+      "target": "prob:book:ch-10-sec-2",
+      "type": "contains",
+      "reason": "Contains “Further topics” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-146",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-2",
+      "target": "prob:book:ch-10-sec-2-sub-1",
+      "type": "contains",
+      "reason": "Contains “Stationarity and ergodicity” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-147",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-2",
+      "target": "prob:book:ch-10-sec-2-sub-2",
+      "type": "contains",
+      "reason": "Contains “Large deviations” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    },
+    {
+      "id": "prob:contains-148",
+      "subjectId": "5-applied-mathematics-probability-and-stochastic-processes",
+      "source": "prob:book:ch-10-sec-2",
+      "target": "prob:book:ch-10-sec-2-sub-3",
+      "type": "contains",
+      "reason": "Contains “Interacting systems or random graphs” in this subject’s annotated book.",
+      "evidence": "Local book structure.json"
+    }
+  ]
+}

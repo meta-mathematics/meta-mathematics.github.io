@@ -1,0 +1,86 @@
+{
+  "checks": [
+    "/: landing page, all six branch filters, search, empty state, reset and alphabetical order",
+    "/: all 17 cards open the correct local graph, reject foreign imports, open local book pages and return to the dashboard",
+    "/: mobile layout, branch filtering, subject entry and return navigation",
+    "/: all assets resolve locally without missing files or external requests",
+    "/a-repository/: landing page, all six branch filters, search, empty state, reset and alphabetical order",
+    "/a-repository/: all 17 cards open the correct local graph, reject foreign imports, open local book pages and return to the dashboard",
+    "/a-repository/: mobile layout, branch filtering, subject entry and return navigation",
+    "/a-repository/: all assets resolve locally without missing files or external requests"
+  ],
+  "subjects": [
+    {
+      "subject": "Number Theory",
+      "passed": true
+    },
+    {
+      "subject": "Advanced Calculus",
+      "passed": true
+    },
+    {
+      "subject": "Complex Analysis",
+      "passed": true
+    },
+    {
+      "subject": "Functional Analysis and Measure Theory",
+      "passed": true
+    },
+    {
+      "subject": "Harmonic Analysis",
+      "passed": true
+    },
+    {
+      "subject": "Real Analysis",
+      "passed": true
+    },
+    {
+      "subject": "Algebraic Geometry",
+      "passed": true
+    },
+    {
+      "subject": "Linear Algebra",
+      "passed": true
+    },
+    {
+      "subject": "Modern Algebra",
+      "passed": true
+    },
+    {
+      "subject": "Representation Theory and Lie Theory",
+      "passed": true
+    },
+    {
+      "subject": "Algebraic Topology",
+      "passed": true
+    },
+    {
+      "subject": "Differential Geometry",
+      "passed": true
+    },
+    {
+      "subject": "General Topology",
+      "passed": true
+    },
+    {
+      "subject": "Optimization and Numerical Analysis",
+      "passed": true
+    },
+    {
+      "subject": "Partial Differential Equations",
+      "passed": true
+    },
+    {
+      "subject": "Probability and Stochastic Processes",
+      "passed": true
+    },
+    {
+      "subject": "Mathematical Logic and Set Theory",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "browser": "154.0.8037.99",
+  "date": "2026-10-10T23:10:17.629Z"
+}
