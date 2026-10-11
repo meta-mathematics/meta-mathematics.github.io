@@ -1,0 +1,452 @@
+{
+  "subjects": [
+    {
+      "title": "Number Theory",
+      "nodes": 144,
+      "edges": 225,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 12180
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 16377
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 19023
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Advanced Calculus",
+      "nodes": 64,
+      "edges": 83,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5984
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7711
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 8761
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Complex Analysis",
+      "nodes": 64,
+      "edges": 77,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5606
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7144
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 8068
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Functional Analysis and Measure Theory",
+      "nodes": 64,
+      "edges": 70,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6236
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 8089
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 9223
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Harmonic Analysis",
+      "nodes": 48,
+      "edges": 53,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4524
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5835
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6633
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Real Analysis",
+      "nodes": 56,
+      "edges": 56,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6144
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7916
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 8966
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Algebraic Geometry",
+      "nodes": 48,
+      "edges": 58,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4398
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5646
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6402
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Linear Algebra",
+      "nodes": 48,
+      "edges": 55,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4776
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6213
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7095
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Modern Algebra",
+      "nodes": 48,
+      "edges": 51,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5066
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6492
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7332
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Representation Theory and Lie Theory",
+      "nodes": 48,
+      "edges": 57,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5066
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6492
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7332
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Algebraic Topology",
+      "nodes": 48,
+      "edges": 60,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4214
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5250
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5838
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Differential Geometry",
+      "nodes": 48,
+      "edges": 67,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5658
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7536
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 8712
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "General Topology",
+      "nodes": 48,
+      "edges": 58,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4146
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5268
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5940
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Optimization and Numerical Analysis",
+      "nodes": 48,
+      "edges": 46,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4272
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5457
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6171
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Partial Differential Equations",
+      "nodes": 48,
+      "edges": 59,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4398
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5646
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6402
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Probability and Stochastic Processes",
+      "nodes": 48,
+      "edges": 58,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 4398
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5646
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6402
+        }
+      },
+      "passed": true
+    },
+    {
+      "title": "Mathematical Logic and Set Theory",
+      "nodes": 48,
+      "edges": 57,
+      "densities": {
+        "compact": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 5350
+        },
+        "comfortable": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 6906
+        },
+        "spacious": {
+          "collisions": [],
+          "clipped": [],
+          "wrongTips": [],
+          "height": 7830
+        }
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "/: every subject renders only its own data; all routes avoid cards, labels fit, arrow tips align in all three densities; selection, search, line style, spacing, mobile scrolling, project banners, and canvas navigation pass",
+    "/a-repository/: every subject renders only its own data; all routes avoid cards, labels fit, arrow tips align in all three densities; selection, search, line style, spacing, mobile scrolling, project banners, and canvas navigation pass"
+  ],
+  "passed": true
+}

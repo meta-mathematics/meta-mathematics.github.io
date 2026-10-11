@@ -18,6 +18,16 @@ The copyright claim covers the company's copyrightable contributions, not mathem
 
 The collection contains 968 local mathematical objects, 1,190 selected relationships, and 1,594 book-outline entries. Shared ideas are counted separately when they appear in more than one subject. Each subject retains its own graph, references, local browser draft, and export. The website does not merge the subjects into one graph.
 
+## Vertical subject atlases
+
+All 17 subject landing pages now use the GRAPH-LAB vertical design. Scroll through subject regions with readable cards, rounded arrows routed around them, and a persistent region navigator. Select a result to highlight its incoming and outgoing support, inspect its statement and references, or follow a cross-region link. **All connections**, **Selected node only**, **Crisp elbows**, and **Spacious** provide alternative views. Region order is a reading itinerary, not a global topological ordering; cross-region connections can point upward or downward.
+
+The **Explore five selected theorems** banner remains at the top of every subject atlas and opens its existing local proof dashboard. This global-view update preserves all 85 project dashboards, local graphs, and PDF reports. **Canvas view & edit** opens the retained interactive editor, including book layers, import/export, browser drafts, and zoom/pan. The default vertical atlas reads the bundled graph directly and does not modify browser drafts.
+
+Each subject includes `assets/vertical.js`, `assets/vertical.css`, `assets/vertical.template`, and `assets/vertical-links.json`, alongside its own mathematical data. `tools/build_site.py` rebuilds the vertical landing pages using only website files. To refresh just their presentation from backend subjects, run `python3 tools/update_global_atlases.py --source-root /path/to/W-Workspace`; this does not replace graph or project data. Full atlas collection also preserves the vertical layout.
+
+`tools/verify_vertical_rollout.cjs` checks every subject at both a domain root and a repository subpath: subject identity, card and edge counts, unclipped labels, connector clearance, arrow direction, display controls, search, mobile scrolling, project banners, and the retained canvas view. Its report is `reports/vertical-rollout-verification.json`. The older `tools/verify.cjs` continues to exercise the landing page and retained canvas editing interactions.
+
 ## Website contents
 
 - Searchable landing page with branch filters and subject previews generated from the actual graphs.
@@ -132,3 +142,7 @@ For example: `subjects/number-theory/index.html` → `subjects/number-theory/pro
 ## Public project downloads
 
 Selected project dashboards offer **Read PDF** only. Project LaTeX and Markdown sources remain in the original workspace subject folders for backend authoring and analysis. The collector packages the interactive proof content and PDF reports, omits source-download fields and controls, and removes its previously managed source copies. Future refreshes preserve this separation.
+
+### Compact global graph density
+
+All 17 subject global atlases now default to the approved GRAPH-LAB compact layout: shorter cards, 54 px between rows, and small cross-region count badges. Titles keep their existing font size; cards gain height where longer titles require it. The Density menu retains Comfortable · original and Spacious. Selected-theorems banners and project-level graphs remain unchanged. Backend and website refresh tools preserve this default.

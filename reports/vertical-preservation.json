@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "protectedFiles": 2392,
+  "graphFiles": 68,
+  "projectFiles": 2324,
+  "checks": [
+    "All backend and website graph.json and graph-data.js files are byte-for-byte unchanged.",
+    "All backend and website project files, local graph assets, and PDF reports are byte-for-byte unchanged."
+  ],
+  "rebuildChecks": [
+    "All 17 backend builders preserve the vertical entry page and retained canvas editor.",
+    "Standalone website rebuild passes structural validation without backend dependencies.",
+    "Fresh backend collection retains all 17 vertical atlases, exactly one theorem-project banner per subject, and unchanged project files."
+  ]
+}

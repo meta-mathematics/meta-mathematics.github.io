@@ -4,6 +4,7 @@ from pathlib import Path
 import json,subprocess,sys
 from collect_subjects import preview,book_page
 from integrate_projects import integrate
+from vertical_atlas import apply_vertical
 ROOT=Path(__file__).resolve().parents[1]
 subjects=json.loads((ROOT/'subjects.json').read_text())
 # Check the complete inventory before changing any generated files.
@@ -21,6 +22,7 @@ for s,folder,g in loaded:
  (folder/'graph-data.js').write_text('/* Subject-local offline graph bootstrap. */\nwindow.META_GRAPH = '+json.dumps(g,ensure_ascii=False)+';\n')
  (folder/'preview.svg').write_text(preview(g))
  (folder/'resources/book.html').write_text(book_page(g))
+ apply_vertical(folder)
  s['title']=g['subject']['title'];s['nodes']=sum(n['layer']=='global' for n in g['nodes']);s['edges']=sum(e['type']!='contains' for e in g['edges']);s['bookNodes']=len(g['nodes'])-s['nodes'];s['regions']=[x['title'] for x in g['groups']]
 (ROOT/'subjects.json').write_text(json.dumps(subjects,ensure_ascii=False,indent=2)+'\n')
 integrate()

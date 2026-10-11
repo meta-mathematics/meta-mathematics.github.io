@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>__SUBJECT__ · Meta-Math</title>
+  <link rel="stylesheet" href="assets/vertical.css">
+  <script defer src="graph-data.js"></script><script defer src="assets/vertical.js"></script>
+</head>
+<body class="vertical-atlas">
+  <a class="skip" href="#map">Skip to the map</a>
+  <header class="lab-header"><a class="brand" href="index.html"><span class="mark">M<span>·</span></span><span>Meta-Math<small>GLOBAL MATHEMATICAL ATLAS</small></span></a><nav class="atlas-links" aria-label="Subject navigation"><a href="__LIBRARY_URL__">← All subjects</a><a id="bookLink" href="__BOOK_URL__">Book outline</a></nav><a class="compare" href="classic.html">Canvas view &amp; edit <span aria-hidden="true">↗</span></a></header>
+<!-- PROJECT BRIDGE START -->
+<section class="project-bridge" aria-label="Explore selected theorem proofs">
+  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five faculties, and mathematical activities.</p></div>
+  <a class="project-bridge-link" href="__PROJECTS_URL__">Open project dashboard <span aria-hidden="true">→</span><small>5 complete walkthroughs · PDF reports</small></a>
+</section>
+<!-- PROJECT BRIDGE END -->
+  <div class="lab-layout">
+    <aside class="navigator">
+      <div class="nav-intro"><span class="eyebrow">EXPLORE THE LANDSCAPE</span><h1 id="subjectTitle">__SUBJECT__</h1><p id="inventory"></p></div>
+      <label for="search">Find an idea or theorem</label><input id="search" type="search" placeholder="Search this subject…" autocomplete="off"><div id="search-results" class="search-results" aria-live="polite"></div>
+      <nav id="regions" aria-label="Jump to a mathematical region"></nav>
+      <div class="nav-note"><span class="eyebrow">HOW TO READ THE MAP</span><p>Local arrows flow downward from supporting ideas to the results that use them.</p><p>Region order is a reading itinerary. Connections between regions may travel upward or downward.</p><div class="legend"><span><i class="definition"></i>Definition / language</span><span><i class="ingredient"></i>Proof ingredient</span><span><i class="consequence"></i>Consequence</span><span><i class="bridge"></i>Conceptual bridge</span></div></div>
+    </aside>
+    <main id="map">
+      <section class="intro"><div><span class="eyebrow">A LITTLE MORE ROOM TO THINK</span><h2>Follow the ideas.<br><em>One region at a time.</em></h2><p>A vertical journey through the subject, with room for each connection. Select a result to illuminate its support and the ideas it leads to.</p></div><div class="intro-note"><span class="down-arrow">↓</span><strong>Scroll to explore</strong><p id="region-summary"></p></div></section>
+      <div class="toolbar" aria-label="Graph presentation controls">
+        <div><label for="connections">Connections</label><select id="connections"><option value="regional">Regional + selected cross-links</option><option value="selected">Selected node only</option><option value="all">All connections</option></select></div>
+        <div><label for="routing">Line style</label><select id="routing"><option value="rounded">Rounded elbows</option><option value="straight">Crisp elbows</option></select></div>
+        <div><label for="spacing">Density</label><select id="spacing"><option value="compact">Compact</option><option value="comfortable">Comfortable · original</option><option value="spacious">Spacious</option></select></div>
+        <button id="clear" disabled>Clear selection</button>
+        <p id="connection-count" role="status"></p>
+      </div>
+      <div class="selection-bar" id="selection-bar" hidden><span id="selection-label"></span><button id="open-details">Read statement & connections →</button></div>
+      <p class="reading-note">Arrowheads mark the receiving result. Dashed lines are conceptual bridges; dashed cards are open conjectures. Cross-region links are listed on each card.</p>
+      <div class="map-scroll" tabindex="0" aria-label="Vertical subject map; scroll horizontally on smaller screens"><div id="atlas"><svg id="edges" aria-label="Directed mathematical connections"></svg><div id="region-cards"></div><div id="nodes"></div></div></div>
+
+    </main>
+  </div>
+      <footer><p>Curated relationships, not exhaustive or formally verified proof dependencies. Each subject retains its own mathematical statements, references, and connections.</p><p class="research-credit">Meta-Math research, development, and documentation by Super-learning Lab, <a href="https://mindversecomputing.com">Mindverse Computing</a> LLC.</p></footer>
+  <aside id="inspector" class="inspector" aria-label="Selected mathematical object" hidden><button id="close-details" class="close" aria-label="Close details">×</button><div id="details"></div></aside>
+  <button id="top" class="back-top" aria-label="Back to the beginning of the map">↑ Top</button>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="description" content="Explore the Complex Analysis dependency atlas: mathematical statements, supporting results and consequences.">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Analysis · Meta-Math</title>
+  <link rel="stylesheet" href="assets/explorer.css">
+<link rel="stylesheet" href="../../assets/integration.css">
+<link rel="stylesheet" href="../../assets/site-credit.css">
+</head>
+<body class="subject-atlas">
+  <header class="masthead">
+    <a class="brand" href="#" id="libraryLink"><span class="mark">M<span>·</span></span><span>Meta-Math<small>GLOBAL MATHEMATICAL ATLAS</small></span></a>
+    <div class="subject-heading"><div class="subject-trail"><a href="../../index.html">← All subjects</a><span aria-hidden="true">/</span><span class="eyebrow" id="category"></span></div><h1 id="subjectTitle">Subject explorer</h1></div>
+    <div class="header-actions"><button id="globalButton">Entire subject</button><button id="expandButton">Expand map</button><button id="importButton">Import graph</button><button id="exportButton" class="primary">Export graph ↓</button><input id="importFile" type="file" accept=".json,application/json" hidden></div>
+  </header>
+<!-- PROJECT BRIDGE START -->
+<section class="project-bridge" aria-label="Explore selected theorem proofs">
+  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five faculties, and mathematical activities.</p></div>
+  <a class="project-bridge-link" href="projects/index.html">Open project dashboard <span aria-hidden="true">→</span><small>5 complete walkthroughs · PDF reports</small></a>
+</section>
+<!-- PROJECT BRIDGE END -->
+  <div class="workspace">
+    <aside class="navigator" aria-label="Explore the subject">
+      <div class="nav-top"><span class="eyebrow">EXPLORE THE SUBJECT</span><span class="offline">● Offline ready</span></div>
+      <label for="search">Find an idea or theorem</label><div class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Search titles, roles, hypotheses…" autocomplete="off"></div>
+      <div id="results" class="results" aria-live="polite"></div>
+      <label for="layer">Map</label><select id="layer"><option value="global">Global mathematical atlas</option><option value="overview">Legacy overview (import)</option><option value="book">Book structure</option><option value="all">All nodes</option></select>
+      <div id="depthField" hidden><label for="depth">Book detail</label><select id="depth"><option value="2">Parts and chapters</option><option value="3">Include sections</option><option value="4">Include subsections</option></select></div>
+      <label for="region">Subject region</label><select id="region"><option value="all">Entire subject</option></select><label for="kindFilter">Mathematical objects</label><select id="kindFilter"><option value="all">All mathematical objects</option></select><label for="edgeMode">Connections to show</label><select id="edgeMode"><option value="all">All typed connections</option><option value="dependencies">Dependencies without bridges</option><option value="definition">Definition / language</option><option value="ingredient">Proof ingredients</option><option value="consequence">Direct consequences</option><option value="bridge">Conceptual bridges</option></select><label for="direction">Layout</label><select id="direction"><option value="atlas">Subject regions</option><option value="vertical">Top to bottom</option><option value="horizontal">Left to right</option></select>
+      <label for="focus">Explore from selected node</label><select id="focus"><option value="all">Whole map</option><option value="neighbors">Immediate connections</option><option value="ancestors">All incoming ancestors</option><option value="descendants">All outgoing descendants</option><option value="path">Find a directed path</option></select>
+      <div id="pathField" hidden><label for="pathTarget">Path destination</label><select id="pathTarget"></select><p class="hint">Follows displayed arrow directions. A route follows the selected connection types. A path through results is not a complete proof.</p></div>
+      <label class="check"><input type="checkbox" id="edgeLabels"> Show connection types</label>
+      <div class="nav-divider"></div><div class="nav-section"><h2>Build the knowledge graph</h2><p>Add precise theorem statements and justified connections as you develop the subject.</p><div class="button-row"><button id="addNode">+ Node</button><button id="addEdge">+ Connection</button></div></div>
+      <div class="nav-divider"></div><div class="legend"><h2>Read the map</h2><p><i class="line conceptual"></i> Definition / language</p><p><i class="line proof"></i> Selected proof ingredient</p><p><i class="line consequence"></i> Direct consequence</p><p><i class="line bridge"></i> Conceptual bridge</p></div>
+      <p class="hint">Arrows run from supporting objects to results that use them. Dependencies are selected mathematical relationships, not exhaustive proof certificates. Dashed node borders mark open conjectures.</p>
+      <div class="nav-footer"><a id="sourceLink" href="resources/meta-graph.md">Original map ↗</a><a id="bookLink" href="resources/book.html">Book outline ↗</a><button id="resetButton" class="quiet">Reset local changes</button><span id="saveStatus" class="hint">Original subject data</span></div>
+    </aside>
+    <main class="graph-area">
+      <div class="graph-top"><div><span class="eyebrow" id="viewLabel">SUBJECT MAP</span><p id="viewSubtitle">Follow how mathematical ideas support one another.</p></div><div class="map-actions"><button id="arrangeButton" title="Restore automatic positions for the visible nodes">Arrange</button><button id="fitButton">Fit map <kbd>F</kbd></button></div></div>
+      <canvas id="graph" tabindex="0" aria-label="Interactive subject graph. Drag the background to pan, scroll to zoom, click a node to inspect. Search and the node list provide keyboard access."></canvas>
+      <div class="graph-empty" id="emptyState" hidden>No nodes match this view.</div>
+      <div class="graph-bottom"><div class="map-stats" id="stats"></div><div class="zoom-controls"><button id="zoomOut" aria-label="Zoom out">−</button><span id="zoomLevel">100%</span><button id="zoomIn" aria-label="Zoom in">+</button></div></div>
+      <div id="mapNotice" class="map-notice" hidden></div>
+      <canvas id="minimap" width="180" height="115" aria-label="Navigation overview. Click to move around the main graph."></canvas><div class="graph-help">Drag to pan · Scroll to zoom · Click a result to inspect · Double-click to isolate its neighbors</div>
+    </main>
+    <aside class="inspector" aria-label="Selected node details"><div id="details"></div></aside>
+  </div>
+  <div id="toast" role="status" hidden></div>
+  <dialog id="editor"><form id="editForm"><div class="dialog-top"><div><span class="eyebrow">GROW THE GRAPH</span><h2 id="editorTitle"></h2></div><button type="button" id="closeEditor" aria-label="Close editor">×</button></div><div id="editorFields"></div><p id="editorError" class="error" role="alert"></p><div class="dialog-actions"><button type="button" id="cancelEditor">Cancel</button><button type="submit" class="primary">Save to this browser</button></div></form></dialog>
+  <script src="graph-data.js"></script><script src="assets/explorer.js"></script>
+<footer class="research-footer"><p class="research-credit">Meta-Math research, development, and documentation by Super-learning Lab, <a href="https://mindversecomputing.com">Mindverse Computing</a> LLC.</p></footer>
+</body>
+</html>

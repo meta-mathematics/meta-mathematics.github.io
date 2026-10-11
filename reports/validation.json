@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "date": "2026-10-11T03:10:27.067795+00:00",
+  "date": "2026-10-11T03:58:20.997402+00:00",
   "counts": {
     "subjects": 17,
     "mathematicalObjects": 968,
@@ -10,7 +10,7 @@
     "localAgents": 257,
     "projectDownloads": 85
   },
-  "internalLinksAndAssetsChecked": 503,
+  "internalLinksAndAssetsChecked": 673,
   "sourceFidelityChecked": true,
   "checks": [
     "All 17 independent subject packages present",

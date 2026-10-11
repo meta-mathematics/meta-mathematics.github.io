@@ -5,6 +5,8 @@ sources are never changed. Website copies are refreshed; export browser drafts
 before replacing them. Dashboard design assets are maintained separately.
 """
 import argparse,copy,hashlib,html,json,re
+import shutil
+from vertical_atlas import apply_vertical
 from pathlib import Path
 SITE=Path(__file__).resolve().parents[1]
 CATEGORIES=[('1-Number-Theory','number-theory','Number Theory'),('2-Analysis','analysis','Analysis'),('3-Algebra','algebra','Algebra'),('4-Geometry-and-Topology','geometry-topology','Geometry & Topology'),('5-Applied-Mathematics','applied-mathematics','Applied Mathematics'),('6-Logic-and-Foundations','logic-foundations','Logic & Foundations')]
@@ -73,11 +75,14 @@ def main():
             else:
                 text+='\n.subject-trail{display:flex;align-items:center;gap:9px;font-size:10px}.subject-trail>a{font-weight:650}.subject-trail .eyebrow{font-size:8px}.subject-heading{min-width:0}@media(max-width:860px){.subject-trail .eyebrow{display:inline}.subject-trail{margin-bottom:7px}}\n'
             (dst/'assets'/name).write_text(text)
-        page=(src/'index.html').read_text().replace('<title>Meta-Math · Subject explorer</title>','<title>'+E(s['title'])+' · Meta-Math</title>')
+        page=(src/'classic.html').read_text().replace('<title>Meta-Math · Subject explorer</title>','<title>'+E(s['title'])+' · Meta-Math</title>')
         page=page.replace('<span class="eyebrow" id="category"></span>','<div class="subject-trail"><a href="../../index.html">← All subjects</a><span aria-hidden="true">/</span><span class="eyebrow" id="category"></span></div>')
         page=page.replace('href="meta-graph.md"','href="resources/meta-graph.md"').replace('href="../book/outline.md"','href="resources/book.html"')
         page=page.replace('<head>','<head>\n  <meta name="description" content="Explore the '+E(s['title'])+' dependency atlas: mathematical statements, supporting results and consequences.">\n  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">')
-        (dst/'index.html').write_text(page)
+        (dst/'classic.html').write_text(page)
+        for name in ('vertical.template','vertical.css','vertical.js'):
+            shutil.copyfile(src/'assets'/name,dst/'assets'/name)
+        apply_vertical(dst,library_url='../../index.html',projects_url='projects/index.html',book_url='resources/book.html')
         originalmap=(src/'meta-graph.md').read_text().replace('../book/outline.md','book-outline.md')
         (dst/'resources/meta-graph.md').write_text(originalmap)
         (dst/'resources/book-outline.md').write_bytes((src.parent/'book/outline.md').read_bytes())
