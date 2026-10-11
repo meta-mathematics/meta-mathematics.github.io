@@ -8,6 +8,14 @@ Meta-Math research, development, and documentation by Super-learning Lab, [Mindv
 
 All public HTML pages carry a consistent institutional credit in their footer. The shared credit is maintained in `tools/site_credit.py` and styled by `assets/site-credit.css`; the website builders and collectors preserve it automatically.
 
+## License
+
+Copyright 2026 **Mindverse Computing LLC**.
+
+The Meta-Math project in this directory is licensed under the **Apache License, Version 2.0**. See [LICENSE](LICENSE) for the full terms and [NOTICE](NOTICE) for the project attribution. Research and development are conducted by Super-learning Lab, Mindverse Computing LLC.
+
+The copyright claim covers the company's copyrightable contributions, not mathematical facts, principles, or theorems. Third-party materials retain their respective rights and license terms; linked external works are not relicensed. Trademark permissions are governed by Section 6 of the Apache License.
+
 The collection contains 968 local mathematical objects, 1,190 selected relationships, and 1,594 book-outline entries. Shared ideas are counted separately when they appear in more than one subject. Each subject retains its own graph, references, local browser draft, and export. The website does not merge the subjects into one graph.
 
 ## Website contents

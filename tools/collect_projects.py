@@ -80,7 +80,7 @@ def main():
         page=page.replace('<body>','<body class="proof-studio">')
         page=page.replace('</head>','<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../../assets/integration.css"></head>')
         page=page.replace('href="../../meta-graph/index.html"','href="../index.html"')
-        page=re.sub(r'<footer>.*?</footer>',f'<footer><a href="../../../index.html">All subjects ↗</a><a href="../index.html">{html.escape(s["title"])} global graph ↗</a><span>Dibakar Sigdel · Mindverse Computing LLC</span></footer>',page,flags=re.S)
+        page=re.sub(r'<footer>.*?</footer>',f'<footer><a href="../../../index.html">All subjects ↗</a><a href="../index.html">{html.escape(s["title"])} global graph ↗</a></footer>',page,flags=re.S)
         trail=f'<nav class="proof-breadcrumb" aria-label="Breadcrumb"><a href="../../../index.html">All subjects</a><span aria-hidden="true">/</span><a href="../index.html">{html.escape(s["title"])}</a><span aria-hidden="true">/</span><a href="#overview" aria-label="Return to the five selected theorems">Selected theorems</a></nav>'
         page=page.replace('</header>','</header>'+trail,1)
         (dst/'index.html').write_text(page)
