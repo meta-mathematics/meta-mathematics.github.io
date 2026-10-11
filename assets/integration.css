@@ -1,0 +1,17 @@
+/* Shared navigation between subject atlases and their local proof studios. */
+.project-bridge{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:17px 27px;background:#e9f0e3;border-bottom:1px solid #ccdaca;color:#203b3b}
+.bridge-eyebrow{display:block;color:#526e5b;font-size:9px;font-weight:750;letter-spacing:.15em;margin-bottom:5px}
+.project-bridge h2{font:24px/1.2 Georgia,serif;margin:0 0 5px}
+.project-bridge p{font-size:12px;line-height:1.5;color:#506962;margin:0}
+.project-bridge-link{flex-shrink:0;display:block;background:#146959;border:1px solid #146959;color:#fff!important;padding:11px 18px;border-radius:8px;font-size:13px;font-weight:650;text-decoration:none!important}
+.project-bridge-link:hover{background:#105747}.project-bridge-link small{display:block;font-size:10px;font-weight:400;color:#deebde;margin-top:3px}
+.project-bridge-link:focus-visible{outline:3px solid #a97237;outline-offset:4px}
+@media(min-width:861px){body.subject-atlas{height:100dvh;display:flex;flex-direction:column}.subject-atlas>.masthead,.subject-atlas>.project-bridge{flex-shrink:0}.subject-atlas>.workspace{height:auto;flex:1;min-height:420px}}
+@media(max-width:620px){.project-bridge{align-items:stretch;flex-direction:column;gap:13px;padding:17px 20px}.project-bridge h2{font-size:22px}.project-bridge-link{text-align:center}}
+.proof-studio{--paper:#f5f4ef;--ink:#203b3b;--muted:#677b79;--line:#dce3dc}
+.proof-studio>.masthead{background:#fcfcf9;max-width:none}.proof-studio .brand .mark{background:#146959;border-radius:10px}
+.proof-studio .global-link,.proof-breadcrumb a,.proof-studio>footer a{color:#146959}
+.proof-breadcrumb{max-width:1440px;margin:auto;padding:14px 48px 0;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:12px;color:#677b79}
+.proof-studio .intro{padding-top:42px}.proof-studio .studio-grid>*,.proof-studio .faculty-rail,.proof-studio .faculty,.proof-studio #node-detail,.proof-studio .target,.proof-studio .project-heading>*{min-width:0}
+.proof-studio math[display="inline"]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}
+@media(max-width:750px){.proof-studio .studio-grid{grid-template-columns:minmax(0,1fr)}.proof-studio .node-kicker{flex-wrap:wrap;gap:4px}.proof-studio .brand{min-width:0}.proof-studio .brand small{overflow-wrap:anywhere}.proof-studio .global-link{flex-shrink:0}.proof-breadcrumb{padding:14px 18px 0}.proof-studio .intro{padding-top:28px}.proof-studio>footer{flex-wrap:wrap;gap:12px}}

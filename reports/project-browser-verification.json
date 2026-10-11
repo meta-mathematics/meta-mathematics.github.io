@@ -1,0 +1,213 @@
+{
+  "routes": [
+    {
+      "prefix": "/",
+      "subject": "Number Theory",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/",
+      "subject": "Advanced Calculus",
+      "projects": 5,
+      "nodesVisited": 15
+    },
+    {
+      "prefix": "/",
+      "subject": "Complex Analysis",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/",
+      "subject": "Functional Analysis and Measure Theory",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/",
+      "subject": "Harmonic Analysis",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/",
+      "subject": "Real Analysis",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/",
+      "subject": "Algebraic Geometry",
+      "projects": 5,
+      "nodesVisited": 13
+    },
+    {
+      "prefix": "/",
+      "subject": "Linear Algebra",
+      "projects": 5,
+      "nodesVisited": 15
+    },
+    {
+      "prefix": "/",
+      "subject": "Modern Algebra",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/",
+      "subject": "Representation Theory and Lie Theory",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/",
+      "subject": "Algebraic Topology",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/",
+      "subject": "Differential Geometry",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/",
+      "subject": "General Topology",
+      "projects": 5,
+      "nodesVisited": 17
+    },
+    {
+      "prefix": "/",
+      "subject": "Optimization and Numerical Analysis",
+      "projects": 5,
+      "nodesVisited": 13
+    },
+    {
+      "prefix": "/",
+      "subject": "Partial Differential Equations",
+      "projects": 5,
+      "nodesVisited": 14
+    },
+    {
+      "prefix": "/",
+      "subject": "Probability and Stochastic Processes",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/",
+      "subject": "Mathematical Logic and Set Theory",
+      "projects": 5,
+      "nodesVisited": 14
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Number Theory",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Advanced Calculus",
+      "projects": 5,
+      "nodesVisited": 15
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Complex Analysis",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Functional Analysis and Measure Theory",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Harmonic Analysis",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Real Analysis",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Algebraic Geometry",
+      "projects": 5,
+      "nodesVisited": 13
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Linear Algebra",
+      "projects": 5,
+      "nodesVisited": 15
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Modern Algebra",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Representation Theory and Lie Theory",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Algebraic Topology",
+      "projects": 5,
+      "nodesVisited": 16
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Differential Geometry",
+      "projects": 5,
+      "nodesVisited": 18
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "General Topology",
+      "projects": 5,
+      "nodesVisited": 17
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Optimization and Numerical Analysis",
+      "projects": 5,
+      "nodesVisited": 13
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Partial Differential Equations",
+      "projects": 5,
+      "nodesVisited": 14
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Probability and Stochastic Processes",
+      "projects": 5,
+      "nodesVisited": 12
+    },
+    {
+      "prefix": "/mathematics/",
+      "subject": "Mathematical Logic and Set Theory",
+      "projects": 5,
+      "nodesVisited": 14
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "offline": true,
+  "passed": true,
+  "date": "2026-10-11T01:52:10.347Z"
+}

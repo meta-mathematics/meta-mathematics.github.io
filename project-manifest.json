@@ -1,0 +1,1906 @@
+{
+  "number-theory": {
+    "subject": "Number Theory",
+    "projects": 5,
+    "agents": 18,
+    "files": [
+      {
+        "project": "NT-01",
+        "kind": "pdf",
+        "path": "reports/pdf/euclidean-algorithm-and-bezout-identity.pdf",
+        "source": "1-Number-Theory/projects/reports/pdf/euclidean-algorithm-and-bezout-identity.pdf",
+        "sha256": "c93a2a363c6a466fc155477372c0712e725ce834aa5fec8e7651614c72020035"
+      },
+      {
+        "project": "NT-01",
+        "kind": "tex",
+        "path": "reports/latex/euclidean-algorithm-and-bezout-identity.tex",
+        "source": "1-Number-Theory/projects/reports/latex/euclidean-algorithm-and-bezout-identity.tex",
+        "sha256": "15bf1000c27dba4df1a834d8ef0736c0585ece7c5afd233f69bddbb65f1cc798"
+      },
+      {
+        "project": "NT-01",
+        "kind": "markdown",
+        "path": "markdown/euclidean-algorithm-and-bezout-identity.md",
+        "source": "1-Number-Theory/projects/markdown/euclidean-algorithm-and-bezout-identity.md",
+        "sha256": "37e2aa876ce15cb54426761b587263f815567065ff475cf16458cc9832c4a5c4"
+      },
+      {
+        "project": "NT-02",
+        "kind": "pdf",
+        "path": "reports/pdf/fundamental-theorem-of-arithmetic.pdf",
+        "source": "1-Number-Theory/projects/reports/pdf/fundamental-theorem-of-arithmetic.pdf",
+        "sha256": "9147e99c565493223f27e57049ef66c7612c42f90753e8e6c5142087a14a468c"
+      },
+      {
+        "project": "NT-02",
+        "kind": "tex",
+        "path": "reports/latex/fundamental-theorem-of-arithmetic.tex",
+        "source": "1-Number-Theory/projects/reports/latex/fundamental-theorem-of-arithmetic.tex",
+        "sha256": "d5e74172cda17aa143ec304885815534840156f4003670141d8d805d982d23fe"
+      },
+      {
+        "project": "NT-02",
+        "kind": "markdown",
+        "path": "markdown/fundamental-theorem-of-arithmetic.md",
+        "source": "1-Number-Theory/projects/markdown/fundamental-theorem-of-arithmetic.md",
+        "sha256": "3251ffb91ce797d6770d5bdb31c24cfcfdb8cff9830487ef8c3727734905a4db"
+      },
+      {
+        "project": "NT-03",
+        "kind": "pdf",
+        "path": "reports/pdf/chinese-remainder-theorem.pdf",
+        "source": "1-Number-Theory/projects/reports/pdf/chinese-remainder-theorem.pdf",
+        "sha256": "8d8033fb5b9d697e172c4c56013706b0ab5a266f12d004e8f773e4280b725ea8"
+      },
+      {
+        "project": "NT-03",
+        "kind": "tex",
+        "path": "reports/latex/chinese-remainder-theorem.tex",
+        "source": "1-Number-Theory/projects/reports/latex/chinese-remainder-theorem.tex",
+        "sha256": "7f4fc010aca7a88b7c43d79c84a6fcb03e926d62fad05364ea7f3d9214164c46"
+      },
+      {
+        "project": "NT-03",
+        "kind": "markdown",
+        "path": "markdown/chinese-remainder-theorem.md",
+        "source": "1-Number-Theory/projects/markdown/chinese-remainder-theorem.md",
+        "sha256": "9c8ed5d13bc75f70ae81ff33f15ad9abcaff709e9dead919a5abb3520cab414b"
+      },
+      {
+        "project": "NT-04",
+        "kind": "pdf",
+        "path": "reports/pdf/fermat-s-little-theorem.pdf",
+        "source": "1-Number-Theory/projects/reports/pdf/fermat-s-little-theorem.pdf",
+        "sha256": "2aff51c128708184e009624de564ac793d7724661fe4150796c8b6c8c454765d"
+      },
+      {
+        "project": "NT-04",
+        "kind": "tex",
+        "path": "reports/latex/fermat-s-little-theorem.tex",
+        "source": "1-Number-Theory/projects/reports/latex/fermat-s-little-theorem.tex",
+        "sha256": "dc334c684505a60cf63c4c1d03d01799b24c1da70035ae079376c43c06ceffc6"
+      },
+      {
+        "project": "NT-04",
+        "kind": "markdown",
+        "path": "markdown/fermat-s-little-theorem.md",
+        "source": "1-Number-Theory/projects/markdown/fermat-s-little-theorem.md",
+        "sha256": "4d67a84aed3ea9d591e5b33515a835fe1d589222cf1b2ea1aed820ea9c03b230"
+      },
+      {
+        "project": "NT-05",
+        "kind": "pdf",
+        "path": "reports/pdf/classification-of-primitive-pythagorean-triples.pdf",
+        "source": "1-Number-Theory/projects/reports/pdf/classification-of-primitive-pythagorean-triples.pdf",
+        "sha256": "5abcf844312cca11903b203fb9afe624742998f297088c42b6db5fc99b2e9578"
+      },
+      {
+        "project": "NT-05",
+        "kind": "tex",
+        "path": "reports/latex/classification-of-primitive-pythagorean-triples.tex",
+        "source": "1-Number-Theory/projects/reports/latex/classification-of-primitive-pythagorean-triples.tex",
+        "sha256": "c50ff9cd9e10e260ccb2215a50070f1d2ec4cdfae1157c68bf616a04c6866b79"
+      },
+      {
+        "project": "NT-05",
+        "kind": "markdown",
+        "path": "markdown/classification-of-primitive-pythagorean-triples.md",
+        "source": "1-Number-Theory/projects/markdown/classification-of-primitive-pythagorean-triples.md",
+        "sha256": "2b1fc608bcb07c1d662186d22340e774678c6acc16d071ea71054ce8e33caa3a"
+      }
+    ]
+  },
+  "advanced-calculus": {
+    "subject": "Advanced Calculus",
+    "projects": 5,
+    "agents": 15,
+    "files": [
+      {
+        "project": "AC-01",
+        "kind": "pdf",
+        "path": "reports/pdf/mean-value-theorem.pdf",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/mean-value-theorem.pdf",
+        "sha256": "b3c340fd7568cd962369c59dcc58db0a4674a0cc40f42c135f9e7e9446a4c7b7"
+      },
+      {
+        "project": "AC-01",
+        "kind": "tex",
+        "path": "reports/latex/mean-value-theorem.tex",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/latex/mean-value-theorem.tex",
+        "sha256": "d7479c2857275cea7a756b147ac35bb578c7baf611ae8f2dd7fd192652ae9cbd"
+      },
+      {
+        "project": "AC-01",
+        "kind": "markdown",
+        "path": "markdown/mean-value-theorem.md",
+        "source": "2-Analysis/Advanced-Calculus/projects/mean-value-theorem.md",
+        "sha256": "f6d01b83b1e7671a0e0861f792cc08f7e5aeb3b50b07aaf02b7c2972f6b7a11c"
+      },
+      {
+        "project": "AC-02",
+        "kind": "pdf",
+        "path": "reports/pdf/fundamental-theorem-of-calculus.pdf",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/fundamental-theorem-of-calculus.pdf",
+        "sha256": "4a53790b5545cff8bd244abff5af13d6ee79aed5a41f27325ffc329540b97f94"
+      },
+      {
+        "project": "AC-02",
+        "kind": "tex",
+        "path": "reports/latex/fundamental-theorem-of-calculus.tex",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/latex/fundamental-theorem-of-calculus.tex",
+        "sha256": "c917b6be585317f65893f355bbda50133f1df2bc72e365ce3fc430a6476226db"
+      },
+      {
+        "project": "AC-02",
+        "kind": "markdown",
+        "path": "markdown/fundamental-theorem-of-calculus.md",
+        "source": "2-Analysis/Advanced-Calculus/projects/fundamental-theorem-of-calculus.md",
+        "sha256": "7815c11f5c310d73b38d36532266cdf0483444a96e60b1a5bb46dea2dc4a053b"
+      },
+      {
+        "project": "AC-03",
+        "kind": "pdf",
+        "path": "reports/pdf/multivariable-taylor-theorem.pdf",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/multivariable-taylor-theorem.pdf",
+        "sha256": "1e3bfc08ede527f9b9308db9542bbd9ddc1614e2c54c8986f5405800ebea0935"
+      },
+      {
+        "project": "AC-03",
+        "kind": "tex",
+        "path": "reports/latex/multivariable-taylor-theorem.tex",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/latex/multivariable-taylor-theorem.tex",
+        "sha256": "ea96ffa204ec87fb79058eff0711156cd5880e3bde461c6359f9b8e4beb89283"
+      },
+      {
+        "project": "AC-03",
+        "kind": "markdown",
+        "path": "markdown/multivariable-taylor-theorem.md",
+        "source": "2-Analysis/Advanced-Calculus/projects/multivariable-taylor-theorem.md",
+        "sha256": "6f713ba0e515a6f7b4b0abc2d24ce1c79696b44e6cee1b45d60e0603fb0a6b2e"
+      },
+      {
+        "project": "AC-04",
+        "kind": "pdf",
+        "path": "reports/pdf/inverse-function-theorem.pdf",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/inverse-function-theorem.pdf",
+        "sha256": "c0b340ef2e85afc791e0a715d2ad45161a55c4d5b7868c17f13379200d370d45"
+      },
+      {
+        "project": "AC-04",
+        "kind": "tex",
+        "path": "reports/latex/inverse-function-theorem.tex",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/latex/inverse-function-theorem.tex",
+        "sha256": "85373fae808e0ad5471d211091f615e3acee36c40a60c7d214fa58417341af2b"
+      },
+      {
+        "project": "AC-04",
+        "kind": "markdown",
+        "path": "markdown/inverse-function-theorem.md",
+        "source": "2-Analysis/Advanced-Calculus/projects/inverse-function-theorem.md",
+        "sha256": "e790e2304883ff78a79c8b4bf96aba31fbb999f307bf9594b1f46a3244c37832"
+      },
+      {
+        "project": "AC-05",
+        "kind": "pdf",
+        "path": "reports/pdf/generalized-stokes-theorem.pdf",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/generalized-stokes-theorem.pdf",
+        "sha256": "404f0282376b2337dcae9d1acd059a98ca47cc21a16a8371517d3863a1ad258e"
+      },
+      {
+        "project": "AC-05",
+        "kind": "tex",
+        "path": "reports/latex/generalized-stokes-theorem.tex",
+        "source": "2-Analysis/Advanced-Calculus/projects/reports/latex/generalized-stokes-theorem.tex",
+        "sha256": "1c49d948c4a43027cf38f8c56b3282a856ecae1e648ab314d7278c59f1f4197f"
+      },
+      {
+        "project": "AC-05",
+        "kind": "markdown",
+        "path": "markdown/generalized-stokes-theorem.md",
+        "source": "2-Analysis/Advanced-Calculus/projects/generalized-stokes-theorem.md",
+        "sha256": "f00696f9ab9ddfe03146b33772c1bb989634e1f9bf63681ec704250a518b35ce"
+      }
+    ]
+  },
+  "complex-analysis": {
+    "subject": "Complex Analysis",
+    "projects": 5,
+    "agents": 16,
+    "files": [
+      {
+        "project": "CA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/cauchy-integral-formula.pdf",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/cauchy-integral-formula.pdf",
+        "sha256": "9d03abf0dc5705e2d5ba4cad35ae3f2951d050a2d55f70f204388b93de27fb63"
+      },
+      {
+        "project": "CA-01",
+        "kind": "tex",
+        "path": "reports/latex/cauchy-integral-formula.tex",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/latex/cauchy-integral-formula.tex",
+        "sha256": "5c0168e53794022ac47fd85532b3cf95e1cbe77cca8cb35cc9f0657c45ae2ce5"
+      },
+      {
+        "project": "CA-01",
+        "kind": "markdown",
+        "path": "markdown/cauchy-integral-formula.md",
+        "source": "2-Analysis/Complex-Analysis/projects/cauchy-integral-formula.md",
+        "sha256": "0897ac67e01cb6a4f775637043ed3c854725d90fe6b233a5978d7d113fe0d2d7"
+      },
+      {
+        "project": "CA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf",
+        "sha256": "cafe3a781256878809dfd55c33cec82670f04491d5f1d5249c5022e27e202aac"
+      },
+      {
+        "project": "CA-02",
+        "kind": "tex",
+        "path": "reports/latex/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.tex",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/latex/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.tex",
+        "sha256": "3bee031a7aa7371787372cc7ab1e28296ac2b9daea33b7f822bf7e0e5310e425"
+      },
+      {
+        "project": "CA-02",
+        "kind": "markdown",
+        "path": "markdown/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.md",
+        "source": "2-Analysis/Complex-Analysis/projects/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.md",
+        "sha256": "ad8bedd928f1a10d604ebc94400f9cccfc887deb1ceb6b7588fc2cdd80ac7ef2"
+      },
+      {
+        "project": "CA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/residue-theorem.pdf",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/residue-theorem.pdf",
+        "sha256": "23ab42426bd2d9d91b3c2075e10f525c337640839e057c836f3fc48a60223940"
+      },
+      {
+        "project": "CA-03",
+        "kind": "tex",
+        "path": "reports/latex/residue-theorem.tex",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/latex/residue-theorem.tex",
+        "sha256": "f11f77518ab93239963e1a4a95b93948531f91c9c8c40b21d2627b1752e4e102"
+      },
+      {
+        "project": "CA-03",
+        "kind": "markdown",
+        "path": "markdown/residue-theorem.md",
+        "source": "2-Analysis/Complex-Analysis/projects/residue-theorem.md",
+        "sha256": "11661b8667d9d177291b788d713ad2785a0e14c60c221fe84279702eb8b9699e"
+      },
+      {
+        "project": "CA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/rouches-theorem.pdf",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/rouches-theorem.pdf",
+        "sha256": "2716adeb6490e021de617695a676c809ebd2c6e9fc782fa1e18592aaae80fda3"
+      },
+      {
+        "project": "CA-04",
+        "kind": "tex",
+        "path": "reports/latex/rouches-theorem.tex",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/latex/rouches-theorem.tex",
+        "sha256": "55c9fa6ac109bea5fb9f1377d7d8f63d3c08db354c00db001a84cab621bec381"
+      },
+      {
+        "project": "CA-04",
+        "kind": "markdown",
+        "path": "markdown/rouches-theorem.md",
+        "source": "2-Analysis/Complex-Analysis/projects/rouches-theorem.md",
+        "sha256": "669f7ed3758e5ead9839798d491352610b7b3f215a7dc707ed6ae76f1b09e1be"
+      },
+      {
+        "project": "CA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/riemann-mapping-theorem.pdf",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/riemann-mapping-theorem.pdf",
+        "sha256": "fdee54f8df99b5718d66deafbe1781ea2164b3ee1e81fc9c1493b62166cc9d29"
+      },
+      {
+        "project": "CA-05",
+        "kind": "tex",
+        "path": "reports/latex/riemann-mapping-theorem.tex",
+        "source": "2-Analysis/Complex-Analysis/projects/reports/latex/riemann-mapping-theorem.tex",
+        "sha256": "e5dfca71feeead244d233361ecbf3366a8ca576a9c6c126006c29076a9a31889"
+      },
+      {
+        "project": "CA-05",
+        "kind": "markdown",
+        "path": "markdown/riemann-mapping-theorem.md",
+        "source": "2-Analysis/Complex-Analysis/projects/riemann-mapping-theorem.md",
+        "sha256": "419eb92566d722a7d9a0aec67096fea1268ae1fd80da975c1df79a33a480e539"
+      }
+    ]
+  },
+  "functional-analysis-and-measure-theory": {
+    "subject": "Functional Analysis and Measure Theory",
+    "projects": 5,
+    "agents": 12,
+    "files": [
+      {
+        "project": "FA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/monotone-convergence-theorem.pdf",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/monotone-convergence-theorem.pdf",
+        "sha256": "22de3366a9e8506ea834b05125b11c4b3e5b039471b179decc2f64d930faaedc"
+      },
+      {
+        "project": "FA-01",
+        "kind": "tex",
+        "path": "reports/latex/monotone-convergence-theorem.tex",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/latex/monotone-convergence-theorem.tex",
+        "sha256": "d0736b1fc5ad5b736736542d849f62144d5f4b44c6a387b00bf45c18340d6897"
+      },
+      {
+        "project": "FA-01",
+        "kind": "markdown",
+        "path": "markdown/monotone-convergence-theorem.md",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/markdown/monotone-convergence-theorem.md",
+        "sha256": "46f61d6f43cc922ee5344f964ef400d8c89bd55ea76a7b062193b5eb6611b991"
+      },
+      {
+        "project": "FA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/hilbert-projection-theorem.pdf",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/hilbert-projection-theorem.pdf",
+        "sha256": "8f52c172d3653874f869f181d707a75faa90ecd40d5e924e31a9d0b95342006a"
+      },
+      {
+        "project": "FA-02",
+        "kind": "tex",
+        "path": "reports/latex/hilbert-projection-theorem.tex",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/latex/hilbert-projection-theorem.tex",
+        "sha256": "1415e33c97aad77f9c4c93c8c36d303c128eb339ad8526f427001c049e87cb04"
+      },
+      {
+        "project": "FA-02",
+        "kind": "markdown",
+        "path": "markdown/hilbert-projection-theorem.md",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/markdown/hilbert-projection-theorem.md",
+        "sha256": "79cbc882a9125eed1ebea483535ed16c3806198ae2158e435847e9fbf0c12e56"
+      },
+      {
+        "project": "FA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/riesz-representation-hilbert-spaces.pdf",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/riesz-representation-hilbert-spaces.pdf",
+        "sha256": "ab4d917a84d56000d5ce500df3240c17fe4c8a9725b3316eeb128dabfaa8e51a"
+      },
+      {
+        "project": "FA-03",
+        "kind": "tex",
+        "path": "reports/latex/riesz-representation-hilbert-spaces.tex",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/latex/riesz-representation-hilbert-spaces.tex",
+        "sha256": "0997e21fcf9583700d96885fc6e346d4940a23da474f36878bdd7b8eccb28865"
+      },
+      {
+        "project": "FA-03",
+        "kind": "markdown",
+        "path": "markdown/riesz-representation-hilbert-spaces.md",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/markdown/riesz-representation-hilbert-spaces.md",
+        "sha256": "e7540d02acb2f813fe8193280e41ad1a10ecc2ad6eab80af749c873250c1dd93"
+      },
+      {
+        "project": "FA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/uniform-boundedness-principle.pdf",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/uniform-boundedness-principle.pdf",
+        "sha256": "9e14b4df7ab333df7bdc413872ef7e0c742724c101883a7033fa8639f19bed43"
+      },
+      {
+        "project": "FA-04",
+        "kind": "tex",
+        "path": "reports/latex/uniform-boundedness-principle.tex",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/latex/uniform-boundedness-principle.tex",
+        "sha256": "d0ddbdc4d0b65f6dd64ff21a5bdaeb8faa1687fd0f9e24208cd367cad31ecbcb"
+      },
+      {
+        "project": "FA-04",
+        "kind": "markdown",
+        "path": "markdown/uniform-boundedness-principle.md",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/markdown/uniform-boundedness-principle.md",
+        "sha256": "41d35a2d8c5371dac1d4bc1c0181f909d3b8e10cf60c4c6941781afb70ae6a6f"
+      },
+      {
+        "project": "FA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/hahn-banach-real-extension.pdf",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/hahn-banach-real-extension.pdf",
+        "sha256": "c80eb405c30c79b39cba17dc771556de684978c9481d4775f83e882949f90bd2"
+      },
+      {
+        "project": "FA-05",
+        "kind": "tex",
+        "path": "reports/latex/hahn-banach-real-extension.tex",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/latex/hahn-banach-real-extension.tex",
+        "sha256": "0d4bf8f91a1569d97be306351989bb85fde3f5de5a68d8cdb3dee2a532fee494"
+      },
+      {
+        "project": "FA-05",
+        "kind": "markdown",
+        "path": "markdown/hahn-banach-real-extension.md",
+        "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/markdown/hahn-banach-real-extension.md",
+        "sha256": "ae342a615b7574658401cfa0ad2675445c43129b17d7f74b55155f9db68a2535"
+      }
+    ]
+  },
+  "harmonic-analysis": {
+    "subject": "Harmonic Analysis",
+    "projects": 5,
+    "agents": 16,
+    "files": [
+      {
+        "project": "HA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf",
+        "sha256": "124472808086bef81f602e6d5bad0a5cfbe84bd7311afacf8a785eb54d6a5bae"
+      },
+      {
+        "project": "HA-01",
+        "kind": "tex",
+        "path": "reports/latex/fourier-orthogonality-and-bessels-inequality.tex",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/latex/fourier-orthogonality-and-bessels-inequality.tex",
+        "sha256": "5d4f1d53c54755b237576f5ce9baf7c15ff59ab0868913fc4e0e55c29c8fdad5"
+      },
+      {
+        "project": "HA-01",
+        "kind": "markdown",
+        "path": "markdown/fourier-orthogonality-and-bessels-inequality.md",
+        "source": "2-Analysis/Harmonic-Analysis/projects/fourier-orthogonality-and-bessels-inequality.md",
+        "sha256": "9fe6f21915f27e2a7b226e5a12a6cb2fec885fbb5a6cb98b9d0dbff82e720091"
+      },
+      {
+        "project": "HA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/fejer-theorem.pdf",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/fejer-theorem.pdf",
+        "sha256": "9f6866d59fb5dc79b20f07b009f6c4e034c0a53667a323763e789e63d2319d12"
+      },
+      {
+        "project": "HA-02",
+        "kind": "tex",
+        "path": "reports/latex/fejer-theorem.tex",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/latex/fejer-theorem.tex",
+        "sha256": "e07e015638e459b7c88a6f9afda03a5c944b5477f69e1113bd4fc6ab7b2c9384"
+      },
+      {
+        "project": "HA-02",
+        "kind": "markdown",
+        "path": "markdown/fejer-theorem.md",
+        "source": "2-Analysis/Harmonic-Analysis/projects/fejer-theorem.md",
+        "sha256": "0136cc94e7bea0927a50f25010f72404fac8013c397f4beda8a3a9f7e6ee526e"
+      },
+      {
+        "project": "HA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/parsevals-identity-for-fourier-series.pdf",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/parsevals-identity-for-fourier-series.pdf",
+        "sha256": "8a5b48ce80199f0e2383c741abe5f06e6c4ec33ce95dead62caaa9df58fabb42"
+      },
+      {
+        "project": "HA-03",
+        "kind": "tex",
+        "path": "reports/latex/parsevals-identity-for-fourier-series.tex",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/latex/parsevals-identity-for-fourier-series.tex",
+        "sha256": "5e52254141c0ca76299f1482970813aab39881b19a8429fe1f180123c34dec03"
+      },
+      {
+        "project": "HA-03",
+        "kind": "markdown",
+        "path": "markdown/parsevals-identity-for-fourier-series.md",
+        "source": "2-Analysis/Harmonic-Analysis/projects/parsevals-identity-for-fourier-series.md",
+        "sha256": "66e43086eda91864878f5e86321ac9d015c8822b20c6977aea2a0e0544d2800e"
+      },
+      {
+        "project": "HA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/plancherel-theorem-on-the-real-line.pdf",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/plancherel-theorem-on-the-real-line.pdf",
+        "sha256": "7a9e4fc7ebba016b65eb24837b6eb8314fa4c495b6c84fec06ced011cafedf8b"
+      },
+      {
+        "project": "HA-04",
+        "kind": "tex",
+        "path": "reports/latex/plancherel-theorem-on-the-real-line.tex",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/latex/plancherel-theorem-on-the-real-line.tex",
+        "sha256": "a12d034f056eb946ca852b506d50dc31e0e12b06aeb3c577bf50abd9d8152b90"
+      },
+      {
+        "project": "HA-04",
+        "kind": "markdown",
+        "path": "markdown/plancherel-theorem-on-the-real-line.md",
+        "source": "2-Analysis/Harmonic-Analysis/projects/plancherel-theorem-on-the-real-line.md",
+        "sha256": "d23e112fce7f93a066cac6c106d70163f9fc9179e92d5e4052c7ef6bd2e6e29f"
+      },
+      {
+        "project": "HA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/poisson-summation-formula.pdf",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/poisson-summation-formula.pdf",
+        "sha256": "a846dcee43bdb8f20a79896f468d9face2c48f5f94f65e9e246cc6a3bd7b58c6"
+      },
+      {
+        "project": "HA-05",
+        "kind": "tex",
+        "path": "reports/latex/poisson-summation-formula.tex",
+        "source": "2-Analysis/Harmonic-Analysis/projects/reports/latex/poisson-summation-formula.tex",
+        "sha256": "f9a30528848bd2a9cbaef50f23a702a1c91eac6e29d1b5d9a0f0f1f8039150e5"
+      },
+      {
+        "project": "HA-05",
+        "kind": "markdown",
+        "path": "markdown/poisson-summation-formula.md",
+        "source": "2-Analysis/Harmonic-Analysis/projects/poisson-summation-formula.md",
+        "sha256": "d23ad7be8d201e4921a2e791c440884904ec2cb53a56c3da1690128ad9fd8e03"
+      }
+    ]
+  },
+  "real-analysis": {
+    "subject": "Real Analysis",
+    "projects": 5,
+    "agents": 18,
+    "files": [
+      {
+        "project": "RA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/intermediate-value-theorem.pdf",
+        "source": "2-Analysis/Real-Analysis/projects/reports/pdf/intermediate-value-theorem.pdf",
+        "sha256": "e451491034fbe25a89673f8b484565720adcd834ec500ddb5bf934b4b19d4e32"
+      },
+      {
+        "project": "RA-01",
+        "kind": "tex",
+        "path": "reports/latex/intermediate-value-theorem.tex",
+        "source": "2-Analysis/Real-Analysis/projects/reports/latex/intermediate-value-theorem.tex",
+        "sha256": "041b8ca820e3caa8e86b90f8b811a11821efbfc8f81a483614bbda6b13e2aa40"
+      },
+      {
+        "project": "RA-01",
+        "kind": "markdown",
+        "path": "markdown/intermediate-value-theorem.md",
+        "source": "2-Analysis/Real-Analysis/projects/intermediate-value-theorem.md",
+        "sha256": "f350b198b70d87d85d1082a57f40bc98e5a8f05da1528b33529d95cc7086c373"
+      },
+      {
+        "project": "RA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/heineborel-theorem.pdf",
+        "source": "2-Analysis/Real-Analysis/projects/reports/pdf/heineborel-theorem.pdf",
+        "sha256": "579a9356846da4928014d882a822873a1f2730d4e3894c0aa3bd5f61946edee9"
+      },
+      {
+        "project": "RA-02",
+        "kind": "tex",
+        "path": "reports/latex/heineborel-theorem.tex",
+        "source": "2-Analysis/Real-Analysis/projects/reports/latex/heineborel-theorem.tex",
+        "sha256": "99c87e189afc4a48ce0f17054ef731b6c3b436e759d3a370f3c200cf2ca209a5"
+      },
+      {
+        "project": "RA-02",
+        "kind": "markdown",
+        "path": "markdown/heineborel-theorem.md",
+        "source": "2-Analysis/Real-Analysis/projects/heineborel-theorem.md",
+        "sha256": "a7c07f2c840952e46af90e3a413afe47678838fb1f31ccf9d2f72714de37b8d3"
+      },
+      {
+        "project": "RA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/banach-fixed-point-theorem.pdf",
+        "source": "2-Analysis/Real-Analysis/projects/reports/pdf/banach-fixed-point-theorem.pdf",
+        "sha256": "c5d4997e222c2a54b081cd98e0d56060f80a2b40e68681ecf1acc8a63afaed08"
+      },
+      {
+        "project": "RA-03",
+        "kind": "tex",
+        "path": "reports/latex/banach-fixed-point-theorem.tex",
+        "source": "2-Analysis/Real-Analysis/projects/reports/latex/banach-fixed-point-theorem.tex",
+        "sha256": "10bc26c610d750881b356cb414cf133cf580065f03cb5af6668ba7a9993411f9"
+      },
+      {
+        "project": "RA-03",
+        "kind": "markdown",
+        "path": "markdown/banach-fixed-point-theorem.md",
+        "source": "2-Analysis/Real-Analysis/projects/banach-fixed-point-theorem.md",
+        "sha256": "806b19d3b8d7aade97d162d6c1c5ca88619bf75c52995f9a01ff432ff0e55293"
+      },
+      {
+        "project": "RA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/lebesgue-dominated-convergence-theorem.pdf",
+        "source": "2-Analysis/Real-Analysis/projects/reports/pdf/lebesgue-dominated-convergence-theorem.pdf",
+        "sha256": "3eb519ff96cad3e8c192bb21646df7ab9361a5fdb13c815cd4b909f95ab4d1ce"
+      },
+      {
+        "project": "RA-04",
+        "kind": "tex",
+        "path": "reports/latex/lebesgue-dominated-convergence-theorem.tex",
+        "source": "2-Analysis/Real-Analysis/projects/reports/latex/lebesgue-dominated-convergence-theorem.tex",
+        "sha256": "45d7d5e6581abca011de301b16d4b81c900f68610e6fbb210a541a0947cfc3eb"
+      },
+      {
+        "project": "RA-04",
+        "kind": "markdown",
+        "path": "markdown/lebesgue-dominated-convergence-theorem.md",
+        "source": "2-Analysis/Real-Analysis/projects/lebesgue-dominated-convergence-theorem.md",
+        "sha256": "ea70dc39c188088694ceb7d43e6c28ab2e74037dbc83914bde1bb42fa9714359"
+      },
+      {
+        "project": "RA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/arzelaascoli-theorem.pdf",
+        "source": "2-Analysis/Real-Analysis/projects/reports/pdf/arzelaascoli-theorem.pdf",
+        "sha256": "a99dd17c6c619c20be0f3e88b4c1c6d3131697780ede466ab51c4db9197a3887"
+      },
+      {
+        "project": "RA-05",
+        "kind": "tex",
+        "path": "reports/latex/arzelaascoli-theorem.tex",
+        "source": "2-Analysis/Real-Analysis/projects/reports/latex/arzelaascoli-theorem.tex",
+        "sha256": "88880530672bead9a7511aebc27ead8f65779e7d9ea55f0bfaaf48ca35fdd6b8"
+      },
+      {
+        "project": "RA-05",
+        "kind": "markdown",
+        "path": "markdown/arzelaascoli-theorem.md",
+        "source": "2-Analysis/Real-Analysis/projects/arzelaascoli-theorem.md",
+        "sha256": "c123886f518b1203624b8c162e42a1cd6d1a078b073e1cfa0161c1d57225c64c"
+      }
+    ]
+  },
+  "algebraic-geometry": {
+    "subject": "Algebraic Geometry",
+    "projects": 5,
+    "agents": 13,
+    "files": [
+      {
+        "project": "AG-01",
+        "kind": "pdf",
+        "path": "reports/pdf/hilbert-basis-theorem.pdf",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/hilbert-basis-theorem.pdf",
+        "sha256": "485ca3131edc63b1dcb712a30180b5cd813f2ce5a578515cfb43b6bffe8615eb"
+      },
+      {
+        "project": "AG-01",
+        "kind": "tex",
+        "path": "reports/latex/hilbert-basis-theorem.tex",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/latex/hilbert-basis-theorem.tex",
+        "sha256": "4e850b5c55518b5dd882cbc6f54c250dba9cf6d6897d7b2e95f70db7c6be12a5"
+      },
+      {
+        "project": "AG-01",
+        "kind": "markdown",
+        "path": "markdown/hilbert-basis-theorem.md",
+        "source": "3-Algebra/Algebraic-Geometry/projects/markdown/hilbert-basis-theorem.md",
+        "sha256": "1b200123527bd1aefad124568f0e39a051a92c4ab26c033773fff3c49809f2e9"
+      },
+      {
+        "project": "AG-02",
+        "kind": "pdf",
+        "path": "reports/pdf/weak-nullstellensatz.pdf",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/weak-nullstellensatz.pdf",
+        "sha256": "31aab0bb42152b73140f02e07c593b053049b5b331f857ddc9578acf7557c1a4"
+      },
+      {
+        "project": "AG-02",
+        "kind": "tex",
+        "path": "reports/latex/weak-nullstellensatz.tex",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/latex/weak-nullstellensatz.tex",
+        "sha256": "bc479091a31590308f27a0de2695a162df4d96eb6d581c6e4cf4000aebb12d4d"
+      },
+      {
+        "project": "AG-02",
+        "kind": "markdown",
+        "path": "markdown/weak-nullstellensatz.md",
+        "source": "3-Algebra/Algebraic-Geometry/projects/markdown/weak-nullstellensatz.md",
+        "sha256": "1d3968c1008100c9f5073ac393e9a0587fadd0c092696983fbb241ba22713762"
+      },
+      {
+        "project": "AG-03",
+        "kind": "pdf",
+        "path": "reports/pdf/strong-nullstellensatz.pdf",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/strong-nullstellensatz.pdf",
+        "sha256": "ffc95555d76ef68ef8e8db060bda90923e02be19380ee8c51a1d92f272190742"
+      },
+      {
+        "project": "AG-03",
+        "kind": "tex",
+        "path": "reports/latex/strong-nullstellensatz.tex",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/latex/strong-nullstellensatz.tex",
+        "sha256": "5a60d34c92a6052ee4a602b6bf5de291aff55a0978800d1aa6e6e52617083bd5"
+      },
+      {
+        "project": "AG-03",
+        "kind": "markdown",
+        "path": "markdown/strong-nullstellensatz.md",
+        "source": "3-Algebra/Algebraic-Geometry/projects/markdown/strong-nullstellensatz.md",
+        "sha256": "63fd04fdad3011747e043fd3b8a456b6dd1dd77458a07d46951bc139eb9019e0"
+      },
+      {
+        "project": "AG-04",
+        "kind": "pdf",
+        "path": "reports/pdf/irreducibility-and-prime-ideals.pdf",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/irreducibility-and-prime-ideals.pdf",
+        "sha256": "e12d857209fde7ceb00d8656c2f5fe6c7d5da5c620e085d464965933f01f25c4"
+      },
+      {
+        "project": "AG-04",
+        "kind": "tex",
+        "path": "reports/latex/irreducibility-and-prime-ideals.tex",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/latex/irreducibility-and-prime-ideals.tex",
+        "sha256": "b980e3728e1fa519d550eb4fce7dcc9816b72255beacc33fc6f94c184fb8f788"
+      },
+      {
+        "project": "AG-04",
+        "kind": "markdown",
+        "path": "markdown/irreducibility-and-prime-ideals.md",
+        "source": "3-Algebra/Algebraic-Geometry/projects/markdown/irreducibility-and-prime-ideals.md",
+        "sha256": "72ada8c7d5c14cba0c77587315851d73b04342396823338245261e5a5983b2a3"
+      },
+      {
+        "project": "AG-05",
+        "kind": "pdf",
+        "path": "reports/pdf/affine-morphisms-and-coordinate-rings.pdf",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/affine-morphisms-and-coordinate-rings.pdf",
+        "sha256": "0bf26da3991307c6559c3efb454f30004067dbcfb574590298c2037ce3ca84de"
+      },
+      {
+        "project": "AG-05",
+        "kind": "tex",
+        "path": "reports/latex/affine-morphisms-and-coordinate-rings.tex",
+        "source": "3-Algebra/Algebraic-Geometry/projects/reports/latex/affine-morphisms-and-coordinate-rings.tex",
+        "sha256": "6152c11a05ef99635d2a946e646de6ec3f3faffd2b7f1f616fd2d73db71f82b0"
+      },
+      {
+        "project": "AG-05",
+        "kind": "markdown",
+        "path": "markdown/affine-morphisms-and-coordinate-rings.md",
+        "source": "3-Algebra/Algebraic-Geometry/projects/markdown/affine-morphisms-and-coordinate-rings.md",
+        "sha256": "0ef6a681227563af115df96e311ea2aba2a90a1aa8244a478714d1b1495393ee"
+      }
+    ]
+  },
+  "linear-algebra": {
+    "subject": "Linear Algebra",
+    "projects": 5,
+    "agents": 15,
+    "files": [
+      {
+        "project": "LA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/ranknullity-theorem.pdf",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/ranknullity-theorem.pdf",
+        "sha256": "3014778f667896057665011f848e1694bb81decafa330e75d6347612a23f6ccb"
+      },
+      {
+        "project": "LA-01",
+        "kind": "tex",
+        "path": "reports/latex/ranknullity-theorem.tex",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/latex/ranknullity-theorem.tex",
+        "sha256": "be33e24227c59cc6a9d9b2169b7cd170cd6d354a81a71ece89ba13f7e6d89b24"
+      },
+      {
+        "project": "LA-01",
+        "kind": "markdown",
+        "path": "markdown/ranknullity-theorem.md",
+        "source": "3-Algebra/Linear-Algebra/projects/ranknullity-theorem.md",
+        "sha256": "5b49face1fbc8aad59480f17d784f323f5e62a016bdebc06daeae9b105ef539c"
+      },
+      {
+        "project": "LA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/gramschmidt-orthogonalization.pdf",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/gramschmidt-orthogonalization.pdf",
+        "sha256": "b3dd5aed8736e81da777156fddc0d887cd3f292688ca1bb9ee096cd0fee4b37e"
+      },
+      {
+        "project": "LA-02",
+        "kind": "tex",
+        "path": "reports/latex/gramschmidt-orthogonalization.tex",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/latex/gramschmidt-orthogonalization.tex",
+        "sha256": "7123a0df7287a1b2a0d49a543b2731b7831113b3c2941d311c694205aa55a8f9"
+      },
+      {
+        "project": "LA-02",
+        "kind": "markdown",
+        "path": "markdown/gramschmidt-orthogonalization.md",
+        "source": "3-Algebra/Linear-Algebra/projects/gramschmidt-orthogonalization.md",
+        "sha256": "32fd0a161ffbae66d34585ab777e0539b906e96d45ab40472108659db138c4da"
+      },
+      {
+        "project": "LA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/spectral-theorem-real-symmetric-matrices.pdf",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/spectral-theorem-real-symmetric-matrices.pdf",
+        "sha256": "c1f8afdd15891cbd1c05c9494aefa7742d195011b04434eaa87d90f4fef3a55f"
+      },
+      {
+        "project": "LA-03",
+        "kind": "tex",
+        "path": "reports/latex/spectral-theorem-real-symmetric-matrices.tex",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/latex/spectral-theorem-real-symmetric-matrices.tex",
+        "sha256": "a4e6d7192f4f4eb902fbdec4c6081a7047932a3b25450e4c635f98ec3eef16d8"
+      },
+      {
+        "project": "LA-03",
+        "kind": "markdown",
+        "path": "markdown/spectral-theorem-real-symmetric-matrices.md",
+        "source": "3-Algebra/Linear-Algebra/projects/spectral-theorem-real-symmetric-matrices.md",
+        "sha256": "27bd580fdb0b1ad49d880cbb9427e661967c9ece8fb18b048035dcd518a0378f"
+      },
+      {
+        "project": "LA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/singular-value-decomposition.pdf",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/singular-value-decomposition.pdf",
+        "sha256": "1ccc5f5affd9628fe77b8365d4b073e86cd8ca8a76fd2380ff1b0fef8864bc9c"
+      },
+      {
+        "project": "LA-04",
+        "kind": "tex",
+        "path": "reports/latex/singular-value-decomposition.tex",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/latex/singular-value-decomposition.tex",
+        "sha256": "ae040ef8ae73c2e0228f3855295ba8647ef65f72d7b5210c66d42068a9cdeaae"
+      },
+      {
+        "project": "LA-04",
+        "kind": "markdown",
+        "path": "markdown/singular-value-decomposition.md",
+        "source": "3-Algebra/Linear-Algebra/projects/singular-value-decomposition.md",
+        "sha256": "a787eddda9fcddb5c31f0e64298c33b27d0b73aa90ed20953fd4bfc8d2ae90cf"
+      },
+      {
+        "project": "LA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/jordan-canonical-form.pdf",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/jordan-canonical-form.pdf",
+        "sha256": "3cbbf58ce36fce7f25b7c4b77b4d014878a7fba3c4a846e6c6d351e6c99ceec3"
+      },
+      {
+        "project": "LA-05",
+        "kind": "tex",
+        "path": "reports/latex/jordan-canonical-form.tex",
+        "source": "3-Algebra/Linear-Algebra/projects/reports/latex/jordan-canonical-form.tex",
+        "sha256": "1fbc452cf1acb244c1f9dd282e4de45d9ec381106cf0ab580d3c86fea41e5e84"
+      },
+      {
+        "project": "LA-05",
+        "kind": "markdown",
+        "path": "markdown/jordan-canonical-form.md",
+        "source": "3-Algebra/Linear-Algebra/projects/jordan-canonical-form.md",
+        "sha256": "299eecdf9da4649c921935484a8216061653ee92572b5b48bd8efab7b35131f8"
+      }
+    ]
+  },
+  "modern-algebra": {
+    "subject": "Modern Algebra",
+    "projects": 5,
+    "agents": 18,
+    "files": [
+      {
+        "project": "MA-01",
+        "kind": "pdf",
+        "path": "reports/pdf/lagranges-theorem.pdf",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/lagranges-theorem.pdf",
+        "sha256": "2652fdd58b9e2a8e05e81a78342efc5e894258c2a84dc40f125f7518fb533a37"
+      },
+      {
+        "project": "MA-01",
+        "kind": "tex",
+        "path": "reports/latex/lagranges-theorem.tex",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/latex/lagranges-theorem.tex",
+        "sha256": "a7db930092b0711ab7397433f849222ae6a170eb5d456c6e1e699b4120a132f2"
+      },
+      {
+        "project": "MA-01",
+        "kind": "markdown",
+        "path": "markdown/lagranges-theorem.md",
+        "source": "3-Algebra/Modern-Algebra/projects/lagranges-theorem.md",
+        "sha256": "45b5214da60e230b7aca6ad9cfc0a570bd2ea69d2246ba1b7f8b58692ed8bf86"
+      },
+      {
+        "project": "MA-02",
+        "kind": "pdf",
+        "path": "reports/pdf/first-isomorphism-theorem-for-groups.pdf",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/first-isomorphism-theorem-for-groups.pdf",
+        "sha256": "eba0ad8538b15afe690c28129f71254f6da689a6dcbcece053c5e176c7802476"
+      },
+      {
+        "project": "MA-02",
+        "kind": "tex",
+        "path": "reports/latex/first-isomorphism-theorem-for-groups.tex",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/latex/first-isomorphism-theorem-for-groups.tex",
+        "sha256": "4910280e8a5929baaa3183c5a5f8a8b69e20e9af49190f0becfb680241db7205"
+      },
+      {
+        "project": "MA-02",
+        "kind": "markdown",
+        "path": "markdown/first-isomorphism-theorem-for-groups.md",
+        "source": "3-Algebra/Modern-Algebra/projects/first-isomorphism-theorem-for-groups.md",
+        "sha256": "1373d1833e3bf18e131bd4bb45806a0b27c4c8fe4f07583fac5ed0aae19a5b40"
+      },
+      {
+        "project": "MA-03",
+        "kind": "pdf",
+        "path": "reports/pdf/classification-groups-order-pq.pdf",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/classification-groups-order-pq.pdf",
+        "sha256": "4f42ce997836ef85b9db1858533b534179163edf3beb9e13d643d951f06504a4"
+      },
+      {
+        "project": "MA-03",
+        "kind": "tex",
+        "path": "reports/latex/classification-groups-order-pq.tex",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/latex/classification-groups-order-pq.tex",
+        "sha256": "8feddef4f0bafc82f281e60a4974bc7411f424581bfad5d66795c1eba4825299"
+      },
+      {
+        "project": "MA-03",
+        "kind": "markdown",
+        "path": "markdown/classification-groups-order-pq.md",
+        "source": "3-Algebra/Modern-Algebra/projects/classification-groups-order-pq.md",
+        "sha256": "ace739f9e5255cc803a032b075959190251cf54cded9fa339abd5073926dbd02"
+      },
+      {
+        "project": "MA-04",
+        "kind": "pdf",
+        "path": "reports/pdf/fundamental-theorem-of-galois-theory.pdf",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/fundamental-theorem-of-galois-theory.pdf",
+        "sha256": "fa097f90480279cba8199fd474a13aaf8ee10ae62483dcb241eab3345b1d7d19"
+      },
+      {
+        "project": "MA-04",
+        "kind": "tex",
+        "path": "reports/latex/fundamental-theorem-of-galois-theory.tex",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/latex/fundamental-theorem-of-galois-theory.tex",
+        "sha256": "41be78d2f8cddc3f30fabaef41e09258c801d8dc7e6fddb21f741b64c8f8390e"
+      },
+      {
+        "project": "MA-04",
+        "kind": "markdown",
+        "path": "markdown/fundamental-theorem-of-galois-theory.md",
+        "source": "3-Algebra/Modern-Algebra/projects/fundamental-theorem-of-galois-theory.md",
+        "sha256": "9be8e5c26add2b942b2a36598fd6cd70423bd677bf13bc7c6748bd08afa100e9"
+      },
+      {
+        "project": "MA-05",
+        "kind": "pdf",
+        "path": "reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf",
+        "sha256": "17423fc4f0f2a262b78fbad9ee4210e8df7f83115aaaf4ca116ed036d4cc6e37"
+      },
+      {
+        "project": "MA-05",
+        "kind": "tex",
+        "path": "reports/latex/abelruffini-theorem-via-an-explicit-quintic.tex",
+        "source": "3-Algebra/Modern-Algebra/projects/reports/latex/abelruffini-theorem-via-an-explicit-quintic.tex",
+        "sha256": "ec57ef9bdded138ff85e43030e498344012cda844e91ef218bd20971040fec98"
+      },
+      {
+        "project": "MA-05",
+        "kind": "markdown",
+        "path": "markdown/abelruffini-theorem-via-an-explicit-quintic.md",
+        "source": "3-Algebra/Modern-Algebra/projects/abelruffini-theorem-via-an-explicit-quintic.md",
+        "sha256": "151f247868d39b24c9d6419a55283c30feeb8e4970df4012c3b2f32fdae3ebd8"
+      }
+    ]
+  },
+  "representation-theory-and-lie-theory": {
+    "subject": "Representation Theory and Lie Theory",
+    "projects": 5,
+    "agents": 12,
+    "files": [
+      {
+        "project": "RT-01",
+        "kind": "pdf",
+        "path": "reports/pdf/maschke-theorem.pdf",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/maschke-theorem.pdf",
+        "sha256": "deefc544e4a74a7877c7b2756d0b91bdbdb1f971ad6bdae46ccc7e56ff7f3fcc"
+      },
+      {
+        "project": "RT-01",
+        "kind": "tex",
+        "path": "reports/latex/maschke-theorem.tex",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/latex/maschke-theorem.tex",
+        "sha256": "1d3925efab14b22fe860529210bff700e1b22ab23bdf31c5c013b2a6954c008c"
+      },
+      {
+        "project": "RT-01",
+        "kind": "markdown",
+        "path": "markdown/maschke-theorem.md",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/markdown/maschke-theorem.md",
+        "sha256": "5792df4d5d41c0dd2f507e82493bbdc2b0ce7a74532fface7a41d5dcbba28239"
+      },
+      {
+        "project": "RT-02",
+        "kind": "pdf",
+        "path": "reports/pdf/schur-lemma.pdf",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/schur-lemma.pdf",
+        "sha256": "af05a8962e90e519638966015b7e5cd10d47eda1f9432a1339aafc9d1e82928e"
+      },
+      {
+        "project": "RT-02",
+        "kind": "tex",
+        "path": "reports/latex/schur-lemma.tex",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/latex/schur-lemma.tex",
+        "sha256": "126897c6dda71c20ed2b6505c21c69ff8d731d05ea3c0c31e9f0acdeb1de3827"
+      },
+      {
+        "project": "RT-02",
+        "kind": "markdown",
+        "path": "markdown/schur-lemma.md",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/markdown/schur-lemma.md",
+        "sha256": "0e1c7c80814b28b7b079e2d4d7d7fee671306c56540f64a07d04668e2d447265"
+      },
+      {
+        "project": "RT-03",
+        "kind": "pdf",
+        "path": "reports/pdf/character-orthogonality.pdf",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/character-orthogonality.pdf",
+        "sha256": "c2ca130f42a8660085d9f7dacde1d1d84969eed13fa7289e71fc38f499666f55"
+      },
+      {
+        "project": "RT-03",
+        "kind": "tex",
+        "path": "reports/latex/character-orthogonality.tex",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/latex/character-orthogonality.tex",
+        "sha256": "3d479a6623dd36fabf1b1e9c510340bbefe66d6b18b62d2f320c234097bcb5bb"
+      },
+      {
+        "project": "RT-03",
+        "kind": "markdown",
+        "path": "markdown/character-orthogonality.md",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/markdown/character-orthogonality.md",
+        "sha256": "0eb61116e36fce7a60c5724b0356e427e962330a8f8f693c6799ad061e09be1f"
+      },
+      {
+        "project": "RT-04",
+        "kind": "pdf",
+        "path": "reports/pdf/lie-theorem.pdf",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/lie-theorem.pdf",
+        "sha256": "94d2579f0110d971e586324102acf7314ac9fbb70537c4c83af3723e998f3518"
+      },
+      {
+        "project": "RT-04",
+        "kind": "tex",
+        "path": "reports/latex/lie-theorem.tex",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/latex/lie-theorem.tex",
+        "sha256": "2d84a1e49ae261a4fc54b85966178f19f5a9e7ebdfe2ef13da8d692025d2abd4"
+      },
+      {
+        "project": "RT-04",
+        "kind": "markdown",
+        "path": "markdown/lie-theorem.md",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/markdown/lie-theorem.md",
+        "sha256": "20f924b1bceac18694b7af23904877c8958c3db79bd9a538a1ba8addf5257d1b"
+      },
+      {
+        "project": "RT-05",
+        "kind": "pdf",
+        "path": "reports/pdf/sl2-irreducible-classification.pdf",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/sl2-irreducible-classification.pdf",
+        "sha256": "8ab05d27838c332763c69c2c5fc334a9cbaaf5c096b5cc9597570393677c9e37"
+      },
+      {
+        "project": "RT-05",
+        "kind": "tex",
+        "path": "reports/latex/sl2-irreducible-classification.tex",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/latex/sl2-irreducible-classification.tex",
+        "sha256": "e83ec4e628dfc809ec46b4410176190d67f725d27052702388934729f5c96f8b"
+      },
+      {
+        "project": "RT-05",
+        "kind": "markdown",
+        "path": "markdown/sl2-irreducible-classification.md",
+        "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/markdown/sl2-irreducible-classification.md",
+        "sha256": "84b227c65c57acbd724a4b763c22a704d6811338a66b6b1565f10aa687803625"
+      }
+    ]
+  },
+  "algebraic-topology": {
+    "subject": "Algebraic Topology",
+    "projects": 5,
+    "agents": 16,
+    "files": [
+      {
+        "project": "AT-01",
+        "kind": "pdf",
+        "path": "reports/pdf/fundamental-group-of-the-circle.pdf",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/fundamental-group-of-the-circle.pdf",
+        "sha256": "65f9141624e062132f51419db2d20ed71f2412a108b847e9772ed881d34d7a33"
+      },
+      {
+        "project": "AT-01",
+        "kind": "tex",
+        "path": "reports/latex/fundamental-group-of-the-circle.tex",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/latex/fundamental-group-of-the-circle.tex",
+        "sha256": "6e965f0654cca87077c3287c7ed82af2c2d498e7c1a3d75697105b94a98778b9"
+      },
+      {
+        "project": "AT-01",
+        "kind": "markdown",
+        "path": "markdown/fundamental-group-of-the-circle.md",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/fundamental-group-of-the-circle.md",
+        "sha256": "24c7a59d960a44977fd26dc04263cd15e1c46d25198467eef04af9d32452a821"
+      },
+      {
+        "project": "AT-02",
+        "kind": "pdf",
+        "path": "reports/pdf/fundamental-group-of-torus.pdf",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/fundamental-group-of-torus.pdf",
+        "sha256": "254b8375d4eae7247d386ed68cd843e48819540c0ad552b1b3efa54c8260810c"
+      },
+      {
+        "project": "AT-02",
+        "kind": "tex",
+        "path": "reports/latex/fundamental-group-of-torus.tex",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/latex/fundamental-group-of-torus.tex",
+        "sha256": "dcb2da9dd59e28f3e05003fc1b175766846dfc0af774ff95277b52c9d4cdee89"
+      },
+      {
+        "project": "AT-02",
+        "kind": "markdown",
+        "path": "markdown/fundamental-group-of-torus.md",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/fundamental-group-of-torus.md",
+        "sha256": "529dc414503e3c44d0923e307167ef3a77ed072cfdfe6ec3e0db4ab8a6cb5dfd"
+      },
+      {
+        "project": "AT-03",
+        "kind": "pdf",
+        "path": "reports/pdf/homology-of-the-torus.pdf",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/homology-of-the-torus.pdf",
+        "sha256": "d570a879ffb1cb6196603ee9c7dd1dca4b0a1b0db2ffc788e4f2b89a049cd16d"
+      },
+      {
+        "project": "AT-03",
+        "kind": "tex",
+        "path": "reports/latex/homology-of-the-torus.tex",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/latex/homology-of-the-torus.tex",
+        "sha256": "450e961bfede1c0d401833fa362a76aed55261fc3f8f84748bdaa101c640a5db"
+      },
+      {
+        "project": "AT-03",
+        "kind": "markdown",
+        "path": "markdown/homology-of-the-torus.md",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/homology-of-the-torus.md",
+        "sha256": "7db9127daeaeb4c090160f88cacd99ea634afa6a449a616285bdce9b8ca45f23"
+      },
+      {
+        "project": "AT-04",
+        "kind": "pdf",
+        "path": "reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf",
+        "sha256": "aac70f7be9531593fbbb337c4c79550a027f24a90a76e19bc75d4411d17440a7"
+      },
+      {
+        "project": "AT-04",
+        "kind": "tex",
+        "path": "reports/latex/brouwer-fixed-point-theorem-via-no-retraction.tex",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/latex/brouwer-fixed-point-theorem-via-no-retraction.tex",
+        "sha256": "91341764c8e776f6af9d40276a70800e11afb815f169bdffb76ca8b870381dd7"
+      },
+      {
+        "project": "AT-04",
+        "kind": "markdown",
+        "path": "markdown/brouwer-fixed-point-theorem-via-no-retraction.md",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/brouwer-fixed-point-theorem-via-no-retraction.md",
+        "sha256": "13a330b84b5c91eff7b74084d4f775adeb478734218af7f7a20f5e6267d82f93"
+      },
+      {
+        "project": "AT-05",
+        "kind": "pdf",
+        "path": "reports/pdf/poincare-duality.pdf",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/poincare-duality.pdf",
+        "sha256": "b2348ac1df0a1f9334826a91089793b90cc00e7fe08a14b7227298835bcd791a"
+      },
+      {
+        "project": "AT-05",
+        "kind": "tex",
+        "path": "reports/latex/poincare-duality.tex",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/latex/poincare-duality.tex",
+        "sha256": "e11f7d81a5677abb293f9ab4050080decdd92ea4c97c567079edd49cf79f8eee"
+      },
+      {
+        "project": "AT-05",
+        "kind": "markdown",
+        "path": "markdown/poincare-duality.md",
+        "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/poincare-duality.md",
+        "sha256": "fac5020eedae35e2453f34047c72433799bf11bfdb2ab3d998e44590665403ad"
+      }
+    ]
+  },
+  "differential-geometry": {
+    "subject": "Differential Geometry",
+    "projects": 5,
+    "agents": 18,
+    "files": [
+      {
+        "project": "DG-01",
+        "kind": "pdf",
+        "path": "reports/pdf/frenetserret-formulas.pdf",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/frenetserret-formulas.pdf",
+        "sha256": "27e32d5e8dbc7a133f0ca143e74d17bc6bbfce2e2be2653f7ef629d18c322eba"
+      },
+      {
+        "project": "DG-01",
+        "kind": "tex",
+        "path": "reports/latex/frenetserret-formulas.tex",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/latex/frenetserret-formulas.tex",
+        "sha256": "5b1f6a95ba662cbde948e9727c4f0edfac3824d161e76f21a379fc9793c0a514"
+      },
+      {
+        "project": "DG-01",
+        "kind": "markdown",
+        "path": "markdown/frenetserret-formulas.md",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/frenetserret-formulas.md",
+        "sha256": "a399409a9341debf48b9d864f8dea91e28a145d2485d92f64e38cacfc85e6f83"
+      },
+      {
+        "project": "DG-02",
+        "kind": "pdf",
+        "path": "reports/pdf/great-circles-as-sphere-geodesics.pdf",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/great-circles-as-sphere-geodesics.pdf",
+        "sha256": "7e0e0f5c89bde2cd8062c7f6f194e701d18daa95d17e517244e8062fa533e4e0"
+      },
+      {
+        "project": "DG-02",
+        "kind": "tex",
+        "path": "reports/latex/great-circles-as-sphere-geodesics.tex",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/latex/great-circles-as-sphere-geodesics.tex",
+        "sha256": "645ab87597e28cdbeced5a29ad868539d5352595b94fe43544abcf6c65e492b2"
+      },
+      {
+        "project": "DG-02",
+        "kind": "markdown",
+        "path": "markdown/great-circles-as-sphere-geodesics.md",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/great-circles-as-sphere-geodesics.md",
+        "sha256": "5a7e8d687019d0c589a76372c920f2b37761a6a510a29593a8e4cd43726299de"
+      },
+      {
+        "project": "DG-03",
+        "kind": "pdf",
+        "path": "reports/pdf/gauss-theorema-egregium.pdf",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/gauss-theorema-egregium.pdf",
+        "sha256": "9971269f21999edb7045658557026e62a0cd207b36eaaff98d9e8c3f18bbbff6"
+      },
+      {
+        "project": "DG-03",
+        "kind": "tex",
+        "path": "reports/latex/gauss-theorema-egregium.tex",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/latex/gauss-theorema-egregium.tex",
+        "sha256": "417e232bebe9048ad62f2700c913a39734d444e36e95d1f32537d04df2d61a27"
+      },
+      {
+        "project": "DG-03",
+        "kind": "markdown",
+        "path": "markdown/gauss-theorema-egregium.md",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/gauss-theorema-egregium.md",
+        "sha256": "458fcb5f082a2e611d70b6c0c329e69b91099352e8298f71cc450c5e67c69848"
+      },
+      {
+        "project": "DG-04",
+        "kind": "pdf",
+        "path": "reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf",
+        "sha256": "1055be5d2e133c1029197d98c120ea96cb7b9f7655e474708c8ad8f9a20ed0d2"
+      },
+      {
+        "project": "DG-04",
+        "kind": "tex",
+        "path": "reports/latex/global-gaussbonnet-theorem-for-surfaces.tex",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/latex/global-gaussbonnet-theorem-for-surfaces.tex",
+        "sha256": "f9f275562c006edd63ddd7b99d2c67ca610ad76c43c053a51889d8896fcf42f1"
+      },
+      {
+        "project": "DG-04",
+        "kind": "markdown",
+        "path": "markdown/global-gaussbonnet-theorem-for-surfaces.md",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/global-gaussbonnet-theorem-for-surfaces.md",
+        "sha256": "8d634918f910c3e47d513c0a93577c555fe9ce98f0190416c43275e8d1a58ef3"
+      },
+      {
+        "project": "DG-05",
+        "kind": "pdf",
+        "path": "reports/pdf/hopfrinow-theorem.pdf",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/hopfrinow-theorem.pdf",
+        "sha256": "9a5c54161bddfdb1c193a62929202e8135ebf5460cf4bae7e5049add46fd23c2"
+      },
+      {
+        "project": "DG-05",
+        "kind": "tex",
+        "path": "reports/latex/hopfrinow-theorem.tex",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/latex/hopfrinow-theorem.tex",
+        "sha256": "36634d6177367d2f3927933cea19b4bf945fefdcfd5612455cd43c6dabe57cbd"
+      },
+      {
+        "project": "DG-05",
+        "kind": "markdown",
+        "path": "markdown/hopfrinow-theorem.md",
+        "source": "4-Geometry-and-Topology/Differential-Geometry/projects/hopfrinow-theorem.md",
+        "sha256": "22e79882b7752f8cbd8beb8a02e19d3585b5c2a18d2cfcacd2c1c657ec5e439a"
+      }
+    ]
+  },
+  "general-topology": {
+    "subject": "General Topology",
+    "projects": 5,
+    "agents": 17,
+    "files": [
+      {
+        "project": "GT-01",
+        "kind": "pdf",
+        "path": "reports/pdf/continuous-images-preserve-connectedness.pdf",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/continuous-images-preserve-connectedness.pdf",
+        "sha256": "154420b625e324ee5232f7692cdff2fe54861fc0656e689e37d53f9d1545c5b6"
+      },
+      {
+        "project": "GT-01",
+        "kind": "tex",
+        "path": "reports/latex/continuous-images-preserve-connectedness.tex",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/latex/continuous-images-preserve-connectedness.tex",
+        "sha256": "89d923fd2e5b1899ffb73142c73ba57c06d904c933a0adfca05d29beb4eafe0c"
+      },
+      {
+        "project": "GT-01",
+        "kind": "markdown",
+        "path": "markdown/continuous-images-preserve-connectedness.md",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/continuous-images-preserve-connectedness.md",
+        "sha256": "9912b07d4d1f2568ce5c50273cc607b3e2f4cb005228564e1c9666e03772b5a8"
+      },
+      {
+        "project": "GT-02",
+        "kind": "pdf",
+        "path": "reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf",
+        "sha256": "b3b1b3ba04edc92d145037c4f7392e6ed831fe46fe5a7b64dbd8fec982a12366"
+      },
+      {
+        "project": "GT-02",
+        "kind": "tex",
+        "path": "reports/latex/compact-hausdorff-homeomorphism-theorem.tex",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/latex/compact-hausdorff-homeomorphism-theorem.tex",
+        "sha256": "2c3c64166af156be38ac641275b97d496a4b7247e80fefacdb6ea7caba10e36f"
+      },
+      {
+        "project": "GT-02",
+        "kind": "markdown",
+        "path": "markdown/compact-hausdorff-homeomorphism-theorem.md",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/compact-hausdorff-homeomorphism-theorem.md",
+        "sha256": "75182cf699665812339e2d2802af91cec92e4f4201da7de000facc203bc1fdc8"
+      },
+      {
+        "project": "GT-03",
+        "kind": "pdf",
+        "path": "reports/pdf/urysohns-lemma.pdf",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/urysohns-lemma.pdf",
+        "sha256": "670d8fb6883b419a434d0a057a378179ef795f75bba3c8fee007211d69cfdf12"
+      },
+      {
+        "project": "GT-03",
+        "kind": "tex",
+        "path": "reports/latex/urysohns-lemma.tex",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/latex/urysohns-lemma.tex",
+        "sha256": "e2432357a31721d2f33bd41218b14be91f1cb44cbffd9d9546939bafe609b6df"
+      },
+      {
+        "project": "GT-03",
+        "kind": "markdown",
+        "path": "markdown/urysohns-lemma.md",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/urysohns-lemma.md",
+        "sha256": "f9e499844a5b832c3b661b029ff355f6b3715d716889fbf2abeaa4d9b58e7c87"
+      },
+      {
+        "project": "GT-04",
+        "kind": "pdf",
+        "path": "reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf",
+        "sha256": "11dc7c44dffd49fdb4de83264ae519218e89df6e6480606f8abca0b2340c938d"
+      },
+      {
+        "project": "GT-04",
+        "kind": "tex",
+        "path": "reports/latex/baire-category-theorem-for-complete-metric-spaces.tex",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/latex/baire-category-theorem-for-complete-metric-spaces.tex",
+        "sha256": "ff63a9781e1943c29b8459f4300116b30ee3f7d4b9f85441cc114f3ea3f35f98"
+      },
+      {
+        "project": "GT-04",
+        "kind": "markdown",
+        "path": "markdown/baire-category-theorem-for-complete-metric-spaces.md",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/baire-category-theorem-for-complete-metric-spaces.md",
+        "sha256": "8a05ab2803a784e1133b78105e01d8fcf0b46d45e078fb79171ae6e508341e5e"
+      },
+      {
+        "project": "GT-05",
+        "kind": "pdf",
+        "path": "reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf",
+        "sha256": "371e6c25cb13bbe0d549c31fd1721c9a01c4703b235ff385df1c965132cd7d0a"
+      },
+      {
+        "project": "GT-05",
+        "kind": "tex",
+        "path": "reports/latex/tychonoffs-theorem-for-compact-hausdorff-spaces.tex",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/reports/latex/tychonoffs-theorem-for-compact-hausdorff-spaces.tex",
+        "sha256": "28e453bcc8b4bd33ce33ae9b1d1c3f0297d53686b527d3ea951de2e1fec0e4e7"
+      },
+      {
+        "project": "GT-05",
+        "kind": "markdown",
+        "path": "markdown/tychonoffs-theorem-for-compact-hausdorff-spaces.md",
+        "source": "4-Geometry-and-Topology/General-Topology/projects/tychonoffs-theorem-for-compact-hausdorff-spaces.md",
+        "sha256": "51e0feaf7b41df8bcd9ce322ca8f7a006e36b9906490d2cd089e4480cd7699dd"
+      }
+    ]
+  },
+  "optimization-and-numerical-analysis": {
+    "subject": "Optimization and Numerical Analysis",
+    "projects": 5,
+    "agents": 13,
+    "files": [
+      {
+        "project": "ON-01",
+        "kind": "pdf",
+        "path": "reports/pdf/first-order-convex-optimality.pdf",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/first-order-convex-optimality.pdf",
+        "sha256": "1bacd2b81024ce8e0b199ae87948145f7edb07cce72b6be533c0d5095393a8e0"
+      },
+      {
+        "project": "ON-01",
+        "kind": "tex",
+        "path": "reports/latex/first-order-convex-optimality.tex",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/latex/first-order-convex-optimality.tex",
+        "sha256": "7fc53aa5420c495388aeb545b4d2f20fe7b62afffd57f8a763ba2180e72676b8"
+      },
+      {
+        "project": "ON-01",
+        "kind": "markdown",
+        "path": "markdown/first-order-convex-optimality.md",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/markdown/first-order-convex-optimality.md",
+        "sha256": "1463c3033bf7066512230e38ddfeea69116789206ed8534313f5cc3c17d48c90"
+      },
+      {
+        "project": "ON-02",
+        "kind": "pdf",
+        "path": "reports/pdf/lagrange-multiplier-theorem.pdf",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/lagrange-multiplier-theorem.pdf",
+        "sha256": "fa097e3390594caea83da4470f4129cf1bc03bb6ae8806501418ceb12f889e9c"
+      },
+      {
+        "project": "ON-02",
+        "kind": "tex",
+        "path": "reports/latex/lagrange-multiplier-theorem.tex",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/latex/lagrange-multiplier-theorem.tex",
+        "sha256": "fc7a111fa56caa8904957bf5717cd64f2db6aa54fb9b0eb095f0a62b4b1f5ebd"
+      },
+      {
+        "project": "ON-02",
+        "kind": "markdown",
+        "path": "markdown/lagrange-multiplier-theorem.md",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/markdown/lagrange-multiplier-theorem.md",
+        "sha256": "93d0f7f6898ec672a182e81a8a5917a41e137e76092da379129eaef940ffd771"
+      },
+      {
+        "project": "ON-03",
+        "kind": "pdf",
+        "path": "reports/pdf/gradient-descent-linear-convergence.pdf",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/gradient-descent-linear-convergence.pdf",
+        "sha256": "7363f0520c8d47150a75361c4ff7e9c7e98229824f54ed0bcddaa95b905c0957"
+      },
+      {
+        "project": "ON-03",
+        "kind": "tex",
+        "path": "reports/latex/gradient-descent-linear-convergence.tex",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/latex/gradient-descent-linear-convergence.tex",
+        "sha256": "bb425d2faa4fc91606470bf14ef6e3ac5bc793d717916aac1e5883492abab782"
+      },
+      {
+        "project": "ON-03",
+        "kind": "markdown",
+        "path": "markdown/gradient-descent-linear-convergence.md",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/markdown/gradient-descent-linear-convergence.md",
+        "sha256": "a658b3215e43f4c1c5d639654c1adf74050094a751aabbfc0622a3085236124e"
+      },
+      {
+        "project": "ON-04",
+        "kind": "pdf",
+        "path": "reports/pdf/newton-local-quadratic-convergence.pdf",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/newton-local-quadratic-convergence.pdf",
+        "sha256": "e5ebcdd110b108e65c2ba84b1822862e116d8aba05111e7ce127ff041f96fcd0"
+      },
+      {
+        "project": "ON-04",
+        "kind": "tex",
+        "path": "reports/latex/newton-local-quadratic-convergence.tex",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/latex/newton-local-quadratic-convergence.tex",
+        "sha256": "3535649f851610fc83a981c4442e3257acf7bcfbd013ce3b7693276a3d86b679"
+      },
+      {
+        "project": "ON-04",
+        "kind": "markdown",
+        "path": "markdown/newton-local-quadratic-convergence.md",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/markdown/newton-local-quadratic-convergence.md",
+        "sha256": "97702bacfb5aa133470b4d965d0a9a52b1c6c8c92f6358352427e0c6a748bac6"
+      },
+      {
+        "project": "ON-05",
+        "kind": "pdf",
+        "path": "reports/pdf/composite-trapezoidal-error.pdf",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/composite-trapezoidal-error.pdf",
+        "sha256": "8e375a51a70f49eccd56fe2a705f3a115a719e7f9a411414eda9c609427d0ad4"
+      },
+      {
+        "project": "ON-05",
+        "kind": "tex",
+        "path": "reports/latex/composite-trapezoidal-error.tex",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/latex/composite-trapezoidal-error.tex",
+        "sha256": "1fa28d8a5720bfaacb97f6ea324d522d658a91a4e9cdd4f96fd33cc251ce9285"
+      },
+      {
+        "project": "ON-05",
+        "kind": "markdown",
+        "path": "markdown/composite-trapezoidal-error.md",
+        "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/markdown/composite-trapezoidal-error.md",
+        "sha256": "fef51be5b76992ab5043ea218b5efaaf38f3f1a88a82ab3364b3981e027f5613"
+      }
+    ]
+  },
+  "partial-differential-equations": {
+    "subject": "Partial Differential Equations",
+    "projects": 5,
+    "agents": 14,
+    "files": [
+      {
+        "project": "PDE-01",
+        "kind": "pdf",
+        "path": "reports/pdf/weak-maximum-principle.pdf",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/weak-maximum-principle.pdf",
+        "sha256": "06a40f803ef7010e0ee353428f8ab9353487f9b211f4db9b1463891009efd3f3"
+      },
+      {
+        "project": "PDE-01",
+        "kind": "tex",
+        "path": "reports/latex/weak-maximum-principle.tex",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/latex/weak-maximum-principle.tex",
+        "sha256": "ddd374e0c7690a08753f11d5efa6202dfd56fc31719b5293b07c6af5ec15cfea"
+      },
+      {
+        "project": "PDE-01",
+        "kind": "markdown",
+        "path": "markdown/weak-maximum-principle.md",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/markdown/weak-maximum-principle.md",
+        "sha256": "8f571ef183c82ace8859406c1931dcc028541f5cb003283fd914bbf32745c2ab"
+      },
+      {
+        "project": "PDE-02",
+        "kind": "pdf",
+        "path": "reports/pdf/weak-poisson-dirichlet-existence.pdf",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/weak-poisson-dirichlet-existence.pdf",
+        "sha256": "e0d655240f2a451fdf416941b2cb7d84e1595ed1a5c64821a6e10f553d589f6f"
+      },
+      {
+        "project": "PDE-02",
+        "kind": "tex",
+        "path": "reports/latex/weak-poisson-dirichlet-existence.tex",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/latex/weak-poisson-dirichlet-existence.tex",
+        "sha256": "27da3096d4c698d7da0962264a3ade3089cdd6eeba4ee2e3466d10cfc5cdf28d"
+      },
+      {
+        "project": "PDE-02",
+        "kind": "markdown",
+        "path": "markdown/weak-poisson-dirichlet-existence.md",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/markdown/weak-poisson-dirichlet-existence.md",
+        "sha256": "8ce745a21f2bb29ff21c85c4fbf97eee5aa92337594b9d5597479ba37f44f605"
+      },
+      {
+        "project": "PDE-03",
+        "kind": "pdf",
+        "path": "reports/pdf/heat-equation-energy-uniqueness.pdf",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/heat-equation-energy-uniqueness.pdf",
+        "sha256": "745e108fdd1836bb6eedb205c70e8fcbb85b814a57a0d6d4e6754b72458d6021"
+      },
+      {
+        "project": "PDE-03",
+        "kind": "tex",
+        "path": "reports/latex/heat-equation-energy-uniqueness.tex",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/latex/heat-equation-energy-uniqueness.tex",
+        "sha256": "ba611dbb25097a405d0776ecd063f6f8e94e80ccfdf0aa4b1bd077ccb1d1f960"
+      },
+      {
+        "project": "PDE-03",
+        "kind": "markdown",
+        "path": "markdown/heat-equation-energy-uniqueness.md",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/markdown/heat-equation-energy-uniqueness.md",
+        "sha256": "38bfff9ad209426d9eec2b93de4145cae68ef99b73b0bb48231217900fb0aad4"
+      },
+      {
+        "project": "PDE-04",
+        "kind": "pdf",
+        "path": "reports/pdf/heat-kernel-initial-value-solution.pdf",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/heat-kernel-initial-value-solution.pdf",
+        "sha256": "17ab52257ea07e7b88541ad836ba35155b1f2ae82f82a1f480e42492e5e9af7d"
+      },
+      {
+        "project": "PDE-04",
+        "kind": "tex",
+        "path": "reports/latex/heat-kernel-initial-value-solution.tex",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/latex/heat-kernel-initial-value-solution.tex",
+        "sha256": "e489ac71fee66473ab03cc4395aa6e5aa46497f1e23a1ec55d09d4e989f21b6c"
+      },
+      {
+        "project": "PDE-04",
+        "kind": "markdown",
+        "path": "markdown/heat-kernel-initial-value-solution.md",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/markdown/heat-kernel-initial-value-solution.md",
+        "sha256": "c6f26293fec9ad2dea4e5103c52c6547d24e92461b6742ab224b6c70d04f5b2e"
+      },
+      {
+        "project": "PDE-05",
+        "kind": "pdf",
+        "path": "reports/pdf/dalembert-wave-formula.pdf",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/dalembert-wave-formula.pdf",
+        "sha256": "b9f3647ed711ff4a93bcdb3c8f9540118c6bf8537af9f2c83e3754a90dab8747"
+      },
+      {
+        "project": "PDE-05",
+        "kind": "tex",
+        "path": "reports/latex/dalembert-wave-formula.tex",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/latex/dalembert-wave-formula.tex",
+        "sha256": "0e778ab8c94fe55447280ca6ec1a319a675cd7239c26474f45cc7550d081aea8"
+      },
+      {
+        "project": "PDE-05",
+        "kind": "markdown",
+        "path": "markdown/dalembert-wave-formula.md",
+        "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/markdown/dalembert-wave-formula.md",
+        "sha256": "7746f8c29e2f1dba75cc4a4252da5167dc14fb8de9d661fa395db9e4e7f8571a"
+      }
+    ]
+  },
+  "probability-and-stochastic-processes": {
+    "subject": "Probability and Stochastic Processes",
+    "projects": 5,
+    "agents": 12,
+    "files": [
+      {
+        "project": "PS-01",
+        "kind": "pdf",
+        "path": "reports/pdf/borel-cantelli-lemmas.pdf",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/borel-cantelli-lemmas.pdf",
+        "sha256": "69a1836faaee3c9627e4f6a8895dc7115ca23f15eec2abdee838b46edba30efc"
+      },
+      {
+        "project": "PS-01",
+        "kind": "tex",
+        "path": "reports/latex/borel-cantelli-lemmas.tex",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/latex/borel-cantelli-lemmas.tex",
+        "sha256": "6fc01f6df0394126ac5970368f6ab57156bb5352ce797e7f8fc8c37f09addb75"
+      },
+      {
+        "project": "PS-01",
+        "kind": "markdown",
+        "path": "markdown/borel-cantelli-lemmas.md",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/markdown/borel-cantelli-lemmas.md",
+        "sha256": "11f6805322e5473b234d90f32e315b0598da4ef833dc0faa50ff8340ad59ae35"
+      },
+      {
+        "project": "PS-02",
+        "kind": "pdf",
+        "path": "reports/pdf/strong-law-finite-fourth-moment.pdf",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/strong-law-finite-fourth-moment.pdf",
+        "sha256": "341670378bae6df7bcc1a3cc44c7f69afe94bbfacb006e68765f87632f7e01a3"
+      },
+      {
+        "project": "PS-02",
+        "kind": "tex",
+        "path": "reports/latex/strong-law-finite-fourth-moment.tex",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/latex/strong-law-finite-fourth-moment.tex",
+        "sha256": "5161449e2e7ccb1436471607a835ccef8d54d9147755c9c38083fed90cec0d4b"
+      },
+      {
+        "project": "PS-02",
+        "kind": "markdown",
+        "path": "markdown/strong-law-finite-fourth-moment.md",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/markdown/strong-law-finite-fourth-moment.md",
+        "sha256": "07962791c0cddeb48e05b34c60dec4425ce9b92ca795d91b5ad456e1011d1e90"
+      },
+      {
+        "project": "PS-03",
+        "kind": "pdf",
+        "path": "reports/pdf/bounded-optional-stopping.pdf",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/bounded-optional-stopping.pdf",
+        "sha256": "c66f0ff5c3b7b87f0ee21ad39e711acaa1f2263a8640a13def9568432af8ab87"
+      },
+      {
+        "project": "PS-03",
+        "kind": "tex",
+        "path": "reports/latex/bounded-optional-stopping.tex",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/latex/bounded-optional-stopping.tex",
+        "sha256": "e7dbc4fdf9c8f95d55c27a7ef5562a748d0d7f46b7a5e9102d5cc92a23e65c46"
+      },
+      {
+        "project": "PS-03",
+        "kind": "markdown",
+        "path": "markdown/bounded-optional-stopping.md",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/markdown/bounded-optional-stopping.md",
+        "sha256": "2f5981f74af744f1fdced3e8ce2d14cc9d463346fa2eed0d87a26e4e897e48ce"
+      },
+      {
+        "project": "PS-04",
+        "kind": "pdf",
+        "path": "reports/pdf/doob-l2-maximal-inequality.pdf",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/doob-l2-maximal-inequality.pdf",
+        "sha256": "212f015dd36778648bc497b78f4ceca39f1de95b9756ccc82081d2ddf164fea3"
+      },
+      {
+        "project": "PS-04",
+        "kind": "tex",
+        "path": "reports/latex/doob-l2-maximal-inequality.tex",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/latex/doob-l2-maximal-inequality.tex",
+        "sha256": "05b50797d6714920eebb5cb709ab2fc266f9a718a39b284ccfd6d01ffeec8eaa"
+      },
+      {
+        "project": "PS-04",
+        "kind": "markdown",
+        "path": "markdown/doob-l2-maximal-inequality.md",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/markdown/doob-l2-maximal-inequality.md",
+        "sha256": "cb2c78827b44ba6b644683f37a6e43efe030f489f7eb5a31cad2e3a09b02b366"
+      },
+      {
+        "project": "PS-05",
+        "kind": "pdf",
+        "path": "reports/pdf/positive-finite-markov-chain.pdf",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/positive-finite-markov-chain.pdf",
+        "sha256": "5b8b405b2baa8b9be39ddfb0649d48a8b8198570611dfea4d0d6e533e7a5ea6c"
+      },
+      {
+        "project": "PS-05",
+        "kind": "tex",
+        "path": "reports/latex/positive-finite-markov-chain.tex",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/latex/positive-finite-markov-chain.tex",
+        "sha256": "db6f54a2502db22ef319be45072d0b7740ab552d0c0a9c3308ac43ac7f5816ef"
+      },
+      {
+        "project": "PS-05",
+        "kind": "markdown",
+        "path": "markdown/positive-finite-markov-chain.md",
+        "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/markdown/positive-finite-markov-chain.md",
+        "sha256": "d1fe8c26aa7ab697c4458b4c011d52045108affc938cc595f2eacc3a475298a8"
+      }
+    ]
+  },
+  "mathematical-logic-and-set-theory": {
+    "subject": "Mathematical Logic and Set Theory",
+    "projects": 5,
+    "agents": 14,
+    "files": [
+      {
+        "project": "LF-01",
+        "kind": "pdf",
+        "path": "reports/pdf/cantor-theorem.pdf",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/cantor-theorem.pdf",
+        "sha256": "72132bab7f62e4a77bc27f2d88a936c4920cf483529e26ca2735cb389bf1a41c"
+      },
+      {
+        "project": "LF-01",
+        "kind": "tex",
+        "path": "reports/latex/cantor-theorem.tex",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/latex/cantor-theorem.tex",
+        "sha256": "137c5b1e61bebb9a2cb4fb3bacafe084bf96d89819f7748e98f9ceec956653da"
+      },
+      {
+        "project": "LF-01",
+        "kind": "markdown",
+        "path": "markdown/cantor-theorem.md",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/markdown/cantor-theorem.md",
+        "sha256": "85f9f9b444cf7e7d21cc72010fc29740e46cee964e78a54b59127172d3b97609"
+      },
+      {
+        "project": "LF-02",
+        "kind": "pdf",
+        "path": "reports/pdf/cantor-schroeder-bernstein.pdf",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/cantor-schroeder-bernstein.pdf",
+        "sha256": "ff3d11fd497afaf3c1c2fdb1d622049721cad35d00ffb3868bdebb462cb641be"
+      },
+      {
+        "project": "LF-02",
+        "kind": "tex",
+        "path": "reports/latex/cantor-schroeder-bernstein.tex",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/latex/cantor-schroeder-bernstein.tex",
+        "sha256": "762231f1b03041d856d10b17b6126a8e941272deb15e5130417e29c3bbd1b0b4"
+      },
+      {
+        "project": "LF-02",
+        "kind": "markdown",
+        "path": "markdown/cantor-schroeder-bernstein.md",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/markdown/cantor-schroeder-bernstein.md",
+        "sha256": "5646440e7e4fcb95fa8347d52369fff819f61261d16b6505a1422f76a379e708"
+      },
+      {
+        "project": "LF-03",
+        "kind": "pdf",
+        "path": "reports/pdf/first-order-compactness-ultraproduct.pdf",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/first-order-compactness-ultraproduct.pdf",
+        "sha256": "d19e496cc846713afa84e8f5e173644e2ed7b8b39001a470fa235fa3cfc50711"
+      },
+      {
+        "project": "LF-03",
+        "kind": "tex",
+        "path": "reports/latex/first-order-compactness-ultraproduct.tex",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/latex/first-order-compactness-ultraproduct.tex",
+        "sha256": "6271574e5513e33a06df8639c963f17fbe8a980a69d7c60eb045fd147c0364eb"
+      },
+      {
+        "project": "LF-03",
+        "kind": "markdown",
+        "path": "markdown/first-order-compactness-ultraproduct.md",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/markdown/first-order-compactness-ultraproduct.md",
+        "sha256": "eeffde339dd0fc228961f6afd9903474a9e4015d42badb611e84b59f9a08ebc3"
+      },
+      {
+        "project": "LF-04",
+        "kind": "pdf",
+        "path": "reports/pdf/downward-lowenheim-skolem.pdf",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/downward-lowenheim-skolem.pdf",
+        "sha256": "962c92f264c6cf31f54fb7df39948732a483d5dab54dd9280622240149540a79"
+      },
+      {
+        "project": "LF-04",
+        "kind": "tex",
+        "path": "reports/latex/downward-lowenheim-skolem.tex",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/latex/downward-lowenheim-skolem.tex",
+        "sha256": "a78e04ce2f77b1dc203522c25c02ac9d713277c91bc9bd486fa024934631eff6"
+      },
+      {
+        "project": "LF-04",
+        "kind": "markdown",
+        "path": "markdown/downward-lowenheim-skolem.md",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/markdown/downward-lowenheim-skolem.md",
+        "sha256": "1e843cef04a566be763917086f8f2d6e80d1386bccb04543b18c7f73c5891448"
+      },
+      {
+        "project": "LF-05",
+        "kind": "pdf",
+        "path": "reports/pdf/halting-problem-undecidability.pdf",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/halting-problem-undecidability.pdf",
+        "sha256": "3902e83897d5a01fe4c49023766067c2de4c60279dd65bb4cdd12e184cf5e105"
+      },
+      {
+        "project": "LF-05",
+        "kind": "tex",
+        "path": "reports/latex/halting-problem-undecidability.tex",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/latex/halting-problem-undecidability.tex",
+        "sha256": "a300b31b746df4fda42a2d1327d0fef1ef8d5cc6f903deebdd369e792b0b112e"
+      },
+      {
+        "project": "LF-05",
+        "kind": "markdown",
+        "path": "markdown/halting-problem-undecidability.md",
+        "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/markdown/halting-problem-undecidability.md",
+        "sha256": "87b489852e7b25386fe87c6738af4dbbfe7f0de575ed0621d4bda9dbf8d925d4"
+      }
+    ]
+  }
+}

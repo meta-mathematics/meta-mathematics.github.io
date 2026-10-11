@@ -13,7 +13,9 @@ The collection contains 968 local mathematical objects, 1,190 selected relations
 - Statements, scope notes, reading references and explanations of typed connections.
 - Separate, browsable graduate book outlines and original Markdown resources.
 - Local editing and JSON import/export. Imports from another subject are rejected.
-- Global subject maps only; local five-faculty agent workflows remain separate future projects.
+- A prominent “Explore five selected theorems” banner in every global atlas.
+- All 85 complete theorem projects in 17 subject-specific dashboards, with 257 local agents.
+- Five-faculty walkthroughs, complete proofs, worked examples, failure/repair views, and 255 PDF, LaTeX, and Markdown downloads.
 
 The maps are curated and expandable. Their arrows describe selected mathematical relationships, not complete or formally verified proof certificates.
 
@@ -57,12 +59,21 @@ META-GRAPH/
 │       ├── graph-data.js      Offline browser bootstrap
 │       ├── preview.svg        Preview derived from that graph
 │       ├── assets/            Subject-local explorer code and styles
-│       └── resources/         Book outline page and original Markdown resources
+│       ├── resources/         Book outline page and original Markdown resources
+│       └── projects/
+│           ├── index.html     Five-theorem project dashboard and local proof graphs
+│           ├── data.json      Subject-local project data
+│           ├── data.js        Offline project bootstrap
+│           ├── assets/        Project styles and interaction code
+│           ├── markdown/      Original theorem walkthroughs
+│           └── reports/
+│               ├── pdf/       Five compiled reports
+│               └── latex/     Five standalone editable sources
 ├── tools/                     Collection, rebuild and validation helpers
 └── reports/                   Local verification reports and review screenshots
 ```
 
-`reports/` is optional for hosting and is ignored by the supplied `.gitignore`. The serving files contain no links back to the original workspace directories. Original workspace subjects, books and the earlier library are retained unchanged.
+The root `/reports/` directory contains optional QA output and is ignored by the supplied `.gitignore`. Subject `projects/reports/` directories contain the public downloads and must be included when publishing. The serving files contain no links back to the original workspace directories. Original workspace subjects, books and the earlier library are retained unchanged.
 
 ## Update a subject
 
@@ -79,6 +90,7 @@ To refresh the website copies from the mathematics workspace instead, run:
 
 ```sh
 python3 tools/collect_subjects.py --source-root /path/to/W-Workspace
+python3 tools/collect_projects.py --source-root /path/to/W-Workspace
 python3 tools/build_dashboard.py
 python3 tools/validate.py
 ```
@@ -89,4 +101,18 @@ Collection replaces the managed website copies with the workspace versions. Pres
 
 `tools/validate.py` checks every internal HTML link and asset, packaged paths, graph/bootstrap agreement, subject identities, endpoint closure, counts and the subject index. `tools/verify.cjs` runs browser checks using isolated fixtures at both a domain root and a repository subpath, including dashboard filters, all 17 subject routes, return navigation, local book pages and cross-subject import rejection. These optional development checks require Playwright and a local Chrome installation; visitors need neither.
 
-No manuscript, unrelated project files, preprint PDFs, user browser data, or runtime dependencies are bundled. The graph references retain their existing external reading links. No new license is assigned to third-party reference works; those works are linked, not copied into the website.
+Only the subject atlases and their selected project resources are bundled. The manuscript, source preprints, build logs, workspace tools, and user browser data are excluded. The graph references retain their existing external reading links. No new license is assigned to third-party reference works; those works are linked, not copied into the website.
+
+## Global atlas → selected theorems → local proof
+
+1. Choose a subject on the main website.
+2. Its global dependency graph opens as before. Use the green **Explore five selected theorems** banner to open that subject’s project dashboard.
+3. Select one of the five theorems to enter its local proof graph. Select an agent to inspect Ego, Memory, Intellect, Sense, Action, mathematical activities, exports and acceptance gates.
+4. Switch among the complete proof, worked example and failure/repair views, or download the PDF, LaTeX source and original Markdown.
+5. Use **All five theorems**, **Subject atlas**, or the breadcrumb links to return to the project dashboard, global graph or main website.
+
+For example: `subjects/number-theory/index.html` → `subjects/number-theory/projects/index.html` → `subjects/number-theory/projects/index.html#NT-01/N1/agents`. These relative routes work at a domain root, a GitHub repository subpath, and directly from local files. Project agents remain separate from the global mathematical objects. Existing cross-subject reading references open the other subject’s project; they do not merge proof graphs.
+
+`tools/collect_projects.py` refreshes only the packaged project copies from the workspace. It preserves mathematical content and records download checksums in `project-manifest.json`. Workspace originals are retained as the authoring sources. `tools/integrate_projects.py` maintains the banner and navigation counts; both atlas collection and the standalone website rebuild call it, so future updates retain the integration. No workspace folder is needed to serve the website.
+
+`tools/validate.py --source-root /path/to/W-Workspace` additionally verifies original-source fidelity, all 85 local DAGs, subject separation, five-faculty contracts, and all 255 download checksums. `tools/verify_projects.cjs` tests the complete navigation journey, every local node, all proof tabs, downloads and mobile layouts at both a domain root and repository subpath, plus a direct offline proof route. PDF files are copied from the already compiled reports; this integration does not rewrite or recompile them.

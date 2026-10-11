@@ -2,3 +2,5 @@
 /* A branch containing one subject gets a full-width overview card. */
 @media(min-width:701px){.subject-grid>.subject-card:only-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.3fr)}.subject-card:only-child .card-preview{height:100%;min-height:185px;border-bottom:0;border-right:1px solid var(--line);display:flex;align-items:center;padding:22px}.subject-card:only-child .card-preview img{height:auto}.subject-card:only-child h3{font-size:28px}.subject-card:only-child .card-body{padding:22px 26px}}
 @media(max-width:540px){.hero-stats .stat:last-child strong{font-size:21px;white-space:nowrap}}
+
+.card-projects{margin-top:12px;padding-top:12px;border-top:1px solid #dce3dc;color:#146959;font-size:11px;line-height:1.5;font-weight:650}

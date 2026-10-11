@@ -1,0 +1,469 @@
+\documentclass[preprint,12pt,aps,pra,showkeys,amsmath,amssymb,superscriptaddress,floatfix]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\usepackage{microtype,booktabs,enumitem}
+\usepackage{xcolor,tikz,etoolbox}
+\usepackage[skins,breakable]{tcolorbox}
+\usepackage{needspace}
+% Keep diagram geometry independent of REVTeX preprint body spacing.
+\AtBeginEnvironment{tikzpicture}{\linespread{1}\selectfont}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,decorations.pathreplacing}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\definecolor{MMBlue}{RGB}{0,82,155}
+\definecolor{MMOrange}{RGB}{200,80,0}
+\tikzset{
+ mmnode/.style={draw=MMBlue,rounded corners=2pt,fill=MMBlue!4,align=left,execute at begin node={\raggedright},text width=5cm,font=\fontsize{10}{12}\selectfont,inner sep=6pt},
+ mmimport/.style={mmnode,draw=black!65,fill=black!4},
+ mmcandidate/.style={mmnode,draw=MMOrange,dashed,fill=MMOrange!5},
+ mmrejected/.style={mmnode,draw=black,densely dotted,fill=black!8},
+ mmproof/.style={->,thick,MMBlue},
+ mmflow/.style={->,semithick,black!70},
+ mmrepair/.style={->,dashed,thick,MMOrange},
+ mmcandidatearrow/.style={->,dashed,semithick,MMOrange},
+ mmnote/.style={font=\scriptsize,fill=white,inner sep=2pt,align=center}}
+
+\usepackage[section]{placeins}
+\setlength{\emergencystretch}{3em}
+\setlist{itemsep=3pt,topsep=4pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+% Avoid isolated statement headings and single-line paragraph fragments.
+\BeforeBeginEnvironment{theorem}{\Needspace{6\baselineskip}}
+\BeforeBeginEnvironment{definition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{proposition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{lemma}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{corollary}{\Needspace{5\baselineskip}}
+\clubpenalty=5000
+\widowpenalty=5000
+\newcommand{\R}{\mathbb R}\newcommand{\Z}{\mathbb Z}\newcommand{\N}{\mathbb N}
+\newcommand{\Pa}{\operatorname{Pa}}\newcommand{\Desc}{\operatorname{Desc}}
+\newcommand{\cl}{\operatorname{cl}}\newcommand{\cost}{\operatorname{cost}}
+\newcommand{\status}{\operatorname{status}}
+% Faculty cards: a visual rail groups the five faculties within one agent.
+% The rail has no arrowhead and does not represent a proof dependency.
+\newcommand{\mmfacultybadge}[1]{%
+ \node[circle,draw=MMBlue,line width=1pt,fill=white,
+ minimum size=7mm,inner sep=0pt,font=\sffamily\small\bfseries,text=MMBlue]
+ at ([xshift=15pt,yshift=-15pt]frame.north west) {#1};}
+\newcommand{\mmfacultyrail}{%
+ \draw[MMBlue!80,line width=1pt]
+ ([xshift=15pt,yshift=2pt]frame.north west)--
+ ([xshift=15pt,yshift=-2pt]frame.south west);}
+\newtcolorbox{mmfacultybox}[2]{enhanced,breakable,
+ colback=MMBlue!4,colframe=MMBlue!4,boxrule=0pt,arc=3pt,
+ left=39pt,right=9pt,top=4pt,bottom=4pt,
+ before skip=2pt,after skip=2pt,
+ fontupper=\small\linespread{1.1}\selectfont,
+ overlay unbroken={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay first={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay middle={\mmfacultyrail},overlay last={\mmfacultyrail}}
+\newcommand{\mmfaculty}[3]{%
+ \begin{mmfacultybox}{#1}{#2}
+ {\sffamily\bfseries\color{MMBlue}#2}\par\smallskip #3
+ \end{mmfacultybox}}
+\newcommand{\agent}[9]{%
+ \Needspace{8\baselineskip}
+ \subsubsection{#1}
+ \noindent\textbf{Object.} #2\par
+ \noindent\textbf{Role.} #3\par\smallskip
+ \mmfaculty{E}{Ego}{#4}
+ \mmfaculty{M}{Memory}{#5}
+ \mmfaculty{I}{Intellect}{#6}
+ \mmfaculty{S}{Sense}{#7}
+ \mmfaculty{A}{Action}{#8}
+ \smallskip\noindent #9\par}
+
+\usepackage{longtable,array,calc}
+\providecommand{\tightlist}{\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}}
+\makeatletter
+\def\frontmatter@abstract@produce{\par\addvspace{\frontmatter@preabstractspace}%
+\begingroup\prep@absbox\unvbox\absbox\post@absbox\endgroup
+\addvspace{\frontmatter@postabstractspace}}
+\makeatother
+\newcommand{\field}[2]{\par\smallskip\noindent\textbf{#1.} #2\par}
+\setlength{\emergencystretch}{5em}
+\AtBeginEnvironment{verbatim}{\small\linespread{1.0}\selectfont}
+
+
+\hypersetup{colorlinks=true,linkcolor=MMBlue,urlcolor=MMBlue,pdfauthor={Dibakar Sigdel}}
+
+\begin{document}
+
+\title{Parseval's Identity for Fourier Series\\[4pt]\large An End-to-End Meta-Math Walkthrough}
+
+\author{Dibakar Sigdel}
+
+\affiliation{Mindverse Computing LLC, Lynnwood, WA 98087, USA}
+
+\date{October 2026}
+
+\begin{abstract}
+
+A complete authored walkthrough of parseval's identity for fourier
+series, with explicit mathematical contracts, local verification gates,
+and reusable exports. The report presents the target theorem, declared
+imports, a dependency graph, five-faculty node contracts, a continuous
+proof, a worked example, and a hypothesis-repair audit. It is an
+authored mathematical exposition, not a deployed-agent transcript or a
+formal proof-assistant certificate.
+
+\end{abstract}\maketitle\linespread{1.12}\selectfont
+
+\noindent\textbf{HA-03 / Harmonic Analysis / Report v1}
+
+\section{Target and import contract}
+
+\begin{theorem}
+
+Under HA-01's normalization, prove for every \(f\in L^2(\mathbb T)\)
+that Fourier partial sums converge in \(L^2\) and
+\(\|f\|_2^2=\sum_{n\in\mathbb Z}|c_n|^2\).
+
+\end{theorem}
+
+\subsection{Foundations and permitted imports}
+
+Import HA-01's finite projection identity and HA-02: Cesàro means of
+Fourier sums approximate every continuous periodic function uniformly.
+Also import density of continuous functions in \(L^{2}(T)\) for
+normalized Lebesgue measure (obtainable from simple functions and
+approximation of measurable sets). These imports imply
+trigonometric-polynomial density, not pointwise convergence of ordinary
+sums.
+
+\clearpage\section{Node interaction workflow}
+
+\begin{center}\begin{tikzpicture}[>=Stealth,x=1cm,y=1cm]
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N1) at (0,0.0) {\textbf{N1/v1 / E1}\\Dense trigonometric polynomials\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N2) at (0,-2.0) {\textbf{N2/v1 / E2}\\Best approximation gives ordinary \(L^{2}\) convergence\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N3) at (0,-4.0) {\textbf{N3/v1 / E3}\\Parseval closure\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\draw[mmproof] (N1.south) -- node[mmnote,right] {T1} (N2.north);
+
+\draw[mmproof] (N2.south) -- node[mmnote,right] {T2} (N3.north);
+
+\end{tikzpicture}\end{center}
+
+Each box is one mathematical agent containing all five faculties. Blue
+arrows carry the versioned exports listed below. The layout gives a
+reading order; only drawn arrows assert dependencies. Diagnostic repair
+is separate from the proof DAG.
+
+\subsection{Versioned evidence-transfer ledger}
+
+\begingroup\small\linespread{1.05}\selectfont
+
+\Needspace{5\baselineskip}\field{T1: N1/E1/v1 to N2}{Every \(L^{2}\) function can be approximated in \(L^{2}\) by a
+trigonometric polynomial.}
+
+\field{Receiving activity}{N2: Best approximation gives ordinary \(L^{2}\) convergence}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Density and HA-01 projection identity; prior exports
+E1/v1}
+
+\Needspace{5\baselineskip}\field{T2: N2/E2/v1 to N3}{Ordinary Fourier partial sums converge to f in \(L^{2}\).}
+
+\field{Receiving activity}{N3: Parseval closure}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Vanishing projection residual; prior exports E2/v1}
+
+\endgroup
+
+\clearpage\section{Agent roles and five-faculty activities}\begingroup\small\linespread{1.05}\selectfont\setlist{itemsep=1pt,topsep=2pt}
+
+\subsection{N1/v1: Dense trigonometric polynomials}
+
+\field{Object and role}{Combine two approximation errors.}
+
+\field{Inputs}{Continuous density in \(L^{2}\); uniform Fejér approximation;
+foundational imports stated in §1}
+
+\mmfaculty{E}{Ego}{Own E1/v1: Every \(L^{2}\) function can be approximated in \(L^{2}\) by
+a trigonometric polynomial.}
+
+\mmfaculty{M}{Memory}{Retain Continuous density in \(L^{2}\); uniform Fejér approximation;
+foundational imports stated in §1; keep their assumptions and versions
+attached.}
+
+\mmfaculty{I}{Intellect}{Combine two approximation errors.}
+
+\mmfaculty{S}{Sense}{Uniform Fejér convergence is used only for continuous h, not arbitrary
+\(L^{2}\) f.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E1/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N1.\arabic*,leftmargin=3.4em]
+
+\item For \(f\in L^{2}\) and \(\varepsilon >0\) choose continuous h with
+\(\Vert f-h\Vert _{2}<\varepsilon /2\).
+
+\item Choose a Fejér trigonometric polynomial p with
+\(\Vert h-p\Vert \infty <\varepsilon /2\).
+
+\item Since \(\operatorname{measure} (T)=1\),
+\(\Vert h-p\Vert _{2}\le \Vert h-p\Vert \infty\).
+
+\item Thus \(\Vert f-p\Vert _{2}<\varepsilon\).
+
+\item The polynomial space is dense in \(L^{2}\).
+
+\end{enumerate}
+
+\field{Export E1/v1}{Every \(L^{2}\) function can be approximated in \(L^{2}\) by a
+trigonometric polynomial.}
+
+\field{Acceptance gate}{Uniform Fejér convergence is used only for continuous h, not arbitrary
+\(L^{2}\) f.~Publish only after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N1: Uniform Fejér convergence is used only
+for continuous h, not arbitrary \(L^{2}\) f.~Recheck dependent nodes N2,
+N3.}
+
+\clearpage
+
+\subsection{N2/v1: Best approximation gives ordinary \(L^{2}\) convergence}
+
+\field{Object and role}{Use a fixed approximating polynomial inside all sufficiently large
+frequency spaces.}
+
+\field{Inputs}{Density and HA-01 projection identity; prior exports E1/v1}
+
+\mmfaculty{E}{Ego}{Own E2/v1: Ordinary Fourier partial sums converge to f in \(L^{2}\).}
+
+\mmfaculty{M}{Memory}{Retain Density and HA-01 projection identity; prior exports E1/v1; keep
+their assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{Use a fixed approximating polynomial inside all sufficiently large
+frequency spaces.}
+
+\mmfaculty{S}{Sense}{The conclusion is \(L^{2}\), not pointwise or uniform convergence.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E2/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N2.\arabic*,leftmargin=3.4em]
+
+\item Let \(S_Nf=\sum _{|n|\le N}c_ne_n\).
+
+\item If p has frequencies at mostN, then \(f-S_Nf\) is orthogonal to
+\(S_Nf-p\).
+
+\item Hence
+\(\Vert f-p\Vert _{2}^{2}=\Vert f-S_Nf\Vert _{2}^{2}+\Vert S_Nf-p\Vert _{2}^{2}\),
+so \(\Vert f-S_Nf\Vert _{2}\le \Vert f-p\Vert _{2}\).
+
+\item Choose p within \(\varepsilon\) by the preceding node, then retain that
+p for every N at least its degree.
+
+\item Thus \(S_Nf\to f\) in \(L^{2}\).
+
+\end{enumerate}
+
+\field{Export E2/v1}{Ordinary Fourier partial sums converge to f in \(L^{2}\).}
+
+\field{Acceptance gate}{The conclusion is \(L^{2}\), not pointwise or uniform convergence.
+Publish only after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N2: The conclusion is \(L^{2}\), not
+pointwise or uniform convergence. Recheck dependent nodes N3.}
+
+\clearpage
+
+\subsection{N3/v1: Parseval closure}
+
+\field{Object and role}{Pass the exact finite norm identity to the limit.}
+
+\field{Inputs}{Vanishing projection residual; prior exports E2/v1}
+
+\mmfaculty{E}{Ego}{Own E3/v1: Parseval identity and \(L^{2}\) Fourier reconstruction.}
+
+\mmfaculty{M}{Memory}{Retain Vanishing projection residual; prior exports E2/v1; keep their
+assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{Pass the exact finite norm identity to the limit.}
+
+\mmfaculty{S}{Sense}{Normalization must remain consistent throughout both approximation
+steps.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E3/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N3.\arabic*,leftmargin=3.4em]
+
+\item HA-01 gives
+\(\Vert f\Vert _{2}^{2}=\sum _{|n|\le N}|c_n|^{2}+\Vert f-S_Nf\Vert _{2}^{2}\).
+
+\item The residual tends to 0; the nonnegative coefficient sums converge.
+
+\item Therefore \(\Vert f\Vert _{2}^{2}=\sum _Z|c_n|^{2}\), completing both
+target statements.
+
+\end{enumerate}
+
+\field{Export E3/v1}{Parseval identity and \(L^{2}\) Fourier reconstruction.}
+
+\field{Acceptance gate}{Normalization must remain consistent throughout both approximation
+steps. Publish only after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N3: Normalization must remain consistent
+throughout both approximation steps. Withhold this terminal result until
+its gate passes.}
+
+\endgroup\clearpage\section{Continuous mathematical proof}\label{sec:proof}
+
+Read these steps in order as one proof; the diagram is optional.
+Numbered activities identify the specific constructions and deductions
+owned by each node.
+
+\subsection{§4.N1 --- Dense trigonometric
+polynomials}\label{n1-dense-trigonometric-polynomials}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  For \(f\in L^{2}\) and \(\varepsilon >0\) choose continuous h with
+  \(\Vert f-h\Vert _{2}<\varepsilon /2\).
+\item
+  Choose a Fejér trigonometric polynomial p with
+  \(\Vert h-p\Vert \infty <\varepsilon /2\).
+\item
+  Since \(\operatorname{measure} (T)=1\),
+  \(\Vert h-p\Vert _{2}\le \Vert h-p\Vert \infty\).
+\item
+  Thus \(\Vert f-p\Vert _{2}<\varepsilon\).
+\item
+  The polynomial space is dense in \(L^{2}\).
+\end{enumerate}
+
+\subsection{\texorpdfstring{§4.N2 --- Best approximation gives ordinary
+\(L^{2}\)
+convergence}{§4.N2 --- Best approximation gives ordinary L\^{}\{2\} convergence}}\label{n2-best-approximation-gives-ordinary-l2-convergence}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Let \(S_Nf=\sum _{|n|\le N}c_ne_n\).
+\item
+  If p has frequencies at mostN, then \(f-S_Nf\) is orthogonal to
+  \(S_Nf-p\).
+\item
+  Hence
+  \(\Vert f-p\Vert _{2}^{2}=\Vert f-S_Nf\Vert _{2}^{2}+\Vert S_Nf-p\Vert _{2}^{2}\),
+  so \(\Vert f-S_Nf\Vert _{2}\le \Vert f-p\Vert _{2}\).
+\item
+  Choose p within \(\varepsilon\) by the preceding node, then retain
+  that p for every N at least its degree.
+\item
+  Thus \(S_Nf\to f\) in \(L^{2}\).
+\end{enumerate}
+
+\subsection{§4.N3 --- Parseval closure}\label{n3-parseval-closure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  HA-01 gives
+  \(\Vert f\Vert _{2}^{2}=\sum _{|n|\le N}|c_n|^{2}+\Vert f-S_Nf\Vert _{2}^{2}\).
+\item
+  The residual tends to 0; the nonnegative coefficient sums converge.
+\item
+  Therefore \(\Vert f\Vert _{2}^{2}=\sum _Z|c_n|^{2}\), completing both
+  target statements.
+\end{enumerate}
+
+\hfill$\square$
+
+\section{Worked orchestration}
+
+For the periodic square wave \(f=1\) on \((0,\pi )\) and \(-1\) on
+\((-\pi ,0)\), \(\Vert f\Vert _{2}^{2}=1\). Integration gives
+\(c_n=2/(\pi\) i n) for odd n and 0 for even n, including \(c_{0}=0\).
+Parseval yields \(1=(8/\pi ^{2})\sum _{j\ge 0}1/(2j+1)^{2}\), so the odd
+reciprocal-square sum is \(\pi ^{2}/8\).
+
+\subsection{Boundary and hypothesis audit}
+
+The square wave has jumps; uniform convergence of its continuous Fourier
+partial sums is impossible. Sense accepts the \(L^{2}\) export and
+rejects promoting it to uniform convergence. Fejér's theorem and
+ordinary partial-sum convergence concern different statements.
+
+\section{Illustrative failure and repair}
+
+The following is an authored diagnostic scenario. Changed assumptions
+define a new contract; they do not retroactively prove the original
+statement.
+
+\subsection{Failure and correction}
+This is an authored teaching trace, not a recorded agent run.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ego \(\to\) Memory:} register the §1 theorem, imports, and
+  requested exports before beginning the proof.
+\item
+  \textbf{Intellect \(\to\) Action:} choose the bridges in §3 and carry
+  out the numbered activities in §4; transmit only established E-exports
+  along the §2 DAG.
+\item
+  \textbf{Sense \(\to\) responsible node:} test the specific
+  boundary/failure in §5 and the node's individual audit. A failing
+  candidate is withheld; downstream nodes may not use it.
+\item
+  \textbf{Memory + Intellect:} identify whether the error is an omitted
+  condition, an invalid inference, or an attempted extension beyond the
+  theorem. Restore the exact contract or explicitly state a different
+  one.
+\item
+  \textbf{Action:} redo the affected mathematical activity using the
+  repaired condition or inference. Recheck consuming nodes, rather than
+  feeding their conclusions back as premises.
+\item
+  \textbf{Ego:} publish only the supported export with its assumptions
+  and proof location. A hypothetical revised export is v2; the written
+  proof here is the v1 exposition, not a claim that this repair was
+  executed.
+\end{enumerate}
+
+\subsection{Hypothesis boundary}
+The square wave has jumps; uniform convergence of its continuous Fourier
+partial sums is impossible. Sense accepts the \(L^{2}\) export and
+rejects promoting it to uniform convergence. Fejér's theorem and
+ordinary partial-sum convergence concern different statements.
+
+\subsection{Version and recheck}
+Treat any changed assumption as a new contract. Recheck the revised
+export and all of its descendants. A backward diagnostic never
+establishes an earlier theorem. This is an authored teaching trace, not
+an execution log.
+
+\par\medskip\begingroup\small\linespread{1.0}\selectfont\noindent\textbf{Provenance.} This authored proof is complete relative to its declared imports. Reuse
+each export with its assumptions, proof, and version. The original
+Markdown remains available for comparison.
+\par\endgroup
+
+\end{document}

@@ -1,0 +1,428 @@
+\documentclass[preprint,12pt,aps,pra,showkeys,amsmath,amssymb,superscriptaddress,floatfix]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\usepackage{microtype,booktabs,enumitem}
+\usepackage{xcolor,tikz,etoolbox}
+\usepackage[skins,breakable]{tcolorbox}
+\usepackage{needspace}
+% Keep diagram geometry independent of REVTeX preprint body spacing.
+\AtBeginEnvironment{tikzpicture}{\linespread{1}\selectfont}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,decorations.pathreplacing}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\definecolor{MMBlue}{RGB}{0,82,155}
+\definecolor{MMOrange}{RGB}{200,80,0}
+\tikzset{
+ mmnode/.style={draw=MMBlue,rounded corners=2pt,fill=MMBlue!4,align=left,execute at begin node={\raggedright},text width=5cm,font=\fontsize{10}{12}\selectfont,inner sep=6pt},
+ mmimport/.style={mmnode,draw=black!65,fill=black!4},
+ mmcandidate/.style={mmnode,draw=MMOrange,dashed,fill=MMOrange!5},
+ mmrejected/.style={mmnode,draw=black,densely dotted,fill=black!8},
+ mmproof/.style={->,thick,MMBlue},
+ mmflow/.style={->,semithick,black!70},
+ mmrepair/.style={->,dashed,thick,MMOrange},
+ mmcandidatearrow/.style={->,dashed,semithick,MMOrange},
+ mmnote/.style={font=\scriptsize,fill=white,inner sep=2pt,align=center}}
+
+\usepackage[section]{placeins}
+\setlength{\emergencystretch}{3em}
+\setlist{itemsep=3pt,topsep=4pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+% Avoid isolated statement headings and single-line paragraph fragments.
+\BeforeBeginEnvironment{theorem}{\Needspace{6\baselineskip}}
+\BeforeBeginEnvironment{definition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{proposition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{lemma}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{corollary}{\Needspace{5\baselineskip}}
+\clubpenalty=5000
+\widowpenalty=5000
+\newcommand{\R}{\mathbb R}\newcommand{\Z}{\mathbb Z}\newcommand{\N}{\mathbb N}
+\newcommand{\Pa}{\operatorname{Pa}}\newcommand{\Desc}{\operatorname{Desc}}
+\newcommand{\cl}{\operatorname{cl}}\newcommand{\cost}{\operatorname{cost}}
+\newcommand{\status}{\operatorname{status}}
+% Faculty cards: a visual rail groups the five faculties within one agent.
+% The rail has no arrowhead and does not represent a proof dependency.
+\newcommand{\mmfacultybadge}[1]{%
+ \node[circle,draw=MMBlue,line width=1pt,fill=white,
+ minimum size=7mm,inner sep=0pt,font=\sffamily\small\bfseries,text=MMBlue]
+ at ([xshift=15pt,yshift=-15pt]frame.north west) {#1};}
+\newcommand{\mmfacultyrail}{%
+ \draw[MMBlue!80,line width=1pt]
+ ([xshift=15pt,yshift=2pt]frame.north west)--
+ ([xshift=15pt,yshift=-2pt]frame.south west);}
+\newtcolorbox{mmfacultybox}[2]{enhanced,breakable,
+ colback=MMBlue!4,colframe=MMBlue!4,boxrule=0pt,arc=3pt,
+ left=39pt,right=9pt,top=4pt,bottom=4pt,
+ before skip=2pt,after skip=2pt,
+ fontupper=\small\linespread{1.1}\selectfont,
+ overlay unbroken={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay first={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay middle={\mmfacultyrail},overlay last={\mmfacultyrail}}
+\newcommand{\mmfaculty}[3]{%
+ \begin{mmfacultybox}{#1}{#2}
+ {\sffamily\bfseries\color{MMBlue}#2}\par\smallskip #3
+ \end{mmfacultybox}}
+\newcommand{\agent}[9]{%
+ \Needspace{8\baselineskip}
+ \subsubsection{#1}
+ \noindent\textbf{Object.} #2\par
+ \noindent\textbf{Role.} #3\par\smallskip
+ \mmfaculty{E}{Ego}{#4}
+ \mmfaculty{M}{Memory}{#5}
+ \mmfaculty{I}{Intellect}{#6}
+ \mmfaculty{S}{Sense}{#7}
+ \mmfaculty{A}{Action}{#8}
+ \smallskip\noindent #9\par}
+
+\usepackage{longtable,array,calc}
+\providecommand{\tightlist}{\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}}
+\makeatletter
+\def\frontmatter@abstract@produce{\par\addvspace{\frontmatter@preabstractspace}%
+\begingroup\prep@absbox\unvbox\absbox\post@absbox\endgroup
+\addvspace{\frontmatter@postabstractspace}}
+\makeatother
+\newcommand{\field}[2]{\par\smallskip\noindent\textbf{#1.} #2\par}
+\setlength{\emergencystretch}{5em}
+\AtBeginEnvironment{verbatim}{\small\linespread{1.0}\selectfont}
+
+
+\hypersetup{colorlinks=true,linkcolor=MMBlue,urlcolor=MMBlue,pdfauthor={Dibakar Sigdel}}
+
+\begin{document}
+
+\title{Brouwer Fixed-Point Theorem via No Retraction\\[4pt]\large An End-to-End Meta-Math Walkthrough}
+
+\author{Dibakar Sigdel}
+
+\affiliation{Mindverse Computing LLC, Lynnwood, WA 98087, USA}
+
+\date{October 2026}
+
+\begin{abstract}
+
+A complete authored walkthrough of brouwer fixed-point theorem via no
+retraction, with explicit mathematical contracts, local verification
+gates, and reusable exports. The report presents the target theorem,
+declared imports, a dependency graph, five-faculty node contracts, a
+continuous proof, a worked example, and a hypothesis-repair audit. It is
+an authored mathematical exposition, not a deployed-agent transcript or
+a formal proof-assistant certificate.
+
+\end{abstract}\maketitle\linespread{1.12}\selectfont
+
+\noindent\textbf{AT-04 / Algebraic Topology / Report v1}
+
+\section{Target and import contract}
+
+\begin{theorem}
+
+For every \(n\ge1\) and continuous \(f:D^n\to D^n\), prove \(f\) has a
+fixed point by deriving a forbidden retraction \(D^n\to S^{n-1}\) from a
+fixed-point-free map.
+
+\end{theorem}
+
+\subsection{Foundations and permitted imports}
+
+\(D^{n}\) is the closed Euclidean unit ball and \(S^{(n-1)}\) its
+boundary, \(n\ge 1\). Import homotopy invariance of reduced singular
+homology, functoriality, contractibility of \(D^{n}\), and the sphere
+computation \(\widetilde H_{n-1}(S^{(n-1)}\);\(Z)=Z\). For \(n=1\) this
+is reduced \(H_{0}(S^{0})=Z\), while reduced \(H_{0}(D^{1})=0\). The
+no-retraction result is proved below.
+
+\clearpage\section{Node interaction workflow}
+
+\begin{center}\begin{tikzpicture}[>=Stealth,x=1cm,y=1cm]
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N1) at (0,0.0) {\textbf{N1/v1 / E1}\\A fixed-point-free map produces a retraction\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N2) at (0,-2.0) {\textbf{N2/v1 / E2}\\No retraction by reduced homology\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\draw[mmproof] (N1.south) -- node[mmnote,right] {T1} (N2.north);
+
+\end{tikzpicture}\end{center}
+
+Each box is one mathematical agent containing all five faculties. Blue
+arrows carry the versioned exports listed below. The layout gives a
+reading order; only drawn arrows assert dependencies. Diagnostic repair
+is separate from the proof DAG.
+
+\subsection{Versioned evidence-transfer ledger}
+
+\begingroup\small\linespread{1.05}\selectfont
+
+\Needspace{5\baselineskip}\field{T1: N1/E1/v1 to N2}{A continuous \(retractionr:D^{n}\to S^{(n-1)}\) under the no-fixed-point
+assumption.}
+
+\field{Receiving activity}{N2: No retraction by reduced homology}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Retractionr and boundary inclusioni; prior exports
+E1/v1}
+
+\endgroup
+
+\clearpage\section{Agent roles and five-faculty activities}\begingroup\small\linespread{1.05}\selectfont\setlist{itemsep=1pt,topsep=2pt}
+
+\subsection{N1/v1: A fixed-point-free map produces a retraction}
+
+\field{Object and role}{Extend the ray from \(f(x)\) throughx to its last sphere intersection.}
+
+\field{Inputs}{\(Continuousf:D^{n}\to D^{n}\) with \(f(x)\ne x\) assumed for
+contradiction; foundational imports stated in §1}
+
+\mmfaculty{E}{Ego}{Own E1/v1: A continuous \(retractionr:D^{n}\to S^{(n-1)}\) under the
+no-fixed-point assumption.}
+
+\mmfaculty{M}{Memory}{Retain \(Continuousf:D^{n}\to D^{n}\) with \(f(x)\ne x\) assumed for
+contradiction; foundational imports stated in §1; keep their assumptions
+and versions attached.}
+
+\mmfaculty{I}{Intellect}{Extend the ray from \(f(x)\) throughx to its last sphere intersection.}
+
+\mmfaculty{S}{Sense}{Continuity and the boundary identity must both be proved.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E1/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N1.\arabic*,leftmargin=3.4em]
+
+\item Put \(v=x-f(x)\ne 0\).
+
+\item The positive endpoint of the ray \(y=f(x)+tv\) on the unit sphere is
+obtained at
+\(t(x)=[-f(x)\cdot v+\sqrt{((f(x)\cdot v)^{2}}+(1-\Vert f(x)\Vert ^{2})\Vert v\Vert ^{2})]/\Vert v\Vert ^{2}\).
+
+\item The denominator is nonzero.
+
+\item This is the larger root of \(\Vert f(x)+tv\Vert ^{2}=1\), and \(t\ge 1\)
+because x at \(t=1\) lies in the ball.
+
+\item If \(f(x)\) lies on the sphere then \(f(x)\cdot v<0\) unless \(x=f(x)\),
+so the chosen root is still positive.
+
+\item The displayed expression is continuous, and \(r(x)=f(x)+t(x)v\) is
+sphere-valued.
+
+\item Ifx is on the sphere, \(t=1\): the ball's ray intersection ends there,
+since distinct points of a Euclidean sphere have a strictly interior
+connecting segment.
+
+\item Thus \(r(x)=x\) on the boundary, giving a retraction.
+
+\end{enumerate}
+
+\field{Export E1/v1}{A continuous \(retractionr:D^{n}\to S^{(n-1)}\) under the no-fixed-point
+assumption.}
+
+\field{Acceptance gate}{Continuity and the boundary identity must both be proved. Publish only
+after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N1: Continuity and the boundary identity must
+both be proved. Recheck dependent nodes N2.}
+
+\clearpage
+
+\subsection{N2/v1: No retraction by reduced homology}
+
+\field{Object and role}{Apply functoriality in the one degree that separates disk and sphere.}
+
+\field{Inputs}{Retractionr and boundary inclusioni; prior exports E1/v1}
+
+\mmfaculty{E}{Ego}{Own E2/v1: Brouwer's fixed-point theorem in every stated dimension.}
+
+\mmfaculty{M}{Memory}{Retain Retractionr and boundary inclusioni; prior exports E1/v1; keep
+their assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{Apply functoriality in the one degree that separates disk and sphere.}
+
+\mmfaculty{S}{Sense}{OrdinaryH \(_{0}\) of a disk is Z; reduced homology is essential for the
+\(n=1\) version of this argument.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E2/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N2.\arabic*,leftmargin=3.4em]
+
+\item A retraction would satisfy \(r\circ i=\operatorname{id} _S\).
+
+\item Hence \(r_*\circ i_*=\operatorname{id}\) on
+\(\widetilde H_{n-1}(S\);\(Z)=Z\).
+
+\item But \(i_*\) lands in \(\widetilde H_{n-1}(D\);\(Z)=0\), so the composite
+is the zero map.
+
+\item It cannot equal the identity on Z.
+
+\item This contradiction excludes the retraction, thus excludes a
+fixed-point-freef.
+
+\item Every continuous disk self-map has a fixed point, including \(n=1\).
+
+\end{enumerate}
+
+\field{Export E2/v1}{Brouwer's fixed-point theorem in every stated dimension.}
+
+\field{Acceptance gate}{OrdinaryH \(_{0}\) of a disk is Z; reduced homology is essential for the
+\(n=1\) version of this argument. Publish only after checking every
+displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N2: OrdinaryH \(_{0}\) of a disk is Z;
+reduced homology is essential for the \(n=1\) version of this argument.
+Withhold this terminal result until its gate passes.}
+
+\endgroup\clearpage\section{Continuous mathematical proof}\label{sec:proof}
+
+Read these steps in order as one proof; the diagram is optional.
+Numbered activities identify the specific constructions and deductions
+owned by each node.
+
+\subsection{§4.N1 --- A fixed-point-free map produces a
+retraction}\label{n1-a-fixed-point-free-map-produces-a-retraction}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Put \(v=x-f(x)\ne 0\).
+\item
+  The positive endpoint of the ray \(y=f(x)+tv\) on the unit sphere is
+  obtained at
+  \(t(x)=[-f(x)\cdot v+\sqrt{((f(x)\cdot v)^{2}}+(1-\Vert f(x)\Vert ^{2})\Vert v\Vert ^{2})]/\Vert v\Vert ^{2}\).
+\item
+  The denominator is nonzero.
+\item
+  This is the larger root of \(\Vert f(x)+tv\Vert ^{2}=1\), and
+  \(t\ge 1\) because x at \(t=1\) lies in the ball.
+\item
+  If \(f(x)\) lies on the sphere then \(f(x)\cdot v<0\) unless
+  \(x=f(x)\), so the chosen root is still positive.
+\item
+  The displayed expression is continuous, and \(r(x)=f(x)+t(x)v\) is
+  sphere-valued.
+\item
+  Ifx is on the sphere, \(t=1\): the ball's ray intersection ends there,
+  since distinct points of a Euclidean sphere have a strictly interior
+  connecting segment.
+\item
+  Thus \(r(x)=x\) on the boundary, giving a retraction.
+\end{enumerate}
+
+\subsection{§4.N2 --- No retraction by reduced
+homology}\label{n2-no-retraction-by-reduced-homology}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  A retraction would satisfy \(r\circ i=\operatorname{id} _S\).
+\item
+  Hence \(r_*\circ i_*=\operatorname{id}\) on
+  \(\widetilde H_{n-1}(S\);\(Z)=Z\).
+\item
+  But \(i_*\) lands in \(\widetilde H_{n-1}(D\);\(Z)=0\), so the
+  composite is the zero map.
+\item
+  It cannot equal the identity on Z.
+\item
+  This contradiction excludes the retraction, thus excludes a
+  fixed-point-freef.
+\item
+  Every continuous disk self-map has a fixed point, including \(n=1\).
+\end{enumerate}
+
+\hfill$\square$
+
+\section{Worked orchestration}
+
+The constant map \(f(x)=a\) with \(\Vert a\Vert \le 1\) fixes \(x=a\).
+The affine \(contractionf(x)=x/2\) also fixes 0. In either example the
+hypothetical retraction formula fails at its fixed point because
+\(v=0\), exactly the point the contradiction proves must exist.
+
+\subsection{Boundary and hypothesis audit}
+
+A rotation of \(S^{1}\) by a nonzero angle has no fixed point, so a
+sphere self-map does not satisfy the disk theorem. The corresponding
+rotation of \(D^{2}\) does fix 0. Sense retains both the disk domain and
+self-map condition rather than extending the claim to arbitrary compact
+spaces.
+
+\section{Illustrative failure and repair}
+
+The following is an authored diagnostic scenario. Changed assumptions
+define a new contract; they do not retroactively prove the original
+statement.
+
+\subsection{Failure and correction}
+This is an authored teaching trace, not a recorded agent run.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ego \(\to\) Memory:} register the §1 theorem, imports, and
+  requested exports before beginning the proof.
+\item
+  \textbf{Intellect \(\to\) Action:} choose the bridges in §3 and carry
+  out the numbered activities in §4; transmit only established E-exports
+  along the §2 DAG.
+\item
+  \textbf{Sense \(\to\) responsible node:} test the specific
+  boundary/failure in §5 and the node's individual audit. A failing
+  candidate is withheld; downstream nodes may not use it.
+\item
+  \textbf{Memory + Intellect:} identify whether the error is an omitted
+  condition, an invalid inference, or an attempted extension beyond the
+  theorem. Restore the exact contract or explicitly state a different
+  one.
+\item
+  \textbf{Action:} redo the affected mathematical activity using the
+  repaired condition or inference. Recheck consuming nodes, rather than
+  feeding their conclusions back as premises.
+\item
+  \textbf{Ego:} publish only the supported export with its assumptions
+  and proof location. A hypothetical revised export is v2; the written
+  proof here is the v1 exposition, not a claim that this repair was
+  executed.
+\end{enumerate}
+
+\subsection{Hypothesis boundary}
+A rotation of \(S^{1}\) by a nonzero angle has no fixed point, so a
+sphere self-map does not satisfy the disk theorem. The corresponding
+rotation of \(D^{2}\) does fix 0. Sense retains both the disk domain and
+self-map condition rather than extending the claim to arbitrary compact
+spaces.
+
+\subsection{Version and recheck}
+Treat any changed assumption as a new contract. Recheck the revised
+export and all of its descendants. A backward diagnostic never
+establishes an earlier theorem. This is an authored teaching trace, not
+an execution log.
+
+\par\medskip\begingroup\small\linespread{1.0}\selectfont\noindent\textbf{Provenance.} This authored proof is complete relative to its declared imports. Reuse
+each export with its assumptions, proof, and version. The original
+Markdown remains available for comparison.
+\par\endgroup
+
+\par\smallskip\begingroup\small\linespread{1.0}\selectfont\noindent\textbf{Further reading.} \begin{itemize}
+\tightlist
+\item
+  \href{https://pi.math.cornell.edu/~hatcher/AT/AT.pdf}{Allen Hatcher,
+  Algebraic Topology: covering spaces, cellular homology, and cap
+  products}.
+\end{itemize}\par\endgroup
+
+\end{document}

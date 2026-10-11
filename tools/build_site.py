@@ -3,6 +3,7 @@
 from pathlib import Path
 import json,subprocess,sys
 from collect_subjects import preview,book_page
+from integrate_projects import integrate
 ROOT=Path(__file__).resolve().parents[1]
 subjects=json.loads((ROOT/'subjects.json').read_text())
 # Check the complete inventory before changing any generated files.
@@ -22,5 +23,6 @@ for s,folder,g in loaded:
  (folder/'resources/book.html').write_text(book_page(g))
  s['title']=g['subject']['title'];s['nodes']=sum(n['layer']=='global' for n in g['nodes']);s['edges']=sum(e['type']!='contains' for e in g['edges']);s['bookNodes']=len(g['nodes'])-s['nodes'];s['regions']=[x['title'] for x in g['groups']]
 (ROOT/'subjects.json').write_text(json.dumps(subjects,ensure_ascii=False,indent=2)+'\n')
+integrate()
 subprocess.run([sys.executable,str(ROOT/'tools/build_dashboard.py')],check=True)
 print('Rebuilt',len(subjects),'subject copies from local website data')

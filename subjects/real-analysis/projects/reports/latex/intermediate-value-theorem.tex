@@ -1,0 +1,464 @@
+\documentclass[preprint,12pt,aps,pra,showkeys,amsmath,amssymb,superscriptaddress,floatfix]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\usepackage{microtype,booktabs,enumitem}
+\usepackage{xcolor,tikz,etoolbox}
+\usepackage[skins,breakable]{tcolorbox}
+\usepackage{needspace}
+% Keep diagram geometry independent of REVTeX preprint body spacing.
+\AtBeginEnvironment{tikzpicture}{\linespread{1}\selectfont}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,decorations.pathreplacing}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\definecolor{MMBlue}{RGB}{0,82,155}
+\definecolor{MMOrange}{RGB}{200,80,0}
+\tikzset{
+ mmnode/.style={draw=MMBlue,rounded corners=2pt,fill=MMBlue!4,align=left,execute at begin node={\raggedright},text width=5cm,font=\fontsize{10}{12}\selectfont,inner sep=6pt},
+ mmimport/.style={mmnode,draw=black!65,fill=black!4},
+ mmcandidate/.style={mmnode,draw=MMOrange,dashed,fill=MMOrange!5},
+ mmrejected/.style={mmnode,draw=black,densely dotted,fill=black!8},
+ mmproof/.style={->,thick,MMBlue},
+ mmflow/.style={->,semithick,black!70},
+ mmrepair/.style={->,dashed,thick,MMOrange},
+ mmcandidatearrow/.style={->,dashed,semithick,MMOrange},
+ mmnote/.style={font=\scriptsize,fill=white,inner sep=2pt,align=center}}
+
+\usepackage[section]{placeins}
+\setlength{\emergencystretch}{3em}
+\setlist{itemsep=3pt,topsep=4pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+% Avoid isolated statement headings and single-line paragraph fragments.
+\BeforeBeginEnvironment{theorem}{\Needspace{6\baselineskip}}
+\BeforeBeginEnvironment{definition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{proposition}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{lemma}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{corollary}{\Needspace{5\baselineskip}}
+\clubpenalty=5000
+\widowpenalty=5000
+\newcommand{\R}{\mathbb R}\newcommand{\Z}{\mathbb Z}\newcommand{\N}{\mathbb N}
+\newcommand{\Pa}{\operatorname{Pa}}\newcommand{\Desc}{\operatorname{Desc}}
+\newcommand{\cl}{\operatorname{cl}}\newcommand{\cost}{\operatorname{cost}}
+\newcommand{\status}{\operatorname{status}}
+% Faculty cards: a visual rail groups the five faculties within one agent.
+% The rail has no arrowhead and does not represent a proof dependency.
+\newcommand{\mmfacultybadge}[1]{%
+ \node[circle,draw=MMBlue,line width=1pt,fill=white,
+ minimum size=7mm,inner sep=0pt,font=\sffamily\small\bfseries,text=MMBlue]
+ at ([xshift=15pt,yshift=-15pt]frame.north west) {#1};}
+\newcommand{\mmfacultyrail}{%
+ \draw[MMBlue!80,line width=1pt]
+ ([xshift=15pt,yshift=2pt]frame.north west)--
+ ([xshift=15pt,yshift=-2pt]frame.south west);}
+\newtcolorbox{mmfacultybox}[2]{enhanced,breakable,
+ colback=MMBlue!4,colframe=MMBlue!4,boxrule=0pt,arc=3pt,
+ left=39pt,right=9pt,top=4pt,bottom=4pt,
+ before skip=2pt,after skip=2pt,
+ fontupper=\small\linespread{1.1}\selectfont,
+ overlay unbroken={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay first={\mmfacultyrail\mmfacultybadge{#1}},
+ overlay middle={\mmfacultyrail},overlay last={\mmfacultyrail}}
+\newcommand{\mmfaculty}[3]{%
+ \begin{mmfacultybox}{#1}{#2}
+ {\sffamily\bfseries\color{MMBlue}#2}\par\smallskip #3
+ \end{mmfacultybox}}
+\newcommand{\agent}[9]{%
+ \Needspace{8\baselineskip}
+ \subsubsection{#1}
+ \noindent\textbf{Object.} #2\par
+ \noindent\textbf{Role.} #3\par\smallskip
+ \mmfaculty{E}{Ego}{#4}
+ \mmfaculty{M}{Memory}{#5}
+ \mmfaculty{I}{Intellect}{#6}
+ \mmfaculty{S}{Sense}{#7}
+ \mmfaculty{A}{Action}{#8}
+ \smallskip\noindent #9\par}
+
+\usepackage{longtable,array,calc}
+\providecommand{\tightlist}{\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}}
+\makeatletter
+\def\frontmatter@abstract@produce{\par\addvspace{\frontmatter@preabstractspace}%
+\begingroup\prep@absbox\unvbox\absbox\post@absbox\endgroup
+\addvspace{\frontmatter@postabstractspace}}
+\makeatother
+\newcommand{\field}[2]{\par\smallskip\noindent\textbf{#1.} #2\par}
+\setlength{\emergencystretch}{5em}
+\AtBeginEnvironment{verbatim}{\small\linespread{1.0}\selectfont}
+
+
+\hypersetup{colorlinks=true,linkcolor=MMBlue,urlcolor=MMBlue,pdfauthor={Dibakar Sigdel}}
+
+\begin{document}
+
+\title{Intermediate Value Theorem\\[4pt]\large An End-to-End Meta-Math Walkthrough}
+
+\author{Dibakar Sigdel}
+
+\affiliation{Mindverse Computing LLC, Lynnwood, WA 98087, USA}
+
+\date{October 2026}
+
+\begin{abstract}
+
+A complete authored walkthrough of intermediate value theorem, with
+explicit mathematical contracts, local verification gates, and reusable
+exports. The report presents the target theorem, declared imports, a
+dependency graph, five-faculty node contracts, a continuous proof, a
+worked example, and a hypothesis-repair audit. It is an authored
+mathematical exposition, not a deployed-agent transcript or a formal
+proof-assistant certificate.
+
+\end{abstract}\maketitle\linespread{1.12}\selectfont
+
+\noindent\textbf{RA-01 / Real Analysis / Report v1}
+
+\section{Target and import contract}
+
+\begin{theorem}
+
+For continuous \(f:[a,b]\to\mathbb R\), \(a<b\), prove that every \(y\)
+between \(f(a)\) and \(f(b)\) equals \(f(c)\) for some \(c\in[a,b]\).
+
+\end{theorem}
+
+\subsection{Foundations and permitted imports}
+
+Use the least-upper-bound property of R and epsilon--delta continuity. A
+continuous function at c preserves a strict sign on a sufficiently small
+relative neighborhood. No intermediate-value or root-existence theorem
+is imported.
+
+\clearpage\section{Node interaction workflow}
+
+\begin{center}\begin{tikzpicture}[>=Stealth,x=1cm,y=1cm]
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N1) at (0,0.0) {\textbf{N1/v1 / E1}\\Sign reduction and endpoints\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N2) at (0,-2.0) {\textbf{N2/v1 / E2}\\Exclude a negative value at c\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\node[mmnode,text width=9cm,minimum height=1.25cm] (N3) at (0,-4.0) {\textbf{N3/v1 / E3}\\Exclude a positive value at c\\{\scriptsize Ego / Memory / Intellect / Sense / Action}};
+
+\draw[mmproof] (N1.south) -- node[mmnote,right] {T1} (N2.north);
+
+\draw[mmproof] (N1.west) -- (-5.58,0) -- node[mmnote,left] {T2} (-5.58,-4) -- (N3.west);
+
+\draw[mmproof] (N2.south) -- node[mmnote,right] {T3} (N3.north);
+
+\end{tikzpicture}\end{center}
+
+Each box is one mathematical agent containing all five faculties. Blue
+arrows carry the versioned exports listed below. The layout gives a
+reading order; only drawn arrows assert dependencies. Diagnostic repair
+is separate from the proof DAG.
+
+\subsection{Versioned evidence-transfer ledger}
+
+\begingroup\small\linespread{1.05}\selectfont
+
+\Needspace{5\baselineskip}\field{T1: N1/E1/v1 to N2}{A supremum candidate c for the strict-sign case.}
+
+\field{Receiving activity}{N2: Exclude a negative value at c}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Supremum candidate; continuity; prior exports E1/v1}
+
+\Needspace{5\baselineskip}\field{T2: N1/E1/v1 to N3}{A supremum candidate c for the strict-sign case.}
+
+\field{Receiving activity}{N3: Exclude a positive value at c}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Supremum and nonempty strict-negative neighborhood
+of a; prior exports E1/v1, E2/v1}
+
+\Needspace{5\baselineskip}\field{T3: N2/E2/v1 to N3}{\(c<b\) and \(g(c)\ge 0\).}
+
+\field{Receiving activity}{N3: Exclude a positive value at c}
+
+\field{Compatibility}{Use the same mathematical objects and hypotheses as the source export.
+Receiving contract: Supremum and nonempty strict-negative neighborhood
+of a; prior exports E1/v1, E2/v1}
+
+\endgroup
+
+\clearpage\section{Agent roles and five-faculty activities}\begingroup\small\linespread{1.05}\selectfont\setlist{itemsep=1pt,topsep=2pt}
+
+\subsection{N1/v1: Sign reduction and endpoints}
+
+\field{Object and role}{Translate and possibly reverse the sign.}
+
+\field{Inputs}{Continuous f on{[}a,b{]}; y between endpoint values; foundational
+imports stated in §1}
+
+\mmfaculty{E}{Ego}{Own E1/v1: A supremum candidate c for the strict-sign case.}
+
+\mmfaculty{M}{Memory}{Retain Continuous f on{[}a,b{]}; y between endpoint values; foundational
+imports stated in §1; keep their assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{Translate and possibly reverse the sign.}
+
+\mmfaculty{S}{Sense}{Endpoint equalities must be closed before assuming strict signs.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E1/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N1.\arabic*,leftmargin=3.4em]
+
+\item If \(y=f(a)\) or \(f(b)\), the corresponding endpoint solves the
+problem.
+
+\item Otherwise put \(g=f-y\) and, if necessary, replace g by \(-g\) so
+\(g(a)<0<g(b)\).
+
+\item Define \(S=\{x\in [a,b]:g(x)<0\}\).
+
+\item It contains a and is bounded above by b, hence
+\(c=\operatorname{sup} S\) exists.
+
+\end{enumerate}
+
+\field{Export E1/v1}{A supremum candidate c for the strict-sign case.}
+
+\field{Acceptance gate}{Endpoint equalities must be closed before assuming strict signs. Publish
+only after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N1: Endpoint equalities must be closed before
+assuming strict signs. Recheck dependent nodes N2, N3.}
+
+\clearpage
+
+\subsection{N2/v1: Exclude a negative value at c}
+
+\field{Object and role}{A negative value would allow a larger point in S.}
+
+\field{Inputs}{Supremum candidate; continuity; prior exports E1/v1}
+
+\mmfaculty{E}{Ego}{Own E2/v1: \(c<b\) and \(g(c)\ge 0\).}
+
+\mmfaculty{M}{Memory}{Retain Supremum candidate; continuity; prior exports E1/v1; keep their
+assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{A negative value would allow a larger point in S.}
+
+\mmfaculty{S}{Sense}{Use the endpoint sign to ensure there is room to the right.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E2/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N2.\arabic*,leftmargin=3.4em]
+
+\item Continuity at b and \(g(b)>0\) give a relative neighborhood of b with
+positive g, so \(c<b\).
+
+\item If \(g(c)<0\), continuity gives \(\delta >0\) with g negative near c.
+
+\item Choose x with \(c<x<\operatorname{min} (b,c+\delta )\), so \(x\in S\)
+contradicting the upper-bound property.
+
+\item Thus \(g(c)\ge 0\).
+
+\end{enumerate}
+
+\field{Export E2/v1}{\(c<b\) and \(g(c)\ge 0\).}
+
+\field{Acceptance gate}{Use the endpoint sign to ensure there is room to the right. Publish only
+after checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N2: Use the endpoint sign to ensure there is
+room to the right. Recheck dependent nodes N3.}
+
+\clearpage
+
+\subsection{N3/v1: Exclude a positive value at c}
+
+\field{Object and role}{Approximate the supremum from below.}
+
+\field{Inputs}{Supremum and nonempty strict-negative neighborhood of a; prior exports
+E1/v1, E2/v1}
+
+\mmfaculty{E}{Ego}{Own E3/v1: Every intermediate endpoint value is attained.}
+
+\mmfaculty{M}{Memory}{Retain Supremum and nonempty strict-negative neighborhood of a; prior
+exports E1/v1, E2/v1; keep their assumptions and versions attached.}
+
+\mmfaculty{I}{Intellect}{Approximate the supremum from below.}
+
+\mmfaculty{S}{Sense}{Being a supremum alone does not imply belonging to S.}
+
+\mmfaculty{A}{Action}{Carry out the numbered deductions and publish E3/v1 together with its
+hypotheses and proof location.}
+
+\smallskip\noindent\textbf{Numbered mathematical activities}
+
+\begin{enumerate}[label=N3.\arabic*,leftmargin=3.4em]
+
+\item Continuity at a gives some points strictly greater than a in S, so
+\(c>a\).
+
+\item If \(g(c)>0\), g is positive on \((c-\delta ,c+\delta )\cap [a,b]\).
+
+\item By the defining property of supremum there is \(s\in S\) with
+\(c-\delta <s\le c\), a contradiction.
+
+\item Hence \(g(c)\le 0\).
+
+\item Together the inequalities force \(g(c)=0\); undoing the sign reduction
+gives \(f(c)=y\).
+
+\end{enumerate}
+
+\field{Export E3/v1}{Every intermediate endpoint value is attained.}
+
+\field{Acceptance gate}{Being a supremum alone does not imply belonging to S. Publish only after
+checking every displayed deduction.}
+
+\field{Targeted repair}{If the check fails, revise N3: Being a supremum alone does not imply
+belonging to S. Withhold this terminal result until its gate passes.}
+
+\endgroup\clearpage\section{Continuous mathematical proof}\label{sec:proof}
+
+Read these steps in order as one proof; the diagram is optional.
+Numbered activities identify the specific constructions and deductions
+owned by each node.
+
+\subsection{§4.N1 --- Sign reduction and
+endpoints}\label{n1-sign-reduction-and-endpoints}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  If \(y=f(a)\) or \(f(b)\), the corresponding endpoint solves the
+  problem.
+\item
+  Otherwise put \(g=f-y\) and, if necessary, replace g by \(-g\) so
+  \(g(a)<0<g(b)\).
+\item
+  Define \(S=\{x\in [a,b]:g(x)<0\}\).
+\item
+  It contains a and is bounded above by b, hence
+  \(c=\operatorname{sup} S\) exists.
+\end{enumerate}
+
+\subsection{§4.N2 --- Exclude a negative value at
+c}\label{n2-exclude-a-negative-value-at-c}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Continuity at b and \(g(b)>0\) give a relative neighborhood of b with
+  positive g, so \(c<b\).
+\item
+  If \(g(c)<0\), continuity gives \(\delta >0\) with g negative near c.
+\item
+  Choose x with \(c<x<\operatorname{min} (b,c+\delta )\), so \(x\in S\)
+  contradicting the upper-bound property.
+\item
+  Thus \(g(c)\ge 0\).
+\end{enumerate}
+
+\subsection{§4.N3 --- Exclude a positive value at
+c}\label{n3-exclude-a-positive-value-at-c}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Continuity at a gives some points strictly greater than a in S, so
+  \(c>a\).
+\item
+  If \(g(c)>0\), g is positive on \((c-\delta ,c+\delta )\cap [a,b]\).
+\item
+  By the defining property of supremum there is \(s\in S\) with
+  \(c-\delta <s\le c\), a contradiction.
+\item
+  Hence \(g(c)\le 0\).
+\item
+  Together the inequalities force \(g(c)=0\); undoing the sign reduction
+  gives \(f(c)=y\).
+\end{enumerate}
+
+\hfill$\square$
+
+\section{Worked orchestration}
+
+For \(f(x)=x^{3}-x-1\), \(f(1)=-1\) and \(f(2)=5\). The supremum
+construction yields a root in (1,2). Bisection checks
+\(f(1.25)=-0.296875\) and \(f(1.5)=0.875\), narrowing the interval;
+these computations illustrate the theorem but are not its universal
+proof.
+
+\subsection{Boundary and hypothesis audit}
+
+The jump \(g(x)=-1\) for \(x<0\) and 1 for \(x\ge 0\) \(on[-1,1]\) has
+both signs and misses0. At its supremum candidate continuity fails.
+Sense rejects the sign-preservation step; no bracket computation repairs
+the original discontinuous theorem.
+
+\section{Illustrative failure and repair}
+
+The following is an authored diagnostic scenario. Changed assumptions
+define a new contract; they do not retroactively prove the original
+statement.
+
+\subsection{Failure and correction}
+This is an authored teaching trace, not a recorded agent run.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ego \(\to\) Memory:} register the §1 theorem, imports, and
+  requested exports before beginning the proof.
+\item
+  \textbf{Intellect \(\to\) Action:} choose the bridges in §3 and carry
+  out the numbered activities in §4; transmit only established E-exports
+  along the §2 DAG.
+\item
+  \textbf{Sense \(\to\) responsible node:} test the specific
+  boundary/failure in §5 and the node's individual audit. A failing
+  candidate is withheld; downstream nodes may not use it.
+\item
+  \textbf{Memory + Intellect:} identify whether the error is an omitted
+  condition, an invalid inference, or an attempted extension beyond the
+  theorem. Restore the exact contract or explicitly state a different
+  one.
+\item
+  \textbf{Action:} redo the affected mathematical activity using the
+  repaired condition or inference. Recheck consuming nodes, rather than
+  feeding their conclusions back as premises.
+\item
+  \textbf{Ego:} publish only the supported export with its assumptions
+  and proof location. A hypothetical revised export is v2; the written
+  proof here is the v1 exposition, not a claim that this repair was
+  executed.
+\end{enumerate}
+
+\subsection{Hypothesis boundary}
+The jump \(g(x)=-1\) for \(x<0\) and 1 for \(x\ge 0\) \(on[-1,1]\) has
+both signs and misses0. At its supremum candidate continuity fails.
+Sense rejects the sign-preservation step; no bracket computation repairs
+the original discontinuous theorem.
+
+\subsection{Version and recheck}
+Treat any changed assumption as a new contract. Recheck the revised
+export and all of its descendants. A backward diagnostic never
+establishes an earlier theorem. This is an authored teaching trace, not
+an execution log.
+
+\par\medskip\begingroup\small\linespread{1.0}\selectfont\noindent\textbf{Provenance.} This authored proof is complete relative to its declared imports. Reuse
+each export with its assumptions, proof, and version. The original
+Markdown remains available for comparison.
+\par\endgroup
+
+\end{document}

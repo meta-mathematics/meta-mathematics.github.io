@@ -3,7 +3,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import unquote,urlsplit
-import argparse,json,hashlib,datetime
+import argparse,json,hashlib,datetime,graphlib
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source-root',type=Path);args=p.parse_args()
 subjects=json.loads((ROOT/'subjects.json').read_text());provenance=json.loads((ROOT/'source-manifest.json').read_text());errors=[];checked=0
@@ -42,5 +42,38 @@ for s in subjects:
   assert hashlib.sha256(raw).hexdigest()==provenance[s['slug']]['sourceGraphSha256']
   for field in ('nodes','edges','groups','subject'):assert source[field]==g[field],'Mathematical content changed during collection'
  counts['mathematicalObjects']+=s['nodes'];counts['mathematicalConnections']+=s['edges'];counts['bookEntries']+=s['bookNodes']
-report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All graph endpoints belong to the local subject','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','No local faculty nodes','Relative dashboard return links and GitHub Pages marker present'])
+projects=json.loads((ROOT/'project-manifest.json').read_text());counts.update(projects=0,localAgents=0,projectDownloads=0)
+for s in subjects:
+ folder=ROOT/'subjects'/s['slug']/'projects';d=json.loads((folder/'data.json').read_text())
+ assert d['subject']==s['title'] and len(d['projects'])==s['projectCount']==5
+ assert json.loads((folder/'data.js').read_text().split('window.META_MATH = ',1)[1].strip().removesuffix(';'))==d
+ assert (ROOT/s['projectPath']).resolve()==folder/'index.html'
+ assert (folder.parent/'index.html').read_text().count('class="project-bridge"')==1
+ ids={p['id'] for p in d['projects']};assert len(ids)==5
+ assert all(e['source'] in ids and e['target'] in ids for e in d['links'])
+ graphlib.TopologicalSorter({i:{e['source'] for e in d['links'] if e['target']==i} for i in ids}).prepare()
+ for p in d['projects']:
+  nodes={n['id'] for n in p['nodes']};assert len(nodes)==len(p['nodes'])
+  assert all(e['source'] in nodes and e['target'] in nodes for e in p['edges'])
+  graphlib.TopologicalSorter({i:{e['source'] for e in p['edges'] if e['target']==i} for i in nodes}).prepare()
+  for n in p['nodes']:assert set(n['faculties'])=={'Ego','Memory','Intellect','Sense','Action'}
+  for key in ['pdf','tex','markdown']:
+   f=(folder/p[key]).resolve();assert f.is_relative_to(folder) and f.is_file()
+   if key=='pdf':assert f.read_bytes().startswith(b'%PDF-')
+   counts['projectDownloads']+=1
+  # The proof data contain HTML as well as plain metadata; check embedded links too.
+  def embedded(value):
+   if isinstance(value,str):
+    parser=Links();parser.file=folder/'index.html';parser.feed(value)
+   elif isinstance(value,list):
+    for v in value:embedded(v)
+   elif isinstance(value,dict):
+    for v in value.values():embedded(v)
+  embedded(p)
+  counts['projects']+=1;counts['localAgents']+=len(nodes)
+ for f in projects[s['slug']]['files']:
+  assert hashlib.sha256((folder/f['path']).read_bytes()).hexdigest()==f['sha256']
+  if args.source_root:assert hashlib.sha256((args.source_root/f['source']).read_bytes()).hexdigest()==f['sha256']
+ assert s['projectAgents']==sum(len(p['nodes']) for p in d['projects'])
+report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All global and local graph endpoints belong to their own subject or project','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','Five faculties appear only inside local project agents','All 85 project DAGs and theorem-import maps are acyclic','All 255 project downloads match their source checksums','Relative dashboard return links and GitHub Pages marker present'])
 (ROOT/'reports').mkdir(exist_ok=True);(ROOT/'reports/validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

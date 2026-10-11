@@ -82,5 +82,7 @@ def main():
         assert original['nodes']==g['nodes'] and original['edges']==g['edges']
     (SITE/'subjects.json').write_text(json.dumps(published,ensure_ascii=False,indent=2)+'\n')
     (SITE/'source-manifest.json').write_text(json.dumps(audit,indent=2)+'\n')
+    from integrate_projects import integrate
+    integrate()
     print('Collected',len(published),'independent subjects;',sum(x['nodes'] for x in published),'mathematical objects;',sum(x['edges'] for x in published),'relationships')
 if __name__=='__main__':main()

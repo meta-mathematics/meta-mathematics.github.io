@@ -23,7 +23,10 @@
       "Zeta functions & prime distribution",
       "Selected modern directions"
     ],
-    "bookNodes": 102
+    "bookNodes": 102,
+    "projectCount": 5,
+    "projectPath": "subjects/number-theory/projects/index.html",
+    "projectAgents": 18
   },
   {
     "slug": "advanced-calculus",
@@ -45,7 +48,10 @@
       "Forms and manifolds",
       "Consequences and synthesis"
     ],
-    "bookNodes": 84
+    "bookNodes": 84,
+    "projectCount": 5,
+    "projectPath": "subjects/advanced-calculus/projects/index.html",
+    "projectAgents": 15
   },
   {
     "slug": "complex-analysis",
@@ -67,7 +73,10 @@
       "Normal families and mapping",
       "Global analytic structure"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/complex-analysis/projects/index.html",
+    "projectAgents": 16
   },
   {
     "slug": "functional-analysis-and-measure-theory",
@@ -89,7 +98,10 @@
       "Operators and spectra",
       "Distributions and applications"
     ],
-    "bookNodes": 92
+    "bookNodes": 92,
+    "projectCount": 5,
+    "projectPath": "subjects/functional-analysis-and-measure-theory/projects/index.html",
+    "projectAgents": 12
   },
   {
     "slug": "harmonic-analysis",
@@ -109,7 +121,10 @@
       "Singular integrals",
       "Frequency geometry and further directions"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/harmonic-analysis/projects/index.html",
+    "projectAgents": 16
   },
   {
     "slug": "real-analysis",
@@ -130,7 +145,10 @@
       "Products and signed measures",
       "Differentiation and variation"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/real-analysis/projects/index.html",
+    "projectAgents": 18
   },
   {
     "slug": "algebraic-geometry",
@@ -150,7 +168,10 @@
       "Curves, divisors and Riemann–Roch",
       "Smoothness, intersection and moduli"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/algebraic-geometry/projects/index.html",
+    "projectAgents": 13
   },
   {
     "slug": "linear-algebra",
@@ -170,7 +191,10 @@
       "Forms and multilinear constructions",
       "Singular values and computation"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/linear-algebra/projects/index.html",
+    "projectAgents": 15
   },
   {
     "slug": "modern-algebra",
@@ -190,7 +214,10 @@
       "Field extensions and Galois theory",
       "Finite fields and structural synthesis"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/modern-algebra/projects/index.html",
+    "projectAgents": 18
   },
   {
     "slug": "representation-theory-and-lie-theory",
@@ -210,7 +237,10 @@
       "Roots and highest weights",
       "Characters, integration and extensions"
     ],
-    "bookNodes": 100
+    "bookNodes": 100,
+    "projectCount": 5,
+    "projectPath": "subjects/representation-theory-and-lie-theory/projects/index.html",
+    "projectAgents": 12
   },
   {
     "slug": "algebraic-topology",
@@ -230,7 +260,10 @@
       "Cohomology and duality",
       "Bundles, spectral sequences and generalized theories"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/algebraic-topology/projects/index.html",
+    "projectAgents": 16
   },
   {
     "slug": "differential-geometry",
@@ -250,7 +283,10 @@
       "Curvature and comparison",
       "Submanifolds and global geometry"
     ],
-    "bookNodes": 93
+    "bookNodes": 93,
+    "projectCount": 5,
+    "projectPath": "subjects/differential-geometry/projects/index.html",
+    "projectAgents": 18
   },
   {
     "slug": "general-topology",
@@ -270,7 +306,10 @@
       "Products, compactification and local structure",
       "Convergence, function spaces and extensions"
     ],
-    "bookNodes": 92
+    "bookNodes": 92,
+    "projectCount": 5,
+    "projectPath": "subjects/general-topology/projects/index.html",
+    "projectAgents": 17
   },
   {
     "slug": "optimization-and-numerical-analysis",
@@ -290,7 +329,10 @@
       "Interpolation, approximation and quadrature",
       "Differential-equation discretization"
     ],
-    "bookNodes": 94
+    "bookNodes": 94,
+    "projectCount": 5,
+    "projectPath": "subjects/optimization-and-numerical-analysis/projects/index.html",
+    "projectAgents": 13
   },
   {
     "slug": "partial-differential-equations",
@@ -310,7 +352,10 @@
       "Parabolic and hyperbolic evolution",
       "Nonlinear equations and weak-solution selection"
     ],
-    "bookNodes": 100
+    "bookNodes": 100,
+    "projectCount": 5,
+    "projectPath": "subjects/partial-differential-equations/projects/index.html",
+    "projectAgents": 14
   },
   {
     "slug": "probability-and-stochastic-processes",
@@ -330,7 +375,10 @@
       "Brownian motion and weak limits",
       "Stochastic calculus and diffusion"
     ],
-    "bookNodes": 94
+    "bookNodes": 94,
+    "projectCount": 5,
+    "projectPath": "subjects/probability-and-stochastic-processes/projects/index.html",
+    "projectAgents": 12
   },
   {
     "slug": "mathematical-logic-and-set-theory",
@@ -350,6 +398,9 @@
       "Cardinals and constructibility",
       "Forcing and independence"
     ],
-    "bookNodes": 92
+    "bookNodes": 92,
+    "projectCount": 5,
+    "projectPath": "subjects/mathematical-logic-and-set-theory/projects/index.html",
+    "projectAgents": 14
   }
 ]

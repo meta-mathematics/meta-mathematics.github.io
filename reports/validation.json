@@ -1,23 +1,28 @@
 {
   "passed": true,
-  "date": "2026-10-10T23:11:09.051510+00:00",
+  "date": "2026-10-11T01:52:13.608243+00:00",
   "counts": {
     "subjects": 17,
     "mathematicalObjects": 968,
     "mathematicalConnections": 1190,
-    "bookEntries": 1594
+    "bookEntries": 1594,
+    "projects": 85,
+    "localAgents": 257,
+    "projectDownloads": 255
   },
-  "internalLinksAndAssetsChecked": 227,
+  "internalLinksAndAssetsChecked": 434,
   "sourceFidelityChecked": true,
   "checks": [
     "All 17 independent subject packages present",
     "All internal HTML links and assets stay inside META-GRAPH",
-    "All graph endpoints belong to the local subject",
+    "All global and local graph endpoints belong to their own subject or project",
     "No book/global dependency mixing",
     "Graph JSON and offline bootstraps agree",
     "Subject identities and website draft keys are independent",
     "All dashboard counts match graph data",
-    "No local faculty nodes",
+    "Five faculties appear only inside local project agents",
+    "All 85 project DAGs and theorem-import maps are acyclic",
+    "All 255 project downloads match their source checksums",
     "Relative dashboard return links and GitHub Pages marker present"
   ]
 }
