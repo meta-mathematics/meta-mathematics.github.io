@@ -2,6 +2,7 @@
 """Maintain the atlas-to-proof navigation using only packaged website files."""
 from pathlib import Path
 import html,json,re
+from site_credit import apply_credits
 ROOT=Path(__file__).resolve().parents[1]
 
 def integrate():
@@ -25,5 +26,6 @@ def integrate():
         page=page.replace('</header>','</header>'+banner,1)
         (folder/'index.html').write_text(page)
     (ROOT/'subjects.json').write_text(json.dumps(subjects,ensure_ascii=False,indent=2)+'\n')
+    apply_credits()
 
 if __name__=='__main__':integrate()

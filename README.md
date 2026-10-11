@@ -2,6 +2,12 @@
 
 A standalone website for exploring **17 independent mathematical subjects** across six branches. Open **[index.html](index.html)** to choose a subject and enter its dependency graph.
 
+## Research and development
+
+Meta-Math research, development, and documentation by Super-learning Lab, [Mindverse Computing](https://mindversecomputing.com) LLC. The Meta-Math framework, interactive atlases, theorem walkthroughs, and accompanying documentation presented on this website form part of the company's research and development work. Mathematical results and external reference works retain their existing scholarly attributions.
+
+All public HTML pages carry a consistent institutional credit in their footer. The shared credit is maintained in `tools/site_credit.py` and styled by `assets/site-credit.css`; the website builders and collectors preserve it automatically.
+
 The collection contains 968 local mathematical objects, 1,190 selected relationships, and 1,594 book-outline entries. Shared ideas are counted separately when they appear in more than one subject. Each subject retains its own graph, references, local browser draft, and export. The website does not merge the subjects into one graph.
 
 ## Website contents

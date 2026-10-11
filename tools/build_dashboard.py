@@ -3,6 +3,7 @@
 from pathlib import Path
 from collections import OrderedDict
 import json,html
+from site_credit import apply_credits
 ROOT=Path(__file__).resolve().parents[1];E=html.escape
 subjects=json.loads((ROOT/'subjects.json').read_text());groups=OrderedDict()
 for s in subjects:groups.setdefault(s['category'],[]).append(s)
@@ -25,4 +26,5 @@ page='''<!doctype html>
 <footer class="site-footer"><p>Meta-Math · A library for exploring mathematical reasoning.<br>These curated maps record selected dependencies, not exhaustive or formally verified proofs. Each subject remains independent; shared ideas are counted locally in each atlas. Each subject includes five complete theorem walkthroughs, with local five-faculty workflows and downloadable reports.</p><a href="README.md">Project & hosting guide ↗</a></footer></main><script src="assets/dashboard.js"></script></body></html>'''
 (ROOT/'index.html').write_text(page.replace('NAV',nav).replace('SECTIONS','\n'.join(sections)).replace('968',f'{sum(s["nodes"] for s in subjects):,}').replace('1,190',f'{sum(s["edges"] for s in subjects):,}')+'\n')
 (ROOT/'.nojekyll').touch()
+apply_credits()
 print('Built master dashboard for',len(subjects),'subjects')
