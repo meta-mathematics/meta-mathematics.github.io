@@ -3,6 +3,7 @@
 from pathlib import Path
 import html,json,re
 from site_credit import apply_credits
+from compact_project_maps import compact_project_maps
 ROOT=Path(__file__).resolve().parents[1]
 
 def integrate():
@@ -27,5 +28,6 @@ def integrate():
         (folder/'index.html').write_text(page)
     (ROOT/'subjects.json').write_text(json.dumps(subjects,ensure_ascii=False,indent=2)+'\n')
     apply_credits()
+    compact_project_maps()
 
 if __name__=='__main__':integrate()

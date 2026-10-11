@@ -4,16 +4,7 @@ let current=null,nodeIndex=0,view='agents';
 const defs=id=>`<defs><marker id="${id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#00529b"/></marker></defs>`;
 function words(s,max=26){let out=[],line='';for(const w of s.split(' ')){if((line+' '+w).trim().length>max&&line){out.push(line);line=w}else line+=(line?' ':'')+w}if(line)out.push(line);return out}
 function overview(){
- const levels={}; DATA.projects.forEach(p=>levels[p.id]=0);
- for(let pass=0;pass<DATA.projects.length;pass++) DATA.links.forEach(l=>levels[l.target]=Math.max(levels[l.target],levels[l.source]+1));
- const groups={}; DATA.projects.forEach(p=>(groups[levels[p.id]]??=[]).push(p));
- const maxLevel=Math.max(0,...Object.values(levels)),rows=Math.max(1,...Object.values(groups).map(g=>g.length));
- let width=(maxLevel+1)*350+60,height=Math.max(290,rows*150+40);const pos={};
- Object.entries(groups).forEach(([level,ps])=>ps.forEach((p,i)=>pos[p.id]=[30+Number(level)*350,20+i*150+(height-40-ps.length*150)/2]));
- if(!DATA.links.length){width=1070;height=350;DATA.projects.forEach((p,i)=>pos[p.id]=[30+(i%3)*350,20+Math.floor(i/3)*165]);}
- let svg=`<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(DATA.subject)} theorem dependency graph">${defs('theorem-arrow')}`;
- DATA.links.forEach(l=>{const[a,b]=pos[l.source],[c,d]=pos[l.target];svg+=`<path class="edge" d="M${a+285} ${b+49} C${a+320} ${b+49},${c-35} ${d+49},${c} ${d+49}" marker-end="url(#theorem-arrow)"><title>${esc(l.detail)}</title></path>`});
- DATA.projects.forEach(p=>{const[x,y]=pos[p.id];const lines=words(p.title,32);svg+=`<a href="#${p.id}" class="graph-node" aria-label="Explore ${esc(p.title)}"><rect x="${x}" y="${y}" width="285" height="130" rx="8"/><text x="${x+16}" y="${y+21}" class="id">${p.id}</text>${lines.map((line,j)=>`<text x="${x+16}" y="${y+45+j*17}" class="title">${esc(line)}</text>`).join('')}<text x="${x+16}" y="${y+118}" class="sub">${p.nodes.length} agents · ${p.edges.length} transfers</text></a>`});svg+='</svg>';$('#overview-graph').innerHTML=svg;
+ window.renderTheoremOverview(DATA);
  $('#imports').innerHTML=DATA.links.map(l=>`<div class="transfer"><b><a href="#${l.source}">${l.source}</a> → <a href="#${l.target}">${l.target}</a> · ${esc(l.label)}</b><p>${esc(l.detail)}</p></div>`).join('');
  renderCards('');
 }

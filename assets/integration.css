@@ -14,4 +14,10 @@
 .proof-breadcrumb{max-width:1440px;margin:auto;padding:14px 48px 0;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:12px;color:#677b79}
 .proof-studio .intro{padding-top:42px}.proof-studio .studio-grid>*,.proof-studio .faculty-rail,.proof-studio .faculty,.proof-studio #node-detail,.proof-studio .target,.proof-studio .project-heading>*{min-width:0}
 .proof-studio math[display="inline"]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}
+.proof-studio .overview-graph{padding:12px;overflow:auto}
+.proof-studio .overview-graph svg{width:auto;min-width:0;max-width:none;height:auto;margin-inline:auto}
+.proof-studio .overview-graph .graph-node .title{font-size:14px}
+.proof-studio .overview-graph .graph-node .id{font-size:10px}
+.proof-studio .overview-graph .graph-node .sub{font-size:10px}
+.proof-studio .overview-graph:focus-visible{outline:2px solid #146959;outline-offset:3px}
 @media(max-width:750px){.proof-studio .studio-grid{grid-template-columns:minmax(0,1fr)}.proof-studio .node-kicker{flex-wrap:wrap;gap:4px}.proof-studio .brand{min-width:0}.proof-studio .brand small{overflow-wrap:anywhere}.proof-studio .global-link{flex-shrink:0}.proof-breadcrumb{padding:14px 18px 0}.proof-studio .intro{padding-top:28px}.proof-studio>footer{flex-wrap:wrap;gap:12px}}

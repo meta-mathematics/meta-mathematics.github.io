@@ -4,12 +4,7 @@ let current=null,nodeIndex=0,view='agents';
 const defs=id=>`<defs><marker id="${id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#00529b"/></marker></defs>`;
 function words(s,max=26){let out=[],line='';for(const w of s.split(' ')){if((line+' '+w).trim().length>max&&line){out.push(line);line=w}else line+=(line?' ':'')+w}if(line)out.push(line);return out}
 function overview(){
- const positions=[[35,153],[420,153],[845,25],[845,153],[845,281]], names=[['Euclid & Bézout','Gcd, certificates, inverses'],['Prime factorization','Existence and uniqueness'],['Chinese remainders','Local data → one residue'],['Fermat’s little theorem','Permutation and cancellation'],['Pythagorean triples','A complete classification']];
- let svg=`<svg viewBox="0 0 1160 400" role="img" aria-label="Bézout supports factorization, CRT and Fermat; factorization supports CRT, Fermat and Pythagorean triples">${defs('theorem-arrow')}`;
- // Separate curved routes for foundational imports, with no inter-subject nodes.
- const paths=['M300 199L420 199','M220 153C250 3 620 3 845 65','M250 245C350 360 720 375 845 212','M685 172C760 172 770 72 845 72','M685 199L845 199','M685 226C760 226 770 330 845 330'];
- DATA.links.forEach((l,i)=>svg+=`<path class="edge" d="${paths[i]}" marker-end="url(#theorem-arrow)"><title>${esc(l.detail)}</title></path>`);
- DATA.projects.forEach((p,i)=>{const[x,y]=positions[i];svg+=`<a href="#${p.id}" class="graph-node" aria-label="Explore ${esc(p.title)}"><rect x="${x}" y="${y}" width="265" height="92" rx="8"/><text x="${x+18}" y="${y+23}" class="id">${p.id}</text><text x="${x+18}" y="${y+49}" class="title">${esc(names[i][0])}</text><text x="${x+18}" y="${y+71}" class="sub">${esc(names[i][1])}</text></a>`});svg+='</svg>';$('#overview-graph').innerHTML=svg;
+ window.renderTheoremOverview(DATA);
  $('#imports').innerHTML=DATA.links.map(l=>`<div class="transfer"><b><a href="#${l.source}">${l.source}</a> → <a href="#${l.target}">${l.target}</a> · ${esc(l.label)}</b><p>${esc(l.detail)}</p></div>`).join('');
  renderCards('');
 }
