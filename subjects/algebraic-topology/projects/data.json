@@ -122,9 +122,7 @@
       "sha256": "24c7a59d960a44977fd26dc04263cd15e1c46d25198467eef04af9d32452a821",
       "idea": "<p>A complete authored walkthrough of fundamental group of the circle,\nwith explicit mathematical contracts, local verification gates, and\nreusable exports.</p>",
       "references": "<ul>\n<li><a href=\"https://pi.math.cornell.edu/~hatcher/AT/AT.pdf\">Allen\nHatcher, Algebraic Topology: covering spaces, cellular homology, and cap\nproducts</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/fundamental-group-of-the-circle.pdf",
-      "tex": "reports/latex/fundamental-group-of-the-circle.tex",
-      "markdown": "markdown/fundamental-group-of-the-circle.md"
+      "pdf": "reports/pdf/fundamental-group-of-the-circle.pdf"
     },
     {
       "id": "AT-02",
@@ -285,9 +283,7 @@
       "sha256": "529dc414503e3c44d0923e307167ef3a77ed072cfdfe6ec3e0db4ab8a6cb5dfd",
       "idea": "<p>A complete authored walkthrough of fundamental group of the torus via\nseifert–van kampen, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<p><a\nhref=\"https://pi.math.cornell.edu/~hatcher/AT/ATchapters.html\">Allen\nHatcher, Algebraic Topology, Chapter 1: van Kampen and cell\nattachments</a>.</p>",
-      "pdf": "reports/pdf/fundamental-group-of-torus.pdf",
-      "tex": "reports/latex/fundamental-group-of-torus.tex",
-      "markdown": "markdown/fundamental-group-of-torus.md"
+      "pdf": "reports/pdf/fundamental-group-of-torus.pdf"
     },
     {
       "id": "AT-03",
@@ -419,9 +415,7 @@
       "sha256": "7db9127daeaeb4c090160f88cacd99ea634afa6a449a616285bdce9b8ca45f23",
       "idea": "<p>A complete authored walkthrough of homology of the torus, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a href=\"https://pi.math.cornell.edu/~hatcher/AT/AT.pdf\">Allen\nHatcher, Algebraic Topology: covering spaces, cellular homology, and cap\nproducts</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/homology-of-the-torus.pdf",
-      "tex": "reports/latex/homology-of-the-torus.tex",
-      "markdown": "markdown/homology-of-the-torus.md"
+      "pdf": "reports/pdf/homology-of-the-torus.pdf"
     },
     {
       "id": "AT-04",
@@ -520,9 +514,7 @@
       "sha256": "13a330b84b5c91eff7b74084d4f775adeb478734218af7f7a20f5e6267d82f93",
       "idea": "<p>A complete authored walkthrough of brouwer fixed-point theorem via no\nretraction, with explicit mathematical contracts, local verification\ngates, and reusable exports.</p>",
       "references": "<ul>\n<li><a href=\"https://pi.math.cornell.edu/~hatcher/AT/AT.pdf\">Allen\nHatcher, Algebraic Topology: covering spaces, cellular homology, and cap\nproducts</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf",
-      "tex": "reports/latex/brouwer-fixed-point-theorem-via-no-retraction.tex",
-      "markdown": "markdown/brouwer-fixed-point-theorem-via-no-retraction.md"
+      "pdf": "reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf"
     },
     {
       "id": "AT-05",
@@ -708,9 +700,7 @@
       "sha256": "fac5020eedae35e2453f34047c72433799bf11bfdb2ab3d998e44590665403ad",
       "idea": "<p>A complete authored walkthrough of poincaré duality, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a href=\"https://pi.math.cornell.edu/~hatcher/AT/AT.pdf\">Allen\nHatcher, Algebraic Topology: covering spaces, cellular homology, and cap\nproducts</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/poincare-duality.pdf",
-      "tex": "reports/latex/poincare-duality.tex",
-      "markdown": "markdown/poincare-duality.md"
+      "pdf": "reports/pdf/poincare-duality.pdf"
     }
   ],
   "links": [

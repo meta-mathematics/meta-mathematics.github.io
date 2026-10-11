@@ -111,9 +111,7 @@
       ],
       "references": "<p><a href=\"https://math.stanford.edu/~lms/lecs-on-pde.pdf\">Leon Simon,\nLectures on PDE</a>, for elliptic, weak, and parabolic methods.\nClassical calculus and the explicitly stated Hilbert-space imports are\nused below; the displayed PDE arguments are developed in full.</p>",
       "sha256": "8f571ef183c82ace8859406c1931dcc028541f5cb003283fd914bbf32745c2ab",
-      "pdf": "reports/pdf/weak-maximum-principle.pdf",
-      "tex": "reports/latex/weak-maximum-principle.tex",
-      "markdown": "markdown/weak-maximum-principle.md"
+      "pdf": "reports/pdf/weak-maximum-principle.pdf"
     },
     {
       "id": "PDE-02",
@@ -233,9 +231,7 @@
       ],
       "references": "<p><a href=\"https://math.stanford.edu/~lms/lecs-on-pde.pdf\">Leon Simon,\nLectures on PDE</a>, for elliptic, weak, and parabolic methods.\nClassical calculus and the explicitly stated Hilbert-space imports are\nused below; the displayed PDE arguments are developed in full.</p>",
       "sha256": "8ce745a21f2bb29ff21c85c4fbf97eee5aa92337594b9d5597479ba37f44f605",
-      "pdf": "reports/pdf/weak-poisson-dirichlet-existence.pdf",
-      "tex": "reports/latex/weak-poisson-dirichlet-existence.tex",
-      "markdown": "markdown/weak-poisson-dirichlet-existence.md"
+      "pdf": "reports/pdf/weak-poisson-dirichlet-existence.pdf"
     },
     {
       "id": "PDE-03",
@@ -318,9 +314,7 @@
       ],
       "references": "<p><a href=\"https://math.stanford.edu/~lms/lecs-on-pde.pdf\">Leon Simon,\nLectures on PDE</a>, for elliptic, weak, and parabolic methods.\nClassical calculus and the explicitly stated Hilbert-space imports are\nused below; the displayed PDE arguments are developed in full.</p>",
       "sha256": "38bfff9ad209426d9eec2b93de4145cae68ef99b73b0bb48231217900fb0aad4",
-      "pdf": "reports/pdf/heat-equation-energy-uniqueness.pdf",
-      "tex": "reports/latex/heat-equation-energy-uniqueness.tex",
-      "markdown": "markdown/heat-equation-energy-uniqueness.md"
+      "pdf": "reports/pdf/heat-equation-energy-uniqueness.pdf"
     },
     {
       "id": "PDE-04",
@@ -440,9 +434,7 @@
       ],
       "references": "<p><a href=\"https://math.stanford.edu/~lms/lecs-on-pde.pdf\">Leon Simon,\nLectures on PDE</a>, for elliptic, weak, and parabolic methods.\nClassical calculus and the explicitly stated Hilbert-space imports are\nused below; the displayed PDE arguments are developed in full.</p>",
       "sha256": "c6f26293fec9ad2dea4e5103c52c6547d24e92461b6742ab224b6c70d04f5b2e",
-      "pdf": "reports/pdf/heat-kernel-initial-value-solution.pdf",
-      "tex": "reports/latex/heat-kernel-initial-value-solution.tex",
-      "markdown": "markdown/heat-kernel-initial-value-solution.md"
+      "pdf": "reports/pdf/heat-kernel-initial-value-solution.pdf"
     },
     {
       "id": "PDE-05",
@@ -554,9 +546,7 @@
       ],
       "references": "<p><a href=\"https://math.stanford.edu/~lms/lecs-on-pde.pdf\">Leon Simon,\nLectures on PDE</a>, for elliptic, weak, and parabolic methods.\nClassical calculus and the explicitly stated Hilbert-space imports are\nused below; the displayed PDE arguments are developed in full.</p>",
       "sha256": "7746f8c29e2f1dba75cc4a4252da5167dc14fb8de9d661fa395db9e4e7f8571a",
-      "pdf": "reports/pdf/dalembert-wave-formula.pdf",
-      "tex": "reports/latex/dalembert-wave-formula.tex",
-      "markdown": "markdown/dalembert-wave-formula.md"
+      "pdf": "reports/pdf/dalembert-wave-formula.pdf"
     }
   ],
   "links": [],

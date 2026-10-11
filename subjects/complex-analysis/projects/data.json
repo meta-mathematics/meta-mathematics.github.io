@@ -91,9 +91,7 @@
       "sha256": "0897ac67e01cb6a4f775637043ed3c854725d90fe6b233a5978d7d113fe0d2d7",
       "idea": "<p>A complete authored walkthrough of cauchy integral formula, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a href=\"https://people.math.harvard.edu/~siu/math113/\">Harvard\ncomplex analysis: Cauchy formula, argument principle, and Riemann\nmapping lectures</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/cauchy-integral-formula.pdf",
-      "tex": "reports/latex/cauchy-integral-formula.tex",
-      "markdown": "markdown/cauchy-integral-formula.md"
+      "pdf": "reports/pdf/cauchy-integral-formula.pdf"
     },
     {
       "id": "CA-02",
@@ -221,9 +219,7 @@
       "sha256": "ad8bedd928f1a10d604ebc94400f9cccfc887deb1ceb6b7588fc2cdd80ac7ef2",
       "idea": "<p>A complete authored walkthrough of liouville’s theorem and the\nfundamental theorem of algebra, with explicit mathematical contracts,\nlocal verification gates, and reusable exports.</p>",
       "references": "<ul>\n<li><a href=\"https://people.math.harvard.edu/~siu/math113/\">Harvard\ncomplex analysis: Cauchy formula, argument principle, and Riemann\nmapping lectures</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf",
-      "tex": "reports/latex/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.tex",
-      "markdown": "markdown/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.md"
+      "pdf": "reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf"
     },
     {
       "id": "CA-03",
@@ -415,9 +411,7 @@
       "sha256": "11661b8667d9d177291b788d713ad2785a0e14c60c221fe84279702eb8b9699e",
       "idea": "<p>A complete authored walkthrough of residue theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<p><a href=\"https://people.math.harvard.edu/~siu/math113/\">Harvard\ncomplex analysis, Laurent series and residue theorem lectures</a>.</p>",
-      "pdf": "reports/pdf/residue-theorem.pdf",
-      "tex": "reports/latex/residue-theorem.tex",
-      "markdown": "markdown/residue-theorem.md"
+      "pdf": "reports/pdf/residue-theorem.pdf"
     },
     {
       "id": "CA-04",
@@ -511,9 +505,7 @@
       "sha256": "669f7ed3758e5ead9839798d491352610b7b3f215a7dc707ed6ae76f1b09e1be",
       "idea": "<p>A complete authored walkthrough of rouché’s theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a href=\"https://people.math.harvard.edu/~siu/math113/\">Harvard\ncomplex analysis: Cauchy formula, argument principle, and Riemann\nmapping lectures</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/rouches-theorem.pdf",
-      "tex": "reports/latex/rouches-theorem.tex",
-      "markdown": "markdown/rouches-theorem.md"
+      "pdf": "reports/pdf/rouches-theorem.pdf"
     },
     {
       "id": "CA-05",
@@ -684,9 +676,7 @@
       "sha256": "419eb92566d722a7d9a0aec67096fea1268ae1fd80da975c1df79a33a480e539",
       "idea": "<p>A complete authored walkthrough of riemann mapping theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><p><a href=\"https://people.math.harvard.edu/~siu/math113/\">Harvard\ncomplex analysis: Cauchy formula, argument principle, and Riemann\nmapping lectures</a>.</p></li>\n<li><p><a\nhref=\"https://people.math.harvard.edu/~siu/math113/15_riemann_mapping_theorem.pdf\">Harvard\nRiemann Mapping Theorem lecture</a>.</p></li>\n</ul>",
-      "pdf": "reports/pdf/riemann-mapping-theorem.pdf",
-      "tex": "reports/latex/riemann-mapping-theorem.tex",
-      "markdown": "markdown/riemann-mapping-theorem.md"
+      "pdf": "reports/pdf/riemann-mapping-theorem.pdf"
     }
   ],
   "links": [

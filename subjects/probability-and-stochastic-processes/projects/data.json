@@ -73,9 +73,7 @@
       ],
       "references": "<p><a\nhref=\"https://stanford.edu/~montanar/TEACHING/Stat310A/lnotes.pdf\">Amir\nDembo, Probability Theory: STAT310/MATH230 notes</a> for\nmeasure-theoretic probability and limit arguments; <a\nhref=\"https://web.stanford.edu/class/stats310c/syllabus.html\">Stanford\nSTAT310C syllabus and lecture materials</a> for martingale inequalities\nand stopping theorems. The versions and proofs used in this collection\nare stated explicitly.</p>",
       "sha256": "11f6805322e5473b234d90f32e315b0598da4ef833dc0faa50ff8340ad59ae35",
-      "pdf": "reports/pdf/borel-cantelli-lemmas.pdf",
-      "tex": "reports/latex/borel-cantelli-lemmas.tex",
-      "markdown": "markdown/borel-cantelli-lemmas.md"
+      "pdf": "reports/pdf/borel-cantelli-lemmas.pdf"
     },
     {
       "id": "PS-02",
@@ -187,9 +185,7 @@
       ],
       "references": "<p><a\nhref=\"https://stanford.edu/~montanar/TEACHING/Stat310A/lnotes.pdf\">Amir\nDembo, Probability Theory: STAT310/MATH230 notes</a> for\nmeasure-theoretic probability and limit arguments; <a\nhref=\"https://web.stanford.edu/class/stats310c/syllabus.html\">Stanford\nSTAT310C syllabus and lecture materials</a> for martingale inequalities\nand stopping theorems. The versions and proofs used in this collection\nare stated explicitly.</p>",
       "sha256": "07962791c0cddeb48e05b34c60dec4425ce9b92ca795d91b5ad456e1011d1e90",
-      "pdf": "reports/pdf/strong-law-finite-fourth-moment.pdf",
-      "tex": "reports/latex/strong-law-finite-fourth-moment.tex",
-      "markdown": "markdown/strong-law-finite-fourth-moment.md"
+      "pdf": "reports/pdf/strong-law-finite-fourth-moment.pdf"
     },
     {
       "id": "PS-03",
@@ -272,9 +268,7 @@
       ],
       "references": "<p><a\nhref=\"https://stanford.edu/~montanar/TEACHING/Stat310A/lnotes.pdf\">Amir\nDembo, Probability Theory: STAT310/MATH230 notes</a> for\nmeasure-theoretic probability and limit arguments; <a\nhref=\"https://web.stanford.edu/class/stats310c/syllabus.html\">Stanford\nSTAT310C syllabus and lecture materials</a> for martingale inequalities\nand stopping theorems. The versions and proofs used in this collection\nare stated explicitly.</p>",
       "sha256": "2f5981f74af744f1fdced3e8ce2d14cc9d463346fa2eed0d87a26e4e897e48ce",
-      "pdf": "reports/pdf/bounded-optional-stopping.pdf",
-      "tex": "reports/latex/bounded-optional-stopping.tex",
-      "markdown": "markdown/bounded-optional-stopping.md"
+      "pdf": "reports/pdf/bounded-optional-stopping.pdf"
     },
     {
       "id": "PS-04",
@@ -357,9 +351,7 @@
       ],
       "references": "<p><a\nhref=\"https://stanford.edu/~montanar/TEACHING/Stat310A/lnotes.pdf\">Amir\nDembo, Probability Theory: STAT310/MATH230 notes</a> for\nmeasure-theoretic probability and limit arguments; <a\nhref=\"https://web.stanford.edu/class/stats310c/syllabus.html\">Stanford\nSTAT310C syllabus and lecture materials</a> for martingale inequalities\nand stopping theorems. The versions and proofs used in this collection\nare stated explicitly.</p>",
       "sha256": "cb2c78827b44ba6b644683f37a6e43efe030f489f7eb5a31cad2e3a09b02b366",
-      "pdf": "reports/pdf/doob-l2-maximal-inequality.pdf",
-      "tex": "reports/latex/doob-l2-maximal-inequality.tex",
-      "markdown": "markdown/doob-l2-maximal-inequality.md"
+      "pdf": "reports/pdf/doob-l2-maximal-inequality.pdf"
     },
     {
       "id": "PS-05",
@@ -479,9 +471,7 @@
       ],
       "references": "<p><a\nhref=\"https://stanford.edu/~montanar/TEACHING/Stat310A/lnotes.pdf\">Amir\nDembo, Probability Theory: STAT310/MATH230 notes</a> for\nmeasure-theoretic probability and limit arguments; <a\nhref=\"https://web.stanford.edu/class/stats310c/syllabus.html\">Stanford\nSTAT310C syllabus and lecture materials</a> for martingale inequalities\nand stopping theorems. The versions and proofs used in this collection\nare stated explicitly.</p>",
       "sha256": "d1fe8c26aa7ab697c4458b4c011d52045108affc938cc595f2eacc3a475298a8",
-      "pdf": "reports/pdf/positive-finite-markov-chain.pdf",
-      "tex": "reports/latex/positive-finite-markov-chain.tex",
-      "markdown": "markdown/positive-finite-markov-chain.md"
+      "pdf": "reports/pdf/positive-finite-markov-chain.pdf"
     }
   ],
   "links": [

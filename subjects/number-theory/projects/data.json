@@ -232,9 +232,7 @@
         }
       ],
       "version": 1,
-      "pdf": "reports/pdf/euclidean-algorithm-and-bezout-identity.pdf",
-      "tex": "reports/latex/euclidean-algorithm-and-bezout-identity.tex",
-      "markdown": "markdown/euclidean-algorithm-and-bezout-identity.md"
+      "pdf": "reports/pdf/euclidean-algorithm-and-bezout-identity.pdf"
     },
     {
       "id": "NT-02",
@@ -365,9 +363,7 @@
         }
       ],
       "version": 1,
-      "pdf": "reports/pdf/fundamental-theorem-of-arithmetic.pdf",
-      "tex": "reports/latex/fundamental-theorem-of-arithmetic.tex",
-      "markdown": "markdown/fundamental-theorem-of-arithmetic.md"
+      "pdf": "reports/pdf/fundamental-theorem-of-arithmetic.pdf"
     },
     {
       "id": "NT-03",
@@ -506,9 +502,7 @@
         }
       ],
       "version": 1,
-      "pdf": "reports/pdf/chinese-remainder-theorem.pdf",
-      "tex": "reports/latex/chinese-remainder-theorem.tex",
-      "markdown": "markdown/chinese-remainder-theorem.md"
+      "pdf": "reports/pdf/chinese-remainder-theorem.pdf"
     },
     {
       "id": "NT-04",
@@ -639,9 +633,7 @@
         }
       ],
       "version": 1,
-      "pdf": "reports/pdf/fermat-s-little-theorem.pdf",
-      "tex": "reports/latex/fermat-s-little-theorem.tex",
-      "markdown": "markdown/fermat-s-little-theorem.md"
+      "pdf": "reports/pdf/fermat-s-little-theorem.pdf"
     },
     {
       "id": "NT-05",
@@ -811,9 +803,7 @@
         }
       ],
       "version": 1,
-      "pdf": "reports/pdf/classification-of-primitive-pythagorean-triples.pdf",
-      "tex": "reports/latex/classification-of-primitive-pythagorean-triples.tex",
-      "markdown": "markdown/classification-of-primitive-pythagorean-triples.md"
+      "pdf": "reports/pdf/classification-of-primitive-pythagorean-triples.pdf"
     }
   ],
   "links": [

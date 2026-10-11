@@ -93,9 +93,7 @@
       "sha256": "45b5214da60e230b7aca6ad9cfc0a570bd2ea69d2246ba1b7f8b58692ed8bf86",
       "idea": "<p>A complete authored walkthrough of lagrange’s theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/lagranges-theorem.pdf",
-      "tex": "reports/latex/lagranges-theorem.tex",
-      "markdown": "markdown/lagranges-theorem.md"
+      "pdf": "reports/pdf/lagranges-theorem.pdf"
     },
     {
       "id": "MA-02",
@@ -220,9 +218,7 @@
       "sha256": "1373d1833e3bf18e131bd4bb45806a0b27c4c8fe4f07583fac5ed0aae19a5b40",
       "idea": "<p>A complete authored walkthrough of first isomorphism theorem for\ngroups, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/first-isomorphism-theorem-for-groups.pdf",
-      "tex": "reports/latex/first-isomorphism-theorem-for-groups.tex",
-      "markdown": "markdown/first-isomorphism-theorem-for-groups.md"
+      "pdf": "reports/pdf/first-isomorphism-theorem-for-groups.pdf"
     },
     {
       "id": "MA-03",
@@ -414,9 +410,7 @@
       "sha256": "ace739f9e5255cc803a032b075959190251cf54cded9fa339abd5073926dbd02",
       "idea": "<p>A complete authored walkthrough of classification of groups of order\npq, with explicit mathematical contracts, local verification gates, and\nreusable exports.</p>",
       "references": "<p><a\nhref=\"https://www-users.cse.umn.edu/~garrett/m/algebra/notes_2023-24/02.pdf\">University\nof Minnesota group theory notes: groups of order pq</a>.</p>",
-      "pdf": "reports/pdf/classification-groups-order-pq.pdf",
-      "tex": "reports/latex/classification-groups-order-pq.tex",
-      "markdown": "markdown/classification-groups-order-pq.md"
+      "pdf": "reports/pdf/classification-groups-order-pq.pdf"
     },
     {
       "id": "MA-04",
@@ -585,9 +579,7 @@
       "sha256": "9be8e5c26add2b942b2a36598fd6cd70423bd677bf13bc7c6748bd08afa100e9",
       "idea": "<p>A complete authored walkthrough of fundamental theorem of galois\ntheory, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/res-18-012-algebra-ii-student-notes-spring-2022/pages/student-notes/\">MIT\nAlgebra II notes: field extensions and Galois theory</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/fundamental-theorem-of-galois-theory.pdf",
-      "tex": "reports/latex/fundamental-theorem-of-galois-theory.tex",
-      "markdown": "markdown/fundamental-theorem-of-galois-theory.md"
+      "pdf": "reports/pdf/fundamental-theorem-of-galois-theory.pdf"
     },
     {
       "id": "MA-05",
@@ -753,9 +745,7 @@
       "sha256": "151f247868d39b24c9d6419a55283c30feeb8e4970df4012c3b2f32fdae3ebd8",
       "idea": "<p>A complete authored walkthrough of abel–ruffini theorem via an\nexplicit quintic, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/res-18-012-algebra-ii-student-notes-spring-2022/pages/student-notes/\">MIT\nAlgebra II notes: field extensions and Galois theory</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf",
-      "tex": "reports/latex/abelruffini-theorem-via-an-explicit-quintic.tex",
-      "markdown": "markdown/abelruffini-theorem-via-an-explicit-quintic.md"
+      "pdf": "reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf"
     }
   ],
   "links": [

@@ -26,7 +26,9 @@ const root=path.resolve(__dirname,'..'),subjects=JSON.parse(fs.readFileSync(path
      await page.locator('.project-card[href="#'+p.id+'"]').click();await page.waitForFunction(title=>document.getElementById('project-title').textContent===title,p.title);
      for(const n of p.nodes){await page.locator('[data-node="'+p.nodes.indexOf(n)+'"]').click();assert.equal(await page.locator('#node-detail .faculty').count(),5);visited++;}
      for(const tab of ['proof','example','repair','agents']){await page.locator('[data-tab="'+tab+'"]').click();assert.ok(await page.locator('#tab-'+tab).isVisible());}
-     for(const [key,id] of [['pdf','pdf-link'],['tex','tex-link'],['markdown','md-link']]){
+     assert.equal(await page.locator('.downloads a').count(),1);
+     assert.equal(await page.locator('#tex-link, #md-link').count(),0);
+     for(const [key,id] of [['pdf','pdf-link']]){
       const expected=new URL(p[key],base).href;assert.equal(await page.locator('#'+id).evaluate(el=>el.href),expected);
       const bytes=await page.evaluate(async u=>{const r=await fetch(u);if(!r.ok)throw Error('Download '+r.status);return (await r.arrayBuffer()).byteLength;},expected);assert.ok(bytes>100);
      }

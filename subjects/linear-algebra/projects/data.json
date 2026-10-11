@@ -94,9 +94,7 @@
       "sha256": "5b49face1fbc8aad59480f17d784f323f5e62a016bdebc06daeae9b105ef539c",
       "idea": "<p>A complete authored walkthrough of rank–nullity theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/ranknullity-theorem.pdf",
-      "tex": "reports/latex/ranknullity-theorem.tex",
-      "markdown": "markdown/ranknullity-theorem.md"
+      "pdf": "reports/pdf/ranknullity-theorem.pdf"
     },
     {
       "id": "LA-02",
@@ -192,9 +190,7 @@
       "sha256": "32fd0a161ffbae66d34585ab777e0539b906e96d45ab40472108659db138c4da",
       "idea": "<p>A complete authored walkthrough of gram–schmidt orthogonalization,\nwith explicit mathematical contracts, local verification gates, and\nreusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/gramschmidt-orthogonalization.pdf",
-      "tex": "reports/latex/gramschmidt-orthogonalization.tex",
-      "markdown": "markdown/gramschmidt-orthogonalization.md"
+      "pdf": "reports/pdf/gramschmidt-orthogonalization.pdf"
     },
     {
       "id": "LA-03",
@@ -355,9 +351,7 @@
       "sha256": "27bd580fdb0b1ad49d880cbb9427e661967c9ece8fb18b048035dcd518a0378f",
       "idea": "<p>A complete authored walkthrough of spectral theorem for real\nsymmetric matrices, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/pages/study-materials/\">MIT\nlinear algebra: proof of the spectral theorem</a>.</p>",
-      "pdf": "reports/pdf/spectral-theorem-real-symmetric-matrices.pdf",
-      "tex": "reports/latex/spectral-theorem-real-symmetric-matrices.tex",
-      "markdown": "markdown/spectral-theorem-real-symmetric-matrices.md"
+      "pdf": "reports/pdf/spectral-theorem-real-symmetric-matrices.pdf"
     },
     {
       "id": "LA-04",
@@ -492,9 +486,7 @@
       "sha256": "a787eddda9fcddb5c31f0e64298c33b27d0b73aa90ed20953fd4bfc8d2ae90cf",
       "idea": "<p>A complete authored walkthrough of singular value decomposition, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/singular-value-decomposition.pdf",
-      "tex": "reports/latex/singular-value-decomposition.tex",
-      "markdown": "markdown/singular-value-decomposition.md"
+      "pdf": "reports/pdf/singular-value-decomposition.pdf"
     },
     {
       "id": "LA-05",
@@ -674,9 +666,7 @@
       "sha256": "299eecdf9da4649c921935484a8216061653ee92572b5b48bd8efab7b35131f8",
       "idea": "<p>A complete authored walkthrough of jordan canonical form, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/res-18-012-algebra-ii-student-notes-spring-2022/pages/student-notes/\">MIT\nAlgebra II notes: field extensions and Galois theory</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/jordan-canonical-form.pdf",
-      "tex": "reports/latex/jordan-canonical-form.tex",
-      "markdown": "markdown/jordan-canonical-form.md"
+      "pdf": "reports/pdf/jordan-canonical-form.pdf"
     }
   ],
   "links": [

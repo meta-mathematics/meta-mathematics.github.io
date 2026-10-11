@@ -82,9 +82,7 @@
       ],
       "references": "<p><a\nhref=\"https://math.berkeley.edu/~marks/notes/set_theory_notes_4.pdf\">Andrew\nMarks, Set Theory notes</a> for sets and ultraproducts; <a\nhref=\"https://math.berkeley.edu/~antonio/math125A/mathlogicP1.pdf\">Berkeley,\nMathematical Logic for Mathematicians, Part I</a> for first-order\nsemantics; <a\nhref=\"https://math.berkeley.edu/~marks/notes/computability_notes_v1.pdf\">Andrew\nMarks, Computability Theory notes</a> for effective procedures and\nundecidability. The proofs below specify their own set-theoretic and\nsemantic assumptions.</p>",
       "sha256": "85f9f9b444cf7e7d21cc72010fc29740e46cee964e78a54b59127172d3b97609",
-      "pdf": "reports/pdf/cantor-theorem.pdf",
-      "tex": "reports/latex/cantor-theorem.tex",
-      "markdown": "markdown/cantor-theorem.md"
+      "pdf": "reports/pdf/cantor-theorem.pdf"
     },
     {
       "id": "LF-02",
@@ -167,9 +165,7 @@
       ],
       "references": "<p><a\nhref=\"https://math.berkeley.edu/~marks/notes/set_theory_notes_4.pdf\">Andrew\nMarks, Set Theory notes</a> for sets and ultraproducts; <a\nhref=\"https://math.berkeley.edu/~antonio/math125A/mathlogicP1.pdf\">Berkeley,\nMathematical Logic for Mathematicians, Part I</a> for first-order\nsemantics; <a\nhref=\"https://math.berkeley.edu/~marks/notes/computability_notes_v1.pdf\">Andrew\nMarks, Computability Theory notes</a> for effective procedures and\nundecidability. The proofs below specify their own set-theoretic and\nsemantic assumptions.</p>",
       "sha256": "5646440e7e4fcb95fa8347d52369fff819f61261d16b6505a1422f76a379e708",
-      "pdf": "reports/pdf/cantor-schroeder-bernstein.pdf",
-      "tex": "reports/latex/cantor-schroeder-bernstein.tex",
-      "markdown": "markdown/cantor-schroeder-bernstein.md"
+      "pdf": "reports/pdf/cantor-schroeder-bernstein.pdf"
     },
     {
       "id": "LF-03",
@@ -327,9 +323,7 @@
       ],
       "references": "<p><a\nhref=\"https://math.berkeley.edu/~marks/notes/set_theory_notes_4.pdf\">Andrew\nMarks, Set Theory notes</a> for sets and ultraproducts; <a\nhref=\"https://math.berkeley.edu/~antonio/math125A/mathlogicP1.pdf\">Berkeley,\nMathematical Logic for Mathematicians, Part I</a> for first-order\nsemantics; <a\nhref=\"https://math.berkeley.edu/~marks/notes/computability_notes_v1.pdf\">Andrew\nMarks, Computability Theory notes</a> for effective procedures and\nundecidability. The proofs below specify their own set-theoretic and\nsemantic assumptions.</p>",
       "sha256": "eeffde339dd0fc228961f6afd9903474a9e4015d42badb611e84b59f9a08ebc3",
-      "pdf": "reports/pdf/first-order-compactness-ultraproduct.pdf",
-      "tex": "reports/latex/first-order-compactness-ultraproduct.tex",
-      "markdown": "markdown/first-order-compactness-ultraproduct.md"
+      "pdf": "reports/pdf/first-order-compactness-ultraproduct.pdf"
     },
     {
       "id": "LF-04",
@@ -442,9 +436,7 @@
       ],
       "references": "<p><a\nhref=\"https://math.berkeley.edu/~marks/notes/set_theory_notes_4.pdf\">Andrew\nMarks, Set Theory notes</a> for sets and ultraproducts; <a\nhref=\"https://math.berkeley.edu/~antonio/math125A/mathlogicP1.pdf\">Berkeley,\nMathematical Logic for Mathematicians, Part I</a> for first-order\nsemantics; <a\nhref=\"https://math.berkeley.edu/~marks/notes/computability_notes_v1.pdf\">Andrew\nMarks, Computability Theory notes</a> for effective procedures and\nundecidability. The proofs below specify their own set-theoretic and\nsemantic assumptions.</p>",
       "sha256": "1e843cef04a566be763917086f8f2d6e80d1386bccb04543b18c7f73c5891448",
-      "pdf": "reports/pdf/downward-lowenheim-skolem.pdf",
-      "tex": "reports/latex/downward-lowenheim-skolem.tex",
-      "markdown": "markdown/downward-lowenheim-skolem.md"
+      "pdf": "reports/pdf/downward-lowenheim-skolem.pdf"
     },
     {
       "id": "LF-05",
@@ -556,9 +548,7 @@
       ],
       "references": "<p><a\nhref=\"https://math.berkeley.edu/~marks/notes/set_theory_notes_4.pdf\">Andrew\nMarks, Set Theory notes</a> for sets and ultraproducts; <a\nhref=\"https://math.berkeley.edu/~antonio/math125A/mathlogicP1.pdf\">Berkeley,\nMathematical Logic for Mathematicians, Part I</a> for first-order\nsemantics; <a\nhref=\"https://math.berkeley.edu/~marks/notes/computability_notes_v1.pdf\">Andrew\nMarks, Computability Theory notes</a> for effective procedures and\nundecidability. The proofs below specify their own set-theoretic and\nsemantic assumptions.</p>",
       "sha256": "87b489852e7b25386fe87c6738af4dbbfe7f0de575ed0621d4bda9dbf8d925d4",
-      "pdf": "reports/pdf/halting-problem-undecidability.pdf",
-      "tex": "reports/latex/halting-problem-undecidability.tex",
-      "markdown": "markdown/halting-problem-undecidability.md"
+      "pdf": "reports/pdf/halting-problem-undecidability.pdf"
     }
   ],
   "links": [],

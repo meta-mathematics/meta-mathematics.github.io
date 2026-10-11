@@ -82,9 +82,7 @@
       ],
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/resources/lecture-notes/\">MIT\nOpenCourseWare, Introduction to Functional Analysis: lecture notes</a>.\nSee the lectures on integration, Hilbert spaces, Baire category, and\nHahn–Banach.</p>",
       "sha256": "46f61d6f43cc922ee5344f964ef400d8c89bd55ea76a7b062193b5eb6611b991",
-      "pdf": "reports/pdf/monotone-convergence-theorem.pdf",
-      "tex": "reports/latex/monotone-convergence-theorem.tex",
-      "markdown": "markdown/monotone-convergence-theorem.md"
+      "pdf": "reports/pdf/monotone-convergence-theorem.pdf"
     },
     {
       "id": "FA-02",
@@ -196,9 +194,7 @@
       ],
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/resources/lecture-notes/\">MIT\nOpenCourseWare, Introduction to Functional Analysis: lecture notes</a>.\nSee the lectures on integration, Hilbert spaces, Baire category, and\nHahn–Banach.</p>",
       "sha256": "79cbc882a9125eed1ebea483535ed16c3806198ae2158e435847e9fbf0c12e56",
-      "pdf": "reports/pdf/hilbert-projection-theorem.pdf",
-      "tex": "reports/latex/hilbert-projection-theorem.tex",
-      "markdown": "markdown/hilbert-projection-theorem.md"
+      "pdf": "reports/pdf/hilbert-projection-theorem.pdf"
     },
     {
       "id": "FA-03",
@@ -281,9 +277,7 @@
       ],
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/resources/lecture-notes/\">MIT\nOpenCourseWare, Introduction to Functional Analysis: lecture notes</a>.\nSee the lectures on integration, Hilbert spaces, Baire category, and\nHahn–Banach.</p>",
       "sha256": "e7540d02acb2f813fe8193280e41ad1a10ecc2ad6eab80af749c873250c1dd93",
-      "pdf": "reports/pdf/riesz-representation-hilbert-spaces.pdf",
-      "tex": "reports/latex/riesz-representation-hilbert-spaces.tex",
-      "markdown": "markdown/riesz-representation-hilbert-spaces.md"
+      "pdf": "reports/pdf/riesz-representation-hilbert-spaces.pdf"
     },
     {
       "id": "FA-04",
@@ -366,9 +360,7 @@
       ],
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/resources/lecture-notes/\">MIT\nOpenCourseWare, Introduction to Functional Analysis: lecture notes</a>.\nSee the lectures on integration, Hilbert spaces, Baire category, and\nHahn–Banach.</p>",
       "sha256": "41d35a2d8c5371dac1d4bc1c0181f909d3b8e10cf60c4c6941781afb70ae6a6f",
-      "pdf": "reports/pdf/uniform-boundedness-principle.pdf",
-      "tex": "reports/latex/uniform-boundedness-principle.tex",
-      "markdown": "markdown/uniform-boundedness-principle.md"
+      "pdf": "reports/pdf/uniform-boundedness-principle.pdf"
     },
     {
       "id": "FA-05",
@@ -481,9 +473,7 @@
       ],
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/resources/lecture-notes/\">MIT\nOpenCourseWare, Introduction to Functional Analysis: lecture notes</a>.\nSee the lectures on integration, Hilbert spaces, Baire category, and\nHahn–Banach.</p>",
       "sha256": "ae342a615b7574658401cfa0ad2675445c43129b17d7f74b55155f9db68a2535",
-      "pdf": "reports/pdf/hahn-banach-real-extension.pdf",
-      "tex": "reports/latex/hahn-banach-real-extension.tex",
-      "markdown": "markdown/hahn-banach-real-extension.md"
+      "pdf": "reports/pdf/hahn-banach-real-extension.pdf"
     }
   ],
   "links": [

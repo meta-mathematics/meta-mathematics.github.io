@@ -45,6 +45,8 @@ for s in subjects:
 projects=json.loads((ROOT/'project-manifest.json').read_text());counts.update(projects=0,localAgents=0,projectDownloads=0)
 for s in subjects:
  folder=ROOT/'subjects'/s['slug']/'projects';d=json.loads((folder/'data.json').read_text())
+ assert not list(folder.rglob('*.tex')) and not list(folder.rglob('*.md')),'Backend sources packaged in '+s['slug']
+ assert 'tex-link' not in (folder/'index.html').read_text() and 'md-link' not in (folder/'index.html').read_text()
  assert d['subject']==s['title'] and len(d['projects'])==s['projectCount']==5
  assert json.loads((folder/'data.js').read_text().split('window.META_MATH = ',1)[1].strip().removesuffix(';'))==d
  assert (ROOT/s['projectPath']).resolve()==folder/'index.html'
@@ -57,7 +59,8 @@ for s in subjects:
   assert all(e['source'] in nodes and e['target'] in nodes for e in p['edges'])
   graphlib.TopologicalSorter({i:{e['source'] for e in p['edges'] if e['target']==i} for i in nodes}).prepare()
   for n in p['nodes']:assert set(n['faculties'])=={'Ego','Memory','Intellect','Sense','Action'}
-  for key in ['pdf','tex','markdown']:
+  assert 'tex' not in p and 'markdown' not in p
+  for key in ['pdf']:
    f=(folder/p[key]).resolve();assert f.is_relative_to(folder) and f.is_file()
    if key=='pdf':assert f.read_bytes().startswith(b'%PDF-')
    counts['projectDownloads']+=1
@@ -72,8 +75,9 @@ for s in subjects:
   embedded(p)
   counts['projects']+=1;counts['localAgents']+=len(nodes)
  for f in projects[s['slug']]['files']:
+  assert f['kind']=='pdf'
   assert hashlib.sha256((folder/f['path']).read_bytes()).hexdigest()==f['sha256']
   if args.source_root:assert hashlib.sha256((args.source_root/f['source']).read_bytes()).hexdigest()==f['sha256']
  assert s['projectAgents']==sum(len(p['nodes']) for p in d['projects'])
-report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All global and local graph endpoints belong to their own subject or project','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','Five faculties appear only inside local project agents','All 85 project DAGs and theorem-import maps are acyclic','All 255 project downloads match their source checksums','Relative dashboard return links and GitHub Pages marker present'])
+report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All global and local graph endpoints belong to their own subject or project','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','Five faculties appear only inside local project agents','All 85 project DAGs and theorem-import maps are acyclic','All 85 PDF downloads match their source checksums; project source files remain in the backend','Relative dashboard return links and GitHub Pages marker present'])
 (ROOT/'reports').mkdir(exist_ok=True);(ROOT/'reports/validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

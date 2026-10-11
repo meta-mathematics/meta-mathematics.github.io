@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "date": "2026-10-11T01:52:13.608243+00:00",
+  "date": "2026-10-11T02:28:55.068796+00:00",
   "counts": {
     "subjects": 17,
     "mathematicalObjects": 968,
@@ -8,7 +8,7 @@
     "bookEntries": 1594,
     "projects": 85,
     "localAgents": 257,
-    "projectDownloads": 255
+    "projectDownloads": 85
   },
   "internalLinksAndAssetsChecked": 434,
   "sourceFidelityChecked": true,
@@ -22,7 +22,7 @@
     "All dashboard counts match graph data",
     "Five faculties appear only inside local project agents",
     "All 85 project DAGs and theorem-import maps are acyclic",
-    "All 255 project downloads match their source checksums",
+    "All 85 PDF downloads match their source checksums; project source files remain in the backend",
     "Relative dashboard return links and GitHub Pages marker present"
   ]
 }

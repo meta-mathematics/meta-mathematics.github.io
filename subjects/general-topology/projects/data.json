@@ -95,9 +95,7 @@
       "sha256": "9912b07d4d1f2568ce5c50273cc607b3e2f4cb005228564e1c9666e03772b5a8",
       "idea": "<p>A complete authored walkthrough of continuous images preserve\nconnectedness, with explicit mathematical contracts, local verification\ngates, and reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/pages/lecture-notes/\">MIT\nIntroduction to Topology: separation, Urysohn, and Tychonoff\nmaterial</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/continuous-images-preserve-connectedness.pdf",
-      "tex": "reports/latex/continuous-images-preserve-connectedness.tex",
-      "markdown": "markdown/continuous-images-preserve-connectedness.md"
+      "pdf": "reports/pdf/continuous-images-preserve-connectedness.pdf"
     },
     {
       "id": "GT-02",
@@ -305,9 +303,7 @@
       "sha256": "75182cf699665812339e2d2802af91cec92e4f4201da7de000facc203bc1fdc8",
       "idea": "<p>A complete authored walkthrough of compact-to-hausdorff continuous\nbijection theorem, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/pages/lecture-notes/\">MIT\nIntroduction to Topology: compactness and separation material</a>.</p>",
-      "pdf": "reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf",
-      "tex": "reports/latex/compact-hausdorff-homeomorphism-theorem.tex",
-      "markdown": "markdown/compact-hausdorff-homeomorphism-theorem.md"
+      "pdf": "reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf"
     },
     {
       "id": "GT-03",
@@ -475,9 +471,7 @@
       "sha256": "f9e499844a5b832c3b661b029ff355f6b3715d716889fbf2abeaa4d9b58e7c87",
       "idea": "<p>A complete authored walkthrough of urysohn’s lemma, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/pages/lecture-notes/\">MIT\nIntroduction to Topology: separation, Urysohn, and Tychonoff\nmaterial</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/urysohns-lemma.pdf",
-      "tex": "reports/latex/urysohns-lemma.tex",
-      "markdown": "markdown/urysohns-lemma.md"
+      "pdf": "reports/pdf/urysohns-lemma.pdf"
     },
     {
       "id": "GT-04",
@@ -604,9 +598,7 @@
       "sha256": "8a05ab2803a784e1133b78105e01d8fcf0b46d45e078fb79171ae6e508341e5e",
       "idea": "<p>A complete authored walkthrough of baire category theorem for\ncomplete metric spaces, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/pages/lecture-notes/\">MIT\nIntroduction to Topology: separation, Urysohn, and Tychonoff\nmaterial</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf",
-      "tex": "reports/latex/baire-category-theorem-for-complete-metric-spaces.tex",
-      "markdown": "markdown/baire-category-theorem-for-complete-metric-spaces.md"
+      "pdf": "reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf"
     },
     {
       "id": "GT-05",
@@ -735,9 +727,7 @@
       "sha256": "51e0feaf7b41df8bcd9ce322ca8f7a006e36b9906490d2cd089e4480cd7699dd",
       "idea": "<p>A complete authored walkthrough of tychonoff’s theorem for compact\nhausdorff spaces, with explicit mathematical contracts, local\nverification gates, and reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/pages/lecture-notes/\">MIT\nIntroduction to Topology: separation, Urysohn, and Tychonoff\nmaterial</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf",
-      "tex": "reports/latex/tychonoffs-theorem-for-compact-hausdorff-spaces.tex",
-      "markdown": "markdown/tychonoffs-theorem-for-compact-hausdorff-spaces.md"
+      "pdf": "reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf"
     }
   ],
   "links": [],

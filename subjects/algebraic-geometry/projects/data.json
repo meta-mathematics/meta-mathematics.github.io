@@ -111,9 +111,7 @@
       ],
       "references": "<p><a href=\"https://www.jmilne.org/math/CourseNotes/ag.html\">J. S.\nMilne, Algebraic Geometry</a>, chapters on commutative algebra,\nalgebraic sets, and affine varieties; <a\nhref=\"https://www.jmilne.org/math/\">author’s mathematics site</a>.</p>",
       "sha256": "1b200123527bd1aefad124568f0e39a051a92c4ab26c033773fff3c49809f2e9",
-      "pdf": "reports/pdf/hilbert-basis-theorem.pdf",
-      "tex": "reports/latex/hilbert-basis-theorem.tex",
-      "markdown": "markdown/hilbert-basis-theorem.md"
+      "pdf": "reports/pdf/hilbert-basis-theorem.pdf"
     },
     {
       "id": "AG-02",
@@ -227,9 +225,7 @@
       ],
       "references": "<p><a href=\"https://www.jmilne.org/math/CourseNotes/ag.html\">J. S.\nMilne, Algebraic Geometry</a>, chapters on commutative algebra,\nalgebraic sets, and affine varieties; <a\nhref=\"https://www.jmilne.org/math/\">author’s mathematics site</a>.</p>",
       "sha256": "1d3968c1008100c9f5073ac393e9a0587fadd0c092696983fbb241ba22713762",
-      "pdf": "reports/pdf/weak-nullstellensatz.pdf",
-      "tex": "reports/latex/weak-nullstellensatz.tex",
-      "markdown": "markdown/weak-nullstellensatz.md"
+      "pdf": "reports/pdf/weak-nullstellensatz.pdf"
     },
     {
       "id": "AG-03",
@@ -312,9 +308,7 @@
       ],
       "references": "<p><a href=\"https://www.jmilne.org/math/CourseNotes/ag.html\">J. S.\nMilne, Algebraic Geometry</a>, chapters on commutative algebra,\nalgebraic sets, and affine varieties; <a\nhref=\"https://www.jmilne.org/math/\">author’s mathematics site</a>.</p>",
       "sha256": "63fd04fdad3011747e043fd3b8a456b6dd1dd77458a07d46951bc139eb9019e0",
-      "pdf": "reports/pdf/strong-nullstellensatz.pdf",
-      "tex": "reports/latex/strong-nullstellensatz.tex",
-      "markdown": "markdown/strong-nullstellensatz.md"
+      "pdf": "reports/pdf/strong-nullstellensatz.pdf"
     },
     {
       "id": "AG-04",
@@ -388,9 +382,7 @@
       ],
       "references": "<p><a href=\"https://www.jmilne.org/math/CourseNotes/ag.html\">J. S.\nMilne, Algebraic Geometry</a>, chapters on commutative algebra,\nalgebraic sets, and affine varieties; <a\nhref=\"https://www.jmilne.org/math/\">author’s mathematics site</a>.</p>",
       "sha256": "72ada8c7d5c14cba0c77587315851d73b04342396823338245261e5a5983b2a3",
-      "pdf": "reports/pdf/irreducibility-and-prime-ideals.pdf",
-      "tex": "reports/latex/irreducibility-and-prime-ideals.tex",
-      "markdown": "markdown/irreducibility-and-prime-ideals.md"
+      "pdf": "reports/pdf/irreducibility-and-prime-ideals.pdf"
     },
     {
       "id": "AG-05",
@@ -502,9 +494,7 @@
       ],
       "references": "<p><a href=\"https://www.jmilne.org/math/CourseNotes/ag.html\">J. S.\nMilne, Algebraic Geometry</a>, chapters on commutative algebra,\nalgebraic sets, and affine varieties; <a\nhref=\"https://www.jmilne.org/math/\">author’s mathematics site</a>.</p>",
       "sha256": "0ef6a681227563af115df96e311ea2aba2a90a1aa8244a478714d1b1495393ee",
-      "pdf": "reports/pdf/affine-morphisms-and-coordinate-rings.pdf",
-      "tex": "reports/latex/affine-morphisms-and-coordinate-rings.tex",
-      "markdown": "markdown/affine-morphisms-and-coordinate-rings.md"
+      "pdf": "reports/pdf/affine-morphisms-and-coordinate-rings.pdf"
     }
   ],
   "links": [

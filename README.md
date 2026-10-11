@@ -15,7 +15,7 @@ The collection contains 968 local mathematical objects, 1,190 selected relations
 - Local editing and JSON import/export. Imports from another subject are rejected.
 - A prominent “Explore five selected theorems” banner in every global atlas.
 - All 85 complete theorem projects in 17 subject-specific dashboards, with 257 local agents.
-- Five-faculty walkthroughs, complete proofs, worked examples, failure/repair views, and 255 PDF, LaTeX, and Markdown downloads.
+- Five-faculty walkthroughs, complete proofs, worked examples, failure/repair views, and 85 PDF reports.
 
 The maps are curated and expandable. Their arrows describe selected mathematical relationships, not complete or formally verified proof certificates.
 
@@ -65,10 +65,8 @@ META-GRAPH/
 │           ├── data.json      Subject-local project data
 │           ├── data.js        Offline project bootstrap
 │           ├── assets/        Project styles and interaction code
-│           ├── markdown/      Original theorem walkthroughs
 │           └── reports/
-│               ├── pdf/       Five compiled reports
-│               └── latex/     Five standalone editable sources
+│               └── pdf/       Five compiled reports
 ├── tools/                     Collection, rebuild and validation helpers
 └── reports/                   Local verification reports and review screenshots
 ```
@@ -95,7 +93,7 @@ python3 tools/build_dashboard.py
 python3 tools/validate.py
 ```
 
-Collection replaces the managed website copies with the workspace versions. Preserve exported website edits before refreshing. The source manifest records the origin and checksum of each collected graph. Collection is an authoring convenience, not a hosting dependency.
+Collection replaces the managed website copies with the workspace versions. Preserve exported website edits before refreshing. The source manifest records the origin and checksum of each collected graph. Collection is an authoring convenience, not a hosting dependency. The collector reads its subject inventory from this folder's `subjects.json` and source locations from `source-manifest.json`; it does not require the earlier workspace library. Only an explicit refresh needs the original subject authoring folders supplied through `--source-root`.
 
 ## Verification
 
@@ -108,11 +106,15 @@ Only the subject atlases and their selected project resources are bundled. The m
 1. Choose a subject on the main website.
 2. Its global dependency graph opens as before. Use the green **Explore five selected theorems** banner to open that subject’s project dashboard.
 3. Select one of the five theorems to enter its local proof graph. Select an agent to inspect Ego, Memory, Intellect, Sense, Action, mathematical activities, exports and acceptance gates.
-4. Switch among the complete proof, worked example and failure/repair views, or download the PDF, LaTeX source and original Markdown.
+4. Switch among the complete proof, worked example and failure/repair views, or read the PDF report.
 5. Use **All five theorems**, **Subject atlas**, or the breadcrumb links to return to the project dashboard, global graph or main website.
 
 For example: `subjects/number-theory/index.html` → `subjects/number-theory/projects/index.html` → `subjects/number-theory/projects/index.html#NT-01/N1/agents`. These relative routes work at a domain root, a GitHub repository subpath, and directly from local files. Project agents remain separate from the global mathematical objects. Existing cross-subject reading references open the other subject’s project; they do not merge proof graphs.
 
 `tools/collect_projects.py` refreshes only the packaged project copies from the workspace. It preserves mathematical content and records download checksums in `project-manifest.json`. Workspace originals are retained as the authoring sources. `tools/integrate_projects.py` maintains the banner and navigation counts; both atlas collection and the standalone website rebuild call it, so future updates retain the integration. No workspace folder is needed to serve the website.
 
-`tools/validate.py --source-root /path/to/W-Workspace` additionally verifies original-source fidelity, all 85 local DAGs, subject separation, five-faculty contracts, and all 255 download checksums. `tools/verify_projects.cjs` tests the complete navigation journey, every local node, all proof tabs, downloads and mobile layouts at both a domain root and repository subpath, plus a direct offline proof route. PDF files are copied from the already compiled reports; this integration does not rewrite or recompile them.
+`tools/validate.py --source-root /path/to/W-Workspace` additionally verifies original-source fidelity, all 85 local DAGs, subject separation, five-faculty contracts, and all 85 PDF download checksums. `tools/verify_projects.cjs` tests the complete navigation journey, every local node, all proof tabs, downloads and mobile layouts at both a domain root and repository subpath, plus a direct offline proof route. PDF files are copied from the already compiled reports; this integration does not rewrite or recompile them.
+
+## Public project downloads
+
+Selected project dashboards offer **Read PDF** only. Project LaTeX and Markdown sources remain in the original workspace subject folders for backend authoring and analysis. The collector packages the interactive proof content and PDF reports, omits source-download fields and controls, and removes its previously managed source copies. Future refreshes preserve this separation.

@@ -122,9 +122,7 @@
       "sha256": "9fe6f21915f27e2a7b226e5a12a6cb2fec885fbb5a6cb98b9d0dbff82e720091",
       "idea": "<p>A complete authored walkthrough of fourier orthogonality and bessel’s\ninequality, with explicit mathematical contracts, local verification\ngates, and reusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf",
-      "tex": "reports/latex/fourier-orthogonality-and-bessels-inequality.tex",
-      "markdown": "markdown/fourier-orthogonality-and-bessels-inequality.md"
+      "pdf": "reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf"
     },
     {
       "id": "HA-02",
@@ -293,9 +291,7 @@
       "sha256": "0136cc94e7bea0927a50f25010f72404fac8013c397f4beda8a3a9f7e6ee526e",
       "idea": "<p>A complete authored walkthrough of fejér’s theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<p><a\nhref=\"https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/eb44436072623f60f8f416875d4b2c11_MIT18_102s21_lec16.pdf\">MIT\nFejér theorem lecture notes</a>.</p>",
-      "pdf": "reports/pdf/fejer-theorem.pdf",
-      "tex": "reports/latex/fejer-theorem.tex",
-      "markdown": "markdown/fejer-theorem.md"
+      "pdf": "reports/pdf/fejer-theorem.pdf"
     },
     {
       "id": "HA-03",
@@ -421,9 +417,7 @@
       "sha256": "66e43086eda91864878f5e86321ac9d015c8822b20c6977aea2a0e0544d2800e",
       "idea": "<p>A complete authored walkthrough of parseval’s identity for fourier\nseries, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/parsevals-identity-for-fourier-series.pdf",
-      "tex": "reports/latex/parsevals-identity-for-fourier-series.tex",
-      "markdown": "markdown/parsevals-identity-for-fourier-series.md"
+      "pdf": "reports/pdf/parsevals-identity-for-fourier-series.pdf"
     },
     {
       "id": "HA-04",
@@ -549,9 +543,7 @@
       "sha256": "d23e112fce7f93a066cac6c106d70163f9fc9179e92d5e4052c7ef6bd2e6e29f",
       "idea": "<p>A complete authored walkthrough of plancherel theorem on the real\nline, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/plancherel-theorem-on-the-real-line.pdf",
-      "tex": "reports/latex/plancherel-theorem-on-the-real-line.tex",
-      "markdown": "markdown/plancherel-theorem-on-the-real-line.md"
+      "pdf": "reports/pdf/plancherel-theorem-on-the-real-line.pdf"
     },
     {
       "id": "HA-05",
@@ -677,9 +669,7 @@
       "sha256": "d23ad7be8d201e4921a2e791c440884904ec2cb53a56c3da1690128ad9fd8e03",
       "idea": "<p>A complete authored walkthrough of poisson summation formula, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/poisson-summation-formula.pdf",
-      "tex": "reports/latex/poisson-summation-formula.tex",
-      "markdown": "markdown/poisson-summation-formula.md"
+      "pdf": "reports/pdf/poisson-summation-formula.pdf"
     }
   ],
   "links": [

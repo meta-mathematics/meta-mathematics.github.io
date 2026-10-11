@@ -133,9 +133,7 @@
       "sha256": "f350b198b70d87d85d1082a57f40bc98e5a8f05da1528b33529d95cc7086c373",
       "idea": "<p>A complete authored walkthrough of intermediate value theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/intermediate-value-theorem.pdf",
-      "tex": "reports/latex/intermediate-value-theorem.tex",
-      "markdown": "markdown/intermediate-value-theorem.md"
+      "pdf": "reports/pdf/intermediate-value-theorem.pdf"
     },
     {
       "id": "RA-02",
@@ -266,9 +264,7 @@
       "sha256": "a7c07f2c840952e46af90e3a413afe47678838fb1f31ccf9d2f72714de37b8d3",
       "idea": "<p>A complete authored walkthrough of heine–borel theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/heineborel-theorem.pdf",
-      "tex": "reports/latex/heineborel-theorem.tex",
-      "markdown": "markdown/heineborel-theorem.md"
+      "pdf": "reports/pdf/heineborel-theorem.pdf"
     },
     {
       "id": "RA-03",
@@ -468,9 +464,7 @@
       "sha256": "806b19d3b8d7aade97d162d6c1c5ca88619bf75c52995f9a01ff432ff0e55293",
       "idea": "<p>A complete authored walkthrough of banach fixed-point theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<p><a\nhref=\"https://www2.math.upenn.edu/~gressman/analysis/12-inversefuncthm.html\">University\nof Pennsylvania advanced-analysis material on contraction-based\ninversion</a>.</p>",
-      "pdf": "reports/pdf/banach-fixed-point-theorem.pdf",
-      "tex": "reports/latex/banach-fixed-point-theorem.tex",
-      "markdown": "markdown/banach-fixed-point-theorem.md"
+      "pdf": "reports/pdf/banach-fixed-point-theorem.pdf"
     },
     {
       "id": "RA-04",
@@ -603,9 +597,7 @@
       "sha256": "ea70dc39c188088694ceb7d43e6c28ab2e74037dbc83914bde1bb42fa9714359",
       "idea": "<p>A complete authored walkthrough of lebesgue dominated convergence\ntheorem, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-125-measure-and-integration-fall-2003/pages/lecture-notes/\">Fatou\nand dominated convergence: MIT Measure and Integration</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/lebesgue-dominated-convergence-theorem.pdf",
-      "tex": "reports/latex/lebesgue-dominated-convergence-theorem.tex",
-      "markdown": "markdown/lebesgue-dominated-convergence-theorem.md"
+      "pdf": "reports/pdf/lebesgue-dominated-convergence-theorem.pdf"
     },
     {
       "id": "RA-05",
@@ -766,9 +758,7 @@
       "sha256": "c123886f518b1203624b8c162e42a1cd6d1a078b073e1cfa0161c1d57225c64c",
       "idea": "<p>A complete authored walkthrough of arzelà–ascoli theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/arzelaascoli-theorem.pdf",
-      "tex": "reports/latex/arzelaascoli-theorem.tex",
-      "markdown": "markdown/arzelaascoli-theorem.md"
+      "pdf": "reports/pdf/arzelaascoli-theorem.pdf"
     }
   ],
   "links": [],

@@ -96,9 +96,7 @@
       "sha256": "f6d01b83b1e7671a0e0861f792cc08f7e5aeb3b50b07aaf02b7c2972f6b7a11c",
       "idea": "<p>A complete authored walkthrough of mean value theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/mean-value-theorem.pdf",
-      "tex": "reports/latex/mean-value-theorem.tex",
-      "markdown": "markdown/mean-value-theorem.md"
+      "pdf": "reports/pdf/mean-value-theorem.pdf"
     },
     {
       "id": "AC-02",
@@ -194,9 +192,7 @@
       "sha256": "7815c11f5c310d73b38d36532266cdf0483444a96e60b1a5bb46dea2dc4a053b",
       "idea": "<p>A complete authored walkthrough of fundamental theorem of calculus,\nwith explicit mathematical contracts, local verification gates, and\nreusable exports.</p>",
       "references": "",
-      "pdf": "reports/pdf/fundamental-theorem-of-calculus.pdf",
-      "tex": "reports/latex/fundamental-theorem-of-calculus.tex",
-      "markdown": "markdown/fundamental-theorem-of-calculus.md"
+      "pdf": "reports/pdf/fundamental-theorem-of-calculus.pdf"
     },
     {
       "id": "AC-03",
@@ -329,9 +325,7 @@
       "sha256": "6f713ba0e515a6f7b4b0abc2d24ce1c79696b44e6cee1b45d60e0603fb0a6b2e",
       "idea": "<p>A complete authored walkthrough of multivariable taylor theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/multivariable-taylor-theorem.pdf",
-      "tex": "reports/latex/multivariable-taylor-theorem.tex",
-      "markdown": "markdown/multivariable-taylor-theorem.md"
+      "pdf": "reports/pdf/multivariable-taylor-theorem.pdf"
     },
     {
       "id": "AC-04",
@@ -539,9 +533,7 @@
       "sha256": "e790e2304883ff78a79c8b4bf96aba31fbb999f307bf9594b1f46a3244c37832",
       "idea": "<p>A complete authored walkthrough of inverse function theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<p><a\nhref=\"https://www2.math.upenn.edu/~gressman/analysis/12-inversefuncthm.html\">University\nof Pennsylvania: contraction-based proof of the inverse function\ntheorem</a>.</p>",
-      "pdf": "reports/pdf/inverse-function-theorem.pdf",
-      "tex": "reports/latex/inverse-function-theorem.tex",
-      "markdown": "markdown/inverse-function-theorem.md"
+      "pdf": "reports/pdf/inverse-function-theorem.pdf"
     },
     {
       "id": "AC-05",
@@ -671,9 +663,7 @@
       "sha256": "f00696f9ab9ddfe03146b33772c1bb989634e1f9bf63681ec704250a518b35ce",
       "idea": "<p>A complete authored walkthrough of generalized stokes’ theorem, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://people.math.harvard.edu/~landesman/assets/math-230a-harvard-differential-geometry-notes.pdf\">Harvard\nMath 230a: Riemannian geometry, curvature, and Hopf–Rinow</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/generalized-stokes-theorem.pdf",
-      "tex": "reports/latex/generalized-stokes-theorem.tex",
-      "markdown": "markdown/generalized-stokes-theorem.md"
+      "pdf": "reports/pdf/generalized-stokes-theorem.pdf"
     }
   ],
   "links": [

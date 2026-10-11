@@ -42,12 +42,19 @@ def book_page(graph):
     content=''.join(render(n) for n in book if n['id'] not in targets)
     return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(graph['subject']['title'])+' · Book outline</title><link rel="stylesheet" href="../../../assets/documents.css"></head><body><header><a href="../index.html">← Return to '+E(graph['subject']['title'])+'</a><a href="../../../index.html">All subjects</a></header><main><span class="eyebrow">GRADUATE BOOK STRUCTURE</span><h1>'+E(graph['subject']['title'])+'</h1><p class="intro">The annotated syllabus accompanying this subject’s atlas. Expand a chapter to read its sections and subsections. This hierarchy records book organization.</p><a class="download" href="book-outline.md" download>Download the original outline ↓</a>'+content+'</main></body></html>\n'
 
+def source_entries():
+    """Use this website's inventory and provenance to locate authoring sources."""
+    subjects=json.loads((SITE/'subjects.json').read_text())
+    origins=json.loads((SITE/'source-manifest.json').read_text())
+    return [dict(path=origins[s['slug']]['sourceSubject'],id=s['subjectId'],
+                 title=s['title'],slug=s['slug']) for s in subjects]
+
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source-root',type=Path,default=SITE.parent);args=p.parse_args();root=args.source_root.resolve()
-    manifest=json.loads((root/'meta-graph-library/subjects.json').read_text());entries=[dict(path='1-Number-Theory',id='1-number-theory',title='Number Theory',prefix='nt')]+manifest
+    entries=source_entries()
     audit={};published=[]
     for s in entries:
-        src=root/s['path']/'meta-graph';slug='number-theory' if s['prefix']=='nt' else Path(s['path']).name.lower();dst=SITE/'subjects'/slug
+        src=root/s['path']/'meta-graph';slug=s['slug'];dst=SITE/'subjects'/slug
         for folder in (dst/'assets',dst/'resources'):folder.mkdir(parents=True,exist_ok=True)
         raw=(src/'graph.json').read_bytes();g=json.loads(raw);original=copy.deepcopy(g)
         g['libraryUrl']='../../index.html'
@@ -60,7 +67,7 @@ def main():
             if name=='explorer.js':
                 # Website drafts do not overwrite drafts from the workspace explorers.
                 text=text.replace("'meta-math.graph.v2.global.'", "'meta-math.website.graph.v1.'")
-                if s['prefix']=='nt':
+                if s['id']=='1-number-theory':
                     text=text.replace("    if(!Array.isArray(input.nodes)","    if(input.subject.id!==base.subject.id) throw Error('This file belongs to another subject. Open that subject’s own explorer.');\n    if(!Array.isArray(input.nodes)")
                 text=text.replace("base.libraryUrl||'#'","'../../index.html'")
             else:

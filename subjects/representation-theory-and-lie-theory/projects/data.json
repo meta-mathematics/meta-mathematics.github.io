@@ -82,9 +82,7 @@
       ],
       "references": "<p><a href=\"https://math.mit.edu/~etingof/reprbook.pdf\">Etingof and\ncollaborators, Introduction to Representation Theory</a>, sections on\nrepresentations, characters, and\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mi>𝔰</mi><mi>𝔩</mi></mrow><mn>2</mn></msub><annotation encoding=\"application/x-tex\">\\mathfrak{sl}_2</annotation></semantics></math>;\n<a\nhref=\"https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/lists/lecture-notes/\">MIT\nLie Groups and Lie Algebras I lecture notes</a> for solvable Lie\nalgebras.</p>",
       "sha256": "5792df4d5d41c0dd2f507e82493bbdc2b0ce7a74532fface7a41d5dcbba28239",
-      "pdf": "reports/pdf/maschke-theorem.pdf",
-      "tex": "reports/latex/maschke-theorem.tex",
-      "markdown": "markdown/maschke-theorem.md"
+      "pdf": "reports/pdf/maschke-theorem.pdf"
     },
     {
       "id": "RT-02",
@@ -167,9 +165,7 @@
       ],
       "references": "<p><a href=\"https://math.mit.edu/~etingof/reprbook.pdf\">Etingof and\ncollaborators, Introduction to Representation Theory</a>, sections on\nrepresentations, characters, and\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mi>𝔰</mi><mi>𝔩</mi></mrow><mn>2</mn></msub><annotation encoding=\"application/x-tex\">\\mathfrak{sl}_2</annotation></semantics></math>;\n<a\nhref=\"https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/lists/lecture-notes/\">MIT\nLie Groups and Lie Algebras I lecture notes</a> for solvable Lie\nalgebras.</p>",
       "sha256": "0e1c7c80814b28b7b079e2d4d7d7fee671306c56540f64a07d04668e2d447265",
-      "pdf": "reports/pdf/schur-lemma.pdf",
-      "tex": "reports/latex/schur-lemma.tex",
-      "markdown": "markdown/schur-lemma.md"
+      "pdf": "reports/pdf/schur-lemma.pdf"
     },
     {
       "id": "RT-03",
@@ -252,9 +248,7 @@
       ],
       "references": "<p><a href=\"https://math.mit.edu/~etingof/reprbook.pdf\">Etingof and\ncollaborators, Introduction to Representation Theory</a>, sections on\nrepresentations, characters, and\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mi>𝔰</mi><mi>𝔩</mi></mrow><mn>2</mn></msub><annotation encoding=\"application/x-tex\">\\mathfrak{sl}_2</annotation></semantics></math>;\n<a\nhref=\"https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/lists/lecture-notes/\">MIT\nLie Groups and Lie Algebras I lecture notes</a> for solvable Lie\nalgebras.</p>",
       "sha256": "0eb61116e36fce7a60c5724b0356e427e962330a8f8f693c6799ad061e09be1f",
-      "pdf": "reports/pdf/character-orthogonality.pdf",
-      "tex": "reports/latex/character-orthogonality.tex",
-      "markdown": "markdown/character-orthogonality.md"
+      "pdf": "reports/pdf/character-orthogonality.pdf"
     },
     {
       "id": "RT-04",
@@ -375,9 +369,7 @@
       ],
       "references": "<p><a href=\"https://math.mit.edu/~etingof/reprbook.pdf\">Etingof and\ncollaborators, Introduction to Representation Theory</a>, sections on\nrepresentations, characters, and\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mi>𝔰</mi><mi>𝔩</mi></mrow><mn>2</mn></msub><annotation encoding=\"application/x-tex\">\\mathfrak{sl}_2</annotation></semantics></math>;\n<a\nhref=\"https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/lists/lecture-notes/\">MIT\nLie Groups and Lie Algebras I lecture notes</a> for solvable Lie\nalgebras.</p>",
       "sha256": "20f924b1bceac18694b7af23904877c8958c3db79bd9a538a1ba8addf5257d1b",
-      "pdf": "reports/pdf/lie-theorem.pdf",
-      "tex": "reports/latex/lie-theorem.tex",
-      "markdown": "markdown/lie-theorem.md"
+      "pdf": "reports/pdf/lie-theorem.pdf"
     },
     {
       "id": "RT-05",
@@ -491,9 +483,7 @@
       ],
       "references": "<p><a href=\"https://math.mit.edu/~etingof/reprbook.pdf\">Etingof and\ncollaborators, Introduction to Representation Theory</a>, sections on\nrepresentations, characters, and\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mi>𝔰</mi><mi>𝔩</mi></mrow><mn>2</mn></msub><annotation encoding=\"application/x-tex\">\\mathfrak{sl}_2</annotation></semantics></math>;\n<a\nhref=\"https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/lists/lecture-notes/\">MIT\nLie Groups and Lie Algebras I lecture notes</a> for solvable Lie\nalgebras.</p>",
       "sha256": "84b227c65c57acbd724a4b763c22a704d6811338a66b6b1565f10aa687803625",
-      "pdf": "reports/pdf/sl2-irreducible-classification.pdf",
-      "tex": "reports/latex/sl2-irreducible-classification.tex",
-      "markdown": "markdown/sl2-irreducible-classification.md"
+      "pdf": "reports/pdf/sl2-irreducible-classification.pdf"
     }
   ],
   "links": [

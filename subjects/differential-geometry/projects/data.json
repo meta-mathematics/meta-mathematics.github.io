@@ -96,9 +96,7 @@
       "sha256": "a399409a9341debf48b9d864f8dea91e28a145d2485d92f64e38cacfc85e6f83",
       "idea": "<p>A complete authored walkthrough of frenet–serret formulas, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "",
-      "pdf": "reports/pdf/frenetserret-formulas.pdf",
-      "tex": "reports/latex/frenetserret-formulas.tex",
-      "markdown": "markdown/frenetserret-formulas.md"
+      "pdf": "reports/pdf/frenetserret-formulas.pdf"
     },
     {
       "id": "DG-02",
@@ -282,9 +280,7 @@
       "sha256": "5a7e8d687019d0c589a76372c920f2b37761a6a510a29593a8e4cd43726299de",
       "idea": "<p>A complete authored walkthrough of great circles as geodesics of the\nsphere, with explicit mathematical contracts, local verification gates,\nand reusable exports.</p>",
       "references": "<p><a\nhref=\"https://people.math.harvard.edu/~landesman/assets/math-230a-harvard-differential-geometry-notes.pdf\">Harvard\ndifferential geometry notes: induced connections and geodesics</a>.</p>",
-      "pdf": "reports/pdf/great-circles-as-sphere-geodesics.pdf",
-      "tex": "reports/latex/great-circles-as-sphere-geodesics.tex",
-      "markdown": "markdown/great-circles-as-sphere-geodesics.md"
+      "pdf": "reports/pdf/great-circles-as-sphere-geodesics.pdf"
     },
     {
       "id": "DG-03",
@@ -412,9 +408,7 @@
       "sha256": "458fcb5f082a2e611d70b6c0c329e69b91099352e8298f71cc450c5e67c69848",
       "idea": "<p>A complete authored walkthrough of gauss’ theorema egregium, with\nexplicit mathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://people.math.harvard.edu/~landesman/assets/math-230a-harvard-differential-geometry-notes.pdf\">Harvard\nMath 230a: Riemannian geometry, curvature, and Hopf–Rinow</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/gauss-theorema-egregium.pdf",
-      "tex": "reports/latex/gauss-theorema-egregium.tex",
-      "markdown": "markdown/gauss-theorema-egregium.md"
+      "pdf": "reports/pdf/gauss-theorema-egregium.pdf"
     },
     {
       "id": "DG-04",
@@ -539,9 +533,7 @@
       "sha256": "8d634918f910c3e47d513c0a93577c555fe9ce98f0190416c43275e8d1a58ef3",
       "idea": "<p>A complete authored walkthrough of global gauss–bonnet theorem for\nsurfaces, with explicit mathematical contracts, local verification\ngates, and reusable exports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://ocw.mit.edu/courses/18-900-geometry-and-topology-in-the-plane-spring-2023/pages/chapter-ix-curved-geometries/\">MIT\nGeometry and Topology: curved geometries and Gauss–Bonnet</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf",
-      "tex": "reports/latex/global-gaussbonnet-theorem-for-surfaces.tex",
-      "markdown": "markdown/global-gaussbonnet-theorem-for-surfaces.md"
+      "pdf": "reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf"
     },
     {
       "id": "DG-05",
@@ -752,9 +744,7 @@
       "sha256": "22e79882b7752f8cbd8beb8a02e19d3585b5c2a18d2cfcacd2c1c657ec5e439a",
       "idea": "<p>A complete authored walkthrough of hopf–rinow theorem, with explicit\nmathematical contracts, local verification gates, and reusable\nexports.</p>",
       "references": "<ul>\n<li><a\nhref=\"https://people.math.harvard.edu/~landesman/assets/math-230a-harvard-differential-geometry-notes.pdf\">Harvard\nMath 230a: Riemannian geometry, curvature, and Hopf–Rinow</a>.</li>\n</ul>",
-      "pdf": "reports/pdf/hopfrinow-theorem.pdf",
-      "tex": "reports/latex/hopfrinow-theorem.tex",
-      "markdown": "markdown/hopfrinow-theorem.md"
+      "pdf": "reports/pdf/hopfrinow-theorem.pdf"
     }
   ],
   "links": [],

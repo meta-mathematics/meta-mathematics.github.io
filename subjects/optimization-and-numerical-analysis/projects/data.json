@@ -111,9 +111,7 @@
       ],
       "references": "<p><a href=\"https://web.stanford.edu/~boyd/cvxbook/\">Boyd and\nVandenberghe, Convex Optimization</a> for convexity, optimality, and\ndescent; <a\nhref=\"https://www.math.umd.edu/~mariakc/Spring2020Class.html\">University\nof Maryland, Scientific Computing I</a> for the numerical-analysis\nsetting. The estimates used here are derived explicitly in §4.</p>",
       "sha256": "1463c3033bf7066512230e38ddfeea69116789206ed8534313f5cc3c17d48c90",
-      "pdf": "reports/pdf/first-order-convex-optimality.pdf",
-      "tex": "reports/latex/first-order-convex-optimality.tex",
-      "markdown": "markdown/first-order-convex-optimality.md"
+      "pdf": "reports/pdf/first-order-convex-optimality.pdf"
     },
     {
       "id": "ON-02",
@@ -225,9 +223,7 @@
       ],
       "references": "<p><a href=\"https://web.stanford.edu/~boyd/cvxbook/\">Boyd and\nVandenberghe, Convex Optimization</a> for convexity, optimality, and\ndescent; <a\nhref=\"https://www.math.umd.edu/~mariakc/Spring2020Class.html\">University\nof Maryland, Scientific Computing I</a> for the numerical-analysis\nsetting. The estimates used here are derived explicitly in §4.</p>",
       "sha256": "93d0f7f6898ec672a182e81a8a5917a41e137e76092da379129eaef940ffd771",
-      "pdf": "reports/pdf/lagrange-multiplier-theorem.pdf",
-      "tex": "reports/latex/lagrange-multiplier-theorem.tex",
-      "markdown": "markdown/lagrange-multiplier-theorem.md"
+      "pdf": "reports/pdf/lagrange-multiplier-theorem.pdf"
     },
     {
       "id": "ON-03",
@@ -339,9 +335,7 @@
       ],
       "references": "<p><a href=\"https://web.stanford.edu/~boyd/cvxbook/\">Boyd and\nVandenberghe, Convex Optimization</a> for convexity, optimality, and\ndescent; <a\nhref=\"https://www.math.umd.edu/~mariakc/Spring2020Class.html\">University\nof Maryland, Scientific Computing I</a> for the numerical-analysis\nsetting. The estimates used here are derived explicitly in §4.</p>",
       "sha256": "a658b3215e43f4c1c5d639654c1adf74050094a751aabbfc0622a3085236124e",
-      "pdf": "reports/pdf/gradient-descent-linear-convergence.pdf",
-      "tex": "reports/latex/gradient-descent-linear-convergence.tex",
-      "markdown": "markdown/gradient-descent-linear-convergence.md"
+      "pdf": "reports/pdf/gradient-descent-linear-convergence.pdf"
     },
     {
       "id": "ON-04",
@@ -424,9 +418,7 @@
       ],
       "references": "<p><a href=\"https://web.stanford.edu/~boyd/cvxbook/\">Boyd and\nVandenberghe, Convex Optimization</a> for convexity, optimality, and\ndescent; <a\nhref=\"https://www.math.umd.edu/~mariakc/Spring2020Class.html\">University\nof Maryland, Scientific Computing I</a> for the numerical-analysis\nsetting. The estimates used here are derived explicitly in §4.</p>",
       "sha256": "97702bacfb5aa133470b4d965d0a9a52b1c6c8c92f6358352427e0c6a748bac6",
-      "pdf": "reports/pdf/newton-local-quadratic-convergence.pdf",
-      "tex": "reports/latex/newton-local-quadratic-convergence.tex",
-      "markdown": "markdown/newton-local-quadratic-convergence.md"
+      "pdf": "reports/pdf/newton-local-quadratic-convergence.pdf"
     },
     {
       "id": "ON-05",
@@ -509,9 +501,7 @@
       ],
       "references": "<p><a href=\"https://web.stanford.edu/~boyd/cvxbook/\">Boyd and\nVandenberghe, Convex Optimization</a> for convexity, optimality, and\ndescent; <a\nhref=\"https://www.math.umd.edu/~mariakc/Spring2020Class.html\">University\nof Maryland, Scientific Computing I</a> for the numerical-analysis\nsetting. The estimates used here are derived explicitly in §4.</p>",
       "sha256": "fef51be5b76992ab5043ea218b5efaaf38f3f1a88a82ab3364b3981e027f5613",
-      "pdf": "reports/pdf/composite-trapezoidal-error.pdf",
-      "tex": "reports/latex/composite-trapezoidal-error.tex",
-      "markdown": "markdown/composite-trapezoidal-error.md"
+      "pdf": "reports/pdf/composite-trapezoidal-error.pdf"
     }
   ],
   "links": [],
