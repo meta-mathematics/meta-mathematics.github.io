@@ -16,7 +16,7 @@ const root=path.resolve(__dirname,'..'),subjects=JSON.parse(fs.readFileSync(path
    for(const s of subjects){
     await page.goto(home);await page.locator('.subject-card[href="'+s.path+'"]').click();
     assert.equal(await page.locator('#subjectTitle').textContent(),s.title);
-    assert.equal(await page.locator('.project-bridge').count(),1);assert.equal(await page.locator('.faculty').count(),0);
+    assert.equal(await page.locator('.project-bridge').count(),1);assert.equal(await page.locator('.component').count(),0);
     if(prefix==='/mathematics/'&&s.slug==='number-theory')await page.screenshot({path:path.join(reports,'integrated-number-theory-global.png')});
     await page.locator('.project-bridge-link').click();assert.equal(new URL(page.url()).pathname,prefix+s.projectPath);
     assert.equal(await page.locator('.project-card').count(),5);const d=await page.evaluate(()=>window.META_MATH);assert.equal(d.subject,s.title);
@@ -24,7 +24,7 @@ const root=path.resolve(__dirname,'..'),subjects=JSON.parse(fs.readFileSync(path
     const base=page.url().split('#')[0];let visited=0;
     for(const p of d.projects){
      await page.locator('.project-card[href="#'+p.id+'"]').click();await page.waitForFunction(title=>document.getElementById('project-title').textContent===title,p.title);
-     for(const n of p.nodes){await page.locator('[data-node="'+p.nodes.indexOf(n)+'"]').click();assert.equal(await page.locator('#node-detail .faculty').count(),5);visited++;}
+     for(const n of p.nodes){await page.locator('[data-node="'+p.nodes.indexOf(n)+'"]').click();assert.equal(await page.locator('#node-detail .component').count(),5);visited++;}
      for(const tab of ['proof','example','repair','agents']){await page.locator('[data-tab="'+tab+'"]').click();assert.ok(await page.locator('#tab-'+tab).isVisible());}
      assert.equal(await page.locator('.downloads a').count(),1);
      assert.equal(await page.locator('#tex-link, #md-link').count(),0);
@@ -48,7 +48,7 @@ const root=path.resolve(__dirname,'..'),subjects=JSON.parse(fs.readFileSync(path
    await context.close();
   }
   // Direct local-file use remains supported without fetching project data.
-  const page=await browser.newPage();await page.goto('file://'+path.join(root,'subjects/number-theory/projects/index.html')+'#NT-01/N1/agents');assert.equal(await page.locator('#node-detail .faculty').count(),5);result.offline=true;
+  const page=await browser.newPage();await page.goto('file://'+path.join(root,'subjects/number-theory/projects/index.html')+'#NT-01/N1/agents');assert.equal(await page.locator('#node-detail .component').count(),5);result.offline=true;
   assert.deepEqual(result.errors,[]);assert.deepEqual(result.missing,[]);result.passed=true;result.date=new Date().toISOString();fs.writeFileSync(path.join(reports,'project-browser-verification.json'),JSON.stringify(result,null,2)+'\n');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

@@ -185,7 +185,7 @@ For each chapter, collect a primary textbook treatment, one alternative expositi
 
 ## Future Meta-Math project pathway
 
-Select projects only after the resource index is in place. Prefer a progression from a foundational theorem to a standard application and then to a graduate-level synthesis. For each selected project, record the exact statement, definitions, hypotheses, supporting imports, a dependency workflow, faculty-specific node activities, a continuous proof, a boundary test, and an evidence/review status. Avoid implying formal verification unless a proof assistant actually checks the stated theorem.
+Select projects only after the resource index is in place. Prefer a progression from a foundational theorem to a standard application and then to a graduate-level synthesis. For each selected project, record the exact statement, definitions, hypotheses, supporting imports, a dependency workflow, component-specific node activities, a continuous proof, a boundary test, and an evidence/review status. Avoid implying formal verification unless a proof assistant actually checks the stated theorem.
 
 ## Suggested starting references
 

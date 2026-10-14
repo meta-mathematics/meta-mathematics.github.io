@@ -9,35 +9,35 @@
         "kind": "pdf",
         "path": "reports/pdf/euclidean-algorithm-and-bezout-identity.pdf",
         "source": "1-Number-Theory/projects/reports/pdf/euclidean-algorithm-and-bezout-identity.pdf",
-        "sha256": "c93a2a363c6a466fc155477372c0712e725ce834aa5fec8e7651614c72020035"
+        "sha256": "56d5d24abd1e1b54bfa5aca0b82e1b2d3783f19b9e98caa150a5828b5cc1b344"
       },
       {
         "project": "NT-02",
         "kind": "pdf",
         "path": "reports/pdf/fundamental-theorem-of-arithmetic.pdf",
         "source": "1-Number-Theory/projects/reports/pdf/fundamental-theorem-of-arithmetic.pdf",
-        "sha256": "9147e99c565493223f27e57049ef66c7612c42f90753e8e6c5142087a14a468c"
+        "sha256": "f208562c91e864ba886c522ca14aaa03c017cf7e881436b193ed223a2eeb0936"
       },
       {
         "project": "NT-03",
         "kind": "pdf",
         "path": "reports/pdf/chinese-remainder-theorem.pdf",
         "source": "1-Number-Theory/projects/reports/pdf/chinese-remainder-theorem.pdf",
-        "sha256": "8d8033fb5b9d697e172c4c56013706b0ab5a266f12d004e8f773e4280b725ea8"
+        "sha256": "04908c0ed8aad2c149aa5a6fcc9c1a1e56adc49e5b971ccb53765ea9e281bdfd"
       },
       {
         "project": "NT-04",
         "kind": "pdf",
         "path": "reports/pdf/fermat-s-little-theorem.pdf",
         "source": "1-Number-Theory/projects/reports/pdf/fermat-s-little-theorem.pdf",
-        "sha256": "2aff51c128708184e009624de564ac793d7724661fe4150796c8b6c8c454765d"
+        "sha256": "5d29363eed3d6a150976b33f93cd880b86cf34c67198a8c383366cb9e055a3ac"
       },
       {
         "project": "NT-05",
         "kind": "pdf",
         "path": "reports/pdf/classification-of-primitive-pythagorean-triples.pdf",
         "source": "1-Number-Theory/projects/reports/pdf/classification-of-primitive-pythagorean-triples.pdf",
-        "sha256": "5abcf844312cca11903b203fb9afe624742998f297088c42b6db5fc99b2e9578"
+        "sha256": "653e8642d779896533caebee0f918fef4fb4a7500aa9bd43d45647d20b08f2e8"
       }
     ]
   },
@@ -51,35 +51,35 @@
         "kind": "pdf",
         "path": "reports/pdf/mean-value-theorem.pdf",
         "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/mean-value-theorem.pdf",
-        "sha256": "b3c340fd7568cd962369c59dcc58db0a4674a0cc40f42c135f9e7e9446a4c7b7"
+        "sha256": "c48f77fdea496facfa700000fdf6e9d529bd9e3558dae92a03c467a01ac73605"
       },
       {
         "project": "AC-02",
         "kind": "pdf",
         "path": "reports/pdf/fundamental-theorem-of-calculus.pdf",
         "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/fundamental-theorem-of-calculus.pdf",
-        "sha256": "4a53790b5545cff8bd244abff5af13d6ee79aed5a41f27325ffc329540b97f94"
+        "sha256": "a91c02d410c62ba4472597cc39be0cb8d45e19845379658c6611f63b4cb6d526"
       },
       {
         "project": "AC-03",
         "kind": "pdf",
         "path": "reports/pdf/multivariable-taylor-theorem.pdf",
         "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/multivariable-taylor-theorem.pdf",
-        "sha256": "1e3bfc08ede527f9b9308db9542bbd9ddc1614e2c54c8986f5405800ebea0935"
+        "sha256": "5c0beebb04bb0056840f44afdf213b31a4752896b297641720c33611c7a9729f"
       },
       {
         "project": "AC-04",
         "kind": "pdf",
         "path": "reports/pdf/inverse-function-theorem.pdf",
         "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/inverse-function-theorem.pdf",
-        "sha256": "c0b340ef2e85afc791e0a715d2ad45161a55c4d5b7868c17f13379200d370d45"
+        "sha256": "642c5cc755f9bb3af74081d754a2462ac561225acb9107d688c3a7de9e69b889"
       },
       {
         "project": "AC-05",
         "kind": "pdf",
         "path": "reports/pdf/generalized-stokes-theorem.pdf",
         "source": "2-Analysis/Advanced-Calculus/projects/reports/pdf/generalized-stokes-theorem.pdf",
-        "sha256": "404f0282376b2337dcae9d1acd059a98ca47cc21a16a8371517d3863a1ad258e"
+        "sha256": "3955e72ecb63fba1d472db4a93c30dc8bd4df76aa228816074070474b4b83498"
       }
     ]
   },
@@ -93,35 +93,35 @@
         "kind": "pdf",
         "path": "reports/pdf/cauchy-integral-formula.pdf",
         "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/cauchy-integral-formula.pdf",
-        "sha256": "9d03abf0dc5705e2d5ba4cad35ae3f2951d050a2d55f70f204388b93de27fb63"
+        "sha256": "5f1f58b4495af614180d21461bca359dc1b877d00c8cb03dc3ad5e716aab33d4"
       },
       {
         "project": "CA-02",
         "kind": "pdf",
         "path": "reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf",
         "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/liouvilles-theorem-and-the-fundamental-theorem-of-algebra.pdf",
-        "sha256": "cafe3a781256878809dfd55c33cec82670f04491d5f1d5249c5022e27e202aac"
+        "sha256": "b93029e9e6d49736934baaa7fcbb19011ad1f71691097779643449f648fd10e4"
       },
       {
         "project": "CA-03",
         "kind": "pdf",
         "path": "reports/pdf/residue-theorem.pdf",
         "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/residue-theorem.pdf",
-        "sha256": "23ab42426bd2d9d91b3c2075e10f525c337640839e057c836f3fc48a60223940"
+        "sha256": "d571c97092691aa01554906f548394594809a5424ae3402186e713a53a824496"
       },
       {
         "project": "CA-04",
         "kind": "pdf",
         "path": "reports/pdf/rouches-theorem.pdf",
         "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/rouches-theorem.pdf",
-        "sha256": "2716adeb6490e021de617695a676c809ebd2c6e9fc782fa1e18592aaae80fda3"
+        "sha256": "206052682c06f064e3e2b5e83516ac5d8bf9b217455f136dd5c2022850ea6d59"
       },
       {
         "project": "CA-05",
         "kind": "pdf",
         "path": "reports/pdf/riemann-mapping-theorem.pdf",
         "source": "2-Analysis/Complex-Analysis/projects/reports/pdf/riemann-mapping-theorem.pdf",
-        "sha256": "fdee54f8df99b5718d66deafbe1781ea2164b3ee1e81fc9c1493b62166cc9d29"
+        "sha256": "27ec8c57250a4d4a78a1df899751b4f5332668be1ab791dc9be3c6cf15a7ffa5"
       }
     ]
   },
@@ -135,35 +135,35 @@
         "kind": "pdf",
         "path": "reports/pdf/monotone-convergence-theorem.pdf",
         "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/monotone-convergence-theorem.pdf",
-        "sha256": "22de3366a9e8506ea834b05125b11c4b3e5b039471b179decc2f64d930faaedc"
+        "sha256": "081e6943a4dd79aaddf3144ca4d20167454458ffc911220f399ba329a1d78429"
       },
       {
         "project": "FA-02",
         "kind": "pdf",
         "path": "reports/pdf/hilbert-projection-theorem.pdf",
         "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/hilbert-projection-theorem.pdf",
-        "sha256": "8f52c172d3653874f869f181d707a75faa90ecd40d5e924e31a9d0b95342006a"
+        "sha256": "503158f6bedc0a4d8972acaeaa12f0cc8fb903162a55a5de022136f91a2e622a"
       },
       {
         "project": "FA-03",
         "kind": "pdf",
         "path": "reports/pdf/riesz-representation-hilbert-spaces.pdf",
         "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/riesz-representation-hilbert-spaces.pdf",
-        "sha256": "ab4d917a84d56000d5ce500df3240c17fe4c8a9725b3316eeb128dabfaa8e51a"
+        "sha256": "db76a1ff8ecbfee6d927aebc2539ff2b3a21cbda6e07ad5a692b7de3e14ba235"
       },
       {
         "project": "FA-04",
         "kind": "pdf",
         "path": "reports/pdf/uniform-boundedness-principle.pdf",
         "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/uniform-boundedness-principle.pdf",
-        "sha256": "9e14b4df7ab333df7bdc413872ef7e0c742724c101883a7033fa8639f19bed43"
+        "sha256": "bfea2267cdea3ebd7b87984f9143a72f34360114ca9a1b06d59eee6385768c6f"
       },
       {
         "project": "FA-05",
         "kind": "pdf",
         "path": "reports/pdf/hahn-banach-real-extension.pdf",
         "source": "2-Analysis/Functional-Analysis-and-Measure-Theory/projects/reports/pdf/hahn-banach-real-extension.pdf",
-        "sha256": "c80eb405c30c79b39cba17dc771556de684978c9481d4775f83e882949f90bd2"
+        "sha256": "6dc6b3d55ab5fe0234c0bc08f184f703ff421854855d0b802e3467ac9e5f33aa"
       }
     ]
   },
@@ -177,35 +177,35 @@
         "kind": "pdf",
         "path": "reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf",
         "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/fourier-orthogonality-and-bessels-inequality.pdf",
-        "sha256": "124472808086bef81f602e6d5bad0a5cfbe84bd7311afacf8a785eb54d6a5bae"
+        "sha256": "18a3ac2673b8547ba1c5667155f3ca56cbe9210fc052f5f8413d2ac25201e08a"
       },
       {
         "project": "HA-02",
         "kind": "pdf",
         "path": "reports/pdf/fejer-theorem.pdf",
         "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/fejer-theorem.pdf",
-        "sha256": "9f6866d59fb5dc79b20f07b009f6c4e034c0a53667a323763e789e63d2319d12"
+        "sha256": "29c34a509e86b3bc08f675c4a3949dfd909feac1806639cf63ac3a99445bd7c1"
       },
       {
         "project": "HA-03",
         "kind": "pdf",
         "path": "reports/pdf/parsevals-identity-for-fourier-series.pdf",
         "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/parsevals-identity-for-fourier-series.pdf",
-        "sha256": "8a5b48ce80199f0e2383c741abe5f06e6c4ec33ce95dead62caaa9df58fabb42"
+        "sha256": "45d615f47e231fbf18c1b2d0c011f2e8a460849523f7a5ab2098efd8100f9087"
       },
       {
         "project": "HA-04",
         "kind": "pdf",
         "path": "reports/pdf/plancherel-theorem-on-the-real-line.pdf",
         "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/plancherel-theorem-on-the-real-line.pdf",
-        "sha256": "7a9e4fc7ebba016b65eb24837b6eb8314fa4c495b6c84fec06ced011cafedf8b"
+        "sha256": "e4e7338e259c14252c9601f6e89b7a054efafe5b3cec76de4e22eadb04492fd0"
       },
       {
         "project": "HA-05",
         "kind": "pdf",
         "path": "reports/pdf/poisson-summation-formula.pdf",
         "source": "2-Analysis/Harmonic-Analysis/projects/reports/pdf/poisson-summation-formula.pdf",
-        "sha256": "a846dcee43bdb8f20a79896f468d9face2c48f5f94f65e9e246cc6a3bd7b58c6"
+        "sha256": "4d273ba28b0d2bf44c3e1f8add68020e638f2cc23674ce960635ef973e2d675f"
       }
     ]
   },
@@ -219,35 +219,35 @@
         "kind": "pdf",
         "path": "reports/pdf/intermediate-value-theorem.pdf",
         "source": "2-Analysis/Real-Analysis/projects/reports/pdf/intermediate-value-theorem.pdf",
-        "sha256": "e451491034fbe25a89673f8b484565720adcd834ec500ddb5bf934b4b19d4e32"
+        "sha256": "8573fd58b7fa0baceadb66f6fdd9e2f67c4908a0294a962e5bad93c748015dce"
       },
       {
         "project": "RA-02",
         "kind": "pdf",
         "path": "reports/pdf/heineborel-theorem.pdf",
         "source": "2-Analysis/Real-Analysis/projects/reports/pdf/heineborel-theorem.pdf",
-        "sha256": "579a9356846da4928014d882a822873a1f2730d4e3894c0aa3bd5f61946edee9"
+        "sha256": "fee3c4c1ea5aff59b4b3b54df52661a9100d152418c990b2f21c8bc3c6d94400"
       },
       {
         "project": "RA-03",
         "kind": "pdf",
         "path": "reports/pdf/banach-fixed-point-theorem.pdf",
         "source": "2-Analysis/Real-Analysis/projects/reports/pdf/banach-fixed-point-theorem.pdf",
-        "sha256": "c5d4997e222c2a54b081cd98e0d56060f80a2b40e68681ecf1acc8a63afaed08"
+        "sha256": "c1c0575a4b1daa309815c05cb41f5fc3d9b1be2a69b9af372e6ddedc0b07d368"
       },
       {
         "project": "RA-04",
         "kind": "pdf",
         "path": "reports/pdf/lebesgue-dominated-convergence-theorem.pdf",
         "source": "2-Analysis/Real-Analysis/projects/reports/pdf/lebesgue-dominated-convergence-theorem.pdf",
-        "sha256": "3eb519ff96cad3e8c192bb21646df7ab9361a5fdb13c815cd4b909f95ab4d1ce"
+        "sha256": "e925b003af9a7d88d4a546ce0a8ba85324ffa703dd7ea8d4ea18ace61688ae6a"
       },
       {
         "project": "RA-05",
         "kind": "pdf",
         "path": "reports/pdf/arzelaascoli-theorem.pdf",
         "source": "2-Analysis/Real-Analysis/projects/reports/pdf/arzelaascoli-theorem.pdf",
-        "sha256": "a99dd17c6c619c20be0f3e88b4c1c6d3131697780ede466ab51c4db9197a3887"
+        "sha256": "db31e9b64c0cfe1ca93eb1930262549fa68114fdc738d4567ad36a5cc06ca326"
       }
     ]
   },
@@ -261,35 +261,35 @@
         "kind": "pdf",
         "path": "reports/pdf/hilbert-basis-theorem.pdf",
         "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/hilbert-basis-theorem.pdf",
-        "sha256": "485ca3131edc63b1dcb712a30180b5cd813f2ce5a578515cfb43b6bffe8615eb"
+        "sha256": "58ff91707ebc4475816df711de684758e02e6e67e94e860a724d8a6da3063f0e"
       },
       {
         "project": "AG-02",
         "kind": "pdf",
         "path": "reports/pdf/weak-nullstellensatz.pdf",
         "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/weak-nullstellensatz.pdf",
-        "sha256": "31aab0bb42152b73140f02e07c593b053049b5b331f857ddc9578acf7557c1a4"
+        "sha256": "eab86d273b724e248d655b93f824915375ff10b3aaf66f5229b2fbdda829962f"
       },
       {
         "project": "AG-03",
         "kind": "pdf",
         "path": "reports/pdf/strong-nullstellensatz.pdf",
         "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/strong-nullstellensatz.pdf",
-        "sha256": "ffc95555d76ef68ef8e8db060bda90923e02be19380ee8c51a1d92f272190742"
+        "sha256": "596ece815e05c0568f1ca95c7e472eb9d1e32c89955819702aaf1d6b6da741b6"
       },
       {
         "project": "AG-04",
         "kind": "pdf",
         "path": "reports/pdf/irreducibility-and-prime-ideals.pdf",
         "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/irreducibility-and-prime-ideals.pdf",
-        "sha256": "e12d857209fde7ceb00d8656c2f5fe6c7d5da5c620e085d464965933f01f25c4"
+        "sha256": "e329388f935520804f892f28c103500ecb11d696ed7d5c6959ff7689a23cf9e0"
       },
       {
         "project": "AG-05",
         "kind": "pdf",
         "path": "reports/pdf/affine-morphisms-and-coordinate-rings.pdf",
         "source": "3-Algebra/Algebraic-Geometry/projects/reports/pdf/affine-morphisms-and-coordinate-rings.pdf",
-        "sha256": "0bf26da3991307c6559c3efb454f30004067dbcfb574590298c2037ce3ca84de"
+        "sha256": "ba8611110f525ce99fad2e1e75b7b5ad5190f250c56391019f0676cabeac3c94"
       }
     ]
   },
@@ -303,35 +303,35 @@
         "kind": "pdf",
         "path": "reports/pdf/ranknullity-theorem.pdf",
         "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/ranknullity-theorem.pdf",
-        "sha256": "3014778f667896057665011f848e1694bb81decafa330e75d6347612a23f6ccb"
+        "sha256": "9aaac4e16b0e4ee04879932660c4af53a2cbab4296aea480a0c9b0effd2ebde5"
       },
       {
         "project": "LA-02",
         "kind": "pdf",
         "path": "reports/pdf/gramschmidt-orthogonalization.pdf",
         "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/gramschmidt-orthogonalization.pdf",
-        "sha256": "b3dd5aed8736e81da777156fddc0d887cd3f292688ca1bb9ee096cd0fee4b37e"
+        "sha256": "7c97f544cc84ba890ac93a7f1a62a006997b21fbdac85378368111647c16fc72"
       },
       {
         "project": "LA-03",
         "kind": "pdf",
         "path": "reports/pdf/spectral-theorem-real-symmetric-matrices.pdf",
         "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/spectral-theorem-real-symmetric-matrices.pdf",
-        "sha256": "c1f8afdd15891cbd1c05c9494aefa7742d195011b04434eaa87d90f4fef3a55f"
+        "sha256": "69adc2d6dff32c145ed91a4d93fab14a3cea069eedbe4fd80a1bf546120a6d90"
       },
       {
         "project": "LA-04",
         "kind": "pdf",
         "path": "reports/pdf/singular-value-decomposition.pdf",
         "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/singular-value-decomposition.pdf",
-        "sha256": "1ccc5f5affd9628fe77b8365d4b073e86cd8ca8a76fd2380ff1b0fef8864bc9c"
+        "sha256": "4b2361fea2d046af6b0b0f946e0656d58485fbe2c5f12eb876bfffb576a6e26f"
       },
       {
         "project": "LA-05",
         "kind": "pdf",
         "path": "reports/pdf/jordan-canonical-form.pdf",
         "source": "3-Algebra/Linear-Algebra/projects/reports/pdf/jordan-canonical-form.pdf",
-        "sha256": "3cbbf58ce36fce7f25b7c4b77b4d014878a7fba3c4a846e6c6d351e6c99ceec3"
+        "sha256": "36abcda53c7cf7a1888044896b648fde7956ebf2c17dc09acc711dddf28032fd"
       }
     ]
   },
@@ -345,35 +345,35 @@
         "kind": "pdf",
         "path": "reports/pdf/lagranges-theorem.pdf",
         "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/lagranges-theorem.pdf",
-        "sha256": "2652fdd58b9e2a8e05e81a78342efc5e894258c2a84dc40f125f7518fb533a37"
+        "sha256": "0e6f489ed0bdf2ee3570bb8b3f2edcc3f5f4cee951601b4e2228efff09a2d8e7"
       },
       {
         "project": "MA-02",
         "kind": "pdf",
         "path": "reports/pdf/first-isomorphism-theorem-for-groups.pdf",
         "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/first-isomorphism-theorem-for-groups.pdf",
-        "sha256": "eba0ad8538b15afe690c28129f71254f6da689a6dcbcece053c5e176c7802476"
+        "sha256": "e99639474990afd2ab864cb3b18f9ce981606d529dd81495e435d69912bed206"
       },
       {
         "project": "MA-03",
         "kind": "pdf",
         "path": "reports/pdf/classification-groups-order-pq.pdf",
         "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/classification-groups-order-pq.pdf",
-        "sha256": "4f42ce997836ef85b9db1858533b534179163edf3beb9e13d643d951f06504a4"
+        "sha256": "77015d614cb1097001a1768dd06a529609b7b92fece9ed916c312e9ea70ab4f1"
       },
       {
         "project": "MA-04",
         "kind": "pdf",
         "path": "reports/pdf/fundamental-theorem-of-galois-theory.pdf",
         "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/fundamental-theorem-of-galois-theory.pdf",
-        "sha256": "fa097f90480279cba8199fd474a13aaf8ee10ae62483dcb241eab3345b1d7d19"
+        "sha256": "5d5095340299892d75c6097f8c024515502113235254054511317bacc9ce2b74"
       },
       {
         "project": "MA-05",
         "kind": "pdf",
         "path": "reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf",
         "source": "3-Algebra/Modern-Algebra/projects/reports/pdf/abelruffini-theorem-via-an-explicit-quintic.pdf",
-        "sha256": "17423fc4f0f2a262b78fbad9ee4210e8df7f83115aaaf4ca116ed036d4cc6e37"
+        "sha256": "cd40a8cfe295e80d2303699bcd6fc81c0fbc63dfdc880f8c606051c109d86b9c"
       }
     ]
   },
@@ -387,35 +387,35 @@
         "kind": "pdf",
         "path": "reports/pdf/maschke-theorem.pdf",
         "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/maschke-theorem.pdf",
-        "sha256": "deefc544e4a74a7877c7b2756d0b91bdbdb1f971ad6bdae46ccc7e56ff7f3fcc"
+        "sha256": "793f24e571d4f62298604b7a572ff8953f74bd6b45b1e27247aace8043155745"
       },
       {
         "project": "RT-02",
         "kind": "pdf",
         "path": "reports/pdf/schur-lemma.pdf",
         "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/schur-lemma.pdf",
-        "sha256": "af05a8962e90e519638966015b7e5cd10d47eda1f9432a1339aafc9d1e82928e"
+        "sha256": "dd5238caa7da5c6972f6bdc3270c0773a2c01cef5201caed7058718bae9f1a55"
       },
       {
         "project": "RT-03",
         "kind": "pdf",
         "path": "reports/pdf/character-orthogonality.pdf",
         "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/character-orthogonality.pdf",
-        "sha256": "c2ca130f42a8660085d9f7dacde1d1d84969eed13fa7289e71fc38f499666f55"
+        "sha256": "d38bc174fa970c186977462a137c3708ff18168b6d366d2f28d13ec116abac7d"
       },
       {
         "project": "RT-04",
         "kind": "pdf",
         "path": "reports/pdf/lie-theorem.pdf",
         "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/lie-theorem.pdf",
-        "sha256": "94d2579f0110d971e586324102acf7314ac9fbb70537c4c83af3723e998f3518"
+        "sha256": "6648c068fae13160dcbfac804888f809bb884681ced722368ff1553750e15257"
       },
       {
         "project": "RT-05",
         "kind": "pdf",
         "path": "reports/pdf/sl2-irreducible-classification.pdf",
         "source": "3-Algebra/Representation-Theory-and-Lie-Theory/projects/reports/pdf/sl2-irreducible-classification.pdf",
-        "sha256": "8ab05d27838c332763c69c2c5fc334a9cbaaf5c096b5cc9597570393677c9e37"
+        "sha256": "090b668db261d9b5eac0963b042ee5663f9876fa41429cd61cb4b43b58a2ec43"
       }
     ]
   },
@@ -429,35 +429,35 @@
         "kind": "pdf",
         "path": "reports/pdf/fundamental-group-of-the-circle.pdf",
         "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/fundamental-group-of-the-circle.pdf",
-        "sha256": "65f9141624e062132f51419db2d20ed71f2412a108b847e9772ed881d34d7a33"
+        "sha256": "eec50ba894191e71014c25707bed1012046df2938069db428d5c38d3b432ec47"
       },
       {
         "project": "AT-02",
         "kind": "pdf",
         "path": "reports/pdf/fundamental-group-of-torus.pdf",
         "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/fundamental-group-of-torus.pdf",
-        "sha256": "254b8375d4eae7247d386ed68cd843e48819540c0ad552b1b3efa54c8260810c"
+        "sha256": "6339ccfdc9e7302f20792d10ea58abb4742b96de9b3b33df8542eeb0d15da0dd"
       },
       {
         "project": "AT-03",
         "kind": "pdf",
         "path": "reports/pdf/homology-of-the-torus.pdf",
         "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/homology-of-the-torus.pdf",
-        "sha256": "d570a879ffb1cb6196603ee9c7dd1dca4b0a1b0db2ffc788e4f2b89a049cd16d"
+        "sha256": "e5b86979d28e888efb8dfac7fdee829dfbd969d6e7cb48205ee3b790b23e0f95"
       },
       {
         "project": "AT-04",
         "kind": "pdf",
         "path": "reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf",
         "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/brouwer-fixed-point-theorem-via-no-retraction.pdf",
-        "sha256": "aac70f7be9531593fbbb337c4c79550a027f24a90a76e19bc75d4411d17440a7"
+        "sha256": "3c2268b4021e49ac32d44a5be85f3e3b98dad0c8fd3f9d3146590ee1325fe694"
       },
       {
         "project": "AT-05",
         "kind": "pdf",
         "path": "reports/pdf/poincare-duality.pdf",
         "source": "4-Geometry-and-Topology/Algebraic-Topology/projects/reports/pdf/poincare-duality.pdf",
-        "sha256": "b2348ac1df0a1f9334826a91089793b90cc00e7fe08a14b7227298835bcd791a"
+        "sha256": "563f1c5ee18a4f6bd4d6a823629c21bb49d3c520dfb3837092fdbde6257af266"
       }
     ]
   },
@@ -471,35 +471,35 @@
         "kind": "pdf",
         "path": "reports/pdf/frenetserret-formulas.pdf",
         "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/frenetserret-formulas.pdf",
-        "sha256": "27e32d5e8dbc7a133f0ca143e74d17bc6bbfce2e2be2653f7ef629d18c322eba"
+        "sha256": "8502c92eef6b2ae65f93a8c81553ced2bccd399bf9463be6744486d4de849c58"
       },
       {
         "project": "DG-02",
         "kind": "pdf",
         "path": "reports/pdf/great-circles-as-sphere-geodesics.pdf",
         "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/great-circles-as-sphere-geodesics.pdf",
-        "sha256": "7e0e0f5c89bde2cd8062c7f6f194e701d18daa95d17e517244e8062fa533e4e0"
+        "sha256": "2199a68b4cf6a9660f064460e54bb4837e99a92ae7c7b1a92b5de959df6a57ad"
       },
       {
         "project": "DG-03",
         "kind": "pdf",
         "path": "reports/pdf/gauss-theorema-egregium.pdf",
         "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/gauss-theorema-egregium.pdf",
-        "sha256": "9971269f21999edb7045658557026e62a0cd207b36eaaff98d9e8c3f18bbbff6"
+        "sha256": "7e3079e4af9cca051afdcf7637734b0ab52b2fb2f7abd067ac5be0ca61b397f0"
       },
       {
         "project": "DG-04",
         "kind": "pdf",
         "path": "reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf",
         "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/global-gaussbonnet-theorem-for-surfaces.pdf",
-        "sha256": "1055be5d2e133c1029197d98c120ea96cb7b9f7655e474708c8ad8f9a20ed0d2"
+        "sha256": "bdd57b8da3ff29ea6114ec8ea04bae27368ea159d02e56d62481c5ce6ecdd5b6"
       },
       {
         "project": "DG-05",
         "kind": "pdf",
         "path": "reports/pdf/hopfrinow-theorem.pdf",
         "source": "4-Geometry-and-Topology/Differential-Geometry/projects/reports/pdf/hopfrinow-theorem.pdf",
-        "sha256": "9a5c54161bddfdb1c193a62929202e8135ebf5460cf4bae7e5049add46fd23c2"
+        "sha256": "c1c4d94c0a3ee1bbb7a90c03a5efb7a476fc2f0062e4d21baeac30aa084eff2e"
       }
     ]
   },
@@ -513,35 +513,35 @@
         "kind": "pdf",
         "path": "reports/pdf/continuous-images-preserve-connectedness.pdf",
         "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/continuous-images-preserve-connectedness.pdf",
-        "sha256": "154420b625e324ee5232f7692cdff2fe54861fc0656e689e37d53f9d1545c5b6"
+        "sha256": "464b170aadc2cc073d691c6b970da54a3a99485512cae7a4d9644b2bd0946e15"
       },
       {
         "project": "GT-02",
         "kind": "pdf",
         "path": "reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf",
         "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/compact-hausdorff-homeomorphism-theorem.pdf",
-        "sha256": "b3b1b3ba04edc92d145037c4f7392e6ed831fe46fe5a7b64dbd8fec982a12366"
+        "sha256": "c8ab8adb2b6705e68602147b30653314ffd866e6cfff45a609ace9d86ece05fd"
       },
       {
         "project": "GT-03",
         "kind": "pdf",
         "path": "reports/pdf/urysohns-lemma.pdf",
         "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/urysohns-lemma.pdf",
-        "sha256": "670d8fb6883b419a434d0a057a378179ef795f75bba3c8fee007211d69cfdf12"
+        "sha256": "7b1d7edc8cea7e28ffb656ee8ae3b4abfbf8a67b3b924ce2a5e1ac7e3933481f"
       },
       {
         "project": "GT-04",
         "kind": "pdf",
         "path": "reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf",
         "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/baire-category-theorem-for-complete-metric-spaces.pdf",
-        "sha256": "11dc7c44dffd49fdb4de83264ae519218e89df6e6480606f8abca0b2340c938d"
+        "sha256": "e29504a262c3a7ab4750d069d5e046c2356f36dbf7a9ddd2c9e5e4d04d151bff"
       },
       {
         "project": "GT-05",
         "kind": "pdf",
         "path": "reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf",
         "source": "4-Geometry-and-Topology/General-Topology/projects/reports/pdf/tychonoffs-theorem-for-compact-hausdorff-spaces.pdf",
-        "sha256": "371e6c25cb13bbe0d549c31fd1721c9a01c4703b235ff385df1c965132cd7d0a"
+        "sha256": "dc73a3e710dcb7118f2e321a87d01c492a1f8706c2d8b5fbb952e9953bcc3c32"
       }
     ]
   },
@@ -555,35 +555,35 @@
         "kind": "pdf",
         "path": "reports/pdf/first-order-convex-optimality.pdf",
         "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/first-order-convex-optimality.pdf",
-        "sha256": "1bacd2b81024ce8e0b199ae87948145f7edb07cce72b6be533c0d5095393a8e0"
+        "sha256": "7b4d321f7ab569343614e0c356d17f8ee742df6393f4a454b881366a9245497a"
       },
       {
         "project": "ON-02",
         "kind": "pdf",
         "path": "reports/pdf/lagrange-multiplier-theorem.pdf",
         "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/lagrange-multiplier-theorem.pdf",
-        "sha256": "fa097e3390594caea83da4470f4129cf1bc03bb6ae8806501418ceb12f889e9c"
+        "sha256": "49cdbd25b6c6b7ffac175512aa0d10e25142489ec3243ffbbdc4f3a65d6a5cfc"
       },
       {
         "project": "ON-03",
         "kind": "pdf",
         "path": "reports/pdf/gradient-descent-linear-convergence.pdf",
         "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/gradient-descent-linear-convergence.pdf",
-        "sha256": "7363f0520c8d47150a75361c4ff7e9c7e98229824f54ed0bcddaa95b905c0957"
+        "sha256": "76727df1fb800dc0fcd5ff47e880808479bbdd3017945f13dc19208073f26869"
       },
       {
         "project": "ON-04",
         "kind": "pdf",
         "path": "reports/pdf/newton-local-quadratic-convergence.pdf",
         "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/newton-local-quadratic-convergence.pdf",
-        "sha256": "e5ebcdd110b108e65c2ba84b1822862e116d8aba05111e7ce127ff041f96fcd0"
+        "sha256": "caae11f20bb7da0f3b2ba6856e8c4a2550c8e698f3524d1891382729c56bb3e1"
       },
       {
         "project": "ON-05",
         "kind": "pdf",
         "path": "reports/pdf/composite-trapezoidal-error.pdf",
         "source": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis/projects/reports/pdf/composite-trapezoidal-error.pdf",
-        "sha256": "8e375a51a70f49eccd56fe2a705f3a115a719e7f9a411414eda9c609427d0ad4"
+        "sha256": "c7b226c28398060115ef5ff0bbb386e9d4e3d14bb5b48fe2ed8f6781bd1c585f"
       }
     ]
   },
@@ -597,35 +597,35 @@
         "kind": "pdf",
         "path": "reports/pdf/weak-maximum-principle.pdf",
         "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/weak-maximum-principle.pdf",
-        "sha256": "06a40f803ef7010e0ee353428f8ab9353487f9b211f4db9b1463891009efd3f3"
+        "sha256": "caa570d5d47098c1beeb1a5fae9a0db8881b178462c57d79f150ea94914f9721"
       },
       {
         "project": "PDE-02",
         "kind": "pdf",
         "path": "reports/pdf/weak-poisson-dirichlet-existence.pdf",
         "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/weak-poisson-dirichlet-existence.pdf",
-        "sha256": "e0d655240f2a451fdf416941b2cb7d84e1595ed1a5c64821a6e10f553d589f6f"
+        "sha256": "6438d1d1262aaed80bc384def6b7d257dfae777f91069df8d437503a994e1e10"
       },
       {
         "project": "PDE-03",
         "kind": "pdf",
         "path": "reports/pdf/heat-equation-energy-uniqueness.pdf",
         "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/heat-equation-energy-uniqueness.pdf",
-        "sha256": "745e108fdd1836bb6eedb205c70e8fcbb85b814a57a0d6d4e6754b72458d6021"
+        "sha256": "fc8778b87ad7fd46bab25d1eee794f44460f11ac8ccc78fac043fb06cc6544c9"
       },
       {
         "project": "PDE-04",
         "kind": "pdf",
         "path": "reports/pdf/heat-kernel-initial-value-solution.pdf",
         "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/heat-kernel-initial-value-solution.pdf",
-        "sha256": "17ab52257ea07e7b88541ad836ba35155b1f2ae82f82a1f480e42492e5e9af7d"
+        "sha256": "e096a278aa4822c8b7a3b47daa1991d4fc11cbb8ccd872cbfe1b2701706b00c7"
       },
       {
         "project": "PDE-05",
         "kind": "pdf",
         "path": "reports/pdf/dalembert-wave-formula.pdf",
         "source": "5-Applied-Mathematics/Partial-Differential-Equations/projects/reports/pdf/dalembert-wave-formula.pdf",
-        "sha256": "b9f3647ed711ff4a93bcdb3c8f9540118c6bf8537af9f2c83e3754a90dab8747"
+        "sha256": "6d7da67f6da04bcc6dc233d63d2d3ca023857a6008f537cad6d742c97b13f49f"
       }
     ]
   },
@@ -639,35 +639,35 @@
         "kind": "pdf",
         "path": "reports/pdf/borel-cantelli-lemmas.pdf",
         "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/borel-cantelli-lemmas.pdf",
-        "sha256": "69a1836faaee3c9627e4f6a8895dc7115ca23f15eec2abdee838b46edba30efc"
+        "sha256": "bf578f99f1d28a239a817cbf430a44dd7065ac6172ba0ddfdf9c6cb5026e4edd"
       },
       {
         "project": "PS-02",
         "kind": "pdf",
         "path": "reports/pdf/strong-law-finite-fourth-moment.pdf",
         "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/strong-law-finite-fourth-moment.pdf",
-        "sha256": "341670378bae6df7bcc1a3cc44c7f69afe94bbfacb006e68765f87632f7e01a3"
+        "sha256": "34bf78b97a590201fd5c79c6822f76c24f82532f27b7e4214f0f33a9fd1a67ad"
       },
       {
         "project": "PS-03",
         "kind": "pdf",
         "path": "reports/pdf/bounded-optional-stopping.pdf",
         "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/bounded-optional-stopping.pdf",
-        "sha256": "c66f0ff5c3b7b87f0ee21ad39e711acaa1f2263a8640a13def9568432af8ab87"
+        "sha256": "db3a60afafa484447b7ac2345c3ad627010f0b59fc237504901caa956151aa76"
       },
       {
         "project": "PS-04",
         "kind": "pdf",
         "path": "reports/pdf/doob-l2-maximal-inequality.pdf",
         "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/doob-l2-maximal-inequality.pdf",
-        "sha256": "212f015dd36778648bc497b78f4ceca39f1de95b9756ccc82081d2ddf164fea3"
+        "sha256": "80ec945b9ed80b2c43e31f8ec83c4b6c95da0c7e927ef1b64f06d8c5d2e20708"
       },
       {
         "project": "PS-05",
         "kind": "pdf",
         "path": "reports/pdf/positive-finite-markov-chain.pdf",
         "source": "5-Applied-Mathematics/Probability-and-Stochastic-Processes/projects/reports/pdf/positive-finite-markov-chain.pdf",
-        "sha256": "5b8b405b2baa8b9be39ddfb0649d48a8b8198570611dfea4d0d6e533e7a5ea6c"
+        "sha256": "0b718ab474b1a9e9d331acd1b381f265066367a10e41ccd1ef73ee17adeae794"
       }
     ]
   },
@@ -681,35 +681,35 @@
         "kind": "pdf",
         "path": "reports/pdf/cantor-theorem.pdf",
         "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/cantor-theorem.pdf",
-        "sha256": "72132bab7f62e4a77bc27f2d88a936c4920cf483529e26ca2735cb389bf1a41c"
+        "sha256": "bae6effa352c77ed52b5bcf5a7e1cd068021f77b3f4efd62d63cfc8577e927f6"
       },
       {
         "project": "LF-02",
         "kind": "pdf",
         "path": "reports/pdf/cantor-schroeder-bernstein.pdf",
         "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/cantor-schroeder-bernstein.pdf",
-        "sha256": "ff3d11fd497afaf3c1c2fdb1d622049721cad35d00ffb3868bdebb462cb641be"
+        "sha256": "d77a96d18dbd605940b92bca866ff9fb619b44fd23ecb9d04c0aec20146aad5a"
       },
       {
         "project": "LF-03",
         "kind": "pdf",
         "path": "reports/pdf/first-order-compactness-ultraproduct.pdf",
         "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/first-order-compactness-ultraproduct.pdf",
-        "sha256": "d19e496cc846713afa84e8f5e173644e2ed7b8b39001a470fa235fa3cfc50711"
+        "sha256": "3cca9b71a804464b4e0e1835e87235b57ff3457d2d8e143a6c22adf214c3ac79"
       },
       {
         "project": "LF-04",
         "kind": "pdf",
         "path": "reports/pdf/downward-lowenheim-skolem.pdf",
         "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/downward-lowenheim-skolem.pdf",
-        "sha256": "962c92f264c6cf31f54fb7df39948732a483d5dab54dd9280622240149540a79"
+        "sha256": "56aa7164c093a764c4343a75c4eb2a882def7e1efd8419b812ed1b9449dd6f80"
       },
       {
         "project": "LF-05",
         "kind": "pdf",
         "path": "reports/pdf/halting-problem-undecidability.pdf",
         "source": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory/projects/reports/pdf/halting-problem-undecidability.pdf",
-        "sha256": "3902e83897d5a01fe4c49023766067c2de4c60279dd65bb4cdd12e184cf5e105"
+        "sha256": "808d95e4380fe0a14041eb7e9555ccdf529c2aa760600375796eaeb247e5bfa8"
       }
     ]
   }

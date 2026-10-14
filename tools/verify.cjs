@@ -19,7 +19,7 @@ const count=(n,e)=>n.toLocaleString()+' nodes · '+e.toLocaleString()+' connecti
   }
   for(let i=0;i<subjects.length;i++){
    const s=subjects[i];await page.goto(home);await page.locator('.subject-card[href="'+s.path+'"]').click();await page.locator('.compare').click();await frames();
-   assert.equal(await page.locator('#subjectTitle').textContent(),s.title);assert.equal(await page.locator('#stats').textContent(),count(s.nodes,s.edges));assert.equal(await page.locator('.faculty').count(),0);
+   assert.equal(await page.locator('#subjectTitle').textContent(),s.title);assert.equal(await page.locator('#stats').textContent(),count(s.nodes,s.edges));assert.equal(await page.locator('.component').count(),0);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    const other=subjects[(i+1)%subjects.length],foreign=fs.readFileSync(path.join(root,'subjects',other.slug,'graph.json'));
    await page.locator('#importFile').setInputFiles({name:'foreign.json',mimeType:'application/json',buffer:foreign});await page.locator('#toast').filter({hasText:'another subject'}).waitFor();assert.equal(await page.locator('#stats').textContent(),count(s.nodes,s.edges));

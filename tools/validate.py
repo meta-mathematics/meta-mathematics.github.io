@@ -33,7 +33,7 @@ for s in subjects:
   assert byid[e['source']]['layer']==byid[e['target']]['layer']
   assert e.get('subjectId',s['subjectId'])==s['subjectId']
  assert all(n.get('subjectId',s['subjectId'])==s['subjectId'] for n in g['nodes'])
- assert not any('faculties' in n for n in g['nodes'])
+ assert not any('components' in n for n in g['nodes'])
  bootstrap=(app/'graph-data.js').read_text().split('window.META_GRAPH = ',1)[1].strip().removesuffix(';');assert json.loads(bootstrap)==g
  assert s['nodes']==sum(n['layer']=='global' for n in g['nodes']);assert s['edges']==sum(e['type']!='contains' for e in g['edges'])
  js=(app/'assets/explorer.js').read_text();assert "'meta-math.website.graph.v1.'" in js and 'another subject' in js
@@ -58,7 +58,7 @@ for s in subjects:
   nodes={n['id'] for n in p['nodes']};assert len(nodes)==len(p['nodes'])
   assert all(e['source'] in nodes and e['target'] in nodes for e in p['edges'])
   graphlib.TopologicalSorter({i:{e['source'] for e in p['edges'] if e['target']==i} for i in nodes}).prepare()
-  for n in p['nodes']:assert set(n['faculties'])=={'Ego','Memory','Intellect','Sense','Action'}
+  for n in p['nodes']:assert set(n['components'])=={'Contract','Knowledge','Strategy','Validation','Execution'}
   assert 'tex' not in p and 'markdown' not in p
   for key in ['pdf']:
    f=(folder/p[key]).resolve();assert f.is_relative_to(folder) and f.is_file()
@@ -79,5 +79,5 @@ for s in subjects:
   assert hashlib.sha256((folder/f['path']).read_bytes()).hexdigest()==f['sha256']
   if args.source_root:assert hashlib.sha256((args.source_root/f['source']).read_bytes()).hexdigest()==f['sha256']
  assert s['projectAgents']==sum(len(p['nodes']) for p in d['projects'])
-report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All global and local graph endpoints belong to their own subject or project','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','Five faculties appear only inside local project agents','All 85 project DAGs and theorem-import maps are acyclic','All 85 PDF downloads match their source checksums; project source files remain in the backend','Relative dashboard return links and GitHub Pages marker present'])
+report=dict(passed=True,date=datetime.datetime.now(datetime.timezone.utc).isoformat(),counts=counts,internalLinksAndAssetsChecked=checked,sourceFidelityChecked=bool(args.source_root),checks=['All 17 independent subject packages present','All internal HTML links and assets stay inside META-GRAPH','All global and local graph endpoints belong to their own subject or project','No book/global dependency mixing','Graph JSON and offline bootstraps agree','Subject identities and website draft keys are independent','All dashboard counts match graph data','Five functional components appear only inside local project agents','All 85 project DAGs and theorem-import maps are acyclic','All 85 PDF downloads match their source checksums; project source files remain in the backend','Relative dashboard return links and GitHub Pages marker present'])
 (ROOT/'reports').mkdir(exist_ok=True);(ROOT/'reports/validation.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

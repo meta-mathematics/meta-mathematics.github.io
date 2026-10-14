@@ -99,7 +99,7 @@
     "graph": "graph.json",
     "book": "resources/book-outline.md",
     "map": "resources/meta-graph.md",
-    "scope": "Curated theorem/definition/lemma/corollary graph. Typed edges describe selected dependencies, not exhaustive formal proof certificates. Book containment is a separate reference layer. No faculty workflows are included.",
+    "scope": "Curated theorem/definition/lemma/corollary graph. Typed edges describe selected dependencies, not exhaustive formal proof certificates. Book containment is a separate reference layer. No component workflows are included.",
     "originalProvenance": {
       "map": "meta-graph.md",
       "mapSha256": "6a95b96addee063e5a02e0edef98369e4b44f602a2b8ddc1501255892b34fdd3",
@@ -107,7 +107,7 @@
       "catalogSha256": "cd6863e2963b86c342b8dda80b92206d4eb3544a093c2312ffce5c3daef63e14",
       "book": "../book/latex/structure.json",
       "bookSha256": "51bc1300b8c452021898d8b7e712fda27470f36cb663bd8ebdb40217eff0d985",
-      "scope": "Curated theorem/definition/lemma/corollary graph. Typed edges describe selected dependencies, not exhaustive formal proof certificates. Book containment is a separate reference layer. No faculty workflows are included."
+      "scope": "Curated theorem/definition/lemma/corollary graph. Typed edges describe selected dependencies, not exhaustive formal proof certificates. Book containment is a separate reference layer. No component workflows are included."
     }
   },
   "nodes": [

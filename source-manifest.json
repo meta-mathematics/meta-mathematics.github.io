@@ -1,119 +1,119 @@
 {
   "number-theory": {
     "sourceSubject": "1-Number-Theory",
-    "sourceGraphSha256": "5b62486e0f4b83323a32ca59ef6bf3f30ab03a9e050d398cf075ab1b10ae5746",
+    "sourceGraphSha256": "fbc7120f52077c7acc7e5b3e042d1061a77f5bcf82a85b23d91c612e8170b558",
     "publishedGraphSha256": "251ea733b7eae305028d29185ec501ce3de52b778d9f59ae46a333c02e7b7acc",
     "nodes": 246,
     "edges": 324
   },
   "advanced-calculus": {
     "sourceSubject": "2-Analysis/Advanced-Calculus",
-    "sourceGraphSha256": "adb5760884f690cb4775f23e1af714cd5f85b1695e7850bd4cc00fadab8c73ef",
+    "sourceGraphSha256": "235cc9c3eb9f06b364e293f96de4d3e55b3aa6dc301279cc9771d43d887c0f96",
     "publishedGraphSha256": "718eea23833036441ea0cae5827d435414a884c70d54089d16079639393fd0d4",
     "nodes": 148,
     "edges": 164
   },
   "complex-analysis": {
     "sourceSubject": "2-Analysis/Complex-Analysis",
-    "sourceGraphSha256": "1bf72bd3d3ecbf111fa78d21088e8cf408b634f01c4f94d7976f1defe0a1cbf6",
+    "sourceGraphSha256": "6833d38c5de5e500c56311fd5badbea379d91be448115e0e94f1220bf2fd2cf8",
     "publishedGraphSha256": "dc90a2515c990956294594a57a8b27eac9c82fc5aa1c3077008e1959a5f568df",
     "nodes": 157,
     "edges": 167
   },
   "functional-analysis-and-measure-theory": {
     "sourceSubject": "2-Analysis/Functional-Analysis-and-Measure-Theory",
-    "sourceGraphSha256": "6bd174361f3c6458f16a095f752fbff1033590c9a8586d42a3e60207275a4687",
+    "sourceGraphSha256": "90f4fe7336244ef7b553d741de34a05b36b2095847702fc40f8e36d051482eed",
     "publishedGraphSha256": "0d79136d0bc0f23ab86668df6812febd91d6662d0a675148456403575da273ed",
     "nodes": 156,
     "edges": 159
   },
   "harmonic-analysis": {
     "sourceSubject": "2-Analysis/Harmonic-Analysis",
-    "sourceGraphSha256": "4b4494a7d1d7f5f52266f9f7d79e53ccb5dcfd328450b295b606d2fe6820e477",
+    "sourceGraphSha256": "c8186f40d0f9b9f015b68653f941caecfa454a8286f21cb88e5ee2e7c520ee34",
     "publishedGraphSha256": "0ea98ac627006f537e29a1c5c406b9247ab9e6e78c41534a0764f0c699e47214",
     "nodes": 141,
     "edges": 143
   },
   "real-analysis": {
     "sourceSubject": "2-Analysis/Real-Analysis",
-    "sourceGraphSha256": "2f3a6de5036828e5460527d8979859162bbef8497b2ed1d12bed5695b763f431",
+    "sourceGraphSha256": "fb64f7fe0e5e0dd4b2a422054048236b59766d7cac58d674c109058b29469d08",
     "publishedGraphSha256": "d8d04ef3c730ad971fe80472fba11466a283522a9c0759f8f87c48fb635f888e",
     "nodes": 149,
     "edges": 146
   },
   "algebraic-geometry": {
     "sourceSubject": "3-Algebra/Algebraic-Geometry",
-    "sourceGraphSha256": "f6fd3a3f2f2426d991e71558fff8918ba1f96f6613c38526a27a49a1ef817d93",
+    "sourceGraphSha256": "2ca1aa959740d87850eeb3276edaa7b497946c4a76d61b8fac32d7878611ff39",
     "publishedGraphSha256": "147af08c4e1436182ddc66e598c546de5275b7364b6cea3230d92f3ca777fd2b",
     "nodes": 141,
     "edges": 148
   },
   "linear-algebra": {
     "sourceSubject": "3-Algebra/Linear-Algebra",
-    "sourceGraphSha256": "43465a7a09976f39e6e23c11a3e0ecec0c6cad3d777f05e2ab5eb2d9c213ffc1",
+    "sourceGraphSha256": "4dcf5c84b8136dc7d65544b27b6ea824425358e405b110eb33656142a4256512",
     "publishedGraphSha256": "549c33a1a46db20dd4b209f62cea045691a5c96c61b4263854a4cd91ba7fa0e0",
     "nodes": 141,
     "edges": 145
   },
   "modern-algebra": {
     "sourceSubject": "3-Algebra/Modern-Algebra",
-    "sourceGraphSha256": "58c6091f33b5f82714b61a3b5279bd06024f0ea9992c3caff516838f29f7e5c9",
+    "sourceGraphSha256": "624ed5a04fb3a520ff4ec217b717bc65b994e0a8e75dba7a059b6f7dc5335b8d",
     "publishedGraphSha256": "5cc5cab3255def628effc2777a63920eddf86ec7481d866d40e09443682b1b08",
     "nodes": 141,
     "edges": 141
   },
   "representation-theory-and-lie-theory": {
     "sourceSubject": "3-Algebra/Representation-Theory-and-Lie-Theory",
-    "sourceGraphSha256": "4d417930f477e2ac4b4d206290be041a5e1ede1415c86c9268b8721eb3acdf7c",
+    "sourceGraphSha256": "f72fc32705a20710d47069d757c369d1fa6277505ca794b66304c7d6f5737696",
     "publishedGraphSha256": "a802c9e9bf226ad310732356842fffe430740172f32131209e5121a5a2ae0600",
     "nodes": 148,
     "edges": 154
   },
   "algebraic-topology": {
     "sourceSubject": "4-Geometry-and-Topology/Algebraic-Topology",
-    "sourceGraphSha256": "d9c18170f403b9a60f370c2af3c6d722a70f3de19c78fe167f7da125bc53beb3",
+    "sourceGraphSha256": "6839ac046c2d99c50d88606e6e2f5a1c1b95f3bcceb00d5bdc8487a092f44c81",
     "publishedGraphSha256": "96924f5997134aea379bcc0c2772bb62c663cfc3802d1b11553bcb83b5549005",
     "nodes": 141,
     "edges": 150
   },
   "differential-geometry": {
     "sourceSubject": "4-Geometry-and-Topology/Differential-Geometry",
-    "sourceGraphSha256": "f5da1d73c81c7edbda2b3c0f5333cf76d445773ad89dc1dc111233f6ce208d9d",
+    "sourceGraphSha256": "50a8af408a437f86b66decffdb9a12ec4af23f2dc1f53bb0117f0f1b452bd46c",
     "publishedGraphSha256": "41c40281ff27cdee0e417cc4d8bfb161b822587f5d4ad7f1379d34aeff340e4e",
     "nodes": 141,
     "edges": 157
   },
   "general-topology": {
     "sourceSubject": "4-Geometry-and-Topology/General-Topology",
-    "sourceGraphSha256": "bd1072705870293225c55384c38ad11bd22056bb235165fb3feba28a10ee4d1e",
+    "sourceGraphSha256": "75543795358439c79280e21cdbb117b7c31b647345593d27bacef542d1f8bf62",
     "publishedGraphSha256": "1518c2ccc4d8aa6ec295e41cf731395848f5467bc8c73d5ebb0bd68e9c930d06",
     "nodes": 140,
     "edges": 147
   },
   "optimization-and-numerical-analysis": {
     "sourceSubject": "5-Applied-Mathematics/Optimization-and-Numerical-Analysis",
-    "sourceGraphSha256": "4a712d8f3a202bee52e63e502f557f59d74dc2958e552c21d1253f99227e6d61",
+    "sourceGraphSha256": "b8cb2d25855bad5894ca10e2fbf3ec7c850568d4fc016303258893704d9c3e9e",
     "publishedGraphSha256": "a0b0aacc9aa92ad16b102e6a24100079c5728df61daf7238130f3f87a2f57da3",
     "nodes": 142,
     "edges": 137
   },
   "partial-differential-equations": {
     "sourceSubject": "5-Applied-Mathematics/Partial-Differential-Equations",
-    "sourceGraphSha256": "821757ef45e4fb414d42f9f2150c16001fa04c4c3ab72ce3bd862164696d7dca",
+    "sourceGraphSha256": "3fdb57fedf64358a2ff1a03992b321bc423e5f2b3f83c4b1e27b14d59fcc3cd9",
     "publishedGraphSha256": "8959202815b847eedbdfdffbf223c5780ce17e4486a0e2ba5fef124f73d06cdc",
     "nodes": 148,
     "edges": 156
   },
   "probability-and-stochastic-processes": {
     "sourceSubject": "5-Applied-Mathematics/Probability-and-Stochastic-Processes",
-    "sourceGraphSha256": "8c74459c8adeb69e5e9e8e9d15247c5d43e4c46ae6ece08bfc7339b0b9409c99",
+    "sourceGraphSha256": "7716e3f52451adf8654634549b8d033f3c7df3fc0b7fa25ba5e290f31b06662d",
     "publishedGraphSha256": "45bb1250ee66559c322a2dc402f1851d00375fd9c8dfc15c86e12cfa93ef827f",
     "nodes": 142,
     "edges": 149
   },
   "mathematical-logic-and-set-theory": {
     "sourceSubject": "6-Logic-and-Foundations/Mathematical-Logic-and-Set-Theory",
-    "sourceGraphSha256": "f0a336d716f6163a43b3b83b9217668d43a734825cbf3d87afa80a1fb57b3664",
+    "sourceGraphSha256": "97b0fb3cdd593295031db4bacead543e448479ef668c769bedba29b0dd157858",
     "publishedGraphSha256": "068de649650fe999391388e43b83d36dd1391ae13ed832b1a91cca250592c4d9",
     "nodes": 140,
     "edges": 146

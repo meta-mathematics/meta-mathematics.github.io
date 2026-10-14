@@ -12,7 +12,7 @@
 .proof-studio>.masthead{background:#fcfcf9;max-width:none}.proof-studio .brand .mark{background:#146959;border-radius:10px}
 .proof-studio .global-link,.proof-breadcrumb a,.proof-studio>footer a{color:#146959}
 .proof-breadcrumb{max-width:1440px;margin:auto;padding:14px 48px 0;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:12px;color:#677b79}
-.proof-studio .intro{padding-top:42px}.proof-studio .studio-grid>*,.proof-studio .faculty-rail,.proof-studio .faculty,.proof-studio #node-detail,.proof-studio .target,.proof-studio .project-heading>*{min-width:0}
+.proof-studio .intro{padding-top:42px}.proof-studio .studio-grid>*,.proof-studio .component-rail,.proof-studio .component,.proof-studio #node-detail,.proof-studio .target,.proof-studio .project-heading>*{min-width:0}
 .proof-studio math[display="inline"]{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}
 .proof-studio .overview-graph{padding:12px;overflow:auto}
 .proof-studio .overview-graph svg{width:auto;min-width:0;max-width:none;height:auto;margin-inline:auto}

@@ -20,7 +20,7 @@ def integrate():
         page=page.replace('<body>','<body class="subject-atlas">')
         banner=f'''\n<!-- PROJECT BRIDGE START -->
 <section class="project-bridge" aria-label="Explore selected theorem proofs">
-  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five faculties, and mathematical activities.</p></div>
+  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five functional components, and mathematical activities.</p></div>
   <a class="project-bridge-link" href="projects/index.html">Open project dashboard <span aria-hidden="true">→</span><small>{count} complete walkthroughs · PDF reports</small></a>
 </section>
 <!-- PROJECT BRIDGE END -->'''

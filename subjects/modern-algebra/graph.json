@@ -72,7 +72,7 @@
     "graph": "graph.json",
     "book": "resources/book-outline.md",
     "map": "resources/meta-graph.md",
-    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local component workflows are reserved for future projects.",
     "originalProvenance": {
       "catalog": "data/catalog.json",
       "catalogSha256": "f8959dd2a9bacbfc408e988cb0a6f0725b50e9d4aa8af23a4278ee4e77f1f6f0",
@@ -80,7 +80,7 @@
       "bookSha256": "934a5c39b8db682e014ae096d9098dafc65c42de3ac22fce8b0af2e20afebeba",
       "map": "meta-graph.md",
       "mapSha256": "6fa048df3bc89a2a8989df54193abd2cbfdf016fe979fbb00a2f3659e94d7baf",
-      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local component workflows are reserved for future projects."
     }
   },
   "nodes": [

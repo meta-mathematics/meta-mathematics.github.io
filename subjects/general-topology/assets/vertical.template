@@ -11,7 +11,7 @@
   <header class="lab-header"><a class="brand" href="index.html"><span class="mark">M<span>·</span></span><span>Meta-Math<small>GLOBAL MATHEMATICAL ATLAS</small></span></a><nav class="atlas-links" aria-label="Subject navigation"><a href="__LIBRARY_URL__">← All subjects</a><a id="bookLink" href="__BOOK_URL__">Book outline</a></nav><a class="compare" href="classic.html">Canvas view &amp; edit <span aria-hidden="true">↗</span></a></header>
 <!-- PROJECT BRIDGE START -->
 <section class="project-bridge" aria-label="Explore selected theorem proofs">
-  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five faculties, and mathematical activities.</p></div>
+  <div><span class="bridge-eyebrow">FROM THE SUBJECT MAP TO THE PROOF</span><h2>Explore five selected theorems</h2><p>Follow each proof through its local agents, five functional components, and mathematical activities.</p></div>
   <a class="project-bridge-link" href="__PROJECTS_URL__">Open project dashboard <span aria-hidden="true">→</span><small>5 complete walkthroughs · PDF reports</small></a>
 </section>
 <!-- PROJECT BRIDGE END -->

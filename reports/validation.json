@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "date": "2026-10-11T03:58:20.997402+00:00",
+  "date": "2026-10-14T17:38:46.259330+00:00",
   "counts": {
     "subjects": 17,
     "mathematicalObjects": 968,
@@ -20,7 +20,7 @@
     "Graph JSON and offline bootstraps agree",
     "Subject identities and website draft keys are independent",
     "All dashboard counts match graph data",
-    "Five faculties appear only inside local project agents",
+    "Five functional components appear only inside local project agents",
     "All 85 project DAGs and theorem-import maps are acyclic",
     "All 85 PDF downloads match their source checksums; project source files remain in the backend",
     "Relative dashboard return links and GitHub Pages marker present"

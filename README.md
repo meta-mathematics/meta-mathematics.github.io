@@ -39,14 +39,14 @@ Each subject includes `assets/vertical.js`, `assets/vertical.css`, `assets/verti
 - Local editing and JSON import/export. Imports from another subject are rejected.
 - A prominent “Explore five selected theorems” banner in every global atlas.
 - All 85 complete theorem projects in 17 subject-specific dashboards, with 257 local agents.
-- Five-faculty walkthroughs, complete proofs, worked examples, failure/repair views, and 85 PDF reports.
+- Five-component walkthroughs, complete proofs, worked examples, failure/repair views, and 85 PDF reports.
 
 The maps are curated and expandable. Their arrows describe selected mathematical relationships, not complete or formally verified proof certificates.
 
 ## Publish on GitHub Pages
 
 1. Create a GitHub repository for this website.
-2. Upload the **contents of this `META-GRAPH` folder** to the repository root. `index.html`, `assets/`, `subjects/` and `.nojekyll` should be at that root. Keep the complete folder structure and the `.nojekyll` file.
+2. Upload the **contents of this `Website` folder** to the repository root. `index.html`, `assets/`, `subjects/` and `.nojekyll` should be at that root. Keep the complete folder structure and the `.nojekyll` file.
 3. In the repository, open **Settings → Pages**.
 4. Under **Build and deployment**, select **Deploy from a branch**, choose your branch (typically `main`), and choose **`/(root)`**. Save.
 5. Wait for GitHub Pages to report the published address. A project website normally appears at `https://YOUR-ACCOUNT.github.io/YOUR-REPOSITORY/`.
@@ -70,7 +70,7 @@ Browser draft storage on `file:` pages varies by browser. Export your graph to k
 ## Folder structure
 
 ```text
-META-GRAPH/
+Website/
 ├── index.html                 Master subject dashboard
 ├── .nojekyll                  Static GitHub Pages serving
 ├── assets/                    Dashboard styles, behavior, document styles, icon
@@ -129,7 +129,7 @@ Only the subject atlases and their selected project resources are bundled. The m
 
 1. Choose a subject on the main website.
 2. Its global dependency graph opens as before. Use the green **Explore five selected theorems** banner to open that subject’s project dashboard.
-3. Select one of the five theorems to enter its local proof graph. Select an agent to inspect Ego, Memory, Intellect, Sense, Action, mathematical activities, exports and acceptance gates.
+3. Select one of the five theorems to enter its local proof graph. Select an agent to inspect Contract, Knowledge, Strategy, Validation, Execution, mathematical activities, exports and acceptance gates.
 4. Switch among the complete proof, worked example and failure/repair views, or read the PDF report.
 5. Use **All five theorems**, **Subject atlas**, or the breadcrumb links to return to the project dashboard, global graph or main website.
 
@@ -137,7 +137,7 @@ For example: `subjects/number-theory/index.html` → `subjects/number-theory/pro
 
 `tools/collect_projects.py` refreshes only the packaged project copies from the workspace. It preserves mathematical content and records download checksums in `project-manifest.json`. Workspace originals are retained as the authoring sources. `tools/integrate_projects.py` maintains the banner and navigation counts; both atlas collection and the standalone website rebuild call it, so future updates retain the integration. No workspace folder is needed to serve the website.
 
-`tools/validate.py --source-root /path/to/W-Workspace` additionally verifies original-source fidelity, all 85 local DAGs, subject separation, five-faculty contracts, and all 85 PDF download checksums. `tools/verify_projects.cjs` tests the complete navigation journey, every local node, all proof tabs, downloads and mobile layouts at both a domain root and repository subpath, plus a direct offline proof route. PDF files are copied from the already compiled reports; this integration does not rewrite or recompile them.
+`tools/validate.py --source-root /path/to/W-Workspace` additionally verifies original-source fidelity, all 85 local DAGs, subject separation, five-component contracts, and all 85 PDF download checksums. `tools/verify_projects.cjs` tests the complete navigation journey, every local node, all proof tabs, downloads and mobile layouts at both a domain root and repository subpath, plus a direct offline proof route. PDF files are copied from the already compiled reports; this integration does not rewrite or recompile them.
 
 ## Public project downloads
 

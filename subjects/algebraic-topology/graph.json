@@ -64,7 +64,7 @@
     "graph": "graph.json",
     "book": "resources/book-outline.md",
     "map": "resources/meta-graph.md",
-    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects.",
+    "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local component workflows are reserved for future projects.",
     "originalProvenance": {
       "catalog": "data/catalog.json",
       "catalogSha256": "0ca820a61099dc34942758d64d2d4e22395010ee541f4546b5f36e0147fb6553",
@@ -72,7 +72,7 @@
       "bookSha256": "379d73aa938f0021986b40aa1938d9155b431b2734522b02008a7213d1cc2fd9",
       "map": "meta-graph.md",
       "mapSha256": "b43b796bb77f0522b96f3db44ab19bf70d2705b2afa0f1b066c727f42cb05505",
-      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local faculty workflows are reserved for future projects."
+      "scope": "A curated graduate-subject atlas with selected mathematical relationships, not an exhaustive or formally verified proof graph. Book containment is a separate layer. All objects belong to this subject. Local component workflows are reserved for future projects."
     }
   },
   "nodes": [
@@ -2471,7 +2471,7 @@
       "kind": "subsection",
       "layer": "book",
       "depth": 4,
-      "description": "A selected space or bundle supplies a complete example from definitions to invariants. Its final record should include the calculation, its limits, and a five-faculty workflow.",
+      "description": "A selected space or bundle supplies a complete example from definitions to invariants. Its final record should include the calculation, its limits, and a five-component workflow.",
       "source": "book/latex/part03-further-theory-and-applications/chapters/ch10-generalized-theories-and-capstone.tex · Subsection 10.2.3",
       "number": "10.2.3",
       "status": "planning",
